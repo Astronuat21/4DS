@@ -19040,7 +19040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "M.2_2230_E:2230-key-E"
+		(property "Footprint" "Connector_PCBEdge:M.2_2230-xx-E"
 			(at 331.47 111.76 0)
 			(hide yes)
 			(show_name no)
