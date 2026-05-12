@@ -12975,16 +12975,6 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 109.22) (xy 368.3 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14e83c2d-6ba6-4692-8e68-466a21448bc8")
-	)
-	(wire
-		(pts
 			(xy 435.61 312.42) (xy 438.15 312.42)
 		)
 		(stroke
@@ -13242,16 +13232,6 @@
 			(type default)
 		)
 		(uuid "23a466e2-3ceb-4417-8a57-0d064c8f7c57")
-	)
-	(wire
-		(pts
-			(xy 295.91 81.28) (xy 295.91 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24305944-6994-49f1-aa53-2af462e72313")
 	)
 	(wire
 		(pts
@@ -13522,6 +13502,16 @@
 			(type default)
 		)
 		(uuid "31a13c8d-86ec-4b3c-a255-d100d9770a9c")
+	)
+	(wire
+		(pts
+			(xy 373.38 109.22) (xy 375.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31dc142d-f455-46a6-9138-fce3d028fffc")
 	)
 	(wire
 		(pts
@@ -14515,6 +14505,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 176.53) (xy 306.07 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf6988d-07ee-444a-acc0-43c03653ec69")
+	)
+	(wire
+		(pts
 			(xy 135.89 199.39) (xy 146.05 199.39)
 		)
 		(stroke
@@ -14795,6 +14795,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 111.76) (xy 375.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e35d1f1-9f02-427b-8db4-6a62b4cf888b")
+	)
+	(wire
+		(pts
 			(xy 165.1 125.73) (xy 205.74 125.73)
 		)
 		(stroke
@@ -14802,16 +14812,6 @@
 			(type default)
 		)
 		(uuid "7e58d8ca-5b60-4811-b42f-857382caae5c")
-	)
-	(wire
-		(pts
-			(xy 295.91 173.99) (xy 306.07 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e797243-f0ee-4229-90bd-14029ecee9e5")
 	)
 	(wire
 		(pts
@@ -14942,16 +14942,6 @@
 			(type default)
 		)
 		(uuid "83ff4bc8-3dc3-498d-8828-39aea10c08a4")
-	)
-	(wire
-		(pts
-			(xy 294.64 80.01) (xy 294.64 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "844d4cc2-a451-4a94-86f0-e7be5e066d5d")
 	)
 	(wire
 		(pts
@@ -15485,16 +15475,6 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 109.22) (xy 368.3 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a150bf7f-ead3-4ade-86ed-3e64a912fd6d")
-	)
-	(wire
-		(pts
 			(xy 266.7 107.95) (xy 267.97 107.95)
 		)
 		(stroke
@@ -15622,16 +15602,6 @@
 			(type default)
 		)
 		(uuid "a7302daa-8352-4021-b362-5553414e6b28")
-	)
-	(wire
-		(pts
-			(xy 294.64 176.53) (xy 306.07 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7fd5dbc-3d15-4e67-a031-2ddb6dc34e7a")
 	)
 	(wire
 		(pts
@@ -15802,6 +15772,16 @@
 			(type default)
 		)
 		(uuid "afafd5b4-89a6-4002-9cc6-038703c600f8")
+	)
+	(wire
+		(pts
+			(xy 303.53 173.99) (xy 306.07 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd5fd75-e231-4c43-bd15-ecd99525922a")
 	)
 	(wire
 		(pts
@@ -16395,16 +16375,6 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 111.76) (xy 367.03 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4344ce7-93cf-42fc-9a54-a41d85d574ab")
-	)
-	(wire
-		(pts
 			(xy 146.05 199.39) (xy 146.05 201.93)
 		)
 		(stroke
@@ -16682,16 +16652,6 @@
 			(type default)
 		)
 		(uuid "dd402fc5-6092-4f8d-98f8-e78a9e6abaf1")
-	)
-	(wire
-		(pts
-			(xy 367.03 111.76) (xy 367.03 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd5d736e-8859-40db-abf6-c9a75e41604d")
 	)
 	(wire
 		(pts
@@ -17313,6 +17273,16 @@
 		)
 		(uuid "2ec238b2-ce78-4cfc-badb-7bf3ab5fc880")
 	)
+	(label "RFCLK-"
+		(at 303.53 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36f2d75b-2919-4860-9aa1-2588836d387f")
+	)
 	(label "Wifi+"
 		(at 441.96 104.14 0)
 		(effects
@@ -17322,6 +17292,16 @@
 			(justify left bottom)
 		)
 		(uuid "3a3c3a85-63f1-46e6-b91f-c107b504b33a")
+	)
+	(label "RFCLK+"
+		(at 373.38 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45eca093-8fe3-4df2-9fbb-9ac508a8707c")
 	)
 	(label "PET+"
 		(at 303.53 105.41 180)
@@ -17383,6 +17363,16 @@
 		)
 		(uuid "74e487e4-21ae-47b9-bf73-ae416a1f6fb4")
 	)
+	(label "RFCLK+"
+		(at 303.53 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77289b0c-89c9-49a5-9724-c798e72043ad")
+	)
 	(label "Wifi-"
 		(at 303.53 130.81 180)
 		(effects
@@ -17432,6 +17422,16 @@
 			(justify left top)
 		)
 		(uuid "b3e795f0-b2cc-4761-89bf-8a02e35c34a9")
+	)
+	(label "RFCLK-"
+		(at 373.38 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bcd2c723-f8a1-4e61-8895-1323513a5d1c")
 	)
 	(label "PER-"
 		(at 373.38 119.38 180)
