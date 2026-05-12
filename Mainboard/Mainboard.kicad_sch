@@ -11950,6 +11950,18 @@
 		(uuid "0f89943e-1a1a-4527-856f-66f6c821c37b")
 	)
 	(junction
+		(at 469.9 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ff256a1-8423-4dbd-bcb1-a9f5174bd31c")
+	)
+	(junction
+		(at 453.39 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "132aa664-565e-4d0f-b147-4bc1c6ddd90e")
+	)
+	(junction
 		(at 113.03 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12823,6 +12835,16 @@
 	)
 	(wire
 		(pts
+			(xy 469.9 260.35) (xy 469.9 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b525421-efb3-4e05-8436-8d730e7400b9")
+	)
+	(wire
+		(pts
 			(xy 81.28 129.54) (xy 78.74 129.54)
 		)
 		(stroke
@@ -12910,6 +12932,16 @@
 			(type default)
 		)
 		(uuid "0fb8117d-bb34-40a4-a8ab-94435a802617")
+	)
+	(wire
+		(pts
+			(xy 469.9 260.35) (xy 453.39 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e88d88-82b4-45cd-9e11-3cec459247d5")
 	)
 	(wire
 		(pts
@@ -15033,6 +15065,16 @@
 	)
 	(wire
 		(pts
+			(xy 453.39 260.35) (xy 453.39 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83dfc147-d9e9-4461-bc91-1011b9227a8a")
+	)
+	(wire
+		(pts
 			(xy 204.47 171.45) (xy 204.47 189.23)
 		)
 		(stroke
@@ -15123,7 +15165,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 332.74) (xy 461.01 248.92)
+			(xy 461.01 248.92) (xy 461.01 332.74)
 		)
 		(stroke
 			(width 0)
@@ -16413,6 +16455,16 @@
 	)
 	(wire
 		(pts
+			(xy 469.9 332.74) (xy 469.9 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd176684-1741-4f47-a05c-862a664bf201")
+	)
+	(wire
+		(pts
 			(xy 135.89 172.72) (xy 146.05 172.72)
 		)
 		(stroke
@@ -17372,7 +17424,7 @@
 		(uuid "0cb4276e-f77c-4d06-af06-04acf80090a1")
 	)
 	(label "3V3"
-		(at 461.01 317.5 0)
+		(at 469.9 317.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19040,7 +19092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PCBEdge:M.2_2230-xx-E"
+		(property "Footprint" "2199230-8:TE_2199230-8"
 			(at 331.47 111.76 0)
 			(hide yes)
 			(show_name no)
