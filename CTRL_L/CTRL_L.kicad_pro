@@ -53,13 +53,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -193,9 +187,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -222,12 +214,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -486,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Mainboard.kicad_pro",
+    "filename": "CTRL_L.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -514,11 +501,7 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {
-      "+5V": "rgb(72, 96, 255)",
-      "/3V3": "rgb(130, 196, 59)",
-      "GND": "rgb(255, 112, 105)"
-    },
+    "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -657,18 +640,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Mainboard.kicad_sch",
-        "name": "Mainboard",
-        "uuid": "4d497a0b-7a5a-4ad5-87f0-f9acfd0b41f7"
+        "filename": "CTRL_L.kicad_sch",
+        "name": "CTRL_L",
+        "uuid": "8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
       }
     ],
-    "used_designators": "U5-6",
+    "used_designators": "AND1,SL_BRI1,SL_VOL1,R1,#PWR7",
     "variants": []
   },
   "sheets": [
     [
-      "4d497a0b-7a5a-4ad5-87f0-f9acfd0b41f7",
-      "Mainboard"
+      "8eeed083-de7a-4dfe-ba6c-9e042c3ef75c",
+      "CTRL_L"
     ]
   ],
   "text_variables": {},
