@@ -206,37 +206,59 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x14"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "BM14B-NSHSS-TBT_LF__SN_:BM14B-NSHSS-TBT_LF__SN_"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 17.78 0)
+				(at 21.59 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "Conn_01x14"
-				(at 0 -20.32 0)
+			(property "Value" "BM14B-NSHSS-TBT_LF__SN_"
+				(at 21.59 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "BM14BNSHSSTBTLFSN"
+				(at 21.59 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eNSH.pdf"
+				(at 21.59 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Connector Header Surface Mount 14 position 0.039\" (1.00mm), 1A, 50V, -25C ~ 85C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -247,8 +269,8 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "6"
+				(at 21.59 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -256,10 +278,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
+			(property "Mouser Part Number" ""
+				(at 21.59 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -267,10 +290,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" ""
+				(at 21.59 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -278,10 +302,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+				(at 21.59 -694.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -289,12 +314,25 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(symbol "Conn_01x14_1_1"
+			(property "Manufacturer_Part_Number" "BM14B-NSHSS-TBT(LF)(SN)"
+				(at 21.59 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "BM14B-NSHSS-TBT_LF__SN__1_1"
 				(rectangle
-					(start -1.27 16.51)
-					(end 1.27 -19.05)
+					(start 5.08 2.54)
+					(end 20.32 -35.56)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -303,164 +341,10 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start -1.27 15.367)
-					(end 0 15.113)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 12.827)
-					(end 0 12.573)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 10.287)
-					(end 0 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -12.573)
-					(end 0 -12.827)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -15.113)
-					(end 0 -15.367)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -17.653)
-					(end 0 -17.907)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 15.24 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 25.4 -33.02 180)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -476,9 +360,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 12.7 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at 25.4 -30.48 180)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -494,9 +378,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
-					(length 3.81)
-					(name "Pin_3"
+					(at 25.4 -27.94 180)
+					(length 5.08)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -512,9 +396,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_4"
+					(at 25.4 -25.4 180)
+					(length 5.08)
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -530,9 +414,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_5"
+					(at 25.4 -22.86 180)
+					(length 5.08)
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -548,9 +432,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_6"
+					(at 25.4 -20.32 180)
+					(length 5.08)
+					(name "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -566,9 +450,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_7"
+					(at 25.4 -17.78 180)
+					(length 5.08)
+					(name "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -584,9 +468,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_8"
+					(at 25.4 -15.24 180)
+					(length 5.08)
+					(name "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -602,9 +486,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_9"
+					(at 25.4 -12.7 180)
+					(length 5.08)
+					(name "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -620,9 +504,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_10"
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -638,9 +522,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_11"
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -656,9 +540,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_12"
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -674,9 +558,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -15.24 0)
-					(length 3.81)
-					(name "Pin_13"
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -692,9 +576,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -17.78 0)
-					(length 3.81)
-					(name "Pin_14"
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -702,6 +586,42 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MP_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MP_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1091,7 +1011,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Omron_B3FS"
+		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1115,7 +1035,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_Omron_B3FS"
+			(property "Value" "SW_Push"
 				(at 0 -1.524 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1136,7 +1056,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(property "Datasheet" ""
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1147,7 +1067,7 @@
 					)
 				)
 			)
-			(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1169,18 +1089,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SW*Omron*B3FS*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Omron_B3FS_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -1788,6 +1697,12 @@
 		)
 	)
 	(junction
+		(at 109.22 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "067c3214-a6b1-4d3b-8cb3-e029a4255e7d")
+	)
+	(junction
 		(at 77.47 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1800,10 +1715,22 @@
 		(uuid "3637807e-4a95-4d0a-ab33-12d409e913ce")
 	)
 	(junction
+		(at 146.05 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "376df2e2-ef64-45a1-9353-ea1384a53cdc")
+	)
+	(junction
 		(at 109.22 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "68284901-447c-4197-a3a6-b6933c3e616b")
+		(uuid "69cb5fff-c83d-4f88-9467-9a08f05dd480")
+	)
+	(junction
+		(at 146.05 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f3f0ac6-1331-4a74-baeb-6a2ead7726f3")
 	)
 	(junction
 		(at 119.38 137.16)
@@ -1818,22 +1745,10 @@
 		(uuid "ae1a9f65-6e31-4aac-afeb-81cec38eef94")
 	)
 	(junction
-		(at 146.05 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b20874b7-deaa-45d8-9437-8c10564a276f")
-	)
-	(junction
 		(at 109.22 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0974917-248f-4ae1-87c8-701e04e5a475")
-	)
-	(junction
-		(at 146.05 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e938f8c2-5881-488e-9ab0-93004fa8907a")
 	)
 	(junction
 		(at 119.38 40.64)
@@ -1841,15 +1756,9 @@
 		(color 0 0 0 0)
 		(uuid "ebac587b-8b65-4eee-ab83-8dd8fd1e1815")
 	)
-	(junction
-		(at 109.22 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa938573-988b-4e71-ab08-bb98839a1876")
-	)
 	(wire
 		(pts
-			(xy 86.36 55.88) (xy 137.16 55.88)
+			(xy 86.36 55.88) (xy 134.62 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1866,6 +1775,16 @@
 			(type default)
 		)
 		(uuid "04939da9-ac41-4f15-a70c-9c9c5c09896f")
+	)
+	(wire
+		(pts
+			(xy 146.05 33.02) (xy 146.05 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a155e9-4875-4078-82e5-c74b4c72cc98")
 	)
 	(wire
 		(pts
@@ -1889,7 +1808,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 55.88) (xy 137.16 66.04)
+			(xy 134.62 55.88) (xy 134.62 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1909,17 +1828,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 129.54) (xy 109.22 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26179374-cf71-4c4c-9b1d-ba7b58f1db51")
-	)
-	(wire
-		(pts
-			(xy 139.7 53.34) (xy 139.7 63.5)
+			(xy 137.16 53.34) (xy 137.16 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1939,7 +1848,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 63.5) (xy 205.74 63.5)
+			(xy 137.16 63.5) (xy 193.04 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1959,13 +1868,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 33.02) (xy 109.22 101.6)
+			(xy 109.22 129.54) (xy 109.22 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51711e64-365a-4991-af85-499c25262be6")
+		(uuid "460cbed5-731c-4b26-8237-d626471d7154")
 	)
 	(wire
 		(pts
@@ -1989,16 +1898,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 129.54) (xy 146.05 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59cde176-a9ca-4ae9-be85-0227329048e5")
-	)
-	(wire
-		(pts
 			(xy 101.6 175.26) (xy 135.89 175.26)
 		)
 		(stroke
@@ -2019,6 +1918,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 33.02) (xy 109.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6117a6a2-1900-4a93-a329-69b9f4b608ac")
+	)
+	(wire
+		(pts
 			(xy 109.22 101.6) (xy 121.92 101.6)
 		)
 		(stroke
@@ -2029,13 +1938,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 66.04) (xy 205.74 66.04)
+			(xy 134.62 66.04) (xy 193.04 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "74b3ba53-aab6-4d47-82b5-3071531dc063")
+	)
+	(wire
+		(pts
+			(xy 146.05 129.54) (xy 146.05 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d31929-a5ee-47d9-a587-290c29abc5a7")
 	)
 	(wire
 		(pts
@@ -2079,16 +1998,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 33.02) (xy 146.05 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bce32c9f-bf42-42fb-9bd4-5c7a5fe2d583")
-	)
-	(wire
-		(pts
 			(xy 69.85 67.31) (xy 73.66 67.31)
 		)
 		(stroke
@@ -2109,7 +2018,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 53.34) (xy 139.7 53.34)
+			(xy 85.09 53.34) (xy 137.16 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2149,16 +2058,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 48.26) (xy 127 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaf56045-9e67-40e2-8846-cb2a330cd5cd")
-	)
-	(wire
-		(pts
 			(xy 101.6 156.21) (xy 132.08 156.21)
 		)
 		(stroke
@@ -2176,16 +2075,6 @@
 			(type default)
 		)
 		(uuid "f4cb9e13-bf1b-408c-804c-8180d9f8a202")
-	)
-	(label "VCC"
-		(at 127 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d26ed3f-ccd1-44c3-9fb3-0a24ab02bf8e")
 	)
 	(label "SW"
 		(at 127 60.96 0)
@@ -2219,7 +2108,7 @@
 	)
 	(global_label "Row5"
 		(shape input)
-		(at 205.74 83.82 180)
+		(at 193.04 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2229,7 +2118,7 @@
 		)
 		(uuid "0625d56e-c7b6-484b-aba4-7aed8a9e7158")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.7958 83.82 0)
+			(at 185.0958 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2267,7 +2156,7 @@
 	)
 	(global_label "Row2"
 		(shape input)
-		(at 205.74 76.2 180)
+		(at 193.04 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2277,7 +2166,7 @@
 		)
 		(uuid "0c7ff662-fe63-4351-a006-240ac2ecd18b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.7958 76.2 0)
+			(at 185.0958 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2291,7 +2180,7 @@
 	)
 	(global_label "Row1"
 		(shape input)
-		(at 205.74 73.66 180)
+		(at 193.04 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2301,7 +2190,7 @@
 		)
 		(uuid "3b6cd51e-ebe4-40bc-8052-586dfd159151")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.7958 73.66 0)
+			(at 185.0958 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2339,7 +2228,7 @@
 	)
 	(global_label "Row3"
 		(shape input)
-		(at 205.74 78.74 180)
+		(at 193.04 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2349,7 +2238,7 @@
 		)
 		(uuid "52246a2d-da12-4cb4-af87-fc148c3d7989")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.7958 78.74 0)
+			(at 185.0958 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2459,7 +2348,7 @@
 	)
 	(global_label "Col1"
 		(shape input)
-		(at 205.74 86.36 180)
+		(at 193.04 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2469,7 +2358,7 @@
 		)
 		(uuid "ca8cf721-126c-4a93-a93c-5cec17db1aef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.4611 86.36 0)
+			(at 185.7611 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2507,7 +2396,7 @@
 	)
 	(global_label "Col2"
 		(shape input)
-		(at 205.74 88.9 180)
+		(at 193.04 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2517,7 +2406,7 @@
 		)
 		(uuid "ea6c5173-a9a0-4f67-b854-adf1c814b843")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.4611 88.9 0)
+			(at 185.7611 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2555,7 +2444,7 @@
 	)
 	(global_label "Row4"
 		(shape input)
-		(at 205.74 81.28 180)
+		(at 193.04 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2565,7 +2454,7 @@
 		)
 		(uuid "f6b460b9-6550-4a67-b949-13b3d583155a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.7958 81.28 0)
+			(at 185.0958 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2680,8 +2569,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 205.74 58.42 0)
+		(lib_id "Switch:SW_Push")
+		(at 114.3 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2689,10 +2578,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "16bea48b-5d3f-428f-9890-672159314f15")
-		(property "Reference" "#PWR01"
-			(at 205.74 62.23 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "13859ece-e77a-4c1c-a152-44a6ef58b7d0")
+		(property "Reference" "SW1"
+			(at 114.3 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2701,8 +2590,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 201.676 58.42 0)
+		(property "Value" "SW_Push"
+			(at 114.3 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2711,8 +2600,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 205.74 58.42 0)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+			(at 114.3 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2723,7 +2612,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 58.42 0)
+			(at 114.3 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 114.3 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fbd02dea-e827-4978-acd2-e2a48822ffc6")
+		)
+		(pin "1"
+			(uuid "22b1f2e7-e26f-4049-a014-678a65b58685")
+		)
+		(instances
+			(project "CTRL_L"
+				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 193.04 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16bea48b-5d3f-428f-9890-672159314f15")
+		(property "Reference" "#PWR01"
+			(at 193.04 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 188.976 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2734,7 +2703,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 205.74 58.42 0)
+			(at 193.04 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2751,86 +2720,6 @@
 			(project "CTRL_L"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 140.97 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17e32143-72ec-4bc1-a698-ba352f0d733b")
-		(property "Reference" "SW6"
-			(at 140.97 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 140.97 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 140.97 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 140.97 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3fdd61be-fb4f-4522-a8f2-72ea27c5dfad")
-		)
-		(pin "1"
-			(uuid "9adc4439-a979-4d80-9718-e19d02ee3bf7")
-		)
-		(instances
-			(project "CTRL_L"
-				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
-					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -2941,8 +2830,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 127 148.59 0)
+		(lib_id "Switch:SW_Push")
+		(at 140.97 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2951,9 +2840,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2f2df70c-d09e-46cf-9390-f482afd47a69")
-		(property "Reference" "SW7"
-			(at 127 140.97 0)
+		(uuid "359f1bfb-5cab-4ac4-ab63-94561d7762b4")
+		(property "Reference" "SW5"
+			(at 140.97 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2962,8 +2851,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 127 143.51 0)
+		(property "Value" "SW_Push"
+			(at 140.97 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2972,8 +2861,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 127 143.51 0)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+			(at 140.97 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2983,8 +2872,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 127 143.51 0)
+		(property "Datasheet" ""
+			(at 140.97 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2994,8 +2883,8 @@
 				)
 			)
 		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 127 148.59 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 140.97 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3006,15 +2895,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b304bcb8-42a6-45da-bde4-7ddc4260df6a")
+			(uuid "56ff1058-01c2-4621-bbcd-b1049b41290f")
 		)
 		(pin "1"
-			(uuid "934982a1-3666-4901-8bce-674043696043")
+			(uuid "be5bfb18-cbde-4f47-ac76-5852507451db")
 		)
 		(instances
 			(project "CTRL_L"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
-					(reference "SW7")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -3605,6 +3494,270 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 140.97 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68290be9-fb5c-4e43-ae79-ef5e3ad6a6b8")
+		(property "Reference" "SW2"
+			(at 140.97 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 140.97 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+			(at 140.97 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 140.97 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6b987e3b-69b6-43e0-bd5a-ece5d9951b92")
+		)
+		(pin "1"
+			(uuid "4c431397-fcc7-4a24-8b6f-6c40c6ef794d")
+		)
+		(instances
+			(project "CTRL_L"
+				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BM14B-NSHSS-TBT_LF__SN_:BM14B-NSHSS-TBT_LF__SN_")
+		(at 218.44 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fcab914-de5d-42af-81f4-60e48d8a2edb")
+		(property "Reference" "J1"
+			(at 205.74 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BM14B-NSHSS-TBT_LF__SN_"
+			(at 205.74 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BM14BNSHSSTBTLFSN"
+			(at 196.85 -3.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eNSH.pdf"
+			(at 196.85 -103.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount 14 position 0.039\" (1.00mm), 1A, 50V, -25C ~ 85C"
+			(at 218.44 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "6"
+			(at 196.85 -303.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 196.85 -403.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 196.85 -503.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 196.85 -603.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BM14B-NSHSS-TBT(LF)(SN)"
+			(at 196.85 -703.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "14"
+			(uuid "01c43aaa-76c2-4a22-becc-e4d9dbf1a428")
+		)
+		(pin "16"
+			(uuid "9e9d5448-344a-4b3f-960f-ab59e9240ba0")
+		)
+		(pin "1"
+			(uuid "f5ba06fe-db3d-413c-9af6-334c66090403")
+		)
+		(pin "3"
+			(uuid "38c37fe1-6a7e-4302-ae84-c10297e3ffb2")
+		)
+		(pin "5"
+			(uuid "0cc12e67-3643-4b64-a3ab-48ef0fddccde")
+		)
+		(pin "6"
+			(uuid "6f1b76bd-22db-49c4-a692-b8e9f6245a14")
+		)
+		(pin "9"
+			(uuid "79ff20cd-2578-4e4b-813a-e326c3745ab5")
+		)
+		(pin "7"
+			(uuid "5a8802d7-95d3-4d9a-a8c7-311d01cd1d37")
+		)
+		(pin "13"
+			(uuid "ff19b712-9e5c-43c8-bb7e-0fc2553ff7d0")
+		)
+		(pin "11"
+			(uuid "cca2fcbd-315f-4476-8b85-450b38f7334f")
+		)
+		(pin "8"
+			(uuid "44a1ae28-ba26-4e06-b822-4f0db63e3d15")
+		)
+		(pin "15"
+			(uuid "6a0945ee-685e-4034-9f92-17f968a39366")
+		)
+		(pin "2"
+			(uuid "ed2c7fcf-6497-4c01-9ecd-c9ad201b7f4e")
+		)
+		(pin "4"
+			(uuid "859f66dd-4f1f-4f03-a986-cd5a6f897f6f")
+		)
+		(pin "10"
+			(uuid "a752bc6a-2ba2-4e94-a05b-74c167d687db")
+		)
+		(pin "12"
+			(uuid "e7ac71fe-2836-43f7-a79c-a264f8e80de4")
+		)
+		(instances
+			(project "CTRL_L"
+				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4001")
 		(at 119.38 133.35 90)
 		(unit 1)
@@ -3703,86 +3856,6 @@
 			(project "CTRL_L"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 127 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74b33145-8917-4252-927c-a798b7a256aa")
-		(property "Reference" "SW3"
-			(at 127 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 127 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 127 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 127 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6793e97a-b192-4bd4-8281-efceba994100")
-		)
-		(pin "1"
-			(uuid "588829b0-e54c-406a-8994-d87dc9dae141")
-		)
-		(instances
-			(project "CTRL_L"
-				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -3982,8 +4055,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 134.62 48.26 0)
+		(lib_id "Switch:SW_Push")
+		(at 114.3 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3991,10 +4064,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7cf75049-a26c-42bb-b0ba-56527f518240")
-		(property "Reference" "#PWR03"
-			(at 134.62 52.07 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "a05a9827-1870-4fa9-b7e1-e1873a71243a")
+		(property "Reference" "SW4"
+			(at 114.3 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4003,8 +4076,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 134.366 44.196 0)
+		(property "Value" "SW_Push"
+			(at 114.3 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4013,8 +4086,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 134.62 48.26 0)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+			(at 114.3 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4025,7 +4098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 48.26 0)
+			(at 114.3 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4035,85 +4108,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 134.62 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f8509a7e-1807-4923-acd1-0e91d62f61c6")
-		)
-		(instances
-			(project "CTRL_L"
-				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 114.3 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84c75ddf-6c2e-4ce2-9514-6ce6a266895c")
-		(property "Reference" "SW1"
-			(at 114.3 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 114.3 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 114.3 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 114.3 33.02 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 114.3 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4124,133 +4120,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c25a21cb-3007-406c-b1ab-83340fc203cc")
+			(uuid "fc966cfe-6a6d-4eac-85b2-3995c0cc21dc")
 		)
 		(pin "1"
-			(uuid "ef7a4a0f-5b71-4790-976b-3eea982170c9")
+			(uuid "7a9a8763-52f3-415a-886a-8df02087437c")
 		)
 		(instances
 			(project "CTRL_L"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x14")
-		(at 210.82 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ea509b6-3364-4c84-b1f9-7974ff82c47a")
-		(property "Reference" "Out1"
-			(at 213.36 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x14"
-			(at 213.36 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Harwin:Harwin_M20-89014xx_1x14_P2.54mm_Horizontal"
-			(at 210.82 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 210.82 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "12"
-			(uuid "99e8df6a-7b6b-4804-a9f7-2830a63b9b9b")
-		)
-		(pin "1"
-			(uuid "9c47ce80-c83d-4994-8930-5c821e93cd2c")
-		)
-		(pin "2"
-			(uuid "3d296a92-ddd1-4b98-90d4-3293ee208e62")
-		)
-		(pin "3"
-			(uuid "64993553-66b1-4330-b2fa-1c77b12a1acc")
-		)
-		(pin "13"
-			(uuid "fedcaeeb-8ba6-479d-8b5a-715fb668ec66")
-		)
-		(pin "6"
-			(uuid "6d7ed0dd-7f2b-4c96-9872-717a50c8c007")
-		)
-		(pin "14"
-			(uuid "c30aac77-3fd1-4d0c-98ff-6e0f3ddd2212")
-		)
-		(pin "4"
-			(uuid "d87bf2ed-0787-428b-a819-6c8f1ea71aa8")
-		)
-		(pin "5"
-			(uuid "60058d1a-819b-432f-a6ab-df269bce4fb4")
-		)
-		(pin "10"
-			(uuid "7cdc7afa-9f1f-420a-84b9-01f153aee7af")
-		)
-		(pin "7"
-			(uuid "a4f0378a-6235-4221-a412-6d08681f8ae7")
-		)
-		(pin "8"
-			(uuid "abd53555-b04b-4ff7-9db5-632364d6ea36")
-		)
-		(pin "11"
-			(uuid "c4da8f8b-506f-4209-b12d-89e344bfe153")
-		)
-		(pin "9"
-			(uuid "9ee9a2cc-7578-4a1c-9f67-c6c8a4a8ee46")
-		)
-		(instances
-			(project "CTRL_L"
-				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
-					(reference "Out1")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -4461,8 +4339,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 114.3 129.54 0)
+		(lib_id "Switch:SW_Push")
+		(at 127 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4471,9 +4349,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "be0ef3b6-cbd4-4f40-b283-a80ee76b614c")
-		(property "Reference" "SW5"
-			(at 114.3 121.92 0)
+		(uuid "be160343-08ce-4ce5-ac63-ae0575ff1cc9")
+		(property "Reference" "SW3"
+			(at 127 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4482,8 +4360,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 114.3 124.46 0)
+		(property "Value" "SW_Push"
+			(at 127 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4492,8 +4370,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 124.46 0)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+			(at 127 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4503,8 +4381,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 114.3 124.46 0)
+		(property "Datasheet" ""
+			(at 127 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4514,8 +4392,8 @@
 				)
 			)
 		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 114.3 129.54 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 127 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4526,15 +4404,175 @@
 			)
 		)
 		(pin "2"
-			(uuid "cb97fb21-bd06-4442-90d0-88dd1e8d8b99")
+			(uuid "3cf60770-ce65-419f-b315-e16d453f52b1")
 		)
 		(pin "1"
-			(uuid "935c973a-43c8-4248-a2b3-f86feb6e397f")
+			(uuid "68bdabbb-83c0-4ff0-bfb9-01da8c1068d7")
 		)
 		(instances
 			(project "CTRL_L"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
-					(reference "SW5")
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 140.97 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d05eaea7-831d-4289-9e2a-189e1bcc5700")
+		(property "Reference" "SW7"
+			(at 140.97 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 140.97 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+			(at 140.97 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 140.97 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3febe36d-4467-449b-864f-d9697d8b6550")
+		)
+		(pin "1"
+			(uuid "a82e89b2-8582-4cf9-b846-df8bc942f910")
+		)
+		(instances
+			(project "CTRL_L"
+				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 127 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9954729-c50a-49af-8435-64a0d8d2fe3c")
+		(property "Reference" "SW6"
+			(at 127 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 127 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+			(at 127 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 127 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e67d281e-82c8-4ff8-9a5a-547129c89def")
+		)
+		(pin "1"
+			(uuid "32414d95-712d-4ef1-8cf0-9c1053708ca9")
+		)
+		(instances
+			(project "CTRL_L"
+				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -4645,168 +4683,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 140.97 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df404d58-45dd-4e32-a73d-b3f64d68e6b5")
-		(property "Reference" "SW2"
-			(at 140.97 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 140.97 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 140.97 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 140.97 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c90ff672-1eeb-4858-8ed6-389058fd90f0")
-		)
-		(pin "2"
-			(uuid "07bf2538-11aa-4853-bb72-597655416ec0")
-		)
-		(instances
-			(project "CTRL_L"
-				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 140.97 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6bc5575-5671-4032-ad75-e85ff168054c")
-		(property "Reference" "SW4"
-			(at 140.97 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 140.97 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 140.97 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 140.97 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb6ffaa6-1895-4176-a38a-648ad7dbc44c")
-		)
-		(pin "2"
-			(uuid "212cb7bb-0777-48c0-a00a-2d041c843b4c")
-		)
-		(instances
-			(project "CTRL_L"
-				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 205.74 60.96 0)
+		(at 193.04 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4816,7 +4694,7 @@
 		(dnp no)
 		(uuid "ed66d65d-dd05-49af-ba9b-20dc5e22a719")
 		(property "Reference" "#PWR02"
-			(at 205.74 67.31 0)
+			(at 193.04 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4827,7 +4705,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 202.438 60.96 0)
+			(at 189.738 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4837,7 +4715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 60.96 0)
+			(at 193.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4848,7 +4726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 60.96 0)
+			(at 193.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4859,7 +4737,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 60.96 0)
+			(at 193.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
