@@ -1319,19 +1319,6 @@
 		(layer "Edge.Cuts")
 		(uuid "05e2bf25-a2f8-4e28-a318-54a077f825f4")
 	)
-	(gr_text "TEST POINTS"
-		(at 153.4 91 90)
-		(layer "F.SilkS")
-		(uuid "e5cb42f8-f646-473f-aa37-8c0dff183bda")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
