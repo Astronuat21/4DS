@@ -952,7 +952,7 @@
         "uuid": "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
       }
     ],
-    "used_designators": "U6,U20,#PWR13-19,Y1,R20-25,R61-62,R98-115",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -963,6 +963,10 @@
     [
       "6eee02c2-78c9-4e83-9ccf-e0f7690b57bf",
       "LattePanda Module"
+    ],
+    [
+      "18101890-54d7-4e46-b21c-77a03deab3c0",
+      "HDMI-LVDS1"
     ],
     [
       "b169c362-0273-44a3-bb19-0bcbad977976",
