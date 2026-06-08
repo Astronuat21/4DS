@@ -7830,28 +7830,6 @@
 		)
 		(uuid "14f81501-157d-4627-a826-818ab6126b1b")
 	)
-	(text_box "HSIO_6 used for GbE(PCIe x1)\n"
-		(exclude_from_sim no)
-		(at 175.26 163.83 0)
-		(size 39.37 10.16)
-		(margins 1.905 1.905 1.905 1.905)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "2f237111-6481-4f8a-8785-4a4511811bac")
-	)
 	(text_box "USB2 P3/P5 used for USB2.0 \n"
 		(exclude_from_sim no)
 		(at 175.26 184.15 0)
@@ -8237,12 +8215,20 @@
 		(uuid "8568e8fc-80dc-4001-a7a6-c52e22d5e2d4")
 	)
 	(no_connect
+		(at 267.97 165.1)
+		(uuid "85c4d398-02bf-4e04-93b4-2e550d8660b8")
+	)
+	(no_connect
 		(at 267.97 299.72)
 		(uuid "8ca340c4-0df5-4748-b60a-490d9d1166da")
 	)
 	(no_connect
 		(at 354.33 254)
 		(uuid "8e79fc82-7ecd-470a-830f-7a941a59934b")
+	)
+	(no_connect
+		(at 267.97 172.72)
+		(uuid "8f113e0e-07ae-4b92-b22e-7acb3ac04fff")
 	)
 	(no_connect
 		(at 354.33 71.12)
@@ -8287,6 +8273,10 @@
 	(no_connect
 		(at 354.33 309.88)
 		(uuid "af221640-2d45-46e5-8d48-0f8469191e26")
+	)
+	(no_connect
+		(at 267.97 167.64)
+		(uuid "badcc0cb-b1b4-46dd-82a8-91f422d6ca35")
 	)
 	(no_connect
 		(at 354.33 320.04)
@@ -8345,6 +8335,10 @@
 		(uuid "ee392b4f-d6bb-4a1a-bad3-32051cbee3b2")
 	)
 	(no_connect
+		(at 267.97 170.18)
+		(uuid "ef44c6d7-dc24-4534-bd6b-7bf6b31263c5")
+	)
+	(no_connect
 		(at 267.97 317.5)
 		(uuid "f1244cc0-1ae9-4795-aea9-408182319469")
 	)
@@ -8383,16 +8377,6 @@
 			(type default)
 		)
 		(uuid "04bfc08a-1a5a-46a0-a01d-0fd68a505aec")
-	)
-	(wire
-		(pts
-			(xy 236.22 172.72) (xy 267.97 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0656c6e6-f6bc-4c7a-bee4-fb3a3bc7bffa")
 	)
 	(wire
 		(pts
@@ -8583,16 +8567,6 @@
 			(type default)
 		)
 		(uuid "2bc80f7f-1a67-417f-81fb-f827a2aa1615")
-	)
-	(wire
-		(pts
-			(xy 236.22 165.1) (xy 267.97 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c869d75-73eb-40ce-a2b4-27111d9aa7c5")
 	)
 	(wire
 		(pts
@@ -8803,16 +8777,6 @@
 			(type default)
 		)
 		(uuid "62726a09-1d36-4eb1-add0-bfdbaae69a56")
-	)
-	(wire
-		(pts
-			(xy 236.22 167.64) (xy 267.97 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64d8dfc6-8c6f-471b-983f-7b935ce61258")
 	)
 	(wire
 		(pts
@@ -9346,16 +9310,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 170.18) (xy 267.97 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb4e104a-82d8-449b-897a-4a825ac57854")
-	)
-	(wire
-		(pts
 			(xy 236.22 238.76) (xy 267.97 238.76)
 		)
 		(stroke
@@ -9874,17 +9828,6 @@
 		)
 		(uuid "4740e05f-395c-4e9e-8817-37e061349885")
 	)
-	(hierarchical_label "HSIO_6_RX-"
-		(shape input)
-		(at 236.22 172.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "478dba14-ac99-40e5-a3c5-9e984bf5a326")
-	)
 	(hierarchical_label "I2C4_SCL"
 		(shape output)
 		(at 370.84 228.6 0)
@@ -10005,17 +9948,6 @@
 			(justify left)
 		)
 		(uuid "827b7390-0911-45fe-8085-7a33cde85883")
-	)
-	(hierarchical_label "HSIO_6_RX+"
-		(shape input)
-		(at 236.22 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "827c39be-e281-408e-a141-78ba2377ac79")
 	)
 	(hierarchical_label "DDI_B_TX2+"
 		(shape output)
@@ -10269,28 +10201,6 @@
 			(justify right)
 		)
 		(uuid "e0a62276-85b9-40cd-a4dc-bb205f978c40")
-	)
-	(hierarchical_label "HSIO_6_TX-"
-		(shape output)
-		(at 236.22 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e11fbe13-aa2c-40bd-ad69-ea925f75a863")
-	)
-	(hierarchical_label "HSIO_6_TX+"
-		(shape output)
-		(at 236.22 165.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e2e89dad-d126-4a97-b634-e5d6357b93ca")
 	)
 	(hierarchical_label "USB_2_P7+"
 		(shape bidirectional)
