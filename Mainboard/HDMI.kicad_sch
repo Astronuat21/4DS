@@ -10408,90 +10408,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 411.48 212.09 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a1a3862-e7ee-47f7-88f6-7b44705583dc")
-		(property "Reference" "#PWR0169"
-			(at 415.29 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 407.67 212.0899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 411.48 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 411.48 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 411.48 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38f585b9-75cd-4bd5-b3d8-bd7394a5708c")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/18101890-54d7-4e46-b21c-77a03deab3c0"
-					(reference "#PWR0169")
-					(unit 1)
-				)
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "#PWR0169")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 248.92 350.52 90)
 		(unit 1)
@@ -15527,90 +15443,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+3V3_1")
-		(lib_id "power:+3V3")
-		(at 411.48 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d366cf6f-0380-4c0c-b7a5-206bf9bb88b6")
-		(property "Reference" "#PWR0152"
-			(at 415.29 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 407.67 74.9299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 411.48 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 411.48 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 411.48 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6347654b-c4fa-4d1f-8a57-f7606f8efc1d")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/18101890-54d7-4e46-b21c-77a03deab3c0"
-					(reference "#PWR0152")
-					(unit 1)
-				)
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
-					(reference "#PWR0152")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Oscillator:SiT8008xx-1x-xxE")
 		(at 497.84 179.07 180)
 		(unit 1)
@@ -15779,6 +15611,90 @@
 				)
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
 					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 411.48 212.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd59686c-79c5-4b0b-95b8-a911b95b1ed0")
+		(property "Reference" "#PWR0152"
+			(at 415.29 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 407.67 212.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 411.48 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 411.48 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 411.48 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21d3931f-9fe0-4d4c-b86f-e700df3e3e4d")
+		)
+		(instances
+			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/18101890-54d7-4e46-b21c-77a03deab3c0"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
