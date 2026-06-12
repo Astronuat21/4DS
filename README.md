@@ -5,5 +5,3 @@ Hallo! Welcome to the Github repository for the 4DS (nintendo dont sue)
 This repository contains all the PCB files used in this project, including schematics and circuit boards. **Assuming everything works,** you should be able to reproduce the exact boards I used and reprint them for yourself. Also included are all the 3D files used in 3D printing or other purposes as well as some images to look at. They can be found in **/3D Models** and **/Images** respectively. You may also benefit from the additional programs included for things like GPIO programming, which can be found in **/Programs**.
 
 If you intend to use this repository for any reason, please credit me! I am happy to have others use this project as a reference or recreate what I have built. In the future, a _full-ish_ guide will be provided so that you can build your own 4DS if you'd like.
-
-This repository is not to be used for commercial purposes. Will (or already is) attach a usage license soon.
