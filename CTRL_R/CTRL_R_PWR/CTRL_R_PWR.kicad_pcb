@@ -173,12 +173,6 @@
 		(path "/6f418070-630c-46fe-8d20-fc333ddb1c0b")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -503,12 +497,6 @@
 		(path "/f7eb4931-30ee-401c-9066-46215149e515")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "2" "3" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -781,12 +769,6 @@
 		(path "/680e8ae3-5e5f-4f88-88a5-12e63fe0beb4")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -899,12 +881,6 @@
 		(path "/404a3b05-5ac1-4830-be8e-245c5c7a8183")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -1035,12 +1011,6 @@
 		(path "/875b34ea-1f8b-455c-b397-51b99cf67e72")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1365,12 +1335,6 @@
 		(path "/9cbf52a0-ac55-43a7-9da8-a55a7483c354")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "2" "3" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1643,12 +1607,6 @@
 		(path "/6f557c7a-1cc8-4b88-88f3-31ebe1186e50")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -1779,12 +1737,6 @@
 		(path "/e8ffc735-bfbc-4e86-aef5-4a6c97aaa033")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2110,12 +2062,6 @@
 		(path "/beb6a419-2174-4f14-9531-99c73be49229")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "2" "3" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2439,12 +2385,6 @@
 		(path "/a0f26f20-cb66-4b3d-8c92-a51899b72fba")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "2" "3" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2768,12 +2708,6 @@
 		(path "/aed0e1c9-35af-4ff4-b674-857293f754c1")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "2" "3" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3086,12 +3020,6 @@
 		(path "/63b72c40-d04b-4650-a0d4-a56c34927987")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "2" "3" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3364,12 +3292,6 @@
 		(path "/c74c1b94-094d-4c05-a736-8e846ca65ad2")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -3471,12 +3393,6 @@
 		(path "/ac13d282-4249-449c-a40c-511f878aa552")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -3607,12 +3523,6 @@
 		(path "/73aea7cf-83cf-4ad7-b64b-99026c40d397")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3915,12 +3825,6 @@
 		(path "/4b4bf5d8-5268-4730-8f1b-f42d24aa9db5")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4212,12 +4116,6 @@
 		(path "/ef4c6bd3-a134-4546-b665-752fc2ce4eba")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4935,12 +4833,6 @@
 		(path "/c5ff4c1d-1945-4e6f-a904-541108bf556c")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5238,12 +5130,6 @@
 		(path "/0a399839-b789-46da-9d43-e0c24d9f3e3c")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5577,14 +5463,6 @@
 		(path "/628932ba-1a52-44d2-9d02-b8c1de4efcde")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "16" "15" "14" "13" "12" "11" "10" "9" "8" "7" "6" "5" "4" "3"
-					"2" "1"
-				)
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5820,9 +5698,9 @@
 			(at 1.5 2.225 90)
 			(size 0.6 1.7)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(J1-Pad6)")
+			(net "PWR_BTN")
 			(pinfunction "6_6")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "f8514869-bb6f-4f15-8179-595090cf24a8")
 		)
 		(pad "7" smd rect
@@ -6001,12 +5879,6 @@
 		(path "/f9b62d48-b160-4106-affa-188699514cdc")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "5" "3" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6415,12 +6287,6 @@
 		(path "/31991853-39b8-4cde-af01-46ea2ca1ddc8")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6754,12 +6620,6 @@
 		(path "/fe025f6c-c832-42b3-b764-e318705b9300")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "6" "5" "4" "3" "2" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7074,12 +6934,6 @@
 		(path "/198617dc-7523-4826-ba3c-0751b225f45f")
 		(sheetname "/")
 		(sheetfile "CTRL_R.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "P1" "P2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8388,63 +8242,55 @@
 		(uuid "9d6f4d59-77b5-4d02-a48b-eb2b4bac5047")
 	)
 	(segment
-		(start 97.523 99.6505)
-		(end 90.5025 99.6505)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+3V3")
-		(uuid "19f7bfe8-28d9-4d25-94bf-117c8dddfb63")
-	)
-	(segment
-		(start 106.729 97.167472)
-		(end 105.568528 96.007)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+3V3")
-		(uuid "35459c1b-a93e-44d8-97e0-95443d148042")
-	)
-	(segment
-		(start 84.116756 93.264756)
-		(end 86.859 96.007)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+3V3")
-		(uuid "4471b952-5dc9-433c-96a1-bab56f5d248d")
-	)
-	(segment
-		(start 106.729 97.751)
+		(start 105.568528 96.007)
 		(end 106.729 97.167472)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "+3V3")
-		(uuid "45594f5e-943c-43c4-a7de-72a789c0ab82")
+		(uuid "08a3b527-a9f3-4676-8e7a-23f462ec3448")
 	)
 	(segment
-		(start 84.113962 93.264756)
-		(end 84.116756 93.264756)
+		(start 87.869 96.007)
+		(end 105.568528 96.007)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "+3V3")
-		(uuid "4cb8b50a-5973-4466-a93c-fae4e3b51b89")
+		(uuid "2c7308a5-c3de-4e3b-bb3b-2f735d6b747b")
 	)
 	(segment
-		(start 105.568528 96.007)
-		(end 86.859 96.007)
+		(start 85.567 93.705)
+		(end 91.5125 99.6505)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "+3V3")
-		(uuid "4cc097ca-1a89-4250-8d0a-116510b0e896")
+		(uuid "3f6265ae-82b2-4497-8227-ef2f3053ae1f")
 	)
 	(segment
-		(start 90.5025 99.6505)
-		(end 86.859 96.007)
+		(start 85.567 93.705)
+		(end 87.869 96.007)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "+3V3")
-		(uuid "70b5821b-9c60-492b-812e-4a14e2c73f00")
+		(uuid "51cc3725-a7df-440a-ad3e-27368a099c15")
+	)
+	(segment
+		(start 106.729 97.167472)
+		(end 106.729 97.751)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "e6e37b1c-6107-42c4-a93f-6ddfb01a1a50")
+	)
+	(segment
+		(start 91.5125 99.6505)
+		(end 97.523 99.6505)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "eab1f2c2-d239-404e-8cfd-178639e2aa36")
 	)
 	(via
-		(at 84.113962 93.264756)
+		(at 85.567 93.705)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -8476,12 +8322,28 @@
 		(uuid "091d6e4e-ae31-4306-801b-d350504e7888")
 	)
 	(segment
+		(start 85.126756 93.264756)
+		(end 85.567 93.705)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "+3V3")
+		(uuid "32fe0d46-84f2-4135-9c73-727d74569999")
+	)
+	(segment
 		(start 106.731001 97.753001)
 		(end 106.731001 99.761)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "+3V3")
 		(uuid "d92b4f94-5f23-4389-8075-125f276a55c8")
+	)
+	(segment
+		(start 84.113962 93.264756)
+		(end 85.126756 93.264756)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "+3V3")
+		(uuid "f92cbd77-53bf-4068-975f-44f141044349")
 	)
 	(segment
 		(start 102.966 101.103)
@@ -8604,28 +8466,20 @@
 		(uuid "1c6bb9f1-22cb-4d2c-bf64-2e04fdaf6ab7")
 	)
 	(segment
-		(start 83.363962 97.264756)
-		(end 84.113962 97.264756)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "208ea4d0-c9d5-4b38-85b0-f78acfe1f348")
-	)
-	(segment
-		(start 82.863962 94.264756)
-		(end 82.863962 96.764756)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "31baa99e-ea7b-4533-892c-1daf79b2830d")
-	)
-	(segment
 		(start 79.8 107)
 		(end 79.8 100.8)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "3255094f-e3b6-4bce-be98-f66fefd0c148")
+	)
+	(segment
+		(start 85.263962 94.664756)
+		(end 85.263962 96.864756)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "3eefd62d-8fd4-4763-b584-aaba73b760e6")
 	)
 	(segment
 		(start 79.8 100.8)
@@ -8676,20 +8530,20 @@
 		(uuid "8c258e08-ced6-4e43-b93c-a79ed2c1ebdb")
 	)
 	(segment
-		(start 82.863962 96.764756)
-		(end 83.363962 97.264756)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "9ba27619-3c8f-47d6-99a8-a8f4ddbe40f4")
-	)
-	(segment
 		(start 105.231001 99.761)
 		(end 105.231001 100.650999)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "a73ea465-105d-4471-8cb5-1d39f4b4893c")
+	)
+	(segment
+		(start 84.863962 94.264756)
+		(end 85.263962 94.664756)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "c1077b13-c22d-4989-9d63-2d5c6d560449")
 	)
 	(segment
 		(start 79.288962 90.689756)
@@ -8722,6 +8576,14 @@
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "dcf309bd-d086-4520-9d6c-a23f6dc7f6e7")
+	)
+	(segment
+		(start 85.263962 96.864756)
+		(end 84.863962 97.264756)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "e570c419-ef0d-478c-b748-950a1103bedf")
 	)
 	(segment
 		(start 80.763962 92.164756)

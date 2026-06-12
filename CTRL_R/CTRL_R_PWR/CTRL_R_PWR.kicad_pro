@@ -489,7 +489,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CTRL_R.kicad_pro",
+    "filename": "CTRL_R_PWR.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -656,18 +656,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "CTRL_R.kicad_sch",
-        "name": "CTRL_R",
+        "filename": "CTRL_R_PWR.kicad_sch",
+        "name": "CTRL_R_PWR",
         "uuid": "8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
       }
     ],
-    "used_designators": "#PWR16",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "8eeed083-de7a-4dfe-ba6c-9e042c3ef75c",
-      "CTRL_R"
+      "CTRL_R_PWR"
     ]
   ],
   "text_variables": {},
