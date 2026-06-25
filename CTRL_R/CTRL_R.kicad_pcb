@@ -387,13 +387,13 @@
 	(footprint "B3S-1000:B3S1000"
 		(layer "F.Cu")
 		(uuid "0390ef00-ffc6-48cc-89d6-4337916aee89")
-		(at 84.665 78.79)
+		(at 84.646462 78.764756)
 		(descr "B3S-1000-1")
 		(tags "Switch")
 		(property "Reference" "S2"
 			(at 0.25 0 0)
 			(layer "F.SilkS")
-			(uuid "b7dc25aa-0be9-4411-8639-6b1a97510e47")
+			(uuid "511bb5e2-c7eb-474b-9f9d-78a8355a9997")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -405,7 +405,7 @@
 			(at 0.25 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4f2599b2-ada1-4126-b2e4-de862a60eadf")
+			(uuid "9fd30b78-ef7a-4868-9600-d28f6a8690a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,7 +417,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "746eb416-ce3b-490d-999a-5c84c8ee8ab2")
+			(uuid "be570f6a-ba49-471d-88e1-b7d016c97a31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -428,7 +428,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "efd5912b-2b76-4df5-9ce5-8cdc15c501ba")
+			(uuid "780ce552-8686-4447-8916-6a55b8a43f57")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +1249,7 @@
 	(footprint "B3S-1000:B3S1000"
 		(layer "F.Cu")
 		(uuid "3e8920b7-8896-4a7c-92cd-1c0af825b408")
-		(at 104.688962 78.764756)
+		(at 104.646462 78.764756)
 		(descr "B3S-1000-1")
 		(tags "Switch")
 		(property "Reference" "S3"
@@ -2323,13 +2323,13 @@
 	(footprint "B3S-1000:B3S1000"
 		(layer "F.Cu")
 		(uuid "83e92f0c-07fc-46e9-b165-5c56af8aadd5")
-		(at 84.088962 137.164756 180)
+		(at 83.636 137.1 180)
 		(descr "B3S-1000-1")
 		(tags "Switch")
 		(property "Reference" "S5"
 			(at 0.25 0 0)
 			(layer "F.SilkS")
-			(uuid "4900de6b-f86d-4ef9-8bdc-f5e8d6a88579")
+			(uuid "0c96cdcd-6c51-4588-8d08-674aa5f349bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,7 +2341,7 @@
 			(at 0.25 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "cd6823f2-865a-4d1b-9df0-6edee9f3c6a0")
+			(uuid "28be0e89-dbea-4cdc-a9bb-4268f47737bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,7 +2353,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b4cc82c7-a99d-4a9e-a269-118f99b4e9b9")
+			(uuid "babe7756-5c87-45a3-a67d-940bbca6e51a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +2364,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1116bc3-508b-4047-8aa4-4be58b4d6d43")
+			(uuid "771288d7-125f-49ea-9ae4-ee710b1e3123")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2652,7 +2652,7 @@
 	(footprint "B3S-1000:B3S1000"
 		(layer "F.Cu")
 		(uuid "8b22efaa-709f-41f6-af73-735772892403")
-		(at 94.625 88.85)
+		(at 94.646462 88.764756)
 		(descr "B3S-1000-1")
 		(tags "Switch")
 		(property "Reference" "S4"
@@ -2970,13 +2970,13 @@
 	(footprint "B3S-1000:B3S1000"
 		(layer "F.Cu")
 		(uuid "98cae101-6d35-47fb-a55e-5a77cfaa436e")
-		(at 83.603 145.879)
+		(at 83.6 146.1)
 		(descr "B3S-1000-1")
 		(tags "Switch")
 		(property "Reference" "S6"
 			(at 0.25 0 0)
 			(layer "F.SilkS")
-			(uuid "cb8d2061-aaf8-4e21-9b6f-6cbc4023a2ec")
+			(uuid "9486ed14-c9c7-451e-b40b-1b9fac761a4b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,7 +2988,7 @@
 			(at 0.25 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5b09b4de-d64b-4336-bf9f-cf5d15566dcf")
+			(uuid "5eaf88dd-13ac-41fd-a5ec-02241c9445a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +3000,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "03e3ab52-7e5d-4cb3-90aa-b08360a13898")
+			(uuid "aad03a83-7931-4106-ba3f-01b8149d07af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,7 +3011,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "943671ce-fa1f-45c3-bd62-0e1f3c425efc")
+			(uuid "ec7f7550-2e70-4a8c-b831-8f71ebd42be4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,6 +7418,17 @@
 		(fill yes)
 		(layer "B.SilkS")
 		(uuid "e983563a-9fce-42b8-bc4e-bf2ab38c770e")
+	)
+	(gr_circle
+		(center 94.646462 78.764756)
+		(end 104.646462 78.764756)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "d60fba6d-ebc9-4e41-af8d-f13c79538d16")
 	)
 	(gr_line
 		(start 77.6 62.600142)
