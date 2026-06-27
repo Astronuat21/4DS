@@ -2750,7 +2750,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "Conn_01x04_Pin"
 			(at 290.195 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2760,7 +2760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "A_HDJ_Library:PinHeader_1x04_P2.54mm_Vertical"
 			(at 289.56 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -2793,7 +2793,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2.54蓝色单排排针-3P"
+		(property "DF_Comment" "2.54绿色单排排针-4P"
 			(at 289.56 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -2897,7 +2897,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2.54蓝色单排排针-4P"
+		(property "DF_Comment" "2.54红色单排排针-4P"
 			(at 289.56 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -2961,7 +2961,7 @@
 				)
 			)
 		)
-		(property "Value" "ULC0524P"
+		(property "Value" "6V/1A"
 			(at 262.89 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2971,7 +2971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+		(property "Footprint" "A_HDJ_Library:Fuse_0805_2012Metric"
 			(at 227.33 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -2982,7 +2982,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf"
+		(property "Datasheet" ""
 			(at 251.46 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -3004,7 +3004,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/947770.html"
 			(at 251.46 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -3015,7 +3015,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "ESD静电保护IC-BV-ULC0524P-DFN2510-10L"
+		(property "DF_Comment" "0805贴片自恢复保险丝1A-6V_BSMD0805-100-6V"
 			(at 251.46 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -3026,7 +3026,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" ""
+		(property "SCH_Show_Footprint" "R0603"
 			(at 251.46 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -3108,7 +3108,7 @@
 				)
 			)
 		)
-		(property "Value" "ULC0524P"
+		(property "Value" "6V/1A"
 			(at 334.01 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3118,7 +3118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+		(property "Footprint" "A_HDJ_Library:Fuse_0805_2012Metric"
 			(at 298.45 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -3129,7 +3129,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf"
+		(property "Datasheet" ""
 			(at 322.58 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -3151,7 +3151,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/947770.html"
 			(at 322.58 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -3162,7 +3162,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "ESD静电保护IC-BV-ULC0524P-DFN2510-10L"
+		(property "DF_Comment" "0805贴片自恢复保险丝1A-6V_BSMD0805-100-6V"
 			(at 322.58 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -3173,7 +3173,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" ""
+		(property "SCH_Show_Footprint" "R0603"
 			(at 322.58 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -3456,7 +3456,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2.54绿色单排排针-4P"
+		(property "DF_Comment" "2.54黑色单排排针-4P"
 			(at 218.44 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -3563,7 +3563,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2.54绿色单排排针-3P"
+		(property "DF_Comment" "2.54红色单排排针-3P"
 			(at 218.44 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -3667,7 +3667,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2.54黑色单排排针-3P"
+		(property "DF_Comment" "2.54蓝色单排排针-3P"
 			(at 383.54 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -3963,7 +3963,7 @@
 				)
 			)
 		)
-		(property "Value" "ULC0524P"
+		(property "Value" "6V/1A"
 			(at 262.89 257.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3973,7 +3973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+		(property "Footprint" "A_HDJ_Library:Fuse_0805_2012Metric"
 			(at 227.33 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -3984,7 +3984,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf"
+		(property "Datasheet" ""
 			(at 251.46 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -4006,7 +4006,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/947770.html"
 			(at 251.46 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -4017,7 +4017,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "ESD静电保护IC-BV-ULC0524P-DFN2510-10L"
+		(property "DF_Comment" "0805贴片自恢复保险丝1A-6V_BSMD0805-100-6V"
 			(at 251.46 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -4028,7 +4028,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" ""
+		(property "SCH_Show_Footprint" "R0603"
 			(at 251.46 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -4267,7 +4267,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "SY8253ADC"
 			(at 403.225 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4277,7 +4277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "A_HDJ_Library:TSOT-23-6"
 			(at 402.59 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4288,7 +4288,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180625/C93736_E75EC6FD4320D65590D2D5BF0D8B8959.pdf"
 			(at 402.59 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4310,7 +4310,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2.54红色单排排针-4P"
+		(property "DF_Comment" "DCDC同步降压芯片_SY8253ADC_TSOT23-6"
 			(at 402.59 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4322,6 +4322,17 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 402.59 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" "https://item.szlcsc.com/94934.html"
 			(at 402.59 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4375,7 +4386,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "TL431DBZ"
 			(at 385.445 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4385,7 +4396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "A_HDJ_Library:SOT-23"
 			(at 384.81 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4396,7 +4407,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
 			(at 384.81 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4418,7 +4429,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2.54黑色单排排针-4P"
+		(property "DF_Comment" "参考电压-TL431ACDBZR-SOT23（丝印TAC）"
 			(at 384.81 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4483,7 +4494,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "Conn_01x04_Pin"
 			(at 403.225 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4493,7 +4504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "A_HDJ_Library:PinHeader_1x04_P2.54mm_Vertical"
 			(at 402.59 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -4526,7 +4537,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2.54红色单排排针-3P"
+		(property "DF_Comment" "2.54蓝色单排排针-4P"
 			(at 402.59 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -4587,7 +4598,7 @@
 				)
 			)
 		)
-		(property "Value" "ULC0524P"
+		(property "Value" "6V/1A"
 			(at 334.01 257.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4597,7 +4608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+		(property "Footprint" "A_HDJ_Library:Fuse_0805_2012Metric"
 			(at 298.45 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -4608,7 +4619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf"
+		(property "Datasheet" ""
 			(at 322.58 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -4630,7 +4641,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/947770.html"
 			(at 322.58 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -4641,7 +4652,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "ESD静电保护IC-BV-ULC0524P-DFN2510-10L"
+		(property "DF_Comment" "0805贴片自恢复保险丝1A-6V_BSMD0805-100-6V"
 			(at 322.58 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -4652,7 +4663,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" ""
+		(property "SCH_Show_Footprint" "R0603"
 			(at 322.58 245.11 0)
 			(hide yes)
 			(show_name no)

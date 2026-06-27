@@ -4335,7 +4335,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0402ESDA-05N"
+		(property "Value" "Barrel_Jack_Switch"
 			(at 170.1513 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4346,7 +4346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:DC_Jack_DC007B_30V_10A"
 			(at 173.9613 254 0)
 			(hide yes)
 			(show_name no)
@@ -4357,7 +4357,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+		(property "Datasheet" ""
 			(at 173.9613 254 0)
 			(hide yes)
 			(show_name no)
@@ -4379,7 +4379,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/19360929.html"
 			(at 173.9613 254 0)
 			(hide yes)
 			(show_name no)
@@ -4390,7 +4390,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "5.0V双向静电保护管_0402ESDA-05N"
+		(property "DF_Comment" "DC2.5电源母座_12V/10A_XDJK-060B-055"
 			(at 173.9613 254 0)
 			(hide yes)
 			(show_name no)
@@ -4401,7 +4401,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "D0402"
+		(property "SCH_Show_Footprint" ""
 			(at 173.9613 254 0)
 			(hide yes)
 			(show_name no)
@@ -4459,7 +4459,7 @@
 				)
 			)
 		)
-		(property "Value" "6V/1A"
+		(property "Value" "2.2uH/4.3A"
 			(at 311.912 98.298 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4469,7 +4469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Fuse_0805_2012Metric"
+		(property "Footprint" "A_HDJ_Library:L_Sunlord_SWPA4020S"
 			(at 309.88 102.108 90)
 			(hide yes)
 			(show_name no)
@@ -4502,7 +4502,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/947770.html"
+		(property "Buy_Link" ""
 			(at 309.88 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4513,7 +4513,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "0805贴片自恢复保险丝1A-6V_BSMD0805-100-6V"
+		(property "DF_Comment" "WPN4020H2R2MT 2.2UH 20% 额定电流4.3A 顺络"
 			(at 309.88 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4524,7 +4524,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "R0603"
+		(property "SCH_Show_Footprint" ""
 			(at 309.88 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4819,7 +4819,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USB3_A_Stacked"
+		(property "Value" "USB_C_Receptacle_USB2.0"
 			(at 337.82 193.675 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4830,7 +4830,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+		(property "Footprint" "A_HDJ_Library:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 322.58 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -4841,7 +4841,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 322.58 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -4863,7 +4863,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/3132965.html"
+		(property "Buy_Link" ""
 			(at 326.39 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -4874,7 +4874,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "双层USB3.0_A母座_USB-303WSD-BRY"
+		(property "DF_Comment" "USB Type-C母座-U263-163N-4BS1735  5A"
 			(at 326.39 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -4994,7 +4994,7 @@
 				)
 			)
 		)
-		(property "Value" "ULC0524P"
+		(property "Value" "6V/1A"
 			(at 298.45 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5004,7 +5004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+		(property "Footprint" "A_HDJ_Library:Fuse_0805_2012Metric"
 			(at 262.89 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5015,7 +5015,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf"
+		(property "Datasheet" ""
 			(at 287.02 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5037,7 +5037,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/947770.html"
 			(at 287.02 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5048,7 +5048,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "ESD静电保护IC-BV-ULC0524P-DFN2510-10L"
+		(property "DF_Comment" "0805贴片自恢复保险丝1A-6V_BSMD0805-100-6V"
 			(at 287.02 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5059,7 +5059,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" ""
+		(property "SCH_Show_Footprint" "R0603"
 			(at 287.02 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5218,7 +5218,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/10V"
+		(property "Value" "4.7uF"
 			(at 293.37 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5341,7 +5341,7 @@
 				)
 			)
 		)
-		(property "Value" "ULC0524P"
+		(property "Value" "6V/1A"
 			(at 330.2 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5351,7 +5351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+		(property "Footprint" "A_HDJ_Library:Fuse_0805_2012Metric"
 			(at 294.64 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -5362,7 +5362,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf"
+		(property "Datasheet" ""
 			(at 318.77 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -5384,7 +5384,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/947770.html"
 			(at 318.77 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -5395,7 +5395,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "ESD静电保护IC-BV-ULC0524P-DFN2510-10L"
+		(property "DF_Comment" "0805贴片自恢复保险丝1A-6V_BSMD0805-100-6V"
 			(at 318.77 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -5406,7 +5406,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" ""
+		(property "SCH_Show_Footprint" "R0603"
 			(at 318.77 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -5488,7 +5488,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/16V"
+		(property "Value" "10uF/10V"
 			(at 262.89 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5542,7 +5542,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-100nF-16V-X7R(0402)"
+		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
 			(at 256.54 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -5553,7 +5553,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 256.54 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -5611,7 +5611,7 @@
 				)
 			)
 		)
-		(property "Value" "6V/1A"
+		(property "Value" "2.2uH/4.3A"
 			(at 311.912 105.156 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5621,7 +5621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Fuse_0805_2012Metric"
+		(property "Footprint" "A_HDJ_Library:L_Sunlord_SWPA4020S"
 			(at 309.88 104.648 90)
 			(hide yes)
 			(show_name no)
@@ -5654,7 +5654,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/947770.html"
+		(property "Buy_Link" ""
 			(at 309.88 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5665,7 +5665,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "0805贴片自恢复保险丝1A-6V_BSMD0805-100-6V"
+		(property "DF_Comment" "WPN4020H2R2MT 2.2UH 20% 额定电流4.3A 顺络"
 			(at 309.88 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5676,7 +5676,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "R0603"
+		(property "SCH_Show_Footprint" ""
 			(at 309.88 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5812,7 +5812,7 @@
 				)
 			)
 		)
-		(property "Value" "6V/2A"
+		(property "Value" "SiT8008xx-1x-xxE"
 			(at 306.07 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5822,7 +5822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+		(property "Footprint" "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_2.5x2.0mm"
 			(at 306.07 183.388 90)
 			(hide yes)
 			(show_name no)
@@ -5833,7 +5833,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet"
 			(at 306.07 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -5844,7 +5844,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SiTime Low Power Mems programmable oscillator, 1MHz to 110MHz, PQFN-4, 2.5x2.0mm (with output enable pin)"
 			(at 306.07 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -5855,7 +5855,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/947787.html"
+		(property "Buy_Link" ""
 			(at 306.07 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -5866,7 +5866,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "0805贴片自恢复保险丝2A-6V_BSMD0805L-200"
+		(property "DF_Comment" ""
 			(at 306.07 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -5877,7 +5877,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "R0805"
+		(property "SCH_Show_Footprint" ""
 			(at 306.07 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -5937,7 +5937,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0402ESDA-05N"
+		(property "Value" "Barrel_Jack_Switch"
 			(at 180.3113 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5948,7 +5948,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:DC_Jack_DC007B_30V_10A"
 			(at 184.1213 254 0)
 			(hide yes)
 			(show_name no)
@@ -5959,7 +5959,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+		(property "Datasheet" ""
 			(at 184.1213 254 0)
 			(hide yes)
 			(show_name no)
@@ -5981,7 +5981,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/19360929.html"
 			(at 184.1213 254 0)
 			(hide yes)
 			(show_name no)
@@ -5992,7 +5992,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "5.0V双向静电保护管_0402ESDA-05N"
+		(property "DF_Comment" "DC2.5电源母座_12V/10A_XDJK-060B-055"
 			(at 184.1213 254 0)
 			(hide yes)
 			(show_name no)
@@ -6003,7 +6003,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "D0402"
+		(property "SCH_Show_Footprint" ""
 			(at 184.1213 254 0)
 			(hide yes)
 			(show_name no)
@@ -6140,7 +6140,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/16V"
+		(property "Value" "10uF/10V"
 			(at 262.89 203.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6194,7 +6194,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-100nF-16V-X7R(0402)"
+		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
 			(at 256.54 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -6205,7 +6205,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 256.54 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -6342,7 +6342,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0402ESDA-05N"
+		(property "Value" "Barrel_Jack_Switch"
 			(at 190.4713 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6353,7 +6353,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:DC_Jack_DC007B_30V_10A"
 			(at 194.2813 254 0)
 			(hide yes)
 			(show_name no)
@@ -6364,7 +6364,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+		(property "Datasheet" ""
 			(at 194.2813 254 0)
 			(hide yes)
 			(show_name no)
@@ -6386,7 +6386,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/19360929.html"
 			(at 194.2813 254 0)
 			(hide yes)
 			(show_name no)
@@ -6397,7 +6397,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "5.0V双向静电保护管_0402ESDA-05N"
+		(property "DF_Comment" "DC2.5电源母座_12V/10A_XDJK-060B-055"
 			(at 194.2813 254 0)
 			(hide yes)
 			(show_name no)
@@ -6408,7 +6408,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "D0402"
+		(property "SCH_Show_Footprint" ""
 			(at 194.2813 254 0)
 			(hide yes)
 			(show_name no)
@@ -6547,7 +6547,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USB3_A_Stacked"
+		(property "Value" "USB_C_Receptacle_USB2.0"
 			(at 337.82 272.415 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6558,7 +6558,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+		(property "Footprint" "A_HDJ_Library:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 322.58 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -6569,7 +6569,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 322.58 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -6591,7 +6591,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/3132965.html"
+		(property "Buy_Link" ""
 			(at 326.39 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -6602,7 +6602,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "双层USB3.0_A母座_USB-303WSD-BRY"
+		(property "DF_Comment" "USB Type-C母座-U263-163N-4BS1735  5A"
 			(at 326.39 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -6722,7 +6722,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/10V"
+		(property "Value" "4.7uF"
 			(at 289.56 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6924,7 +6924,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_A_Stacked"
+		(property "Value" "BM14B-NSHSS-TBT_LF__SN_"
 			(at 328.93 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6934,7 +6934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:USB_A_CUI_UJ2-ADH-TH_Horizontal_Stacked"
+		(property "Footprint" "BM14BNSHSSTBTLFSN"
 			(at 325.12 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6946,7 +6946,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eNSH.pdf"
 			(at 323.85 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6957,7 +6957,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header Surface Mount 14 position 0.039\" (1.00mm), 1A, 50V, -25C ~ 85C"
 			(at 328.93 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6979,7 +6979,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "USB2.0-A型双层白胶母座"
+		(property "DF_Comment" ""
 			(at 328.93 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7002,6 +7002,39 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 328.93 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "6"
+			(at 328.93 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 328.93 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BM14B-NSHSS-TBT(LF)(SN)"
 			(at 328.93 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7069,7 +7102,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/16V"
+		(property "Value" "10uF/10V"
 			(at 262.89 279.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7123,7 +7156,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-100nF-16V-X7R(0402)"
+		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
 			(at 256.54 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -7134,7 +7167,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 256.54 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -7270,7 +7303,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/10V"
+		(property "Value" "4.7uF"
 			(at 293.37 256.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7393,7 +7426,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/16V"
+		(property "Value" "10uF/10V"
 			(at 262.89 281.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7447,7 +7480,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-100nF-16V-X7R(0402)"
+		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
 			(at 256.54 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -7458,7 +7491,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 256.54 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -7516,7 +7549,7 @@
 				)
 			)
 		)
-		(property "Value" "ULC0524P"
+		(property "Value" "6V/1A"
 			(at 260.35 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7526,7 +7559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+		(property "Footprint" "A_HDJ_Library:Fuse_0805_2012Metric"
 			(at 224.79 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -7537,7 +7570,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf"
+		(property "Datasheet" ""
 			(at 248.92 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -7559,7 +7592,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/947770.html"
 			(at 248.92 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -7570,7 +7603,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "ESD静电保护IC-BV-ULC0524P-DFN2510-10L"
+		(property "DF_Comment" "0805贴片自恢复保险丝1A-6V_BSMD0805-100-6V"
 			(at 248.92 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -7581,7 +7614,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" ""
+		(property "SCH_Show_Footprint" "R0603"
 			(at 248.92 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -7822,7 +7855,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0402ESDA-05N"
+		(property "Value" "Barrel_Jack_Switch"
 			(at 159.9913 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7833,7 +7866,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:DC_Jack_DC007B_30V_10A"
 			(at 163.8013 254 0)
 			(hide yes)
 			(show_name no)
@@ -7844,7 +7877,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+		(property "Datasheet" ""
 			(at 163.8013 254 0)
 			(hide yes)
 			(show_name no)
@@ -7866,7 +7899,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/19360929.html"
 			(at 163.8013 254 0)
 			(hide yes)
 			(show_name no)
@@ -7877,7 +7910,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "5.0V双向静电保护管_0402ESDA-05N"
+		(property "DF_Comment" "DC2.5电源母座_12V/10A_XDJK-060B-055"
 			(at 163.8013 254 0)
 			(hide yes)
 			(show_name no)
@@ -7888,7 +7921,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "D0402"
+		(property "SCH_Show_Footprint" ""
 			(at 163.8013 254 0)
 			(hide yes)
 			(show_name no)
@@ -8025,7 +8058,7 @@
 				)
 			)
 		)
-		(property "Value" "6V/2A"
+		(property "Value" "SiT8008xx-1x-xxE"
 			(at 304.8 258.318 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8035,7 +8068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+		(property "Footprint" "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_2.5x2.0mm"
 			(at 304.8 262.128 90)
 			(hide yes)
 			(show_name no)
@@ -8046,7 +8079,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet"
 			(at 304.8 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -8057,7 +8090,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SiTime Low Power Mems programmable oscillator, 1MHz to 110MHz, PQFN-4, 2.5x2.0mm (with output enable pin)"
 			(at 304.8 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -8068,7 +8101,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/947787.html"
+		(property "Buy_Link" ""
 			(at 304.8 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -8079,7 +8112,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "0805贴片自恢复保险丝2A-6V_BSMD0805L-200"
+		(property "DF_Comment" ""
 			(at 304.8 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -8090,7 +8123,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "R0805"
+		(property "SCH_Show_Footprint" ""
 			(at 304.8 260.35 0)
 			(hide yes)
 			(show_name no)

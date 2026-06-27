@@ -9902,7 +9902,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS61165DBV"
+		(property "Value" "2SK3018"
 			(at 504.19 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9912,7 +9912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 504.19 162.306 0)
 			(hide yes)
 			(show_name no)
@@ -9923,7 +9923,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps61165.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 504.19 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -9934,8 +9934,30 @@
 				)
 			)
 		)
-		(property "Description" "High-Brightness, White LED Driver, 3V to 18V input voltage range, internal switch, constant current, up to 38V/1.2A output, SOT-23-6"
+		(property "Description" ""
 			(at 504.19 157.734 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" "https://item.szlcsc.com/774253.html"
+			(at 504.19 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" "NMOS_2SK3018_SOT-23"
+			(at 504.19 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10234,7 +10256,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "0.57Ohm"
 			(at 514.35 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10245,7 +10267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+		(property "Footprint" "Inductor_SMD:L_01005_0402Metric"
 			(at 511.81 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10267,7 +10289,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Resistor"
 			(at 511.81 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10278,7 +10300,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+		(property "Sim.Device" ""
 			(at 511.81 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10289,7 +10311,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Sim.Pins" ""
 			(at 511.81 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10415,7 +10437,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "220nF"
 			(at 508 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11186,7 +11208,7 @@
 				)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "PESD24VS1UL-N"
 			(at 488.188 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11196,7 +11218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
 			(at 493.0648 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11229,7 +11251,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/393990.html"
 			(at 494.03 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -11240,7 +11262,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
+		(property "DF_Comment" "单向静电保护二极管_PESD24VS1UL-N_DFN1006"
 			(at 494.03 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -11251,7 +11273,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C603"
+		(property "SCH_Show_Footprint" "D0402"
 			(at 494.03 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -11469,7 +11491,7 @@
 				)
 			)
 		)
-		(property "Value" "0.57Ohm"
+		(property "Value" "TPS61165DBV"
 			(at 515.62 136.906 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11479,7 +11501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_01005_0402Metric"
+		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
 			(at 515.62 136.398 90)
 			(hide yes)
 			(show_name no)
@@ -11490,7 +11512,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps61165.pdf"
 			(at 515.62 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11501,7 +11523,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "High-Brightness, White LED Driver, 3V to 18V input voltage range, internal switch, constant current, up to 38V/1.2A output, SOT-23-6"
 			(at 515.62 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11708,7 +11730,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2004850740"
+		(property "Value" "SS54"
 			(at 466.09 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11719,7 +11741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "200485-0740:CON_2004850740"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 452.12 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11731,7 +11753,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2004850740?display=pdf"
+		(property "Datasheet" ""
 			(at 452.12 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11744,6 +11766,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 452.12 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" "二极管-SS54-SMA(SMA)"
+			(at 452.12 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "SMA"
 			(at 452.12 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11924,7 +11968,7 @@
 				)
 			)
 		)
-		(property "Value" "200485-0710"
+		(property "Value" "2.2uF/50V"
 			(at 368.3 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11934,7 +11978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "200485-0710:2004850710"
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
 			(at 296.24 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11946,7 +11990,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/2004850710_sd.pdf"
+		(property "Datasheet" ""
 			(at 196.24 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11958,7 +12002,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "FFC & FPC Connectors .50mm Easy-On One TouchST 10Ckt GND"
+		(property "Description" ""
 			(at 391.16 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11969,7 +12013,7 @@
 				)
 			)
 		)
-		(property "Height" "5.7"
+		(property "Height" ""
 			(at -3.76 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11981,7 +12025,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "538-200485-0710"
+		(property "Mouser Part Number" ""
 			(at -103.76 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11993,7 +12037,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/200485-0710?qs=81r%252BiQLm7BTVhoZMpMfD8A%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at -203.76 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12005,7 +12049,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
+		(property "Manufacturer_Name" ""
 			(at -303.76 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12017,7 +12061,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "200485-0710"
+		(property "Manufacturer_Part_Number" ""
 			(at -403.76 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12027,6 +12071,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "DF_Comment" "贴片电容0603-2.2uF-50V-X5R"
+			(at 391.16 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "-- mixed values --"
+			(at 391.16 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -12760,7 +12826,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "0402ESDA-05N"
 			(at 492.76 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12770,7 +12836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
 			(at 496.57 126.0348 0)
 			(hide yes)
 			(show_name no)
@@ -12781,7 +12847,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
 			(at 492.76 127 0)
 			(hide yes)
 			(show_name no)
@@ -12814,7 +12880,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
+		(property "DF_Comment" "5.0V双向静电保护管_0402ESDA-05N"
 			(at 492.76 127 0)
 			(hide yes)
 			(show_name no)
@@ -12825,7 +12891,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C603"
+		(property "SCH_Show_Footprint" "D0402"
 			(at 492.76 127 0)
 			(hide yes)
 			(show_name no)

@@ -13811,7 +13811,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/10V"
+		(property "Value" "4.7uF"
 			(at 445.77 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13935,7 +13935,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "AO3407"
 			(at 312.42 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13959,7 +13959,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" ""
 			(at 318.77 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -13971,7 +13971,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
 			(at 318.77 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -13993,7 +13993,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2N7002-N沟道MOS管-SOT-23[备选型号:JMTL2N7002K]"
+		(property "DF_Comment" "PMOS管AO3407-SOT23-3"
 			(at 318.77 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -14066,7 +14066,7 @@
 				)
 			)
 		)
-		(property "Value" "Barrel_Jack_Switch"
+		(property "Value" "TPAZ1023-04F"
 			(at 168.91 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14076,7 +14076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:DC_Jack_DC007B_30V_10A"
+		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
 			(at 170.18 167.386 0)
 			(hide yes)
 			(show_name no)
@@ -14087,7 +14087,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf"
 			(at 170.18 167.386 0)
 			(hide yes)
 			(show_name no)
@@ -14109,7 +14109,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/19360929.html"
+		(property "Buy_Link" "https://item.szlcsc.com/2973358.html"
 			(at 168.91 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -14120,7 +14120,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "DC2.5电源母座_12V/10A_XDJK-060B-055"
+		(property "DF_Comment" "ESD静电保护IC-TPAZ1023-04F-DFN2510-10L"
 			(at 168.91 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -14326,7 +14326,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/16V"
+		(property "Value" "1uF"
 			(at 425.196 317.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14336,7 +14336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
 			(at 431.2412 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -14380,7 +14380,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-1uF-16V-X5R(0402)"
+		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
 			(at 430.276 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -14391,7 +14391,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "C603"
 			(at 430.276 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -14529,7 +14529,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "100nF/16V"
 			(at 502.92 322.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14540,7 +14540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:SW_PUSH_SIDE_TS-1012EV_7.7x3.95x3.5mm"
+		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
 			(at 504.19 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -14573,7 +14573,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "侧按卧插4脚开关-TS-1012EV-26-7*3.5*3.5"
+		(property "DF_Comment" "贴片电容0402-100nF-16V-X7R(0402)"
 			(at 499.11 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -14586,6 +14586,17 @@
 		)
 		(property "Field-1" ""
 			(at 499.11 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "C0402"
+			(at 499.11 321.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14631,7 +14642,7 @@
 				)
 			)
 		)
-		(property "Value" "75K/1%"
+		(property "Value" "200R/1%"
 			(at 419.1 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14641,7 +14652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 425.958 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -14685,7 +14696,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-75K-1%"
+		(property "DF_Comment" "贴片电阻0402-200R-1%"
 			(at 424.18 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -14754,7 +14765,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/10V"
+		(property "Value" "4.7uF"
 			(at 455.93 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14878,7 +14889,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0"
+		(property "Value" "ADV7613WBBCZ"
 			(at 173.99 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14888,7 +14899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+		(property "Footprint" "BC_100_4_ADI"
 			(at 177.8 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -14899,7 +14910,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7613.pdf"
 			(at 177.8 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -14932,7 +14943,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "USB Type-C母座-U263-163N-4BS1735  5A"
+		(property "DF_Comment" ""
 			(at 173.99 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -15046,7 +15057,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF/50V"
+		(property "Value" "SMAJ26CA"
 			(at 398.526 139.446 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15056,7 +15067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:C_0603"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 395.9352 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -15067,7 +15078,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.tme.eu/Document/dbc72d81c249fe51b6ab42300e8e06d0/SMAJ_ser.pdf"
 			(at 394.97 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15078,7 +15089,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMA Bidirectional TVS Diode, 24V, 400W, Alternate KiCAD Library"
 			(at 394.97 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15100,7 +15111,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0603-2.2uF-50V-X5R"
+		(property "DF_Comment" "双向TVS管-SMAJ26CA-SMA"
 			(at 394.97 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15111,7 +15122,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0603"
+		(property "SCH_Show_Footprint" ""
 			(at 394.97 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15397,7 +15408,7 @@
 				)
 			)
 		)
-		(property "Value" "100K/1%"
+		(property "Value" "75K/1%"
 			(at 298.45 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15407,7 +15418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 292.1 99.822 90)
 			(hide yes)
 			(show_name no)
@@ -15451,7 +15462,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-100K-1%"
+		(property "DF_Comment" "贴片电阻0402-75K-1%"
 			(at 292.1 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15521,7 +15532,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R/1%"
+		(property "Value" "4.7K/1%"
 			(at 302.768 203.962 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15532,7 +15543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 299.72 208.788 90)
 			(hide yes)
 			(show_name no)
@@ -15576,7 +15587,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-100R-1%"
+		(property "DF_Comment" "贴片电阻0402-4.7K-1%"
 			(at 299.72 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -15646,7 +15657,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R/1%"
+		(property "Value" "4.7K/1%"
 			(at 485.14 311.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15657,7 +15668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 481.33 310.642 90)
 			(hide yes)
 			(show_name no)
@@ -15701,7 +15712,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-100R-1%"
+		(property "DF_Comment" "贴片电阻0402-4.7K-1%"
 			(at 481.33 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -15771,7 +15782,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0402ESDA-05N"
+		(property "Value" "Barrel_Jack_Switch"
 			(at 212.09 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15782,7 +15793,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:DC_Jack_DC007B_30V_10A"
 			(at 209.55 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -15793,7 +15804,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+		(property "Datasheet" ""
 			(at 209.55 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -15815,7 +15826,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/19360929.html"
 			(at 209.55 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -15826,7 +15837,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "5.0V双向静电保护管_0402ESDA-05N"
+		(property "DF_Comment" "DC2.5电源母座_12V/10A_XDJK-060B-055"
 			(at 209.55 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -15837,7 +15848,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "D0402"
+		(property "SCH_Show_Footprint" ""
 			(at 209.55 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -15974,7 +15985,7 @@
 				)
 			)
 		)
-		(property "Value" "SY8253ADC"
+		(property "Value" "USB_A_Stacked"
 			(at 392.43 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15984,7 +15995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:TSOT-23-6"
+		(property "Footprint" "A_HDJ_Library:USB_A_CUI_UJ2-ADH-TH_Horizontal_Stacked"
 			(at 393.065 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -15997,7 +16008,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180625/C93736_E75EC6FD4320D65590D2D5BF0D8B8959.pdf"
+		(property "Datasheet" ""
 			(at 389.89 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -16019,7 +16030,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/94934.html"
+		(property "Buy_Link" ""
 			(at 392.43 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -16030,7 +16041,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "DCDC同步降压芯片_SY8253ADC_TSOT23-6"
+		(property "DF_Comment" "USB2.0-A型双层白胶母座"
 			(at 392.43 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -16112,7 +16123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "AO3407"
 			(at 485.14 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16136,7 +16147,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" ""
 			(at 491.49 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -16148,7 +16159,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
 			(at 491.49 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -16170,7 +16181,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2N7002-N沟道MOS管-SOT-23[备选型号:JMTL2N7002K]"
+		(property "DF_Comment" "PMOS管AO3407-SOT23-3"
 			(at 491.49 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -16760,7 +16771,7 @@
 				)
 			)
 		)
-		(property "Value" "SS54"
+		(property "Value" "1N5819WS"
 			(at 242.57 334.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16770,7 +16781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 247.65 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -16781,7 +16792,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 			(at 247.65 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -16803,7 +16814,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "二极管-SS54-SMA(SMA)"
+		(property "DF_Comment" "二极管-1N5819W-SOD323备选型号:B5819WS、JSPD140A"
 			(at 247.65 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -16814,7 +16825,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "SMA"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 247.65 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -16952,7 +16963,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CH224K"
+		(property "Value" "Fan_4pin"
 			(at 265.43 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -16964,7 +16975,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:ESSOP-10-1EP_3.9x5mm_P1.0mm_EP3.2x2.3"
+		(property "Footprint" "A_HDJ_Library:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 266.7 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -16975,7 +16986,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
 			(at 266.7 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -16997,7 +17008,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/255571.html"
 			(at 266.7 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -17008,7 +17019,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "USB PD等快充协议受电芯片-CH224K-ESSOP10"
+		(property "DF_Comment" "PH2.0-4A直针插座(2.0-4P直)-DL"
 			(at 266.7 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -17187,7 +17198,7 @@
 				)
 			)
 		)
-		(property "Value" "1K/1%"
+		(property "Value" "2.2K/1%"
 			(at 388.62 252.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17197,7 +17208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 388.62 257.048 90)
 			(hide yes)
 			(show_name no)
@@ -17241,7 +17252,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-1K-1%"
+		(property "DF_Comment" "贴片电阻0402-2.2K-1%"
 			(at 388.62 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -17310,7 +17321,7 @@
 				)
 			)
 		)
-		(property "Value" "ULC0524P"
+		(property "Value" "6V/1A"
 			(at 259.08 369.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17320,7 +17331,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+		(property "Footprint" "A_HDJ_Library:Fuse_0805_2012Metric"
 			(at 223.52 367.03 0)
 			(hide yes)
 			(show_name no)
@@ -17331,7 +17342,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf"
+		(property "Datasheet" ""
 			(at 247.65 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -17353,7 +17364,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/947770.html"
 			(at 247.65 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -17364,7 +17375,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "ESD静电保护IC-BV-ULC0524P-DFN2510-10L"
+		(property "DF_Comment" "0805贴片自恢复保险丝1A-6V_BSMD0805-100-6V"
 			(at 247.65 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -17375,7 +17386,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" ""
+		(property "SCH_Show_Footprint" "R0603"
 			(at 247.65 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -17535,7 +17546,7 @@
 				)
 			)
 		)
-		(property "Value" "SS54"
+		(property "Value" "1N5819WS"
 			(at 245.11 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17545,7 +17556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 250.19 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -17556,7 +17567,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 			(at 250.19 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -17578,7 +17589,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "二极管-SS54-SMA(SMA)"
+		(property "DF_Comment" "二极管-1N5819W-SOD323备选型号:B5819WS、JSPD140A"
 			(at 250.19 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -17589,7 +17600,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "SMA"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 250.19 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -17647,7 +17658,7 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "1M/1%"
 			(at 252.73 245.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17657,7 +17668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 246.38 248.158 90)
 			(hide yes)
 			(show_name no)
@@ -17701,7 +17712,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
+		(property "DF_Comment" "贴片电阻0402-1M-1%"
 			(at 246.38 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -17927,7 +17938,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/16V"
+		(property "Value" "1uF"
 			(at 252.73 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17937,7 +17948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
 			(at 243.84 254.9652 0)
 			(hide yes)
 			(show_name no)
@@ -17981,7 +17992,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-1uF-16V-X5R(0402)"
+		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
 			(at 247.65 254 0)
 			(hide yes)
 			(show_name no)
@@ -17992,7 +18003,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "C603"
 			(at 247.65 254 0)
 			(hide yes)
 			(show_name no)
@@ -18050,7 +18061,7 @@
 				)
 			)
 		)
-		(property "Value" "1M/1%"
+		(property "Value" "470R/1%"
 			(at 366.268 322.326 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18060,7 +18071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 360.172 323.85 90)
 			(hide yes)
 			(show_name no)
@@ -18104,7 +18115,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-1M-1%"
+		(property "DF_Comment" "贴片电阻0402-470R-1%"
 			(at 361.95 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -18152,7 +18163,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "AO3407"
 			(at 398.78 259.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18176,7 +18187,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" ""
 			(at 405.13 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -18188,7 +18199,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
 			(at 405.13 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -18210,7 +18221,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2N7002-N沟道MOS管-SOT-23[备选型号:JMTL2N7002K]"
+		(property "DF_Comment" "PMOS管AO3407-SOT23-3"
 			(at 405.13 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -18283,7 +18294,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0402ESDA-05N"
+		(property "Value" "Barrel_Jack_Switch"
 			(at 496.57 313.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18294,7 +18305,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:DC_Jack_DC007B_30V_10A"
 			(at 492.76 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -18305,7 +18316,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+		(property "Datasheet" ""
 			(at 492.76 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -18327,7 +18338,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/19360929.html"
 			(at 492.76 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -18338,7 +18349,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "5.0V双向静电保护管_0402ESDA-05N"
+		(property "DF_Comment" "DC2.5电源母座_12V/10A_XDJK-060B-055"
 			(at 492.76 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -18349,7 +18360,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "D0402"
+		(property "SCH_Show_Footprint" ""
 			(at 492.76 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -18408,7 +18419,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0402ESDA-05N"
+		(property "Value" "Barrel_Jack_Switch"
 			(at 228.6 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18419,7 +18430,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:DC_Jack_DC007B_30V_10A"
 			(at 226.06 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -18430,7 +18441,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+		(property "Datasheet" ""
 			(at 226.06 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -18452,7 +18463,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/19360929.html"
 			(at 226.06 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -18463,7 +18474,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "5.0V双向静电保护管_0402ESDA-05N"
+		(property "DF_Comment" "DC2.5电源母座_12V/10A_XDJK-060B-055"
 			(at 226.06 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -18474,7 +18485,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "D0402"
+		(property "SCH_Show_Footprint" ""
 			(at 226.06 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -18612,7 +18623,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "AO3407"
 			(at 391.16 331.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18636,7 +18647,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" ""
 			(at 397.51 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -18648,7 +18659,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
 			(at 397.51 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -18670,7 +18681,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2N7002-N沟道MOS管-SOT-23[备选型号:JMTL2N7002K]"
+		(property "DF_Comment" "PMOS管AO3407-SOT23-3"
 			(at 397.51 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -18798,7 +18809,7 @@
 				)
 			)
 		)
-		(property "Value" "SS54"
+		(property "Value" "1N5819WS"
 			(at 245.11 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18808,7 +18819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 250.19 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -18819,7 +18830,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 			(at 250.19 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -18841,7 +18852,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "二极管-SS54-SMA(SMA)"
+		(property "DF_Comment" "二极管-1N5819W-SOD323备选型号:B5819WS、JSPD140A"
 			(at 250.19 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -18852,7 +18863,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "SMA"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 250.19 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -18911,7 +18922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "AO3407"
 			(at 398.78 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18935,7 +18946,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" ""
 			(at 405.13 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -18947,7 +18958,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
 			(at 405.13 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -18969,7 +18980,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2N7002-N沟道MOS管-SOT-23[备选型号:JMTL2N7002K]"
+		(property "DF_Comment" "PMOS管AO3407-SOT23-3"
 			(at 405.13 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -19120,7 +19131,7 @@
 				)
 			)
 		)
-		(property "Value" "21.5K/1%"
+		(property "Value" "0R/1%"
 			(at 368.3 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19130,7 +19141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 369.062 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -19174,7 +19185,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-21.5K-1%"
+		(property "DF_Comment" "贴片电阻0402-0R-1%"
 			(at 370.84 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -19243,7 +19254,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/1%"
+		(property "Value" "BSMD1206C-2100T"
 			(at 419.1 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19253,7 +19264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 425.958 213.36 90)
 			(hide yes)
 			(show_name no)
@@ -19275,7 +19286,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "32V/10A"
 			(at 424.18 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -19286,7 +19297,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/43118985.html"
 			(at 424.18 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -19297,7 +19308,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-4.7K-1%"
+		(property "DF_Comment" "一次性保险丝_BSMD1206C-2100T_32V-10A"
 			(at 424.18 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -19445,7 +19456,7 @@
 				)
 			)
 		)
-		(property "Value" "1K/1%"
+		(property "Value" "2.2K/1%"
 			(at 337.82 252.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19455,7 +19466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 337.82 257.048 90)
 			(hide yes)
 			(show_name no)
@@ -19499,7 +19510,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-1K-1%"
+		(property "DF_Comment" "贴片电阻0402-2.2K-1%"
 			(at 337.82 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -19568,7 +19579,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/16V"
+		(property "Value" "10uF/10V"
 			(at 406.4 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19622,7 +19633,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-100nF-16V-X7R(0402)"
+		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
 			(at 407.67 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -19633,7 +19644,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 407.67 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -19848,7 +19859,7 @@
 				)
 			)
 		)
-		(property "Value" "NCE30P28Q"
+		(property "Value" "MountingHole_Pad"
 			(at 340.36 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19858,7 +19869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:MOSFET_PDFN8_3.3x3.3"
+		(property "Footprint" "A_HDJ_Library:MountingHole_3mm_M2_Pad_TopOnly"
 			(at 349.25 185.09 0)
 			(hide yes)
 			(show_name no)
@@ -19893,7 +19904,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "PMOS管NCE30P28Q-DFN3.3X3.3-8L"
+		(property "DF_Comment" "贴片螺母柱M2XC4X5.5+C3X1.5（无铅铜）"
 			(at 327.66 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19905,6 +19916,17 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 327.66 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" "https://item.taobao.com/item.htm?abbucket=8&id=655855111684&ns=1&skuId=4725777108077&spm=a21n57.1.0.0.5263523chYMn0X"
 			(at 327.66 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19978,7 +20000,7 @@
 				)
 			)
 		)
-		(property "Value" "SS54"
+		(property "Value" "1N5819WS"
 			(at 242.57 330.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19988,7 +20010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 247.65 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -19999,7 +20021,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 			(at 247.65 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -20021,7 +20043,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "二极管-SS54-SMA(SMA)"
+		(property "DF_Comment" "二极管-1N5819W-SOD323备选型号:B5819WS、JSPD140A"
 			(at 247.65 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -20032,7 +20054,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "SMA"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 247.65 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -20169,7 +20191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200R/1%"
+		(property "Value" "SW_Push"
 			(at 469.138 264.414 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20180,7 +20202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_DFRobot:SW_PUSH_SIDE_TS-1012EV_7.7x3.95x3.5mm"
 			(at 472.44 258.572 90)
 			(hide yes)
 			(show_name no)
@@ -20224,7 +20246,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-200R-1%"
+		(property "DF_Comment" "侧按卧插4脚开关-TS-1012EV-26-7*3.5*3.5"
 			(at 472.44 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -20763,7 +20785,7 @@
 				)
 			)
 		)
-		(property "Value" "BSMD1206C-2100T"
+		(property "Value" "Battery_Cell"
 			(at 207.01 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20773,7 +20795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_1206"
+		(property "Footprint" "A_HDJ_Library:Battery_Holder_CR1220_S8411-45R"
 			(at 201.422 165.608 90)
 			(hide yes)
 			(show_name no)
@@ -20795,7 +20817,7 @@
 				)
 			)
 		)
-		(property "Description" "32V/10A"
+		(property "Description" ""
 			(at 205.74 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20805,7 +20827,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "一次性保险丝_BSMD1206C-2100T_32V-10A"
+		(property "DF_Comment" "CR1220电池座贴片塑料"
 			(at 201.422 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -20816,7 +20838,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/43118985.html"
+		(property "Buy_Link" "https://item.szlcsc.com/1049689.html"
 			(at 201.422 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -20953,7 +20975,7 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "1M/1%"
 			(at 391.16 257.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20963,7 +20985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 398.018 259.08 90)
 			(hide yes)
 			(show_name no)
@@ -21007,7 +21029,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
+		(property "DF_Comment" "贴片电阻0402-1M-1%"
 			(at 396.24 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -21078,7 +21100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R/1%"
+		(property "Value" "56K/1%"
 			(at 406.908 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21089,7 +21111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 404.368 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -21133,7 +21155,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-470R-1%"
+		(property "DF_Comment" "贴片电阻0402-56K-1%(0402)"
 			(at 402.59 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -21202,7 +21224,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/16V"
+		(property "Value" "1uF"
 			(at 297.18 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21212,7 +21234,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
 			(at 288.29 98.7552 0)
 			(hide yes)
 			(show_name no)
@@ -21256,7 +21278,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-1uF-16V-X5R(0402)"
+		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
 			(at 292.1 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -21267,7 +21289,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "C603"
 			(at 292.1 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -21562,7 +21584,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "100nF/16V"
 			(at 448.056 322.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21573,7 +21595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:SW_PUSH_SIDE_TS-1012EV_7.7x3.95x3.5mm"
+		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
 			(at 449.326 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -21606,7 +21628,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "侧按卧插4脚开关-TS-1012EV-26-7*3.5*3.5"
+		(property "DF_Comment" "贴片电容0402-100nF-16V-X7R(0402)"
 			(at 444.246 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -21619,6 +21641,17 @@
 		)
 		(property "Field-1" ""
 			(at 444.246 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "C0402"
+			(at 444.246 321.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21664,7 +21697,7 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "1M/1%"
 			(at 345.44 257.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21674,7 +21707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 352.298 259.08 90)
 			(hide yes)
 			(show_name no)
@@ -21718,7 +21751,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
+		(property "DF_Comment" "贴片电阻0402-1M-1%"
 			(at 350.52 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -21788,7 +21821,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PESD24VS1UL-N"
+		(property "Value" "LattePanda_Module_Gen1"
 			(at 220.98 266.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21799,7 +21832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:DDR4_SODIMM_260P_8.0H_STD"
 			(at 218.44 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -21821,7 +21854,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Intel Processor N100 up to 3.4 GHz quad core, 8GB RAM, 64GB eMMC, SoM computer"
 			(at 218.44 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -21832,7 +21865,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "D0402"
+		(property "SCH_Show_Footprint" ""
 			(at 218.44 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -21843,7 +21876,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/393990.html"
+		(property "Buy_Link" "https://item.szlcsc.com/5812308.html"
 			(at 218.44 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -21854,7 +21887,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "单向静电保护二极管_PESD24VS1UL-N_DFN1006"
+		(property "DF_Comment" "连接器_DDR4-SODIMM-260P-8H_TE_2309411-1"
 			(at 218.44 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -22001,7 +22034,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/16V"
+		(property "Value" "10uF/10V"
 			(at 450.85 215.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22055,7 +22088,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-100nF-16V-X7R(0402)"
+		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
 			(at 449.58 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -22066,7 +22099,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 449.58 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -22204,7 +22237,7 @@
 				)
 			)
 		)
-		(property "Value" "SS54"
+		(property "Value" "1N5819WS"
 			(at 242.57 326.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22214,7 +22247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 247.65 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -22225,7 +22258,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 			(at 247.65 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -22247,7 +22280,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "二极管-SS54-SMA(SMA)"
+		(property "DF_Comment" "二极管-1N5819W-SOD323备选型号:B5819WS、JSPD140A"
 			(at 247.65 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -22258,7 +22291,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "SMA"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 247.65 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -22577,7 +22610,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R/1%"
+		(property "Value" "4.7K/1%"
 			(at 344.17 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22588,7 +22621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 341.63 208.788 90)
 			(hide yes)
 			(show_name no)
@@ -22632,7 +22665,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-100R-1%"
+		(property "DF_Comment" "贴片电阻0402-4.7K-1%"
 			(at 341.63 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -22703,7 +22736,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WAFER-MX1.25-10PCB"
+		(property "Value" "10K/1%"
 			(at 189.23 319.278 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22714,7 +22747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:MX1.25-10P-SMD"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 168.91 337.82 0)
 			(hide yes)
 			(show_name no)
@@ -22736,7 +22769,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 168.91 337.82 0)
 			(hide yes)
 			(show_name no)
@@ -22747,7 +22780,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "WAFER-MX1.25-10PCB"
+		(property "DF_Comment" "贴片电阻0402-10K-1%"
 			(at 168.91 337.82 0)
 			(hide yes)
 			(show_name no)
@@ -22758,7 +22791,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/3561406.html"
+		(property "Buy_Link" ""
 			(at 168.91 337.82 0)
 			(hide yes)
 			(show_name no)
@@ -22910,7 +22943,7 @@
 				)
 			)
 		)
-		(property "Value" "SS54"
+		(property "Value" "1N5819WS"
 			(at 245.11 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22920,7 +22953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 250.19 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -22931,7 +22964,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 			(at 250.19 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -22953,7 +22986,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "二极管-SS54-SMA(SMA)"
+		(property "DF_Comment" "二极管-1N5819W-SOD323备选型号:B5819WS、JSPD140A"
 			(at 250.19 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -22964,7 +22997,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "SMA"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 250.19 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -23022,7 +23055,7 @@
 				)
 			)
 		)
-		(property "Value" "TL431DBZ"
+		(property "Value" "USB3_A_Stacked"
 			(at 271.78 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23032,7 +23065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:SOT-23"
+		(property "Footprint" "A_HDJ_Library:USB3_A_Molex_48406-0001_Horizontal_Stacked"
 			(at 269.24 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -23044,7 +23077,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
+		(property "Datasheet" ""
 			(at 265.43 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -23067,7 +23100,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/3132965.html"
 			(at 265.43 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -23078,7 +23111,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "参考电压-TL431ACDBZR-SOT23（丝印TAC）"
+		(property "DF_Comment" "双层USB3.0_A母座_USB-303WSD-BRY"
 			(at 265.43 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -23150,7 +23183,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/10V"
+		(property "Value" "4.7uF"
 			(at 461.01 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23273,7 +23306,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/10V"
+		(property "Value" "4.7uF"
 			(at 461.01 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23397,7 +23430,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uH/4.3A"
+		(property "Value" "LED_R"
 			(at 415.29 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23407,7 +23440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:L_Sunlord_SWPA4020S"
+		(property "Footprint" "A_HDJ_Library:LED_0603_1608Metric"
 			(at 415.29 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -23451,7 +23484,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "WPN4020H2R2MT 2.2UH 20% 额定电流4.3A 顺络"
+		(property "DF_Comment" "贴片LED红色0603(0603)"
 			(at 415.29 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -23462,7 +23495,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" ""
+		(property "SCH_Show_Footprint" "LED0603"
 			(at 415.29 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -23521,7 +23554,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Jumper_3_Bridged12"
+		(property "Value" "200485-0710"
 			(at 408.178 323.8499 90)
 			(hide yes)
 			(show_name no)
@@ -23533,7 +23566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "200485-0710:2004850710"
 			(at 406.4 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -23544,7 +23577,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/2004850710_sd.pdf"
 			(at 406.4 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -23555,7 +23588,7 @@
 				)
 			)
 		)
-		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+		(property "Description" "FFC & FPC Connectors .50mm Easy-On One TouchST 10Ckt GND"
 			(at 406.4 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -23566,7 +23599,62 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2.54黑色单排排针-3P"
+		(property "DF_Comment" ""
+			(at 406.4 322.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "5.7"
+			(at 406.4 322.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 406.4 322.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "200485-0710"
+			(at 406.4 322.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "538-200485-0710"
+			(at 406.4 322.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/200485-0710?qs=81r%252BiQLm7BTVhoZMpMfD8A%3D%3D"
 			(at 406.4 322.58 90)
 			(hide yes)
 			(show_name no)
@@ -23773,7 +23861,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/10V"
+		(property "Value" "4.7uF"
 			(at 440.69 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23975,7 +24063,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0402ESDA-05N"
+		(property "Value" "Barrel_Jack_Switch"
 			(at 236.22 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23986,7 +24074,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:DC_Jack_DC007B_30V_10A"
 			(at 233.68 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -23997,7 +24085,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+		(property "Datasheet" ""
 			(at 233.68 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -24019,7 +24107,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/19360929.html"
 			(at 233.68 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -24030,7 +24118,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "5.0V双向静电保护管_0402ESDA-05N"
+		(property "DF_Comment" "DC2.5电源母座_12V/10A_XDJK-060B-055"
 			(at 233.68 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -24041,7 +24129,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "D0402"
+		(property "SCH_Show_Footprint" ""
 			(at 233.68 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -24257,7 +24345,7 @@
 				)
 			)
 		)
-		(property "Value" "100K/1%"
+		(property "Value" "75K/1%"
 			(at 356.87 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24267,7 +24355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 363.728 213.36 90)
 			(hide yes)
 			(show_name no)
@@ -24311,7 +24399,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-100K-1%"
+		(property "DF_Comment" "贴片电阻0402-75K-1%"
 			(at 361.95 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -24458,7 +24546,7 @@
 				)
 			)
 		)
-		(property "Value" "100K/1%"
+		(property "Value" "75K/1%"
 			(at 386.08 323.342 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24468,7 +24556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 381.762 323.85 90)
 			(hide yes)
 			(show_name no)
@@ -24512,7 +24600,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-100K-1%"
+		(property "DF_Comment" "贴片电阻0402-75K-1%"
 			(at 383.54 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -24716,7 +24804,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAJ26CA"
+		(property "Value" "WAFER-MX1.25-10PCB"
 			(at 220.98 337.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24727,7 +24815,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_DFRobot:D_SMA"
+		(property "Footprint" "A_DFRobot:MX1.25-10P-SMD"
 			(at 218.44 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -24738,7 +24826,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/dbc72d81c249fe51b6ab42300e8e06d0/SMAJ_ser.pdf"
+		(property "Datasheet" ""
 			(at 218.44 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -24749,7 +24837,7 @@
 				)
 			)
 		)
-		(property "Description" "SMA Bidirectional TVS Diode, 24V, 400W, Alternate KiCAD Library"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 218.44 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -24760,8 +24848,19 @@
 				)
 			)
 		)
-		(property "DF_Comment" "双向TVS管-SMAJ26CA-SMA"
+		(property "DF_Comment" "WAFER-MX1.25-10PCB"
 			(at 209.55 349.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" "https://item.szlcsc.com/3561406.html"
+			(at 218.44 336.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24807,7 +24906,7 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "1M/1%"
 			(at 419.1 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24817,7 +24916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 425.958 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -24861,7 +24960,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
+		(property "DF_Comment" "贴片电阻0402-1M-1%"
 			(at 424.18 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -24930,7 +25029,7 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "1M/1%"
 			(at 247.65 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24940,7 +25039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 254.508 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -24984,7 +25083,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
+		(property "DF_Comment" "贴片电阻0402-1M-1%"
 			(at 252.73 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -25055,7 +25154,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_R"
+		(property "Value" "LED_G"
 			(at 365.76 246.6974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25099,7 +25198,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片LED红色0603(0603)"
+		(property "DF_Comment" "贴片LED绿色0603(1.8~2.4V,567~576nm)黄绿普亮"
 			(at 361.95 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -25168,7 +25267,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF/50V"
+		(property "Value" "SMAJ26CA"
 			(at 362.966 139.446 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25178,7 +25277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:C_0603"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 360.3752 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -25189,7 +25288,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.tme.eu/Document/dbc72d81c249fe51b6ab42300e8e06d0/SMAJ_ser.pdf"
 			(at 359.41 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -25200,7 +25299,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMA Bidirectional TVS Diode, 24V, 400W, Alternate KiCAD Library"
 			(at 359.41 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -25222,7 +25321,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0603-2.2uF-50V-X5R"
+		(property "DF_Comment" "双向TVS管-SMAJ26CA-SMA"
 			(at 359.41 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -25326,7 +25425,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_G"
+		(property "Value" "NCE30P28Q"
 			(at 374.65 109.5375 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25337,7 +25436,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:LED_0603_1608Metric"
+		(property "Footprint" "A_HDJ_Library:MOSFET_PDFN8_3.3x3.3"
 			(at 370.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -25370,7 +25469,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片LED红色0603(0603)"
+		(property "DF_Comment" "PMOS管NCE30P28Q-DFN3.3X3.3-8L"
 			(at 370.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -25381,7 +25480,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "LED0603"
+		(property "SCH_Show_Footprint" ""
 			(at 370.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -25440,7 +25539,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "AO3407"
 			(at 374.65 336.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25464,7 +25563,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" ""
 			(at 381 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -25476,7 +25575,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
 			(at 381 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -25498,7 +25597,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2N7002-N沟道MOS管-SOT-23[备选型号:JMTL2N7002K]"
+		(property "DF_Comment" "PMOS管AO3407-SOT23-3"
 			(at 381 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -25549,7 +25648,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAJ26CA"
+		(property "Value" "WAFER-MX1.25-10PCB"
 			(at 220.98 170.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25560,7 +25659,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_DFRobot:D_SMA"
+		(property "Footprint" "A_DFRobot:MX1.25-10P-SMD"
 			(at 218.44 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -25571,7 +25670,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/dbc72d81c249fe51b6ab42300e8e06d0/SMAJ_ser.pdf"
+		(property "Datasheet" ""
 			(at 218.44 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -25582,7 +25681,7 @@
 				)
 			)
 		)
-		(property "Description" "SMA Bidirectional TVS Diode, 24V, 400W, Alternate KiCAD Library"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 218.44 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -25593,8 +25692,19 @@
 				)
 			)
 		)
-		(property "DF_Comment" "双向TVS管-SMAJ26CA-SMA"
+		(property "DF_Comment" "WAFER-MX1.25-10PCB"
 			(at 209.55 181.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" "https://item.szlcsc.com/3561406.html"
+			(at 218.44 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25642,7 +25752,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_G"
+		(property "Value" "MountingHole_M2.0"
 			(at 411.48 249.2375 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25653,7 +25763,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:LED_0603_1608Metric"
+		(property "Footprint" "A_HDJ_Library:MountingHole_2.75mm_M2_4.4mm_Pad_TopOnly"
 			(at 407.67 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -25686,7 +25796,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片LED绿色0603(1.8~2.4V,567~576nm)黄绿普亮"
+		(property "DF_Comment" "贴片螺母柱M2XC4X2.5+C2.7X1.5（无铅铜）"
 			(at 407.67 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -25697,7 +25807,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "LED0603"
+		(property "SCH_Show_Footprint" ""
 			(at 407.67 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -25710,6 +25820,17 @@
 		)
 		(property "Field-1" ""
 			(at 407.67 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" "https://item.taobao.com/item.htm?abbucket=8&id=655855111684&ns=1&skuId=4725777108077&spm=a21n57.1.0.0.5263523chYMn0X"
+			(at 407.67 246.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25755,7 +25876,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/10V"
+		(property "Value" "4.7uF"
 			(at 445.77 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25878,7 +25999,7 @@
 				)
 			)
 		)
-		(property "Value" "21.5K/1%"
+		(property "Value" "0R/1%"
 			(at 419.1 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25888,7 +26009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 425.958 205.74 90)
 			(hide yes)
 			(show_name no)
@@ -25932,7 +26053,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-21.5K-1%"
+		(property "DF_Comment" "贴片电阻0402-0R-1%"
 			(at 424.18 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -26003,7 +26124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1K/1%"
 			(at 378.714 317.754 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26014,7 +26135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:D_SOD-323"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 380.365 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -26025,7 +26146,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+		(property "Datasheet" ""
 			(at 375.92 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -26058,7 +26179,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "二极管-1N5819W-SOD323备选型号:B5819WS、JSPD140A"
+		(property "DF_Comment" "贴片电阻0402-1K-1%"
 			(at 375.92 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -26184,7 +26305,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/16V"
+		(property "Value" "10uF/10V"
 			(at 406.4 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26238,7 +26359,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-100nF-16V-X7R(0402)"
+		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
 			(at 407.67 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -26249,7 +26370,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 407.67 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -26307,7 +26428,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2K/1%"
+		(property "Value" "21.5K/1%"
 			(at 247.65 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26317,7 +26438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 254.508 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -26361,7 +26482,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-2.2K-1%"
+		(property "DF_Comment" "贴片电阻0402-21.5K-1%"
 			(at 252.73 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -26745,7 +26866,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "AO3407"
 			(at 353.06 259.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26769,7 +26890,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" ""
 			(at 359.41 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -26781,7 +26902,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
 			(at 359.41 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -26803,7 +26924,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2N7002-N沟道MOS管-SOT-23[备选型号:JMTL2N7002K]"
+		(property "DF_Comment" "PMOS管AO3407-SOT23-3"
 			(at 359.41 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -27134,7 +27255,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/25V"
+		(property "Value" "D"
 			(at 349.25 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27144,7 +27265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
 			(at 351.4852 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -27166,7 +27287,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 350.52 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -27188,7 +27309,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0805-22uF-25V-X5R"
+		(property "DF_Comment" ""
 			(at 350.52 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -27199,7 +27320,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C603"
+		(property "SCH_Show_Footprint" ""
 			(at 350.52 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -27212,6 +27333,28 @@
 		)
 		(property "Field-1" ""
 			(at 350.52 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 350.52 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 350.52 191.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27257,7 +27400,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/16V"
+		(property "Value" "1uF"
 			(at 287.02 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27267,7 +27410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
 			(at 284.1752 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -27311,7 +27454,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-1uF-16V-X5R(0402)"
+		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
 			(at 283.21 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -27322,7 +27465,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "C603"
 			(at 283.21 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -27380,7 +27523,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/25V"
+		(property "Value" "D"
 			(at 356.87 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27390,7 +27533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
 			(at 354.6348 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -27412,7 +27555,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 355.6 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -27434,7 +27577,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0805-22uF-25V-X5R"
+		(property "DF_Comment" ""
 			(at 355.6 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -27445,7 +27588,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C603"
+		(property "SCH_Show_Footprint" ""
 			(at 355.6 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -27458,6 +27601,28 @@
 		)
 		(property "Field-1" ""
 			(at 355.6 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 355.6 172.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 355.6 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27581,7 +27746,7 @@
 				)
 			)
 		)
-		(property "Value" "56K/1%"
+		(property "Value" "100R/1%"
 			(at 283.464 248.666 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27591,7 +27756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 283.21 253.238 90)
 			(hide yes)
 			(show_name no)
@@ -27635,7 +27800,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-56K-1%(0402)"
+		(property "DF_Comment" "贴片电阻0402-100R-1%"
 			(at 283.21 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -27704,7 +27869,7 @@
 				)
 			)
 		)
-		(property "Value" "SS54"
+		(property "Value" "1N5819WS"
 			(at 245.11 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27714,7 +27879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 250.19 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -27725,7 +27890,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 			(at 250.19 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -27747,7 +27912,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "二极管-SS54-SMA(SMA)"
+		(property "DF_Comment" "二极管-1N5819W-SOD323备选型号:B5819WS、JSPD140A"
 			(at 250.19 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -27758,7 +27923,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "SMA"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 250.19 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -27816,7 +27981,7 @@
 				)
 			)
 		)
-		(property "Value" "100K/1%"
+		(property "Value" "75K/1%"
 			(at 316.23 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27826,7 +27991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 323.088 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -27870,7 +28035,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-100K-1%"
+		(property "DF_Comment" "贴片电阻0402-75K-1%"
 			(at 321.31 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -27941,7 +28106,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R/1%"
+		(property "Value" "100K/1%"
 			(at 192.786 346.964 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27952,7 +28117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 195.58 344.678 90)
 			(hide yes)
 			(show_name no)
@@ -27996,7 +28161,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-0R-1%"
+		(property "DF_Comment" "贴片电阻0402-100K-1%"
 			(at 195.58 342.9 0)
 			(hide yes)
 			(show_name no)
@@ -28066,7 +28231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R/1%"
+		(property "Value" "4.7K/1%"
 			(at 413.258 296.672 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28077,7 +28242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 410.21 301.498 90)
 			(hide yes)
 			(show_name no)
@@ -28121,7 +28286,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-100R-1%"
+		(property "DF_Comment" "贴片电阻0402-4.7K-1%"
 			(at 410.21 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -28395,7 +28560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "AO3407"
 			(at 312.42 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28419,7 +28584,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" ""
 			(at 318.77 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -28431,7 +28596,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
 			(at 318.77 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -28453,7 +28618,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2N7002-N沟道MOS管-SOT-23[备选型号:JMTL2N7002K]"
+		(property "DF_Comment" "PMOS管AO3407-SOT23-3"
 			(at 318.77 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -28525,7 +28690,7 @@
 				)
 			)
 		)
-		(property "Value" "1K/1%"
+		(property "Value" "2.2K/1%"
 			(at 388.62 271.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28535,7 +28700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 388.62 276.098 90)
 			(hide yes)
 			(show_name no)
@@ -28579,7 +28744,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-1K-1%"
+		(property "DF_Comment" "贴片电阻0402-2.2K-1%"
 			(at 388.62 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -28648,7 +28813,7 @@
 				)
 			)
 		)
-		(property "Value" "SS54"
+		(property "Value" "1N5819WS"
 			(at 245.11 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28658,7 +28823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 250.19 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -28669,7 +28834,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 			(at 250.19 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -28691,7 +28856,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "二极管-SS54-SMA(SMA)"
+		(property "DF_Comment" "二极管-1N5819W-SOD323备选型号:B5819WS、JSPD140A"
 			(at 250.19 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -28702,7 +28867,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "SMA"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 250.19 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -28760,7 +28925,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/10V"
+		(property "Value" "4.7uF"
 			(at 455.93 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28884,7 +29049,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0402ESDA-05N"
+		(property "Value" "Barrel_Jack_Switch"
 			(at 204.47 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28895,7 +29060,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:DC_Jack_DC007B_30V_10A"
 			(at 201.93 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -28906,7 +29071,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+		(property "Datasheet" ""
 			(at 201.93 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -28928,7 +29093,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/19360929.html"
 			(at 201.93 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -28939,7 +29104,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "5.0V双向静电保护管_0402ESDA-05N"
+		(property "DF_Comment" "DC2.5电源母座_12V/10A_XDJK-060B-055"
 			(at 201.93 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -28950,7 +29115,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "D0402"
+		(property "SCH_Show_Footprint" ""
 			(at 201.93 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -29008,7 +29173,7 @@
 				)
 			)
 		)
-		(property "Value" "1K/1%"
+		(property "Value" "2.2K/1%"
 			(at 252.73 248.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29018,7 +29183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 246.38 251.968 90)
 			(hide yes)
 			(show_name no)
@@ -29062,7 +29227,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-1K-1%"
+		(property "DF_Comment" "贴片电阻0402-2.2K-1%"
 			(at 246.38 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -29289,7 +29454,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uH/4.3A"
+		(property "Value" "LED_R"
 			(at 415.29 199.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29299,7 +29464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:L_Sunlord_SWPA4020S"
+		(property "Footprint" "A_HDJ_Library:LED_0603_1608Metric"
 			(at 415.29 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -29343,7 +29508,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "WPN4020H2R2MT 2.2UH 20% 额定电流4.3A 顺络"
+		(property "DF_Comment" "贴片LED红色0603(0603)"
 			(at 415.29 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -29354,7 +29519,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" ""
+		(property "SCH_Show_Footprint" "LED0603"
 			(at 415.29 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -29490,7 +29655,7 @@
 				)
 			)
 		)
-		(property "Value" "21.5K/1%"
+		(property "Value" "0R/1%"
 			(at 271.78 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29500,7 +29665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 273.05 121.412 90)
 			(hide yes)
 			(show_name no)
@@ -29544,7 +29709,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-21.5K-1%"
+		(property "DF_Comment" "贴片电阻0402-0R-1%"
 			(at 273.05 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -29691,7 +29856,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/10V"
+		(property "Value" "4.7uF"
 			(at 440.69 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29971,7 +30136,7 @@
 				)
 			)
 		)
-		(property "Value" "SS54"
+		(property "Value" "1N5819WS"
 			(at 245.11 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29981,7 +30146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 250.19 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -29992,7 +30157,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 			(at 250.19 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -30014,7 +30179,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "二极管-SS54-SMA(SMA)"
+		(property "DF_Comment" "二极管-1N5819W-SOD323备选型号:B5819WS、JSPD140A"
 			(at 250.19 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -30025,7 +30190,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "SMA"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 250.19 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -30083,7 +30248,7 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "1M/1%"
 			(at 260.35 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30093,7 +30258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 267.208 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -30137,7 +30302,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
+		(property "DF_Comment" "贴片电阻0402-1M-1%"
 			(at 265.43 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -30207,7 +30372,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R/1%"
+		(property "Value" "4.7K/1%"
 			(at 430.276 311.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30218,7 +30383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 426.466 310.642 90)
 			(hide yes)
 			(show_name no)
@@ -30262,7 +30427,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-100R-1%"
+		(property "DF_Comment" "贴片电阻0402-4.7K-1%"
 			(at 426.466 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -30332,7 +30497,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0402ESDA-05N"
+		(property "Value" "Barrel_Jack_Switch"
 			(at 441.706 313.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30343,7 +30508,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:DC_Jack_DC007B_30V_10A"
 			(at 437.896 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -30354,7 +30519,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+		(property "Datasheet" ""
 			(at 437.896 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -30376,7 +30541,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/19360929.html"
 			(at 437.896 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -30387,7 +30552,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "5.0V双向静电保护管_0402ESDA-05N"
+		(property "DF_Comment" "DC2.5电源母座_12V/10A_XDJK-060B-055"
 			(at 437.896 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -30398,7 +30563,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "D0402"
+		(property "SCH_Show_Footprint" ""
 			(at 437.896 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -30457,7 +30622,7 @@
 				)
 			)
 		)
-		(property "Value" "SY8253ADC"
+		(property "Value" "USB_A_Stacked"
 			(at 392.43 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30467,7 +30632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:TSOT-23-6"
+		(property "Footprint" "A_HDJ_Library:USB_A_CUI_UJ2-ADH-TH_Horizontal_Stacked"
 			(at 393.065 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -30480,7 +30645,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180625/C93736_E75EC6FD4320D65590D2D5BF0D8B8959.pdf"
+		(property "Datasheet" ""
 			(at 389.89 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -30502,7 +30667,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/94934.html"
+		(property "Buy_Link" ""
 			(at 392.43 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -30513,7 +30678,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "DCDC同步降压芯片_SY8253ADC_TSOT23-6"
+		(property "DF_Comment" "USB2.0-A型双层白胶母座"
 			(at 392.43 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -30594,7 +30759,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/16V"
+		(property "Value" "10uF/10V"
 			(at 450.85 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30648,7 +30813,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-100nF-16V-X7R(0402)"
+		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
 			(at 449.58 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -30659,7 +30824,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 449.58 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -30717,7 +30882,7 @@
 				)
 			)
 		)
-		(property "Value" "21.5K/1%"
+		(property "Value" "0R/1%"
 			(at 273.05 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30727,7 +30892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 279.908 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -30771,7 +30936,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-21.5K-1%"
+		(property "DF_Comment" "贴片电阻0402-0R-1%"
 			(at 278.13 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -30842,7 +31007,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Jumper_3_Bridged12"
+		(property "Value" "2004850740"
 			(at 330.2 208.28 90)
 			(hide yes)
 			(show_name no)
@@ -30854,7 +31019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "200485-0740:CON_2004850740"
 			(at 332.74 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -30865,7 +31030,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2004850740?display=pdf"
 			(at 332.74 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -30887,7 +31052,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2.54黑色单排排针-3P"
+		(property "DF_Comment" ""
 			(at 332.74 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -30948,7 +31113,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/16V"
+		(property "Value" "1uF"
 			(at 480.06 317.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30958,7 +31123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
 			(at 486.1052 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -31002,7 +31167,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-1uF-16V-X5R(0402)"
+		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
 			(at 485.14 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -31013,7 +31178,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "C603"
 			(at 485.14 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -31072,7 +31237,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "6V/2A"
 			(at 440.944 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31082,7 +31247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 434.594 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -31115,7 +31280,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2.54黑色3x2P排针"
+		(property "DF_Comment" "0805贴片自恢复保险丝2A-6V_BSMD0805L-200"
 			(at 434.594 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -31149,6 +31314,28 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 434.594 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" "https://item.szlcsc.com/947787.html"
+			(at 434.594 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "R0805"
 			(at 434.594 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -31208,7 +31395,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R/1%"
+		(property "Value" "100K/1%"
 			(at 192.786 336.296 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31219,7 +31406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 195.58 338.582 90)
 			(hide yes)
 			(show_name no)
@@ -31263,7 +31450,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-0R-1%"
+		(property "DF_Comment" "贴片电阻0402-100K-1%"
 			(at 195.58 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -31332,7 +31519,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/25V"
+		(property "Value" "D"
 			(at 351.79 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31342,7 +31529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
 			(at 349.5548 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -31364,7 +31551,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 350.52 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -31386,7 +31573,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0805-22uF-25V-X5R"
+		(property "DF_Comment" ""
 			(at 350.52 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -31397,7 +31584,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C603"
+		(property "SCH_Show_Footprint" ""
 			(at 350.52 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -31410,6 +31597,28 @@
 		)
 		(property "Field-1" ""
 			(at 350.52 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 350.52 172.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 350.52 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31455,7 +31664,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF/10V"
+		(property "Value" "22uF/10V"
 			(at 366.014 338.836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31465,7 +31674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
 			(at 362.9152 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -31509,7 +31718,18 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
+		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
+			(at 361.95 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "C603"
 			(at 361.95 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -31556,7 +31776,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/25V"
+		(property "Value" "D"
 			(at 354.33 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31566,7 +31786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
 			(at 356.5652 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -31588,7 +31808,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 355.6 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -31610,7 +31830,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0805-22uF-25V-X5R"
+		(property "DF_Comment" ""
 			(at 355.6 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -31621,7 +31841,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C603"
+		(property "SCH_Show_Footprint" ""
 			(at 355.6 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -31634,6 +31854,28 @@
 		)
 		(property "Field-1" ""
 			(at 355.6 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 355.6 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 355.6 191.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31757,7 +31999,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K/1%"
+		(property "Value" "21.5K/1%"
 			(at 416.56 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31768,7 +32010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 409.448 238.76 90)
 			(hide yes)
 			(show_name no)
@@ -31812,7 +32054,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-2.2K-1%"
+		(property "DF_Comment" "贴片电阻0402-21.5K-1%"
 			(at 407.67 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -31882,7 +32124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K/1%"
+		(property "Value" "21.5K/1%"
 			(at 370.84 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31893,7 +32135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 363.728 236.22 90)
 			(hide yes)
 			(show_name no)
@@ -31937,7 +32179,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-2.2K-1%"
+		(property "DF_Comment" "贴片电阻0402-21.5K-1%"
 			(at 361.95 236.22 0)
 			(hide yes)
 			(show_name no)

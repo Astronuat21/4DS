@@ -10302,7 +10302,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LattePanda_Module_Gen1"
+		(property "Value" "ULC0524P"
 			(at 313.3441 327.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10313,7 +10313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:DDR4_SODIMM_260P_8.0H_STD"
+		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
 			(at 311.15 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10324,7 +10324,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf"
 			(at 311.15 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10335,7 +10335,7 @@
 				)
 			)
 		)
-		(property "Description" "Intel Processor N100 up to 3.4 GHz quad core, 8GB RAM, 64GB eMMC, SoM computer"
+		(property "Description" ""
 			(at 311.15 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10346,7 +10346,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/5812308.html"
+		(property "Buy_Link" ""
 			(at 311.15 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10357,7 +10357,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "连接器_DDR4-SODIMM-260P-8H_TE_2309411-1"
+		(property "DF_Comment" "ESD静电保护IC-BV-ULC0524P-DFN2510-10L"
 			(at 311.15 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -11844,7 +11844,7 @@
 				)
 			)
 		)
-		(property "Value" "1K/1%"
+		(property "Value" "2.2K/1%"
 			(at 337.82 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11854,7 +11854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 339.09 55.118 90)
 			(hide yes)
 			(show_name no)
@@ -11898,7 +11898,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-1K-1%"
+		(property "DF_Comment" "贴片电阻0402-2.2K-1%"
 			(at 339.09 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13196,7 +13196,7 @@
 				)
 			)
 		)
-		(property "Value" "100K/1%"
+		(property "Value" "75K/1%"
 			(at 255.778 287.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13206,7 +13206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 255.27 282.702 90)
 			(hide yes)
 			(show_name no)
@@ -13250,7 +13250,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-100K-1%"
+		(property "DF_Comment" "贴片电阻0402-75K-1%"
 			(at 255.27 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -13442,7 +13442,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "2.54黑色单排排针-3P"
+		(property "DF_Comment" "2.54蓝色单排排针-3P"
 			(at 223.52 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -13504,7 +13504,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery_Cell"
+		(property "Value" "220nF/16V"
 			(at 354.33 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13515,7 +13515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Battery_Holder_CR1220_S8411-45R"
+		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
 			(at 347.726 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -13548,7 +13548,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/1049689.html"
+		(property "Buy_Link" "https://item.szlcsc.com/137804.html"
 			(at 349.25 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13559,7 +13559,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "CR1220电池座贴片塑料"
+		(property "DF_Comment" "贴片电容0402-220nF-16V-X7R"
 			(at 349.25 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13570,7 +13570,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" ""
+		(property "SCH_Show_Footprint" "C0402"
 			(at 349.25 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13630,7 +13630,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "Bus_M.2_Socket_M"
 			(at 416.56 299.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13641,7 +13641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:MountingHole_3mm_M2_Pad_TopOnly"
+		(property "Footprint" "A_HDJ_Library:PCIe_M.2_Connectors_P=0.5mm_H=4.2mm_KeyM"
 			(at 414.02 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -13652,7 +13652,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=155"
 			(at 414.02 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -13674,7 +13674,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片螺母柱M2XC4X5.5+C3X1.5（无铅铜）"
+		(property "DF_Comment" "M.2连接器KEY-M_H4.2mm-67P_APCI0107-P001A"
 			(at 414.02 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -13696,7 +13696,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.taobao.com/item.htm?abbucket=8&id=655855111684&ns=1&skuId=4725777108077&spm=a21n57.1.0.0.5263523chYMn0X"
+		(property "Buy_Link" "https://item.szlcsc.com/8568582.html"
 			(at 414.02 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -13820,7 +13820,7 @@
 				)
 			)
 		)
-		(property "Value" "BM14B-NSHSS-TBT_LF__SN_"
+		(property "Value" "22uF/25V"
 			(at 454.66 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13830,7 +13830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BM14BNSHSSTBTLFSN"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 445.77 104.47 0)
 			(hide yes)
 			(show_name no)
@@ -13842,7 +13842,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eNSH.pdf"
+		(property "Datasheet" ""
 			(at 445.77 4.47 0)
 			(hide yes)
 			(show_name no)
@@ -13854,7 +13854,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Connector Header Surface Mount 14 position 0.039\" (1.00mm), 1A, 50V, -25C ~ 85C"
+		(property "Description" ""
 			(at 467.36 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -13865,7 +13865,7 @@
 				)
 			)
 		)
-		(property "Height" "6"
+		(property "Height" ""
 			(at 445.77 -195.53 0)
 			(hide yes)
 			(show_name no)
@@ -13901,7 +13901,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+		(property "Manufacturer_Name" ""
 			(at 445.77 -495.53 0)
 			(hide yes)
 			(show_name no)
@@ -13913,7 +13913,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BM14B-NSHSS-TBT(LF)(SN)"
+		(property "Manufacturer_Part_Number" ""
 			(at 445.77 -595.53 0)
 			(hide yes)
 			(show_name no)
@@ -13923,6 +13923,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "DF_Comment" "贴片电容0805-22uF-25V-X5R"
+			(at 467.36 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "C603"
+			(at 467.36 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -14542,7 +14564,7 @@
 				)
 			)
 		)
-		(property "Value" "BM14B-NSHSS-TBT_LF__SN_"
+		(property "Value" "22uF/25V"
 			(at 454.66 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14552,7 +14574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BM14BNSHSSTBTLFSN"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 445.77 58.75 0)
 			(hide yes)
 			(show_name no)
@@ -14564,7 +14586,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eNSH.pdf"
+		(property "Datasheet" ""
 			(at 445.77 -41.25 0)
 			(hide yes)
 			(show_name no)
@@ -14576,7 +14598,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Connector Header Surface Mount 14 position 0.039\" (1.00mm), 1A, 50V, -25C ~ 85C"
+		(property "Description" ""
 			(at 467.36 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -14587,7 +14609,7 @@
 				)
 			)
 		)
-		(property "Height" "6"
+		(property "Height" ""
 			(at 445.77 -241.25 0)
 			(hide yes)
 			(show_name no)
@@ -14623,7 +14645,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+		(property "Manufacturer_Name" ""
 			(at 445.77 -541.25 0)
 			(hide yes)
 			(show_name no)
@@ -14635,7 +14657,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BM14B-NSHSS-TBT(LF)(SN)"
+		(property "Manufacturer_Part_Number" ""
 			(at 445.77 -641.25 0)
 			(hide yes)
 			(show_name no)
@@ -14645,6 +14667,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "DF_Comment" "贴片电容0805-22uF-25V-X5R"
+			(at 467.36 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "C603"
+			(at 467.36 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -14804,7 +14848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "1M/1%"
 			(at 380.238 260.858 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14815,7 +14859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 376.936 258.318 90)
 			(hide yes)
 			(show_name no)
@@ -14859,7 +14903,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
+		(property "DF_Comment" "贴片电阻0402-1M-1%"
 			(at 376.936 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -14930,7 +14974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "Bus_M.2_Socket_M"
 			(at 441.96 299.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14941,7 +14985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:MountingHole_3mm_M2_Pad_TopOnly"
+		(property "Footprint" "A_HDJ_Library:PCIe_M.2_Connectors_P=0.5mm_H=4.2mm_KeyM"
 			(at 439.42 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -14952,7 +14996,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=155"
 			(at 439.42 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -14974,7 +15018,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片螺母柱M2XC4X5.5+C3X1.5（无铅铜）"
+		(property "DF_Comment" "M.2连接器KEY-M_H4.2mm-67P_APCI0107-P001A"
 			(at 439.42 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -14996,7 +15040,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.taobao.com/item.htm?abbucket=8&id=655855111684&ns=1&skuId=4725777108077&spm=a21n57.1.0.0.5263523chYMn0X"
+		(property "Buy_Link" "https://item.szlcsc.com/8568582.html"
 			(at 439.42 299.72 0)
 			(hide yes)
 			(show_name no)

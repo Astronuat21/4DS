@@ -5401,7 +5401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R/1%"
+		(property "Value" "100K/1%"
 			(at 195.58 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5412,7 +5412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 189.738 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -5456,7 +5456,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-0R-1%"
+		(property "DF_Comment" "贴片电阻0402-100K-1%"
 			(at 187.96 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5526,7 +5526,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "1M/1%"
 			(at 476.25 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5537,7 +5537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 473.202 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -5581,7 +5581,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
+		(property "DF_Comment" "贴片电阻0402-1M-1%"
 			(at 474.98 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5728,7 +5728,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF/10V"
+		(property "Value" "22uF/10V"
 			(at 441.96 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5738,7 +5738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
 			(at 431.8 97.4852 0)
 			(hide yes)
 			(show_name no)
@@ -5782,7 +5782,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
+		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
 			(at 435.61 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5793,7 +5793,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "C603"
 			(at 435.61 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5852,7 +5852,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K/1%"
+		(property "Value" "21.5K/1%"
 			(at 273.05 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5863,7 +5863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 265.938 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -5907,7 +5907,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-2.2K-1%"
+		(property "DF_Comment" "贴片电阻0402-21.5K-1%"
 			(at 264.16 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -5976,7 +5976,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/16V"
+		(property "Value" "10uF/10V"
 			(at 441.96 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6030,7 +6030,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-100nF-16V-X7R(0402)"
+		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
 			(at 435.61 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -6041,7 +6041,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 435.61 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -6100,7 +6100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF/16V"
+		(property "Value" "1uF/16V"
 			(at 167.64 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6144,7 +6144,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/137804.html"
+		(property "Buy_Link" ""
 			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6155,7 +6155,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-220nF-16V-X7R"
+		(property "DF_Comment" "贴片电容0402-1uF-16V-X5R(0402)"
 			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6386,7 +6386,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF/10V"
+		(property "Value" "22uF/10V"
 			(at 238.76 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6396,7 +6396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
 			(at 228.6 108.9152 0)
 			(hide yes)
 			(show_name no)
@@ -6440,7 +6440,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
+		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
 			(at 232.41 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6451,7 +6451,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "C603"
 			(at 232.41 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6759,7 +6759,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片LED蓝色0603(0603)"
+		(property "DF_Comment" "贴片LED红色0603(0603)"
 			(at 264.16 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -6830,7 +6830,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bus_M.2_Socket_E"
+		(property "Value" "Conn_01x03_Pin"
 			(at 431.4541 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6841,7 +6841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:PCIe_M.2_Connectors_P=0.5mm_H=4.2mm_KeyE"
+		(property "Footprint" "A_HDJ_Library:PinHeader_1x03_P2.54mm_Vertical"
 			(at 429.26 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6852,7 +6852,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=150"
+		(property "Datasheet" ""
 			(at 429.26 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6874,7 +6874,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/8568583.html"
+		(property "Buy_Link" ""
 			(at 429.26 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6885,7 +6885,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "M.2连接器KEY-E_H4.2mm-67P_APCI0108-P001A"
+		(property "DF_Comment" "2.54黑色单排排针-3P"
 			(at 429.26 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -7233,7 +7233,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/16V"
+		(property "Value" "10uF/10V"
 			(at 238.76 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7287,7 +7287,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-100nF-16V-X7R(0402)"
+		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
 			(at 232.41 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7298,7 +7298,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 232.41 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7570,7 +7570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R/1%"
+		(property "Value" "100K/1%"
 			(at 466.09 199.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7581,7 +7581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 469.9 199.898 90)
 			(hide yes)
 			(show_name no)
@@ -7625,7 +7625,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-0R-1%"
+		(property "DF_Comment" "贴片电阻0402-100K-1%"
 			(at 469.9 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -7774,7 +7774,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF/16V"
+		(property "Value" "1uF/16V"
 			(at 167.64 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7818,7 +7818,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/137804.html"
+		(property "Buy_Link" ""
 			(at 166.37 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7829,7 +7829,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-220nF-16V-X7R"
+		(property "DF_Comment" "贴片电容0402-1uF-16V-X5R(0402)"
 			(at 166.37 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7904,7 +7904,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF/10V"
+		(property "Value" "22uF/10V"
 			(at 441.96 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7914,7 +7914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
 			(at 431.8 110.1852 0)
 			(hide yes)
 			(show_name no)
@@ -7958,7 +7958,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
+		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
 			(at 435.61 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7969,7 +7969,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "C603"
 			(at 435.61 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8029,7 +8029,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_M2.0"
+		(property "Value" "Bus_M.2_Socket_E"
 			(at 320.04 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8040,7 +8040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:MountingHole_2.75mm_M2_4.4mm_Pad_TopOnly"
+		(property "Footprint" "A_HDJ_Library:PCIe_M.2_Connectors_P=0.5mm_H=4.2mm_KeyE"
 			(at 317.5 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8051,7 +8051,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=150"
 			(at 317.5 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8073,7 +8073,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片螺母柱M2XC4X2.5+C2.7X1.5（无铅铜）"
+		(property "DF_Comment" "M.2连接器KEY-E_H4.2mm-67P_APCI0108-P001A"
 			(at 317.5 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8084,7 +8084,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.taobao.com/item.htm?abbucket=8&id=655855111684&ns=1&skuId=4725777108077&spm=a21n57.1.0.0.5263523chYMn0X"
+		(property "Buy_Link" "https://item.szlcsc.com/8568583.html"
 			(at 317.5 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8140,7 +8140,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF/16V"
+		(property "Value" "1uF/16V"
 			(at 370.84 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8184,7 +8184,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/137804.html"
+		(property "Buy_Link" ""
 			(at 369.57 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8195,7 +8195,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-220nF-16V-X7R"
+		(property "DF_Comment" "贴片电容0402-1uF-16V-X5R(0402)"
 			(at 369.57 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8272,7 +8272,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_M2.0"
+		(property "Value" "Bus_M.2_Socket_E"
 			(at 293.37 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8283,7 +8283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:MountingHole_2.75mm_M2_4.4mm_Pad_TopOnly"
+		(property "Footprint" "A_HDJ_Library:PCIe_M.2_Connectors_P=0.5mm_H=4.2mm_KeyE"
 			(at 290.83 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8294,7 +8294,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=150"
 			(at 290.83 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8316,7 +8316,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片螺母柱M2XC4X2.5+C2.7X1.5（无铅铜）"
+		(property "DF_Comment" "M.2连接器KEY-E_H4.2mm-67P_APCI0108-P001A"
 			(at 290.83 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8327,7 +8327,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.taobao.com/item.htm?abbucket=8&id=655855111684&ns=1&skuId=4725777108077&spm=a21n57.1.0.0.5263523chYMn0X"
+		(property "Buy_Link" "https://item.szlcsc.com/8568583.html"
 			(at 290.83 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8462,7 +8462,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bus_M.2_Socket_M"
+		(property "Value" "Conn_01x03_Pin"
 			(at 228.2541 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8473,7 +8473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:PCIe_M.2_Connectors_P=0.5mm_H=4.2mm_KeyM"
+		(property "Footprint" "A_HDJ_Library:PinHeader_1x03_P2.54mm_Vertical"
 			(at 226.06 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8484,7 +8484,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=155"
+		(property "Datasheet" ""
 			(at 226.06 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8506,7 +8506,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/8568582.html"
+		(property "Buy_Link" ""
 			(at 226.06 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8517,7 +8517,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "M.2连接器KEY-M_H4.2mm-67P_APCI0107-P001A"
+		(property "DF_Comment" "2.54绿色单排排针-3P"
 			(at 226.06 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8787,7 +8787,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/16V"
+		(property "Value" "10uF/10V"
 			(at 238.76 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8841,7 +8841,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-100nF-16V-X7R(0402)"
+		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
 			(at 232.41 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8852,7 +8852,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 232.41 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8911,7 +8911,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R/1%"
+		(property "Value" "100K/1%"
 			(at 405.13 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8922,7 +8922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 399.288 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -8966,7 +8966,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-0R-1%"
+		(property "DF_Comment" "贴片电阻0402-100K-1%"
 			(at 397.51 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9036,7 +9036,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF/16V"
+		(property "Value" "1uF/16V"
 			(at 370.84 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9080,7 +9080,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/137804.html"
+		(property "Buy_Link" ""
 			(at 369.57 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9091,7 +9091,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-220nF-16V-X7R"
+		(property "DF_Comment" "贴片电容0402-1uF-16V-X5R(0402)"
 			(at 369.57 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9166,7 +9166,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF/10V"
+		(property "Value" "22uF/10V"
 			(at 238.76 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9176,7 +9176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
 			(at 228.6 96.2152 0)
 			(hide yes)
 			(show_name no)
@@ -9220,7 +9220,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
+		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
 			(at 232.41 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9231,7 +9231,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "C603"
 			(at 232.41 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9368,7 +9368,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R/1%"
+		(property "Value" "100K/1%"
 			(at 257.81 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9379,7 +9379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 261.62 198.628 90)
 			(hide yes)
 			(show_name no)
@@ -9423,7 +9423,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-0R-1%"
+		(property "DF_Comment" "贴片电阻0402-100K-1%"
 			(at 261.62 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -9571,7 +9571,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "1M/1%"
 			(at 469.9 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9582,7 +9582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 472.948 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -9626,7 +9626,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
+		(property "DF_Comment" "贴片电阻0402-1M-1%"
 			(at 471.17 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9773,7 +9773,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/16V"
+		(property "Value" "10uF/10V"
 			(at 441.96 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9827,7 +9827,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-100nF-16V-X7R(0402)"
+		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
 			(at 435.61 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9838,7 +9838,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 435.61 102.87 0)
 			(hide yes)
 			(show_name no)

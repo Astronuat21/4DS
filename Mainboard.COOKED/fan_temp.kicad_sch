@@ -2649,7 +2649,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R/1%"
+		(property "Value" "4.7K/1%"
 			(at 328.93 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2660,7 +2660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 332.74 169.418 90)
 			(hide yes)
 			(show_name no)
@@ -2704,7 +2704,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-100R-1%"
+		(property "DF_Comment" "贴片电阻0402-4.7K-1%"
 			(at 332.74 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -3377,7 +3377,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/16V"
+		(property "Value" "10uF/10V"
 			(at 346.71 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3431,7 +3431,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-100nF-16V-X7R(0402)"
+		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
 			(at 341.63 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -3442,7 +3442,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
+		(property "SCH_Show_Footprint" "-- mixed values --"
 			(at 341.63 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -4677,7 +4677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fan_4pin"
+		(property "Value" "LED_G"
 			(at 396.24 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4688,7 +4688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+		(property "Footprint" "A_HDJ_Library:LED_0603_1608Metric"
 			(at 391.16 164.846 0)
 			(hide yes)
 			(show_name no)
@@ -4699,7 +4699,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+		(property "Datasheet" ""
 			(at 391.16 164.846 0)
 			(hide yes)
 			(show_name no)
@@ -4721,7 +4721,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" "https://item.szlcsc.com/255571.html"
+		(property "Buy_Link" ""
 			(at 391.16 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -4732,7 +4732,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "PH2.0-4A直针插座(2.0-4P直)-DL"
+		(property "DF_Comment" "贴片LED蓝色0603(0603)"
 			(at 391.16 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -4743,7 +4743,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" ""
+		(property "SCH_Show_Footprint" "LED0603"
 			(at 391.16 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -5034,7 +5034,7 @@
 				)
 			)
 		)
-		(property "Value" "21.5K/1%"
+		(property "Value" "0R/1%"
 			(at 325.12 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5044,7 +5044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 332.74 160.782 90)
 			(hide yes)
 			(show_name no)
@@ -5088,7 +5088,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-21.5K-1%"
+		(property "DF_Comment" "贴片电阻0402-0R-1%"
 			(at 332.74 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5662,7 +5662,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1K/1%"
 			(at 368.3 153.3525 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5673,7 +5673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:D_SOD-323"
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
 			(at 361.315 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -5684,7 +5684,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+		(property "Datasheet" ""
 			(at 365.76 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -5717,7 +5717,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "二极管-1N5819W-SOD323备选型号:B5819WS、JSPD140A"
+		(property "DF_Comment" "贴片电阻0402-1K-1%"
 			(at 365.76 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -5728,7 +5728,7 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "SOD-323"
+		(property "SCH_Show_Footprint" ""
 			(at 365.76 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -5986,7 +5986,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K/1%"
+		(property "Value" "BSMD1206C-2100T"
 			(at 354.33 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5997,7 +5997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_DFRobot:R_0402"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 351.282 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -6019,7 +6019,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "32V/10A"
 			(at 353.06 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6030,7 +6030,7 @@
 				)
 			)
 		)
-		(property "Buy_Link" ""
+		(property "Buy_Link" "https://item.szlcsc.com/43118985.html"
 			(at 353.06 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6041,7 +6041,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-4.7K-1%"
+		(property "DF_Comment" "一次性保险丝_BSMD1206C-2100T_32V-10A"
 			(at 353.06 152.4 0)
 			(hide yes)
 			(show_name no)
