@@ -952,7 +952,7 @@
         "uuid": "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
       }
     ],
-    "used_designators": "#FLG13,#FLG20,R40-41,R96,R133-162,J19-20,D38-42,#PWR22-23,#PWR80,#PWR83,#PWR91,#PWR93,#PWR169,#PWR188,#PWR190,#PWR201-202,#PWR209-268,C96-106,Q19-22,U21-24,Y3,L3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
