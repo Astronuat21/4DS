@@ -11790,6 +11790,12 @@
 		(uuid "020a5fd4-b7d7-497c-9f39-98a6c8610ddc")
 	)
 	(junction
+		(at 544.83 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02a63dcb-1867-41c7-91bc-72cac0a1a674")
+	)
+	(junction
 		(at 342.9 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11832,7 +11838,7 @@
 		(uuid "0b0a220f-fd8f-4d10-9758-585cfe78a8b5")
 	)
 	(junction
-		(at 466.09 204.47)
+		(at 175.26 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ca495f6-8d51-486c-9f69-f159c9dd2120")
@@ -12180,7 +12186,7 @@
 		(uuid "67f69822-f45e-48d3-be7a-d66f62661b67")
 	)
 	(junction
-		(at 466.09 189.23)
+		(at 175.26 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68e4b570-ac0e-4411-b1b4-de0e044e5eb5")
@@ -12282,7 +12288,7 @@
 		(uuid "87c3241c-d2b1-4f37-acf5-ae78bcd06240")
 	)
 	(junction
-		(at 450.85 209.55)
+		(at 160.02 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a603ba2-a418-4d68-aaae-e4991543ef6a")
@@ -12354,6 +12360,12 @@
 		(uuid "945e4d9b-5d5d-4779-8837-f9d769f3481c")
 	)
 	(junction
+		(at 560.07 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9639c2ef-a090-4ca7-a7f8-85c5f36f4f5f")
+	)
+	(junction
 		(at 734.06 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12418,6 +12430,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad324058-e56f-485f-a33b-0c161486c8ab")
+	)
+	(junction
+		(at 560.07 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae698b5d-581a-4a4e-b07e-9dec695aa700")
 	)
 	(junction
 		(at 734.06 218.44)
@@ -12528,10 +12546,16 @@
 		(uuid "d64a4827-33fd-40c9-b5b5-6ea2d0f3ab7c")
 	)
 	(junction
-		(at 450.85 214.63)
+		(at 160.02 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6566374-c743-47bf-a46b-c23ab0a30e62")
+	)
+	(junction
+		(at 544.83 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7018808-4bc4-4641-89c4-21f2ab66848d")
 	)
 	(junction
 		(at 722.63 170.18)
@@ -13017,6 +13041,16 @@
 	)
 	(wire
 		(pts
+			(xy 544.83 233.68) (xy 544.83 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bf1c7b-c4a1-4205-b5ba-102fe4e0de1f")
+	)
+	(wire
+		(pts
 			(xy 572.77 318.77) (xy 584.2 318.77)
 		)
 		(stroke
@@ -13424,6 +13458,16 @@
 			(type default)
 		)
 		(uuid "19ee2ad9-8568-4d6e-a428-e24b38e3a25a")
+	)
+	(wire
+		(pts
+			(xy 542.29 238.76) (xy 544.83 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c166dfb-f364-40d9-97f7-c02d0e2127a7")
 	)
 	(wire
 		(pts
@@ -13977,7 +14021,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 214.63) (xy 450.85 209.55)
+			(xy 160.02 232.41) (xy 160.02 227.33)
 		)
 		(stroke
 			(width 0)
@@ -14367,6 +14411,16 @@
 	)
 	(wire
 		(pts
+			(xy 560.07 205.74) (xy 560.07 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fdd00d7-bf22-40a2-8a95-7ad63bf520f7")
+	)
+	(wire
+		(pts
 			(xy 354.33 226.06) (xy 354.33 228.6)
 		)
 		(stroke
@@ -14537,7 +14591,7 @@
 	)
 	(wire
 		(pts
-			(xy 466.09 204.47) (xy 466.09 214.63)
+			(xy 175.26 222.25) (xy 175.26 232.41)
 		)
 		(stroke
 			(width 0)
@@ -14644,6 +14698,16 @@
 			(type default)
 		)
 		(uuid "5f1ec48d-9380-4619-a592-b3eb9124788a")
+	)
+	(wire
+		(pts
+			(xy 544.83 228.6) (xy 544.83 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f3da137-dce4-456d-8a30-a0f4bc2fd75e")
 	)
 	(wire
 		(pts
@@ -14917,7 +14981,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 209.55) (xy 450.85 204.47)
+			(xy 160.02 227.33) (xy 160.02 222.25)
 		)
 		(stroke
 			(width 0)
@@ -14977,7 +15041,7 @@
 	)
 	(wire
 		(pts
-			(xy 466.09 186.69) (xy 466.09 189.23)
+			(xy 175.26 204.47) (xy 175.26 207.01)
 		)
 		(stroke
 			(width 0)
@@ -15237,7 +15301,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 204.47) (xy 454.66 204.47)
+			(xy 160.02 222.25) (xy 163.83 222.25)
 		)
 		(stroke
 			(width 0)
@@ -15547,7 +15611,7 @@
 	)
 	(wire
 		(pts
-			(xy 462.28 204.47) (xy 466.09 204.47)
+			(xy 171.45 222.25) (xy 175.26 222.25)
 		)
 		(stroke
 			(width 0)
@@ -15897,6 +15961,16 @@
 	)
 	(wire
 		(pts
+			(xy 544.83 223.52) (xy 548.64 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abfedd17-cfa4-4497-bfca-cc0f8feada82")
+	)
+	(wire
+		(pts
 			(xy 123.19 367.03) (xy 115.57 367.03)
 		)
 		(stroke
@@ -15944,6 +16018,16 @@
 			(type default)
 		)
 		(uuid "ae25b575-b9f9-45d4-a936-44ed0a0b59b8")
+	)
+	(wire
+		(pts
+			(xy 560.07 212.09) (xy 560.07 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae69c992-2cd6-4f06-ab80-a24534579a9e")
 	)
 	(wire
 		(pts
@@ -16077,6 +16161,16 @@
 	)
 	(wire
 		(pts
+			(xy 560.07 219.71) (xy 560.07 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71bbd02-42e4-4e0d-865d-c00023a6747e")
+	)
+	(wire
+		(pts
 			(xy 130.81 289.56) (xy 198.12 289.56)
 		)
 		(stroke
@@ -16197,6 +16291,16 @@
 	)
 	(wire
 		(pts
+			(xy 560.07 223.52) (xy 560.07 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b26606-4fef-49f9-ab72-cec15ad9c4dd")
+	)
+	(wire
+		(pts
 			(xy 722.63 162.56) (xy 722.63 165.1)
 		)
 		(stroke
@@ -16277,7 +16381,7 @@
 	)
 	(wire
 		(pts
-			(xy 448.31 219.71) (xy 450.85 219.71)
+			(xy 157.48 237.49) (xy 160.02 237.49)
 		)
 		(stroke
 			(width 0)
@@ -17097,13 +17201,23 @@
 	)
 	(wire
 		(pts
-			(xy 466.09 193.04) (xy 466.09 189.23)
+			(xy 175.26 210.82) (xy 175.26 207.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f498d621-a25f-4cd2-9a7d-56a1c72b1d3b")
+	)
+	(wire
+		(pts
+			(xy 556.26 223.52) (xy 560.07 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b864ab-2947-4400-a2c9-32112b810e51")
 	)
 	(wire
 		(pts
@@ -17207,7 +17321,7 @@
 	)
 	(wire
 		(pts
-			(xy 466.09 200.66) (xy 466.09 204.47)
+			(xy 175.26 218.44) (xy 175.26 222.25)
 		)
 		(stroke
 			(width 0)
@@ -17655,7 +17769,55 @@
 		)
 		(uuid "fc2c9a77-449a-4e10-afa1-f478abe99a00")
 	)
-	(global_label "LED-"
+	(global_label "LED_SCT+"
+		(shape input)
+		(at 215.9 254 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "149884b5-c300-44f9-8670-aea3fc85a5d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.3194 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LED_SCB-"
+		(shape input)
+		(at 567.69 236.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "198ec494-309a-48e3-8cce-d08efd58ef75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 580.4118 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LED_SCB-"
 		(shape input)
 		(at 595.63 226.06 0)
 		(fields_autoplaced yes)
@@ -17667,7 +17829,7 @@
 		)
 		(uuid "2520c7e9-91a4-417b-a29f-3f1eae88f1a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 603.6347 226.06 0)
+			(at 608.3518 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17679,9 +17841,9 @@
 			)
 		)
 	)
-	(global_label "LED+"
+	(global_label "LED_SCT-"
 		(shape input)
-		(at 215.9 251.46 0)
+		(at 182.88 234.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17689,9 +17851,9 @@
 			)
 			(justify left)
 		)
-		(uuid "4086aed7-123f-4b84-ba80-075d190d012a")
+		(uuid "5484fadd-1561-4c5c-a602-4abe8437e2ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.9047 251.46 0)
+			(at 195.2994 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17703,9 +17865,9 @@
 			)
 		)
 	)
-	(global_label "LED+"
+	(global_label "LED_SCT+"
 		(shape input)
-		(at 215.9 254 0)
+		(at 175.26 204.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17713,9 +17875,9 @@
 			)
 			(justify left)
 		)
-		(uuid "551d4362-809b-4fdb-8d9a-963e52e7a973")
+		(uuid "61f04312-2e10-429e-99fe-c6debbd32f92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.9047 254 0)
+			(at 187.6794 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17727,9 +17889,9 @@
 			)
 		)
 	)
-	(global_label "LED-"
+	(global_label "LED_SCB+"
 		(shape input)
-		(at 215.9 233.68 0)
+		(at 560.07 205.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17737,9 +17899,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5aa4d1e9-7755-45b6-b9fc-69a9766d87b0")
+		(uuid "6ab285a7-6e0a-43c7-b383-459c746e3dfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.9047 233.68 0)
+			(at 572.7918 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17751,9 +17913,9 @@
 			)
 		)
 	)
-	(global_label "LED-"
+	(global_label "LED_SCB+"
 		(shape input)
-		(at 595.63 228.6 0)
+		(at 595.63 248.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17761,9 +17923,9 @@
 			)
 			(justify left)
 		)
-		(uuid "7c854f19-a7b5-4f6d-85f9-8cfe338378fb")
+		(uuid "7d6d802b-92c6-4334-8964-b5f21e88d9b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 603.6347 228.6 0)
+			(at 608.3518 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17775,7 +17937,7 @@
 			)
 		)
 	)
-	(global_label "LED-"
+	(global_label "LED_SCT-"
 		(shape input)
 		(at 215.9 231.14 0)
 		(fields_autoplaced yes)
@@ -17787,7 +17949,7 @@
 		)
 		(uuid "8321aea8-adcf-4548-890d-40bbce87423b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.9047 231.14 0)
+			(at 228.3194 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17799,9 +17961,9 @@
 			)
 		)
 	)
-	(global_label "LED+"
+	(global_label "LED_SCT+"
 		(shape input)
-		(at 466.09 186.69 0)
+		(at 215.9 251.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17809,9 +17971,9 @@
 			)
 			(justify left)
 		)
-		(uuid "84c27041-a8cd-4e57-919b-46fe4ae26d57")
+		(uuid "a4868c10-4767-4ba3-9c23-8a45d4da78b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 474.0947 186.69 0)
+			(at 228.3194 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17823,31 +17985,7 @@
 			)
 		)
 	)
-	(global_label "LED+"
-		(shape input)
-		(at 595.63 248.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9544bd00-eb32-482a-9486-3daae9ad4c8c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 603.6347 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "LED+"
+	(global_label "LED_SCB+"
 		(shape input)
 		(at 595.63 246.38 0)
 		(fields_autoplaced yes)
@@ -17857,9 +17995,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9e873320-5364-4002-94e2-94d0ba2547f8")
+		(uuid "d97b4c6d-8f2d-47b8-8a75-951118a59f5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 603.6347 246.38 0)
+			(at 608.3518 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17871,9 +18009,9 @@
 			)
 		)
 	)
-	(global_label "LED-"
+	(global_label "LED_SCT-"
 		(shape input)
-		(at 473.71 217.17 0)
+		(at 215.9 233.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17881,9 +18019,33 @@
 			)
 			(justify left)
 		)
-		(uuid "a16e4746-cb43-43c3-a2ee-58cc9417307f")
+		(uuid "f8663d2e-4ffd-4536-9c9f-14e1780dfb14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 481.7147 217.17 0)
+			(at 228.3194 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LED_SCB-"
+		(shape input)
+		(at 595.63 228.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc02fe9c-7d3e-4597-95bb-2c1ba7d048d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 608.3518 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17974,7 +18136,7 @@
 	)
 	(hierarchical_label "SL_BRI"
 		(shape input)
-		(at 450.85 217.17 180)
+		(at 160.02 234.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18037,6 +18199,17 @@
 			(justify right)
 		)
 		(uuid "550dfba9-6ee6-4241-b67b-1c5e0bb2df37")
+	)
+	(hierarchical_label "SL_BRI"
+		(shape input)
+		(at 544.83 236.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d914472-8e1c-4ee0-b186-0057273d63d8")
 	)
 	(hierarchical_label "TCP0_TX2+"
 		(shape input)
@@ -19142,6 +19315,86 @@
 			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
 					(reference "R153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_5")
+		(lib_id "power:GND")
+		(at 552.45 208.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "071fdcec-526d-4e9e-8e26-c2ddd6254f3a")
+		(property "Reference" "#PWR0272"
+			(at 546.1 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 548.64 208.2799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 552.45 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 552.45 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 552.45 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "191f67bd-937d-4c09-9a82-570b0a4f6813")
+		)
+		(instances
+			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
+					(reference "#PWR0272")
 					(unit 1)
 				)
 			)
@@ -20654,7 +20907,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 462.28 189.23 90)
+		(at 171.45 207.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20664,7 +20917,7 @@
 		(dnp no)
 		(uuid "0fcae93c-126b-4bb9-ab97-0be11632a1c0")
 		(property "Reference" "C106"
-			(at 462.28 182.88 90)
+			(at 171.45 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20674,7 +20927,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 462.28 185.42 90)
+			(at 171.45 203.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20684,7 +20937,7 @@
 			)
 		)
 		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
-			(at 466.09 188.2648 0)
+			(at 175.26 206.0448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20695,7 +20948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 462.28 189.23 0)
+			(at 171.45 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20706,7 +20959,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 462.28 189.23 0)
+			(at 171.45 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20717,7 +20970,7 @@
 			)
 		)
 		(property "Buy_Link" ""
-			(at 462.28 189.23 0)
+			(at 171.45 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20728,7 +20981,7 @@
 			)
 		)
 		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
-			(at 462.28 189.23 0)
+			(at 171.45 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20739,7 +20992,7 @@
 			)
 		)
 		(property "SCH_Show_Footprint" "C603"
-			(at 462.28 189.23 0)
+			(at 171.45 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20750,7 +21003,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 462.28 189.23 0)
+			(at 171.45 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21141,7 +21394,7 @@
 	(symbol
 		(lib_name "GND_5")
 		(lib_id "power:GND")
-		(at 443.23 209.55 270)
+		(at 152.4 227.33 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21152,7 +21405,7 @@
 		(fields_autoplaced yes)
 		(uuid "13207cfe-f41c-4c94-a327-4cd6371f0ff4")
 		(property "Reference" "#PWR0264"
-			(at 436.88 209.55 0)
+			(at 146.05 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21163,7 +21416,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 439.42 209.5499 90)
+			(at 148.59 227.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21174,7 +21427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 443.23 209.55 0)
+			(at 152.4 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21185,7 +21438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 443.23 209.55 0)
+			(at 152.4 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21196,7 +21449,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 443.23 209.55 0)
+			(at 152.4 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21301,7 +21554,7 @@
 	(symbol
 		(lib_name "GND_5")
 		(lib_id "power:GND")
-		(at 458.47 189.23 270)
+		(at 167.64 207.01 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21312,7 +21565,7 @@
 		(fields_autoplaced yes)
 		(uuid "141b061a-8bf7-4459-8748-bee25ef26454")
 		(property "Reference" "#PWR0267"
-			(at 452.12 189.23 0)
+			(at 161.29 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21323,7 +21576,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 454.66 189.2299 90)
+			(at 163.83 207.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21334,7 +21587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 458.47 189.23 0)
+			(at 167.64 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21345,7 +21598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 458.47 189.23 0)
+			(at 167.64 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21356,7 +21609,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 458.47 189.23 0)
+			(at 167.64 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22190,7 +22443,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 469.9 217.17 90)
+		(at 179.07 234.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22200,7 +22453,7 @@
 		(dnp no)
 		(uuid "1c6f104d-ee36-4025-9732-088326618434")
 		(property "Reference" "R162"
-			(at 469.9 221.488 90)
+			(at 179.07 239.268 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22210,7 +22463,7 @@
 			)
 		)
 		(property "Value" "TPS61165DBV"
-			(at 469.9 219.456 90)
+			(at 179.07 237.236 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22220,7 +22473,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
-			(at 469.9 218.948 90)
+			(at 179.07 236.728 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22231,7 +22484,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps61165.pdf"
-			(at 469.9 217.17 0)
+			(at 179.07 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22242,7 +22495,7 @@
 			)
 		)
 		(property "Description" "High-Brightness, White LED Driver, 3V to 18V input voltage range, internal switch, constant current, up to 38V/1.2A output, SOT-23-6"
-			(at 469.9 217.17 0)
+			(at 179.07 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23322,7 +23575,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 466.09 196.85 270)
+		(at 175.26 214.63 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23333,7 +23586,7 @@
 		(fields_autoplaced yes)
 		(uuid "290e6028-d10c-41c6-99b4-f1747918f84d")
 		(property "Reference" "D42"
-			(at 468.63 195.5799 90)
+			(at 177.8 213.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23344,7 +23597,7 @@
 			)
 		)
 		(property "Value" "0.57Ohm"
-			(at 468.63 198.1199 90)
+			(at 177.8 215.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23355,7 +23608,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_01005_0402Metric"
-			(at 466.09 196.85 0)
+			(at 175.26 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23366,7 +23619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 466.09 196.85 0)
+			(at 175.26 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23377,7 +23630,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 466.09 196.85 0)
+			(at 175.26 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23388,7 +23641,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 466.09 196.85 0)
+			(at 175.26 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23399,7 +23652,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 466.09 196.85 0)
+			(at 175.26 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24213,6 +24466,86 @@
 			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
 					(reference "U23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 552.45 223.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c2878fd-221a-455c-bf5c-f9ddd60bc823")
+		(property "Reference" "L4"
+			(at 552.45 218.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "A915_Y-100M"
+			(at 552.45 220.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 552.45 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 552.45 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 552.45 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "879008c4-bb10-457f-ae9f-b70cb43a3424")
+		)
+		(pin "2"
+			(uuid "7a82fd1d-ce56-4087-8f5b-e15757e6f5a5")
+		)
+		(instances
+			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -25817,6 +26150,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 560.07 215.9 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40a60c3a-a5fc-44a1-ae5c-374b38f62ecf")
+		(property "Reference" "D43"
+			(at 562.61 214.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.57Ohm"
+			(at 562.61 217.1699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_01005_0402Metric"
+			(at 560.07 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 560.07 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 560.07 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 560.07 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 560.07 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b9710317-074c-428d-8fe0-beeeaf161f21")
+		)
+		(pin "1"
+			(uuid "97451c90-ed86-4812-8e48-59429d7b40c9")
+		)
+		(instances
+			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 350.52 231.14 90)
 		(unit 1)
@@ -26234,7 +26671,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 458.47 204.47 90)
+		(at 167.64 222.25 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26245,7 +26682,7 @@
 		(fields_autoplaced yes)
 		(uuid "49cea7a1-de08-4b8e-bcdc-925b549d8522")
 		(property "Reference" "L3"
-			(at 458.47 199.39 90)
+			(at 167.64 217.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26255,7 +26692,7 @@
 			)
 		)
 		(property "Value" "A915_Y-100M"
-			(at 458.47 201.93 90)
+			(at 167.64 219.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26265,7 +26702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 458.47 204.47 0)
+			(at 167.64 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26276,7 +26713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 458.47 204.47 0)
+			(at 167.64 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26287,7 +26724,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 458.47 204.47 0)
+			(at 167.64 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26757,7 +27194,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 447.04 209.55 90)
+		(at 156.21 227.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26767,7 +27204,7 @@
 		(dnp no)
 		(uuid "4eaa74e5-a08c-4f6f-8106-0137ec7a2af0")
 		(property "Reference" "C104"
-			(at 447.04 203.2 90)
+			(at 156.21 220.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26777,7 +27214,7 @@
 			)
 		)
 		(property "Value" "0402ESDA-05N"
-			(at 447.04 205.74 90)
+			(at 156.21 223.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26787,7 +27224,7 @@
 			)
 		)
 		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
-			(at 450.85 208.5848 0)
+			(at 160.02 226.3648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26798,7 +27235,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 447.04 209.55 0)
+			(at 156.21 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26809,7 +27246,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 447.04 209.55 0)
+			(at 156.21 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26820,7 +27257,7 @@
 			)
 		)
 		(property "Buy_Link" ""
-			(at 447.04 209.55 0)
+			(at 156.21 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26831,7 +27268,7 @@
 			)
 		)
 		(property "DF_Comment" "5.0V双向静电保护管_0402ESDA-05N"
-			(at 447.04 209.55 0)
+			(at 156.21 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26842,7 +27279,7 @@
 			)
 		)
 		(property "SCH_Show_Footprint" "D0402"
-			(at 447.04 209.55 0)
+			(at 156.21 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26853,7 +27290,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 447.04 209.55 0)
+			(at 156.21 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27767,6 +28204,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 563.88 236.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57144bea-270b-431f-9163-6b5b7842ae88")
+		(property "Reference" "R163"
+			(at 563.88 240.538 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS61165DBV"
+			(at 563.88 238.506 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+			(at 563.88 237.998 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps61165.pdf"
+			(at 563.88 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High-Brightness, White LED Driver, 3V to 18V input voltage range, internal switch, constant current, up to 38V/1.2A output, SOT-23-6"
+			(at 563.88 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3d7f5aa9-d5ea-4d7f-a7eb-1c33c731f1aa")
+		)
+		(pin "1"
+			(uuid "00535898-0bd7-4bac-ac2a-18a04076b416")
+		)
+		(instances
+			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
+					(reference "R163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 354.33 246.38 0)
@@ -27840,6 +28356,129 @@
 			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
 					(reference "#PWR0252")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 542.29 242.57 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58d9eeb4-1198-46cd-90a7-4693b1e52d31")
+		(property "Reference" "C108"
+			(at 536.448 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PESD24VS1UL-N"
+			(at 536.448 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+			(at 541.3248 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 542.29 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 542.29 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" "https://item.szlcsc.com/393990.html"
+			(at 542.29 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" "单向静电保护二极管_PESD24VS1UL-N_DFN1006"
+			(at 542.29 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "D0402"
+			(at 542.29 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 542.29 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7d4b6159-270e-4413-b1c2-a3e60c041774")
+		)
+		(pin "1"
+			(uuid "ab2429ba-5fb3-476c-8006-a07daf6df73f")
+		)
+		(instances
+			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -28237,6 +28876,120 @@
 			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
 					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_LED:TPS61165DBV")
+		(at 552.45 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bc43571-897c-4d63-9496-f5ed52bee2a3")
+		(property "Reference" "U25"
+			(at 552.45 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2SK3018"
+			(at 552.45 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 552.45 263.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 552.45 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 552.45 259.334 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" "https://item.szlcsc.com/774253.html"
+			(at 552.45 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" "NMOS_2SK3018_SOT-23"
+			(at 552.45 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "eb07095d-698e-400d-8aa6-b6c0bfa78fb9")
+		)
+		(pin "2"
+			(uuid "073f6c76-cdcc-46e3-a8a2-a85e006af2f4")
+		)
+		(pin "3"
+			(uuid "57f9cf80-2a3a-4f43-9640-2ce4e5515e1d")
+		)
+		(pin "5"
+			(uuid "caebfbfe-1925-4508-a434-e297e9d075a3")
+		)
+		(pin "1"
+			(uuid "7a7e97e7-76dd-48a2-9f51-9ecd210076f6")
+		)
+		(pin "6"
+			(uuid "c40affba-41ea-466a-b83b-abb41e23ae7d")
+		)
+		(instances
+			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
+					(reference "U25")
 					(unit 1)
 				)
 			)
@@ -30837,7 +31590,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 450.85 214.63 90)
+		(at 160.02 232.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30848,7 +31601,7 @@
 		(fields_autoplaced yes)
 		(uuid "82ebaaf4-83cb-448a-a7f4-a6b2007e6101")
 		(property "Reference" "#PWR0266"
-			(at 454.66 214.63 0)
+			(at 163.83 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30859,7 +31612,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 447.04 214.6299 90)
+			(at 156.21 232.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30870,7 +31623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 450.85 214.63 0)
+			(at 160.02 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30881,7 +31634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 450.85 214.63 0)
+			(at 160.02 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30892,7 +31645,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 450.85 214.63 0)
+			(at 160.02 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30909,6 +31662,129 @@
 			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
 					(reference "#PWR0266")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 541.02 228.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "832bc387-86d5-47e5-b374-d618ef1b7f7b")
+		(property "Reference" "C107"
+			(at 541.02 222.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0402ESDA-05N"
+			(at 541.02 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+			(at 544.83 227.6348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 541.02 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 541.02 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" ""
+			(at 541.02 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" "5.0V双向静电保护管_0402ESDA-05N"
+			(at 541.02 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "D0402"
+			(at 541.02 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 541.02 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ebd6e121-5055-458a-9071-f9c056967bf8")
+		)
+		(pin "1"
+			(uuid "0ce25262-768b-49fb-b9f8-52ff6b33bb5b")
+		)
+		(instances
+			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -31369,7 +32245,7 @@
 	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
-		(at 458.47 229.87 0)
+		(at 167.64 247.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31380,7 +32256,7 @@
 		(fields_autoplaced yes)
 		(uuid "85fc7e7b-65e2-4d03-9753-ffcd618cbde2")
 		(property "Reference" "#PWR0268"
-			(at 458.47 236.22 0)
+			(at 167.64 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31391,7 +32267,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 458.47 234.95 0)
+			(at 167.64 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31401,7 +32277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 458.47 229.87 0)
+			(at 167.64 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31412,7 +32288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 458.47 229.87 0)
+			(at 167.64 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31423,7 +32299,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 458.47 229.87 0)
+			(at 167.64 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32397,6 +33273,86 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_5")
+		(lib_id "power:GND")
+		(at 537.21 228.6 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eeb153f-00ec-431f-99d4-8e401db2e259")
+		(property "Reference" "#PWR0269"
+			(at 530.86 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 533.4 228.5999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 537.21 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 537.21 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 537.21 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70e66b27-c2b8-46bc-a472-41f80c5c64ef")
+		)
+		(instances
+			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
+					(reference "#PWR0269")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 466.09 361.95 0)
 		(unit 1)
@@ -33249,7 +34205,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 448.31 223.52 180)
+		(at 157.48 241.3 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33259,7 +34215,7 @@
 		(dnp no)
 		(uuid "9905f4c8-6abd-451a-b737-f7e587be757f")
 		(property "Reference" "C105"
-			(at 442.468 222.25 0)
+			(at 151.638 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33269,7 +34225,7 @@
 			)
 		)
 		(property "Value" "PESD24VS1UL-N"
-			(at 442.468 224.79 0)
+			(at 151.638 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33279,7 +34235,7 @@
 			)
 		)
 		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
-			(at 447.3448 219.71 0)
+			(at 156.5148 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33290,7 +34246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 448.31 223.52 0)
+			(at 157.48 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33301,7 +34257,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 448.31 223.52 0)
+			(at 157.48 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33312,7 +34268,7 @@
 			)
 		)
 		(property "Buy_Link" "https://item.szlcsc.com/393990.html"
-			(at 448.31 223.52 0)
+			(at 157.48 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33323,7 +34279,7 @@
 			)
 		)
 		(property "DF_Comment" "单向静电保护二极管_PESD24VS1UL-N_DFN1006"
-			(at 448.31 223.52 0)
+			(at 157.48 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33334,7 +34290,7 @@
 			)
 		)
 		(property "SCH_Show_Footprint" "D0402"
-			(at 448.31 223.52 0)
+			(at 157.48 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33345,7 +34301,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 448.31 223.52 0)
+			(at 157.48 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33735,6 +34691,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 544.83 233.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a164fa09-2401-4922-823a-023011543655")
+		(property "Reference" "#PWR0271"
+			(at 548.64 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 541.02 233.6799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 544.83 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 544.83 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 544.83 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6090db7c-0c8b-4c00-9427-98a0491ac795")
+		)
+		(instances
+			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
+					(reference "#PWR0271")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3V3_2")
 		(lib_id "power:+3V3")
 		(at 374.65 283.21 90)
@@ -33941,7 +34976,7 @@
 	)
 	(symbol
 		(lib_id "Driver_LED:TPS61165DBV")
-		(at 458.47 219.71 0)
+		(at 167.64 237.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33952,7 +34987,7 @@
 		(fields_autoplaced yes)
 		(uuid "a44a2a74-30f4-4567-a8dc-3c6f154ad8c7")
 		(property "Reference" "U24"
-			(at 458.47 207.01 0)
+			(at 167.64 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33962,7 +34997,7 @@
 			)
 		)
 		(property "Value" "2SK3018"
-			(at 458.47 209.55 0)
+			(at 167.64 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33972,7 +35007,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 458.47 244.856 0)
+			(at 167.64 262.636 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33983,7 +35018,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 458.47 242.57 0)
+			(at 167.64 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33994,7 +35029,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 458.47 240.284 0)
+			(at 167.64 258.064 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34005,7 +35040,7 @@
 			)
 		)
 		(property "Buy_Link" "https://item.szlcsc.com/774253.html"
-			(at 458.47 219.71 0)
+			(at 167.64 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34016,7 +35051,7 @@
 			)
 		)
 		(property "DF_Comment" "NMOS_2SK3018_SOT-23"
-			(at 458.47 219.71 0)
+			(at 167.64 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34048,6 +35083,85 @@
 			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
 					(reference "U24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_5")
+		(lib_id "power:GND")
+		(at 542.29 246.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a468d2b9-7b33-4287-89c1-915a80fd4d90")
+		(property "Reference" "#PWR0270"
+			(at 542.29 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 542.29 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 542.29 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 542.29 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 542.29 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60295b79-b012-4e73-aeca-259e63359cbf")
+		)
+		(instances
+			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
+					(reference "#PWR0270")
 					(unit 1)
 				)
 			)
@@ -36238,7 +37352,7 @@
 	(symbol
 		(lib_name "GND_5")
 		(lib_id "power:GND")
-		(at 448.31 227.33 0)
+		(at 157.48 245.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36249,7 +37363,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6c2eb77-61c0-4c11-aebe-c99721532da9")
 		(property "Reference" "#PWR0265"
-			(at 448.31 233.68 0)
+			(at 157.48 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36260,7 +37374,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 448.31 232.41 0)
+			(at 157.48 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36270,7 +37384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 448.31 227.33 0)
+			(at 157.48 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36281,7 +37395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 448.31 227.33 0)
+			(at 157.48 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36292,7 +37406,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 448.31 227.33 0)
+			(at 157.48 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39090,6 +40204,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 556.26 208.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d24e77d8-e7bc-4f9f-8992-bd76661deddd")
+		(property "Reference" "C109"
+			(at 556.26 201.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220nF"
+			(at 556.26 204.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+			(at 560.07 207.3148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 556.26 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 556.26 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" ""
+			(at 556.26 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
+			(at 556.26 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "C603"
+			(at 556.26 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 556.26 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6d86a709-6d44-4bf1-88e3-9298d3407567")
+		)
+		(pin "1"
+			(uuid "83d9eb40-51a6-4dac-8424-6ee4476d35f3")
+		)
+		(instances
+			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
+					(reference "C109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 180.34 339.09 0)
 		(mirror y)
@@ -41619,6 +42856,85 @@
 			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
 					(reference "Q17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 552.45 248.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec899e4c-cac7-4a5c-9096-26b6b820c327")
+		(property "Reference" "#PWR0273"
+			(at 552.45 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 552.45 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 552.45 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 552.45 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 552.45 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "057bb547-85c3-4c40-9ea3-332a34190887")
+		)
+		(instances
+			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b169c362-0273-44a3-bb19-0bcbad977976"
+					(reference "#PWR0273")
 					(unit 1)
 				)
 			)

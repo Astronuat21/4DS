@@ -2084,6 +2084,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 143.51) (xy 353.06 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14520ee9-bad8-408f-86e3-420d39b1875d")
+	)
+	(wire
+		(pts
 			(xy 226.06 146.05) (xy 226.06 148.59)
 		)
 		(stroke
@@ -6373,7 +6383,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 353.06 146.05 0)
+		(at 353.06 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6384,7 +6394,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6312d9d-4952-44c3-aea2-1d91760eda14")
 		(property "Reference" "#PWR0135"
-			(at 353.06 149.86 0)
+			(at 353.06 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6395,7 +6405,7 @@
 			)
 		)
 		(property "Value" "+5V_FAN"
-			(at 353.06 140.97 0)
+			(at 353.06 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6405,7 +6415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 353.06 146.05 0)
+			(at 353.06 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6416,7 +6426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 146.05 0)
+			(at 353.06 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6427,7 +6437,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 353.06 146.05 0)
+			(at 353.06 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6438,7 +6448,7 @@
 			)
 		)
 		(property "无标题字段" ""
-			(at 353.06 146.05 0)
+			(at 353.06 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
