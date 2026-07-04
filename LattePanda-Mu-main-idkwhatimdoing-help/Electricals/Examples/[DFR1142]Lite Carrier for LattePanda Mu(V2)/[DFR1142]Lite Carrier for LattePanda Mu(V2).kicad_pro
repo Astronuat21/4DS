@@ -969,8 +969,16 @@
       "HDMI-LVDS"
     ],
     [
+      "b23aee49-27d1-466d-98e2-113ee657e42b",
+      "PSU"
+    ],
+    [
       "f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a",
       "USB2.0&USB3.0"
+    ],
+    [
+      "3a597c52-640b-4e4c-bb57-6eff9e8fff95",
+      "Fan_Temp"
     ],
     [
       "f7e36582-0575-4ab7-aed9-3fad0f8951d3",
@@ -979,14 +987,6 @@
     [
       "ef6f480d-d7ca-4322-a73f-5177e707fe9e",
       "M.2 E&M Key"
-    ],
-    [
-      "b23aee49-27d1-466d-98e2-113ee657e42b",
-      "PSU"
-    ],
-    [
-      "3a597c52-640b-4e4c-bb57-6eff9e8fff95",
-      "Fan_Temp"
     ],
     [
       "f4c6eb13-881e-4631-bc2a-bf0410b4dd87",
