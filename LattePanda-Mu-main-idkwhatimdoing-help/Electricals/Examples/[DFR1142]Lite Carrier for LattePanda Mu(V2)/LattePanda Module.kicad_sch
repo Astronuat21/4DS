@@ -549,161 +549,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -827,205 +672,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6384,248 +6030,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:W25Q128JVS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -8.89 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "W25Q128JVS"
-				(at 7.62 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flash memory SPI QPI DTR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*5.23x5.23mm*P1.27mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "W25Q128JVS_0_1"
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "W25Q128JVS_1_1"
-				(pin input line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "DO(IO1)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "DI(IO0)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "IO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "YXD:+5V"
 			(power global)
 			(pin_names
@@ -7515,18 +6919,6 @@
 		(uuid "82f395ca-5724-46c5-b423-e0c2b2645fca")
 	)
 	(junction
-		(at 394.97 236.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0665a91f-9f3b-4524-8c26-6576bf490dad")
-	)
-	(junction
-		(at 425.45 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2730e849-c031-4086-b0e2-e2c93c4b989d")
-	)
-	(junction
 		(at 292.1 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7551,12 +6943,6 @@
 		(uuid "4f8dfac4-b4bb-4642-8f80-4377f7326544")
 	)
 	(junction
-		(at 367.03 256.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56f71b66-2b85-4fd5-adb7-5ba1cc0a44ba")
-	)
-	(junction
 		(at 304.8 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7567,12 +6953,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "862a7ac1-e0e1-4f20-91b9-22422cb5c601")
-	)
-	(junction
-		(at 425.45 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88da8a96-d090-4b8b-a24c-bbd95581c262")
 	)
 	(junction
 		(at 307.34 53.34)
@@ -7611,18 +6991,6 @@
 		(uuid "cd3a29db-6e40-4f10-b80f-0d410e95a3c7")
 	)
 	(junction
-		(at 425.45 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf47cbdf-ef2a-4b41-b283-7a590f64e347")
-	)
-	(junction
-		(at 444.5 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d50bdba6-48e9-44ff-bc1b-472146858152")
-	)
-	(junction
 		(at 302.26 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7645,6 +7013,10 @@
 		(uuid "0941e885-030f-4abb-b642-bb9d1f38db4a")
 	)
 	(no_connect
+		(at 354.33 251.46)
+		(uuid "09e7a3f0-0b35-4cd6-ac13-11d648f76e75")
+	)
+	(no_connect
 		(at 354.33 137.16)
 		(uuid "0f56e789-b95f-4cfd-8b94-567307f8f024")
 	)
@@ -7659,6 +7031,10 @@
 	(no_connect
 		(at 267.97 220.98)
 		(uuid "10d30fec-e02e-4c56-b087-c1cbc888d0a0")
+	)
+	(no_connect
+		(at 354.33 248.92)
+		(uuid "111a7bd7-cc00-4480-83f1-51bd4d6a6b93")
 	)
 	(no_connect
 		(at 354.33 170.18)
@@ -7785,6 +7161,10 @@
 		(uuid "82d76335-a7ed-4ce2-afd4-3169137fd895")
 	)
 	(no_connect
+		(at 354.33 238.76)
+		(uuid "83995743-4745-49f3-91c6-a6bba9d9275b")
+	)
+	(no_connect
 		(at 354.33 266.7)
 		(uuid "8554f0f1-b8a1-402d-b568-59aea2d22904")
 	)
@@ -7841,6 +7221,10 @@
 		(uuid "b63fb152-9ec7-424b-b8e9-3561007f4960")
 	)
 	(no_connect
+		(at 354.33 243.84)
+		(uuid "bb508171-58d3-4d52-936e-0ea87ef67999")
+	)
+	(no_connect
 		(at 354.33 320.04)
 		(uuid "c2217ac4-9ae3-46cf-a2e8-5197cf7a2123")
 	)
@@ -7889,6 +7273,10 @@
 		(uuid "eaada651-00fe-4b65-b762-1626a63b33ae")
 	)
 	(no_connect
+		(at 354.33 246.38)
+		(uuid "ebf906c3-4f0a-4d14-ba63-44681ecf1a73")
+	)
+	(no_connect
 		(at 354.33 129.54)
 		(uuid "ee392b4f-d6bb-4a1a-bad3-32051cbee3b2")
 	)
@@ -7903,6 +7291,10 @@
 	(no_connect
 		(at 267.97 290.83)
 		(uuid "f7e8a78c-ddd3-489b-a2f3-7b42b7b43ce3")
+	)
+	(no_connect
+		(at 354.33 241.3)
+		(uuid "f9ecb0f1-1a4e-4da3-9997-a46b403b9f5f")
 	)
 	(no_connect
 		(at 354.33 317.5)
@@ -7964,16 +7356,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 246.38) (xy 400.05 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ae28d2a-76fc-4d47-afd1-833911f89bb9")
-	)
-	(wire
-		(pts
 			(xy 236.22 274.32) (xy 267.97 274.32)
 		)
 		(stroke
@@ -8001,26 +7383,6 @@
 			(type default)
 		)
 		(uuid "1059970d-7ad6-4a87-855a-85ca9a7df4d3")
-	)
-	(wire
-		(pts
-			(xy 425.45 222.25) (xy 425.45 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1309c4a3-78fb-452c-9a55-fe29f767ed49")
-	)
-	(wire
-		(pts
-			(xy 358.14 256.54) (xy 367.03 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "130e0456-894c-48cf-ae4f-744db86db813")
 	)
 	(wire
 		(pts
@@ -8064,16 +7426,6 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 236.22) (xy 407.67 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "242c2018-2415-447f-9d1e-3537645cfd18")
-	)
-	(wire
-		(pts
 			(xy 267.97 203.2) (xy 236.22 203.2)
 		)
 		(stroke
@@ -8081,26 +7433,6 @@
 			(type default)
 		)
 		(uuid "255470c1-2744-49de-86eb-dbfc607305fe")
-	)
-	(wire
-		(pts
-			(xy 407.67 246.38) (xy 415.29 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "285fd44d-3f2c-40b5-9d34-b5eafc45473b")
-	)
-	(wire
-		(pts
-			(xy 425.45 228.6) (xy 427.99 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28e04592-3458-4d01-9c75-2ac8eb927f2b")
 	)
 	(wire
 		(pts
@@ -8144,46 +7476,6 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 226.06) (xy 406.4 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d7d6321-4459-4037-acb2-deaca3cd25f7")
-	)
-	(wire
-		(pts
-			(xy 354.33 248.92) (xy 400.05 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "305b1f57-c9a1-4d83-9d50-f11d7062db0e")
-	)
-	(wire
-		(pts
-			(xy 354.33 243.84) (xy 400.05 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "321e7643-6521-4d3a-95ca-db88b2b76cf5")
-	)
-	(wire
-		(pts
-			(xy 425.45 228.6) (xy 425.45 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "332c1f03-b65c-40a3-8d3f-2d57542cd1a2")
-	)
-	(wire
-		(pts
 			(xy 354.33 97.79) (xy 372.11 97.79)
 		)
 		(stroke
@@ -8191,16 +7483,6 @@
 			(type default)
 		)
 		(uuid "343b1b6e-05c8-491c-a5de-941e49505cac")
-	)
-	(wire
-		(pts
-			(xy 407.67 248.92) (xy 415.29 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3624638f-0942-411d-a234-16b675c08eab")
 	)
 	(wire
 		(pts
@@ -8244,16 +7526,6 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 228.6) (xy 444.5 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4175565e-3f5d-406a-9358-33f5ab6a0d70")
-	)
-	(wire
-		(pts
 			(xy 354.33 66.04) (xy 372.11 66.04)
 		)
 		(stroke
@@ -8291,26 +7563,6 @@
 			(type default)
 		)
 		(uuid "4d67d05d-ed36-4b9d-a9fb-7de4151db771")
-	)
-	(wire
-		(pts
-			(xy 367.03 256.54) (xy 367.03 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fc5ab3f-d70a-4c19-9f74-071c8aea0b52")
-	)
-	(wire
-		(pts
-			(xy 407.67 243.84) (xy 415.29 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fdb2bdf-c564-4e44-8462-531328178767")
 	)
 	(wire
 		(pts
@@ -8374,16 +7626,6 @@
 	)
 	(wire
 		(pts
-			(xy 400.05 236.22) (xy 394.97 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6010f278-0451-4607-bc3e-3ce74f158492")
-	)
-	(wire
-		(pts
 			(xy 236.22 88.9) (xy 267.97 88.9)
 		)
 		(stroke
@@ -8401,16 +7643,6 @@
 			(type default)
 		)
 		(uuid "68e33033-b490-4f59-8f8b-9671510b83d1")
-	)
-	(wire
-		(pts
-			(xy 394.97 226.06) (xy 394.97 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68fbead7-2aee-4270-be46-cfaa3491f0b7")
 	)
 	(wire
 		(pts
@@ -8634,16 +7866,6 @@
 	)
 	(wire
 		(pts
-			(xy 425.45 226.06) (xy 425.45 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a32fadcc-fbb1-46bd-a121-f9f6e5fe1b31")
-	)
-	(wire
-		(pts
 			(xy 236.22 109.22) (xy 267.97 109.22)
 		)
 		(stroke
@@ -8684,16 +7906,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 241.3) (xy 400.05 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7b78bf9-f2f3-4f11-81d6-9b9a1b752b04")
-	)
-	(wire
-		(pts
 			(xy 245.11 68.58) (xy 267.97 68.58)
 		)
 		(stroke
@@ -8711,16 +7923,6 @@
 			(type default)
 		)
 		(uuid "aa752389-720f-41b1-b172-42648116d960")
-	)
-	(wire
-		(pts
-			(xy 435.61 222.25) (xy 444.5 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaef28be-6bb6-4377-a8e6-9622f10e0032")
 	)
 	(wire
 		(pts
@@ -8754,36 +7956,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 238.76) (xy 400.05 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af302e68-af58-4f83-b93a-e8e1933aa371")
-	)
-	(wire
-		(pts
-			(xy 414.02 226.06) (xy 425.45 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0e39986-482c-4277-bab8-45e859f9d667")
-	)
-	(wire
-		(pts
-			(xy 425.45 222.25) (xy 427.99 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4d65291-63a1-4602-ba17-e32a0ff73d8e")
-	)
-	(wire
-		(pts
 			(xy 307.34 53.34) (xy 309.88 53.34)
 		)
 		(stroke
@@ -8804,17 +7976,7 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 238.76) (xy 415.29 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b754c951-ed98-49f3-a9e0-80c2db395011")
-	)
-	(wire
-		(pts
-			(xy 367.03 256.54) (xy 373.126 256.54)
+			(xy 358.14 256.54) (xy 373.126 256.54)
 		)
 		(stroke
 			(width 0)
@@ -8884,16 +8046,6 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 241.3) (xy 415.29 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7d78942-a8ed-479c-9098-f6716d56f125")
-	)
-	(wire
-		(pts
 			(xy 312.42 53.34) (xy 314.96 53.34)
 		)
 		(stroke
@@ -8901,16 +8053,6 @@
 			(type default)
 		)
 		(uuid "c80ceeae-dee8-47ca-9d2f-777ce499bb38")
-	)
-	(wire
-		(pts
-			(xy 435.61 228.6) (xy 444.5 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c896572d-7244-4160-b131-9514e75a2a39")
 	)
 	(wire
 		(pts
@@ -8964,16 +8106,6 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 236.22) (xy 394.97 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d053b2bb-e3af-464d-9acc-62509ccd224b")
-	)
-	(wire
-		(pts
 			(xy 354.33 154.94) (xy 372.11 154.94)
 		)
 		(stroke
@@ -8981,16 +8113,6 @@
 			(type default)
 		)
 		(uuid "d2303fb2-831e-46d0-bc06-0498f7d60236")
-	)
-	(wire
-		(pts
-			(xy 394.97 251.46) (xy 354.33 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3583511-cfdd-44a0-96ff-7df8322750d1")
 	)
 	(wire
 		(pts
@@ -9181,72 +8303,6 @@
 			(type default)
 		)
 		(uuid "fdd1eb1b-74cf-4985-a576-d264d5d66544")
-	)
-	(label "SPI_MOSI/SPI_IO0"
-		(at 354.33 241.3 0)
-		(effects
-			(font
-				(face "Roboto")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "45b63c81-54be-4635-9897-6abcd8b35257")
-	)
-	(label "SPI_IO2"
-		(at 354.33 246.38 0)
-		(effects
-			(font
-				(face "Roboto")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4bb2770a-0b9d-4f04-ad4f-07f84d3fb00d")
-	)
-	(label "SPI_IO3"
-		(at 354.33 248.92 0)
-		(effects
-			(font
-				(face "Roboto")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e3536a5-1933-45aa-8a32-e6cb148b62e1")
-	)
-	(label "SPI_CLK"
-		(at 354.33 238.76 0)
-		(effects
-			(font
-				(face "Roboto")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a03a633-d007-43be-a3e4-3c7709a4d7c1")
-	)
-	(label "SPI_MISO/SPI_IO1"
-		(at 354.33 243.84 0)
-		(effects
-			(font
-				(face "Roboto")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "acc2fd33-e041-401e-a935-bd2579f97ac6")
-	)
-	(label "~{SPI_CS0}"
-		(at 354.33 251.46 0)
-		(effects
-			(font
-				(face "Roboto")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da60857a-c4e4-467f-8614-e6442c89532b")
 	)
 	(hierarchical_label "DDIB_SCL"
 		(shape output)
@@ -11013,191 +10069,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 403.86 243.84 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "10c94bd4-620f-4e2c-ab48-aa26a3665293")
-		(property "Reference" "R87"
-			(at 397.002 243.078 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R/1%"
-			(at 407.416 242.824 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "A_DFRobot:R_0402"
-			(at 403.86 242.062 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 403.86 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 403.86 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 403.86 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电阻0402-0R-1%"
-			(at 403.86 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2070b372-d4e7-4ce2-b865-e8a665efd4c3")
-		)
-		(pin "2"
-			(uuid "6db0bcba-f5de-4a4c-8777-3a8ec07f6a3a")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
-					(reference "R87")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 367.03 267.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11f74d30-6c7c-48b8-8d96-ee1caade84d4")
-		(property "Reference" "#PWR0130"
-			(at 367.03 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 367.03 273.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 367.03 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.03 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 367.03 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "061f975b-180c-4745-92e1-f1a8bac163ed")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 326.5933 53.34 0)
 		(unit 1)
@@ -11269,303 +10140,6 @@
 			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
 					(reference "#FLG010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 425.45 222.25 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3194d029-ddae-488a-b619-6c4b3e3e0d7b")
-		(property "Reference" "#FLG08"
-			(at 423.545 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 421.64 222.2499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 425.45 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 425.45 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 425.45 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f3b0d7ad-c13c-47b8-bab2-9130406a554e")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
-					(reference "#FLG08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 410.21 226.06 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "3f9226e7-95db-4300-b09d-05c4b8840b8b")
-		(property "Reference" "R83"
-			(at 410.718 228.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K/1%"
-			(at 413.258 230.378 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "A_DFRobot:R_0402"
-			(at 410.21 227.838 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 410.21 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 410.21 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 410.21 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
-			(at 410.21 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa58bf4d-a4f2-48d6-ac1a-9e8ce5447b81")
-		)
-		(pin "2"
-			(uuid "29d65f13-c9df-40bd-a51f-155b9ef62c09")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
-					(reference "R83")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_Flash:W25Q128JVS")
-		(at 425.45 243.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "4182b3c2-a777-4bb6-a2fe-913b48091986")
-		(property "Reference" "U18"
-			(at 434.34 242.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q128JVS"
-			(at 434.34 245.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-			(at 425.45 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 425.45 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-			(at 425.45 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "存储器-W25Q128JVSIQ-SOIC-8-208-mil"
-			(at 425.45 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "39c06305-9250-42a2-87e3-4cff09db2ae3")
-		)
-		(pin "8"
-			(uuid "5b9abae7-369e-4c8e-83cd-7c0e81aaf07d")
-		)
-		(pin "3"
-			(uuid "6fd6c444-a7c0-41b4-9499-fbf92efecc90")
-		)
-		(pin "2"
-			(uuid "66c18fc9-2211-4afc-88dd-2f81e254020d")
-		)
-		(pin "5"
-			(uuid "d4cc2380-b249-4f23-bca5-6cda7bdd65ec")
-		)
-		(pin "4"
-			(uuid "6482e0bf-5fc6-41ac-8830-67d5b4fd6193")
-		)
-		(pin "6"
-			(uuid "095520ac-2443-4ab3-aa3a-72eb2f301ad4")
-		)
-		(pin "7"
-			(uuid "1d729d45-2034-46a2-8a6b-17285b142b2a")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
-					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -11852,214 +10426,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 403.86 241.3 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "61a6b5d1-28f9-4153-81c6-ab70d45e8c4c")
-		(property "Reference" "R86"
-			(at 397.002 240.538 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R/1%"
-			(at 407.416 240.284 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "A_DFRobot:R_0402"
-			(at 403.86 239.522 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 403.86 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 403.86 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 403.86 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电阻0402-0R-1%"
-			(at 403.86 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "712ada5f-8281-49b9-8fb4-439d5660ea35")
-		)
-		(pin "2"
-			(uuid "d64d0825-5484-47f7-91f7-dbde15c7a562")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
-					(reference "R86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 431.8 228.6 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "66d95a4d-209b-48f1-a9bd-f83b20c01a2a")
-		(property "Reference" "C90"
-			(at 436.88 229.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "100nF/50V"
-			(at 438.15 227.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "A_DFRobot:C_0402"
-			(at 427.99 229.5652 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 431.8 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 431.8 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 431.8 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电容0402-100nF-50V-X7R_CC0402KRX7R9BB104"
-			(at 431.8 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c97f145a-0a61-450d-8432-24f8bb2b7643")
-		)
-		(pin "1"
-			(uuid "5ecf7148-8ecd-47e3-a90b-3872adc9be5d")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
-					(reference "C90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 228.6 76.2 90)
 		(unit 1)
@@ -12294,111 +10660,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 403.86 248.92 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "827e80de-1db3-4dae-893b-a40ed5d466a0")
-		(property "Reference" "R89"
-			(at 397.002 248.158 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R/1%"
-			(at 407.416 247.904 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "A_DFRobot:R_0402"
-			(at 403.86 247.142 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 403.86 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 403.86 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 403.86 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电阻0402-0R-1%"
-			(at 403.86 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c5884237-af36-4ea4-8306-e66131164937")
-		)
-		(pin "2"
-			(uuid "eabf1c68-5eff-4c87-b8fd-262a7f93226b")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
-					(reference "R89")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 208.28 330.2 90)
 		(unit 1)
@@ -12472,111 +10733,6 @@
 			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 403.86 238.76 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "94364182-9f97-4564-bf6a-f556f3f266c4")
-		(property "Reference" "R85"
-			(at 397.002 237.998 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R/1%"
-			(at 407.416 237.744 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "A_DFRobot:R_0402"
-			(at 403.86 236.982 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 403.86 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 403.86 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 403.86 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电阻0402-0R-1%"
-			(at 403.86 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "155307b8-fa45-4894-aaf0-c2055439272c")
-		)
-		(pin "2"
-			(uuid "4f7315b8-c2e8-418d-b756-08d504074a99")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
-					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -12662,111 +10818,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 403.86 246.38 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "978f5ad4-23f4-4252-bef4-ed02e536e8bc")
-		(property "Reference" "R88"
-			(at 397.002 245.618 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R/1%"
-			(at 407.416 245.364 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "A_DFRobot:R_0402"
-			(at 403.86 244.602 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 403.86 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 403.86 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 403.86 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电阻0402-0R-1%"
-			(at 403.86 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "632407b1-baca-4bee-af37-722cc8bfe9d6")
-		)
-		(pin "2"
-			(uuid "a1774de4-c39c-40ad-a730-d21b85a2938f")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
-					(reference "R88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 320.04 46.99 0)
 		(unit 1)
@@ -12839,164 +10890,6 @@
 			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "YXD:+5V")
-		(at 425.45 222.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3de08fb-1363-4c75-8996-48aaab81c165")
-		(property "Reference" "#PWR0123"
-			(at 425.45 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3_ROM"
-			(at 425.45 217.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 425.45 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 425.45 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 425.45 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21b3c455-0458-4ef6-be1f-9ebc38225a25")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 425.45 256.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aed08d39-f0cd-4a73-8dbf-0f34accbb3ad")
-		(property "Reference" "#PWR0129"
-			(at 425.45 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 425.45 261.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 425.45 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 425.45 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 425.45 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "957cf515-2311-4494-93d8-7889dcb74672")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
-					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -13703,190 +11596,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 444.5 222.25 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8c911c4-995b-4a4f-8a2b-bff331ea7a11")
-		(property "Reference" "#PWR0128"
-			(at 450.85 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 448.31 222.2499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 444.5 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 444.5 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 444.5 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e403c2d6-3b18-4492-bd13-c2ee9f0e2c7b")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 431.8 222.25 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "e1ad1835-eb1b-4a08-b8c1-c585aa2574fe")
-		(property "Reference" "C89"
-			(at 436.88 223.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "10uF/10V"
-			(at 438.15 220.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "A_DFRobot:C_0402"
-			(at 427.99 223.2152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 431.8 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 431.8 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 431.8 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
-			(at 431.8 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "75a0a640-e58c-48fa-aed7-223995cd8d1f")
-		)
-		(pin "1"
-			(uuid "1a04a1dc-bd41-4a0e-a004-b08a23ffcaf9")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
-					(reference "C89")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDC")
 		(at 289.56 53.34 0)
 		(unit 1)
@@ -13959,205 +11668,6 @@
 			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 403.86 236.22 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "ecbcc169-d8ba-4ee3-89a1-7cfb74d1681d")
-		(property "Reference" "R84"
-			(at 397.002 235.458 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R/1%"
-			(at 407.416 235.204 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Roboto")
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "A_DFRobot:R_0402"
-			(at 403.86 234.442 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 403.86 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 403.86 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 403.86 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电阻0402-0R-1%"
-			(at 403.86 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "44c78d00-1840-46d3-991a-a66f56f885a8")
-		)
-		(pin "2"
-			(uuid "76bad0cc-e7a3-4eb6-9dc4-ae9d7a1d816d")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
-					(reference "R84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 367.03 264.16 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "f2c2d84e-97e9-4cc1-b568-f0e70cdab2a4")
-		(property "Reference" "JP6"
-			(at 369.062 262.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 369.062 265.4299 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 367.03 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.03 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 367.03 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "无标题字段" ""
-			(at 367.03 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1b72dcd7-a944-4cae-a0f1-d1dfa57aa1ed")
-		)
-		(pin "2"
-			(uuid "9ab64067-9dc9-49f3-8de4-a22938c2b8a3")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu(V2)"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/6eee02c2-78c9-4e83-9ccf-e0f7690b57bf"
-					(reference "JP6")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,51 @@
+                    (kicad_symbol_lib
+                    (version 20211014)
+                    (generator https://github.com/uPesy/easyeda2kicad.py)
+                   
+  (symbol "SMTSO2025CTJ"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "P"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SMTSO2025CTJ"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "EasyEDA:SMD-1_BD6.2-D3.6"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2916321"
+      (id 5)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SMTSO2025CTJ_0_1"
+      (circle
+        (center 0.00 -0.00)
+        (radius 1.27)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -5.08 -0.00 0)
+        (length 3.81)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)

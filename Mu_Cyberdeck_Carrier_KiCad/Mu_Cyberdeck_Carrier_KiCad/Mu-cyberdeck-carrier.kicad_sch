@@ -1,0 +1,4057 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa")
+	(paper "A2")
+	(title_block
+		(title "LattePanda Mu Cyberdeck Carrier Board")
+		(date "2025-04-22")
+		(rev "V1.0.0")
+		(company "Ben Makes Everything")
+	)
+	(lib_symbols
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "REFCLK can be \nexchange the polarity"
+		(exclude_from_sim no)
+		(at 344.17 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98bf8fa1-1bae-4586-b105-0e1067be1dbd")
+	)
+	(no_connect
+		(at 167.64 137.16)
+		(uuid "25dd296a-b273-4bdf-bc9b-1b5b608c6757")
+	)
+	(no_connect
+		(at 167.64 140.97)
+		(uuid "295763a6-57eb-4008-8853-447e5373707e")
+	)
+	(no_connect
+		(at 167.64 133.35)
+		(uuid "f4c4c05c-28da-4125-8046-609871dd5a82")
+	)
+	(wire
+		(pts
+			(xy 341.63 275.59) (xy 367.03 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02dbe49c-439f-41f5-972f-75c89258e056")
+	)
+	(wire
+		(pts
+			(xy 341.63 160.02) (xy 367.03 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad01661-7153-4af7-a3a0-e502b504123a")
+	)
+	(wire
+		(pts
+			(xy 341.63 267.97) (xy 367.03 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bdaa252-2d5c-4317-95b4-1923df41325c")
+	)
+	(wire
+		(pts
+			(xy 341.63 237.49) (xy 367.03 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc33a7f-374c-4a6a-9ad5-db5bd4e69f39")
+	)
+	(wire
+		(pts
+			(xy 341.63 262.89) (xy 367.03 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108aefda-2693-4160-b379-462064178606")
+	)
+	(wire
+		(pts
+			(xy 341.63 231.14) (xy 367.03 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189b057b-bd85-4345-96ef-14343a560e64")
+	)
+	(wire
+		(pts
+			(xy 195.58 111.76) (xy 227.33 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "191d81e8-df38-4c15-abcb-5f5ea255cde3")
+	)
+	(wire
+		(pts
+			(xy 341.63 254) (xy 367.03 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2142f009-eca5-44e4-8c4d-34d4daeefdc0")
+	)
+	(wire
+		(pts
+			(xy 341.63 137.16) (xy 367.03 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2468d2d3-a034-4868-a8da-2c943e9fbc76")
+	)
+	(wire
+		(pts
+			(xy 195.58 276.86) (xy 227.33 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2890eda3-1153-44b9-953d-a64d3aa52b35")
+	)
+	(wire
+		(pts
+			(xy 195.58 274.32) (xy 227.33 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39da04e5-1d2f-4033-bb5e-2f5c7acb6432")
+	)
+	(wire
+		(pts
+			(xy 341.63 149.86) (xy 367.03 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bfdf9af-6700-4561-9676-e3d31607ed1c")
+	)
+	(wire
+		(pts
+			(xy 341.63 226.06) (xy 367.03 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41865c90-942b-424d-b1c1-373ffe38598b")
+	)
+	(wire
+		(pts
+			(xy 351.79 99.06) (xy 367.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c9775c-4e50-4252-8a34-2a2c99517fbe")
+	)
+	(wire
+		(pts
+			(xy 195.58 106.68) (xy 227.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46206094-90bf-4e7a-b8e3-79721c2c4dd7")
+	)
+	(wire
+		(pts
+			(xy 195.58 262.89) (xy 227.33 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48388ecd-d892-4117-99d7-91642fc570a4")
+	)
+	(wire
+		(pts
+			(xy 195.58 260.35) (xy 227.33 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489bbaab-52ad-44e1-83d5-775db7b92f91")
+	)
+	(wire
+		(pts
+			(xy 195.58 241.3) (xy 227.33 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3dc1c9-860e-4e35-8e6e-41b6663febe1")
+	)
+	(wire
+		(pts
+			(xy 341.63 147.32) (xy 367.03 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6336a8a7-0dda-46b0-92d7-5c35f822996a")
+	)
+	(wire
+		(pts
+			(xy 341.63 265.43) (xy 367.03 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6853e88e-59bf-4028-aa9d-821005341e96")
+	)
+	(wire
+		(pts
+			(xy 195.58 267.97) (xy 227.33 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f5e363-1b5b-49ef-9c7e-ad2745b59f67")
+	)
+	(wire
+		(pts
+			(xy 195.58 279.4) (xy 227.33 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c32526e-063a-4294-9b10-a2248fa4b436")
+	)
+	(wire
+		(pts
+			(xy 341.63 246.38) (xy 367.03 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723b3f5e-a529-4217-b96a-d6880a5bf43f")
+	)
+	(wire
+		(pts
+			(xy 195.58 133.35) (xy 227.33 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7264e976-21e7-439e-a243-7b217a78e22e")
+	)
+	(wire
+		(pts
+			(xy 195.58 254) (xy 227.33 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75eed80b-e35c-4c4a-b0aa-47dd9c2c55c2")
+	)
+	(wire
+		(pts
+			(xy 195.58 114.3) (xy 227.33 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7227e5-a8dc-4535-932d-40fb56df66ad")
+	)
+	(wire
+		(pts
+			(xy 195.58 270.51) (xy 227.33 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836baf93-1682-4185-a831-9db0903b9294")
+	)
+	(wire
+		(pts
+			(xy 195.58 248.92) (xy 227.33 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c61e21-5e78-4a7a-aa53-aaa25f658d81")
+	)
+	(wire
+		(pts
+			(xy 195.58 281.94) (xy 227.33 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7550a9-c183-440a-90c9-409a90b32804")
+	)
+	(wire
+		(pts
+			(xy 341.63 223.52) (xy 367.03 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b1db76-86f2-4972-b1b9-ee291d9ce220")
+	)
+	(wire
+		(pts
+			(xy 341.63 140.97) (xy 367.03 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93da146f-20c8-403d-999c-5ecbb28016e7")
+	)
+	(wire
+		(pts
+			(xy 341.63 234.95) (xy 367.03 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94716d95-c5ea-4ba9-9d06-1b91cbce42a6")
+	)
+	(wire
+		(pts
+			(xy 341.63 251.46) (xy 367.03 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ca6963-266e-4d17-bfda-d748c50b480e")
+	)
+	(wire
+		(pts
+			(xy 341.63 243.84) (xy 367.03 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b31c64f-89dc-49ce-aa57-4f09aff592c9")
+	)
+	(wire
+		(pts
+			(xy 341.63 165.1) (xy 367.03 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0016c3f-8f02-4114-8602-85ebcd07d5fb")
+	)
+	(wire
+		(pts
+			(xy 195.58 257.81) (xy 227.33 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a046173b-bf8f-4f60-acff-9da8e157f4d9")
+	)
+	(wire
+		(pts
+			(xy 341.63 248.92) (xy 367.03 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aca4a0a9-c3d7-4c0a-9866-918b350b7275")
+	)
+	(wire
+		(pts
+			(xy 195.58 246.38) (xy 227.33 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af083e9b-ac2a-4e27-b0bc-59d0bd975cb7")
+	)
+	(wire
+		(pts
+			(xy 341.63 143.51) (xy 367.03 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3cece4f-a5e8-4d36-b9de-023c7d18c666")
+	)
+	(wire
+		(pts
+			(xy 341.63 152.4) (xy 367.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c1b5c4-43f5-495f-beb3-ece2d5c55746")
+	)
+	(wire
+		(pts
+			(xy 341.63 162.56) (xy 367.03 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b969fcdb-9aac-49cf-9fbc-257e33ef3b0b")
+	)
+	(wire
+		(pts
+			(xy 341.63 241.3) (xy 367.03 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb873b13-55d5-46a3-85ac-abd32a47ad58")
+	)
+	(wire
+		(pts
+			(xy 341.63 270.51) (xy 367.03 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbfe3492-3c7e-47f9-bf2c-b4f5e6919d9f")
+	)
+	(wire
+		(pts
+			(xy 341.63 157.48) (xy 367.03 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc36857-8590-4d51-a5d3-2376062fd187")
+	)
+	(wire
+		(pts
+			(xy 341.63 273.05) (xy 367.03 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15b730c-0e65-49c4-a869-10806fe5750c")
+	)
+	(wire
+		(pts
+			(xy 195.58 109.22) (xy 227.33 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28b7ad3-413c-47e7-8613-c570b5d51902")
+	)
+	(wire
+		(pts
+			(xy 195.58 137.16) (xy 227.33 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3aaa9f3-ba42-428e-8039-1c8f5afbe7a3")
+	)
+	(wire
+		(pts
+			(xy 195.58 243.84) (xy 227.33 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2baec42-9b67-428b-af6f-06d62d97dc7b")
+	)
+	(wire
+		(pts
+			(xy 195.58 265.43) (xy 227.33 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d9c052-d8c4-4a95-ad17-880efc879700")
+	)
+	(wire
+		(pts
+			(xy 341.63 154.94) (xy 367.03 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5cf2fe-a67a-4e58-bc46-5acd895d24b2")
+	)
+	(wire
+		(pts
+			(xy 195.58 251.46) (xy 227.33 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bd282e-d5c5-4d07-af25-25ed8076cb07")
+	)
+	(label "~{PLT_RST}"
+		(at 347.98 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c0aea3f-fd5b-4436-8912-31618c944a58")
+	)
+	(label "~{PWR_LED}{slash}~{PSON}"
+		(at 204.47 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cafe7a4-fb63-4f9c-ac1c-8b914fe3afa8")
+	)
+	(label "~{WAKE}"
+		(at 347.98 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e55f6ef-62a3-42f9-9452-eb1aa1c42a36")
+	)
+	(label "~{PWR_LED}{slash}~{PSON}"
+		(at 351.79 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2e908bd-efdd-40d0-9df7-935e05757cd3")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 473.71 336.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cd0d925-1d08-48e8-8abd-66c9c8d5086f")
+		(property "Reference" "H1"
+			(at 476.25 334.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 476.25 336.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
+			(at 473.71 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 473.71 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 473.71 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 473.71 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 473.71 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 473.71 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 0 673.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a52515ba-41fe-4566-ba55-564c64bf6e95")
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 473.71 339.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53002907-73fe-4c30-9cc7-2e51766b5877")
+		(property "Reference" "#PWR01"
+			(at 473.71 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 473.71 344.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 473.71 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 473.71 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 473.71 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b45712e5-bc82-43f6-be07-5a8b31e2ea3b")
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 499.11 349.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c79c14e-cfbb-4e68-95b1-d9e9ff2ffcb5")
+		(property "Reference" "H4"
+			(at 501.65 346.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 501.65 349.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
+			(at 499.11 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 499.11 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 499.11 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 499.11 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 499.11 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 499.11 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 0 698.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6ba7df2-92fc-45bc-8fcf-b6dd3b320c93")
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 473.71 351.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b2f38d9-942c-49b4-8df0-bb73d99e4551")
+		(property "Reference" "#PWR02"
+			(at 473.71 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 473.71 356.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 473.71 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 473.71 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 473.71 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18134e26-ff4e-4700-99b1-118877fdf765")
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 473.71 360.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "913e1890-1405-4666-be42-39d8868f1d7e")
+		(property "Reference" "FID1"
+			(at 476.25 359.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 476.25 361.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:Fiducial_0.5mm_Mask1mm"
+			(at 473.71 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 473.71 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 473.71 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 473.71 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 473.71 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 473.71 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 0 721.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 473.71 365.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94525e16-30d8-4914-a24a-22fe7a74ee43")
+		(property "Reference" "FID2"
+			(at 476.25 364.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 476.25 367.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:Fiducial_0.5mm_Mask1mm"
+			(at 473.71 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 473.71 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 473.71 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 473.71 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 473.71 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 473.71 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 0 731.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 473.71 349.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfeaab4f-49e8-4eff-b881-cdae859dd212")
+		(property "Reference" "H2"
+			(at 476.25 346.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 476.25 349.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
+			(at 473.71 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 473.71 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 473.71 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 473.71 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 473.71 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 473.71 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 0 698.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6e13c41-6a96-4a71-b730-8f40d3ed2d55")
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 499.11 336.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eab31757-c8e1-44c2-ad5e-18ccb4ca1ffb")
+		(property "Reference" "H3"
+			(at 501.65 334.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 501.65 336.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
+			(at 499.11 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 499.11 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 499.11 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 499.11 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 499.11 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 499.11 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 0 673.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcacac49-97ae-4475-931a-2fe00cca6c47")
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 499.11 339.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edc67783-b22c-400d-a0f8-de7f67c72236")
+		(property "Reference" "#PWR03"
+			(at 499.11 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 499.11 344.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 499.11 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 499.11 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 499.11 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6fc7f109-6455-462a-a69f-83d7d9b392e7")
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 499.11 351.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f94aa6a2-2c50-4f99-b6cc-02bbd74739a3")
+		(property "Reference" "#PWR04"
+			(at 499.11 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 499.11 356.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 499.11 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 499.11 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 499.11 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36b64f07-4a02-497e-bb17-33a41e7bb259")
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 367.03 96.52)
+		(size 29.21 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "024b612f-d732-4f1b-ae8a-19d052e1e0e8")
+		(property "Sheetname" "HDMI-LVDS"
+			(at 367.03 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HDMI.kicad_sch"
+			(at 367.03 168.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{PWR_LED}{slash}~{PSON}" input
+			(at 367.03 99.06 180)
+			(uuid "bd263caa-98ab-41f0-a0be-fdc2bd2dc462")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DDIB_TX2+" input
+			(at 367.03 152.4 180)
+			(uuid "b45ef1ad-fb5a-45dc-82c5-ed33f4642f74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DDIB_HPD" input
+			(at 367.03 137.16 180)
+			(uuid "3c547bd4-f715-42d1-b7a0-1cda4e94ef64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DDIB_TX0-" input
+			(at 367.03 165.1 180)
+			(uuid "1a8449ac-caad-44b1-9931-94c6e1bc9329")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DDIB_TX0+" input
+			(at 367.03 162.56 180)
+			(uuid "0a62fec6-b179-44f2-b3d7-0762ad7e682a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DDIB_SCL" input
+			(at 367.03 140.97 180)
+			(uuid "8102f5ad-4c14-4c86-9171-9d8dbbdba7f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DDIB_SDA" bidirectional
+			(at 367.03 143.51 180)
+			(uuid "c2fc4062-10dc-445e-9e99-11686a219cf4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DDIB_TX1+" input
+			(at 367.03 157.48 180)
+			(uuid "6b1a4e51-ac1f-4eab-8166-a0b91a80d2b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DDIB_TX1-" input
+			(at 367.03 160.02 180)
+			(uuid "8dbb2d45-ae4f-4710-b611-033990422bdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DDIB_TX2-" input
+			(at 367.03 154.94 180)
+			(uuid "7d6c4d02-fc67-4372-b188-45a953bb39bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DDIB_TX3+" input
+			(at 367.03 147.32 180)
+			(uuid "59bd3233-e314-4fd5-ab5f-e22444b51e6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DDIB_TX3-" input
+			(at 367.03 149.86 180)
+			(uuid "97683892-a660-46a7-a4d4-715957b0525f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SL_BRI" input
+			(at 396.24 137.16 0)
+			(uuid "01723192-4002-402e-a238-c7a70c26e285")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TCP0_HPD" input
+			(at 367.03 105.41 180)
+			(uuid "7d68fbbe-d8f6-494b-b566-0d270581fbd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCP0_SCL" input
+			(at 367.03 109.22 180)
+			(uuid "55c6dd41-2830-4adc-8814-7e6ffd9966d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCP0_SDA" bidirectional
+			(at 367.03 111.76 180)
+			(uuid "3e0b83a6-c5c3-4867-91aa-a3a109ed205b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCP0_TX0+" input
+			(at 367.03 130.81 180)
+			(uuid "7d608928-4bbb-493c-9422-a58872cbaf4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCP0_TX0-" input
+			(at 367.03 133.35 180)
+			(uuid "ac25f921-06b2-4c88-a05c-e7f812e47f4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCP0_TX1+" input
+			(at 367.03 125.73 180)
+			(uuid "dee13e11-9f81-45a4-a821-76e8d7791f77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCP0_TX1-" input
+			(at 367.03 128.27 180)
+			(uuid "8356ddfa-2cfb-403a-a656-087afdc07f9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCP0_TX2+" input
+			(at 367.03 120.65 180)
+			(uuid "e31c721b-fe19-4bf8-86fa-8d02dc05f2d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCP0_TX2-" input
+			(at 367.03 123.19 180)
+			(uuid "b7b11c56-1e08-4ea1-bc87-be332fd612a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCP0_TX3+" input
+			(at 367.03 115.57 180)
+			(uuid "da490acf-8e92-48ac-82c8-8b10cf88d3b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCP0_TX3-" input
+			(at 367.03 118.11 180)
+			(uuid "43567134-f42b-4f04-9308-531dfd49fe5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 154.94)
+		(size 27.94 64.77)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0716e4e5-1aca-46b3-961a-42a6c1122566")
+		(property "Sheetname" "PCIe x4"
+			(at 29.21 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PCIe x4.kicad_sch"
+			(at 29.21 220.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PCIE_RX_3-" output
+			(at 57.15 171.45 0)
+			(uuid "24e11e40-acbf-4aeb-bfed-d5f15e2c8f26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RX_2-" output
+			(at 57.15 176.53 0)
+			(uuid "90a9d4c5-4f27-44d3-aee7-c51498be2619")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RX_3+" output
+			(at 57.15 168.91 0)
+			(uuid "4cf7ceec-6bb5-49ba-b7aa-95446aa6b12c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RX_0-" output
+			(at 57.15 186.69 0)
+			(uuid "8fdb8eb4-fc79-44b4-9034-0c0e9d147a2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RX_1-" output
+			(at 57.15 181.61 0)
+			(uuid "2a3aa79b-f2ee-4ab8-bfd7-10b5805d049e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RX_1+" output
+			(at 57.15 179.07 0)
+			(uuid "83c0b3da-2006-46ef-9102-ec3b1f59661d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RX_0+" output
+			(at 57.15 184.15 0)
+			(uuid "8a1a1ed2-4b40-411e-9bc4-8e5cb99c8780")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RX_2+" output
+			(at 57.15 173.99 0)
+			(uuid "c3ac3413-b3a2-4538-99d9-52e6525b0a69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PLT_RST}" input
+			(at 57.15 157.48 0)
+			(uuid "541fdc90-33a8-4d7c-a6eb-16faa43d223c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REFCLK-" input
+			(at 57.15 214.63 0)
+			(uuid "9d8d9b75-9202-4646-8abe-fd68d6ac4d07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REFCLK+" input
+			(at 57.15 212.09 0)
+			(uuid "a2e417e8-a606-4def-8425-d42c9cc41e5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_TX_3-" input
+			(at 57.15 193.04 0)
+			(uuid "6bed64ee-7b29-4216-87f6-9446bc1b994a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_TX_3+" input
+			(at 57.15 190.5 0)
+			(uuid "7a03aa35-d9e0-4f77-9770-6d12370cb657")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_TX_2-" input
+			(at 57.15 198.12 0)
+			(uuid "2801007e-4aeb-466c-81f6-e3257fd89ea8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_TX_0+" input
+			(at 57.15 205.74 0)
+			(uuid "b135acf8-19be-4604-9a1a-108faf252dc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_TX_2+" input
+			(at 57.15 195.58 0)
+			(uuid "e374c9dc-f101-42d3-bcad-7c48b2d968b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_TX_1-" input
+			(at 57.15 203.2 0)
+			(uuid "cfe741f0-203f-466f-aa20-e72c4a27acc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_TX_0-" input
+			(at 57.15 208.28 0)
+			(uuid "f229b970-eb3e-4f6b-aec0-04cbbff7941d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_TX_1+" input
+			(at 57.15 200.66 0)
+			(uuid "6b5cac5b-1684-48f8-b564-9141ca8e5433")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{WAKE}" input
+			(at 57.15 160.02 0)
+			(uuid "c4fbe6d2-f6a9-4702-9f6a-d487a3228c29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 227.33 96.52)
+		(size 114.3 186.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3a22e7a6-e840-47a0-9215-15d617138f65")
+		(property "Sheetname" "LattePanda Module1"
+			(at 227.33 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LattePanda Module.kicad_sch"
+			(at 227.33 283.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_2_P1-" bidirectional
+			(at 227.33 251.46 180)
+			(uuid "972479d7-b000-40c5-b3d7-1cc910adde9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P1+" bidirectional
+			(at 227.33 254 180)
+			(uuid "5deed0c6-be7f-4baf-97be-0f7c082748cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P2+" bidirectional
+			(at 227.33 274.32 180)
+			(uuid "a0661df7-3916-4684-85ea-93588a53646b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P3+" bidirectional
+			(at 227.33 260.35 180)
+			(uuid "de5a1b07-9aff-46c4-995a-a5e3714891dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P3-" bidirectional
+			(at 227.33 257.81 180)
+			(uuid "9a91e931-14b4-4ffe-abeb-5eaac90c4526")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P2-" bidirectional
+			(at 227.33 276.86 180)
+			(uuid "bd1e3e7e-94ab-4608-8397-16711c6f63ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HSIO_1_TX-" output
+			(at 227.33 243.84 180)
+			(uuid "5de0e61d-cd21-4ebd-a0f9-33238aad6a8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HSIO_1_RX+" input
+			(at 227.33 246.38 180)
+			(uuid "650be6c0-7a03-4446-8f35-b11266c880d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HSIO_1_RX-" input
+			(at 227.33 248.92 180)
+			(uuid "da1f733a-1d9b-41e0-8eaa-13f82c3924eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HSIO_0_TX-" output
+			(at 227.33 262.89 180)
+			(uuid "eb39cd4d-fa42-4bc7-a948-c8f40e7601c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HSIO_0_TX+" output
+			(at 227.33 265.43 180)
+			(uuid "63588441-9062-4e53-9111-5ed3ab1edab9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HSIO_0_RX-" input
+			(at 227.33 267.97 180)
+			(uuid "b6604fdb-8298-4b1b-8ee7-c2b560ad1d94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HSIO_1_TX+" output
+			(at 227.33 241.3 180)
+			(uuid "3ce70087-0f81-4681-aed2-ccba30735c88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HSIO_0_RX+" input
+			(at 227.33 270.51 180)
+			(uuid "ad29b94a-e616-4c89-8012-43a3d2b50e75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PLT_RST}" output
+			(at 341.63 223.52 0)
+			(uuid "db0e3bc9-e3ff-4017-9810-15495f51c2e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PEWAKE}" output
+			(at 341.63 226.06 0)
+			(uuid "04d7e130-6d2e-4681-bd7a-a6ad276a1d8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_2_P7+" bidirectional
+			(at 341.63 234.95 0)
+			(uuid "359699d8-7a79-4b6a-a829-19130b6a3dea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_2_P5-" bidirectional
+			(at 227.33 281.94 180)
+			(uuid "539868d2-1b0d-4a18-8611-6d7cda08ac96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P5+" bidirectional
+			(at 227.33 279.4 180)
+			(uuid "0509622b-2749-4f82-8a83-254266533319")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PWR_LED}{slash}~{PSON}" output
+			(at 227.33 114.3 180)
+			(uuid "ec528c0a-0e52-4837-a3f9-4300bec4f136")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PWR_SW}" input
+			(at 227.33 109.22 180)
+			(uuid "a69258f4-a023-42db-a3ef-ce73d10a857d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RST_SW}" input
+			(at 227.33 106.68 180)
+			(uuid "67102a1c-ae08-4ccb-b3e9-a8df4ae438df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REFCLK0+" output
+			(at 341.63 265.43 0)
+			(uuid "6253d61a-6508-4e77-9a4c-9d81a9d021f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REFCLK0-" output
+			(at 341.63 262.89 0)
+			(uuid "6f931e9c-3913-4a06-963d-aa743f51f36b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HSIO_3_TX+" output
+			(at 341.63 251.46 0)
+			(uuid "20b0a469-fdc9-413c-b2fc-7720269f4f1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HSIO_2_TX+" output
+			(at 341.63 267.97 0)
+			(uuid "d4bdf51b-d311-4c6e-839e-4517d07d7431")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HSIO_2_RX+" input
+			(at 341.63 273.05 0)
+			(uuid "88ebf59e-8589-4ed6-b1ef-31db1779a7a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HSIO_2_RX-" input
+			(at 341.63 275.59 0)
+			(uuid "6592f1f3-88c7-4d97-a881-6e8f22a77f4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HSIO_2_TX-" output
+			(at 341.63 270.51 0)
+			(uuid "4283063e-44b5-46aa-bc63-b1a336196934")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HSIO_3_TX-" output
+			(at 341.63 254 0)
+			(uuid "c62543f8-03be-4d3c-8b54-0dc88ac2c1f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HSIO_3_RX+" input
+			(at 341.63 246.38 0)
+			(uuid "26e04e92-240d-42b4-9c4a-82c1fe00dde3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HSIO_3_RX-" input
+			(at 341.63 248.92 0)
+			(uuid "f558e445-5515-4647-9545-98e237ea134d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SUSCLK_WIFI" input
+			(at 341.63 231.14 0)
+			(uuid "3c35bdc6-27da-451f-a50a-1b81cda25be8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REFCLK3+" output
+			(at 341.63 241.3 0)
+			(uuid "5f1d91cd-4723-4378-bc96-d4af446e727a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REFCLK3-" output
+			(at 341.63 243.84 0)
+			(uuid "71b85c07-fcf9-4154-85cd-005dfae9c50b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_2_P7-" bidirectional
+			(at 341.63 237.49 0)
+			(uuid "9764b70d-6ec1-4d37-a07f-4c1c87cd3699")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN_1_PWM" output
+			(at 227.33 137.16 180)
+			(uuid "799ac967-a2f4-4c74-acc1-e2184dc3205e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAN_1_TAC" input
+			(at 227.33 133.35 180)
+			(uuid "93fdd9d8-e366-450c-b62c-2040abe1a9fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DDIB_HPD" input
+			(at 341.63 137.16 0)
+			(uuid "bb88e4a5-2300-4e24-9a36-24645c31b284")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDIB_SCL" output
+			(at 341.63 140.97 0)
+			(uuid "be804fbb-d605-4eb7-ab44-2899b0a470a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDIB_SDA" bidirectional
+			(at 341.63 143.51 0)
+			(uuid "2300c08d-7797-4744-a4e8-dd38641edd81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDIB_TX0+" output
+			(at 341.63 162.56 0)
+			(uuid "77bc9889-18c1-43d8-8af3-64831dab86f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDIB_TX0-" output
+			(at 341.63 165.1 0)
+			(uuid "dc830bd2-6605-49ec-9476-a5e575e51de3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDIB_TX1+" output
+			(at 341.63 157.48 0)
+			(uuid "97167006-43b3-4a30-8589-90c77ee638bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDIB_TX1-" output
+			(at 341.63 160.02 0)
+			(uuid "53fbd111-cdd0-4d4f-81a7-7cfa4d5ea1fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDIB_TX2+" output
+			(at 341.63 152.4 0)
+			(uuid "91f22a9b-363a-4d3a-ae97-34843006cfa9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDIB_TX2-" output
+			(at 341.63 154.94 0)
+			(uuid "bfd41d9a-6151-43b0-8456-5aa6ae237c1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDIB_TX3+" output
+			(at 341.63 147.32 0)
+			(uuid "7a58cd52-6a6a-40d1-b1c2-e3d2c4aa664e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDIB_TX3-" output
+			(at 341.63 149.86 0)
+			(uuid "c00e649f-bd45-4b17-8fda-0dfae0d97e48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TCP0_HPD" input
+			(at 341.63 105.41 0)
+			(uuid "1aa93ff3-64fe-49f8-aaa7-a387f0bce391")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TCP0_SCL" output
+			(at 341.63 109.22 0)
+			(uuid "c68e0801-47a6-4939-a912-19caa36ec5b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TCP0_SDA" bidirectional
+			(at 341.63 111.76 0)
+			(uuid "ad391991-e72f-4eec-970d-a8bcfae4751d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TCP0_TX0+" output
+			(at 341.63 130.81 0)
+			(uuid "f5b2b426-8e48-4451-8493-e3d981e0ac6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TCP0_TX0-" output
+			(at 341.63 133.35 0)
+			(uuid "615ebfba-2e1e-4a45-beeb-b87bfb650713")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TCP0_TX1+" output
+			(at 341.63 125.73 0)
+			(uuid "0881ffc0-9119-42cf-92c2-804ed7142db6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TCP0_TX1-" output
+			(at 341.63 128.27 0)
+			(uuid "471acb65-8599-4be2-bfa3-481a93184744")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TCP0_TX2+" output
+			(at 341.63 120.65 0)
+			(uuid "a1d0e600-b912-4f95-9dd6-c90ca5c4c28d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TCP0_TX2-" output
+			(at 341.63 123.19 0)
+			(uuid "58d0fb59-3b75-47a1-8a23-c4a017b19394")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TCP0_TX3+" output
+			(at 341.63 115.57 0)
+			(uuid "b1411b51-e95f-440d-b908-756670e8ccb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TCP0_TX3-" output
+			(at 341.63 118.11 0)
+			(uuid "a6cfcae0-d187-4e66-b70c-160cf1403025")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 129.54)
+		(size 27.94 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3a597c52-640b-4e4c-bb57-6eff9e8fff95")
+		(property "Sheetname" "Fan_Temp"
+			(at 167.64 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fan_temp.kicad_sch"
+			(at 167.64 146.6346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FAN_1_TAC" output
+			(at 195.58 133.35 0)
+			(uuid "3dc61023-0337-4cc3-82f1-daa88800fe64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN_1_PWM" input
+			(at 195.58 137.16 0)
+			(uuid "dad7f017-fad4-4296-9c69-dbdee6710db0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN_2_PWM" input
+			(at 167.64 137.16 180)
+			(uuid "8d5a37ab-6395-4a45-aadc-448b1fdf29e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAN_2_TAC" output
+			(at 167.64 133.35 180)
+			(uuid "aa09d240-57ef-4b4f-b298-3d91bd17949b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TEMP" output
+			(at 167.64 140.97 180)
+			(uuid "7c49be36-6892-451e-940f-aa10f4a79a04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 104.14)
+		(size 27.94 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b23aee49-27d1-466d-98e2-113ee657e42b")
+		(property "Sheetname" "PSU"
+			(at 167.64 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 167.64 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{PWR_LED}{slash}~{PSON}" input
+			(at 195.58 114.3 0)
+			(uuid "01bfb923-323f-4552-93c2-a5ccbee06ba1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SLS_S3" input
+			(at 195.58 111.76 0)
+			(uuid "91053ec3-c2f9-418c-b958-c984c20c10ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PWR_SW}" output
+			(at 195.58 109.22 0)
+			(uuid "098c6660-93a9-4414-83c6-aaebf2bcea70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RST_SW}" output
+			(at 195.58 106.68 0)
+			(uuid "9048d091-421e-4729-9b02-7a0397d80d4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 367.03 219.71)
+		(size 29.21 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ef6f480d-d7ca-4322-a73f-5177e707fe9e")
+		(property "Sheetname" "M.2 E&M Key"
+			(at 367.03 218.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "M.2 E&M Key.kicad_sch"
+			(at 367.03 283.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SUSCLK" output
+			(at 367.03 231.14 180)
+			(uuid "44f9809a-d8f5-41c9-9296-010744e695d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REFCLKM+" input
+			(at 367.03 262.89 180)
+			(uuid "4edee989-a99b-4aa6-99d1-70f5dd0bab44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REFCLKM-" input
+			(at 367.03 265.43 180)
+			(uuid "75f523ab-9d84-4221-9308-de49d8f173c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PLT_RST}" input
+			(at 367.03 223.52 180)
+			(uuid "e72bbeda-e233-4a1c-974c-020c080f218c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{WAKE}" input
+			(at 367.03 226.06 180)
+			(uuid "64454752-5bd6-42a3-b253-85bffb7a0af1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_TX_1+" input
+			(at 367.03 267.97 180)
+			(uuid "10aada01-584e-4cf5-9262-0ea77ef6c5ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_RX_1+" output
+			(at 367.03 273.05 180)
+			(uuid "8d865af0-2a8a-47bb-87a8-4dc78cb290be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_RX_1-" output
+			(at 367.03 275.59 180)
+			(uuid "34c8dab6-a191-486a-a0e8-99fbb93e82ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_TX_1-" input
+			(at 367.03 270.51 180)
+			(uuid "c69eb226-a27b-4f65-b9f8-1b58a6da7827")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REFCLKE-" input
+			(at 367.03 243.84 180)
+			(uuid "a1fa9f75-efb9-4fdf-b7ab-02490f4ac5ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REFCLKE+" input
+			(at 367.03 241.3 180)
+			(uuid "1fd08e52-7107-4737-b2e3-9332e60b7ca7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P7-" bidirectional
+			(at 367.03 237.49 180)
+			(uuid "0f0171c5-1f24-4da8-9197-1aa3004e8982")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_TX_0-" input
+			(at 367.03 254 180)
+			(uuid "4b86923e-1946-45fc-83b0-8b743f8cc9e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_2_P7+" bidirectional
+			(at 367.03 234.95 180)
+			(uuid "84c82d1f-f4bc-4175-a7e4-5571ecde0395")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_RX_0+" output
+			(at 367.03 246.38 180)
+			(uuid "ab69af5c-cd9f-4a3e-a8e6-220231fd6d19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_RX_0-" output
+			(at 367.03 248.92 180)
+			(uuid "51fbbb20-a6da-4b0f-ab39-e23633285ebc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_TX_0+" input
+			(at 367.03 251.46 180)
+			(uuid "e80dfa5c-5efc-4bf1-932d-9313c9cb39c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 154.94)
+		(size 27.94 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f4c6eb13-881e-4631-bc2a-bf0410b4dd87")
+		(property "Sheetname" "Gigabit Ethernet"
+			(at 62.23 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Gigabit Ethernet.kicad_sch"
+			(at 62.23 186.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GbE_PCIe_CLK-" input
+			(at 62.23 176.53 180)
+			(uuid "462c5ba0-380e-470b-936f-fcdf12f66573")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GbE_PCIe_RX+" output
+			(at 62.23 168.91 180)
+			(uuid "ea21c64e-da8f-4ed3-8c1e-39ff9a037552")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GbE_PCIe_RX-" output
+			(at 62.23 171.45 180)
+			(uuid "c4e0efc3-9633-449b-b270-c3a543c73a69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GbE_PCIe_TX-" input
+			(at 62.23 166.37 180)
+			(uuid "19c20e56-2e3e-47aa-bf31-74bc01d4e195")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GbE_PCIe_TX+" input
+			(at 62.23 163.83 180)
+			(uuid "ef8fd688-8319-48d5-90a0-e8325c6b175c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GbE_PCIe_CLK+" input
+			(at 62.23 173.99 180)
+			(uuid "c6835aee-b879-4107-bc6d-11e645282151")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PLT_RST}" input
+			(at 62.23 158.75 180)
+			(uuid "ab1611e0-7fad-4184-b1b9-db901b9db9e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 367.03 173.99)
+		(size 27.94 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f7e36582-0575-4ab7-aed9-3fad0f8951d3")
+		(property "Sheetname" "GPIO"
+			(at 367.03 173.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPIO.kicad_sch"
+			(at 367.03 213.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C2_SCL" output
+			(at 367.03 179.07 180)
+			(uuid "6b57ce51-2b0f-4af7-a6ef-9dd561814ae1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C4_SCL" output
+			(at 367.03 189.23 180)
+			(uuid "10185684-57fe-485b-a3ea-8a134c64c63b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C5_SCL" output
+			(at 367.03 194.31 180)
+			(uuid "a6296e54-5050-4c26-bf37-ec08c4065240")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C3_SCL" output
+			(at 367.03 184.15 180)
+			(uuid "11e77fd5-0300-43dd-9b06-7d3dd8eeafbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOC_UART0_TX" output
+			(at 367.03 198.12 180)
+			(uuid "991a3086-f06f-43c4-be8b-4bcb54c67bf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOC_UART1_TX" output
+			(at 367.03 203.2 180)
+			(uuid "25c83df3-3163-4a2b-af5d-aa1d51cc850d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOC_UART2_TX" output
+			(at 367.03 208.28 180)
+			(uuid "b767b768-f9e4-43be-b582-3a75526f1ae6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C3_SDA" bidirectional
+			(at 367.03 181.61 180)
+			(uuid "06c3035c-a725-4684-a592-1e729c4ab0bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C4_SDA" bidirectional
+			(at 367.03 186.69 180)
+			(uuid "e0529c0f-0c4d-4a7b-a182-93216d3b3189")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C5_SDA" bidirectional
+			(at 367.03 191.77 180)
+			(uuid "f59ae825-493d-4023-ab12-65af86f483b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C2_SDA" bidirectional
+			(at 367.03 176.53 180)
+			(uuid "69461e20-8fb7-45d4-8151-be9ae596f168")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOC_UART0_RX" output
+			(at 367.03 200.66 180)
+			(uuid "0503dbe9-3b85-487b-b73e-b45ad3519bd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOC_UART2_RX" output
+			(at 367.03 210.82 180)
+			(uuid "69f6d537-a6af-4de9-a51e-96e884ad1393")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOC_UART1_RX" output
+			(at 367.03 205.74 180)
+			(uuid "31ccee5d-93bf-4fb8-b6d1-8be865891e52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 240.03)
+		(size 27.94 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a")
+		(property "Sheetname" "USB2.0&USB3.0"
+			(at 167.64 239.3184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB2.0&USB3.0.kicad_sch"
+			(at 167.64 283.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB3_SSRX_P" input
+			(at 195.58 270.51 0)
+			(uuid "2de6a8b4-009e-447e-9e70-7f12173fad2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB3_SSRX_N" input
+			(at 195.58 267.97 0)
+			(uuid "dd88a646-9f37-4da5-97e6-a6e040ff2a7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB3_SSTX_N" output
+			(at 195.58 262.89 0)
+			(uuid "1262fc8e-5605-423f-bb77-8c4d44ff8e2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_2_P5+" bidirectional
+			(at 195.58 279.4 0)
+			(uuid "c7ab3aa4-773d-4405-88b9-295083c8855c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_2_P5-" bidirectional
+			(at 195.58 281.94 0)
+			(uuid "b78fd226-64c2-4cb1-bbd6-e3786f0728c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB3_SSTX_P" output
+			(at 195.58 265.43 0)
+			(uuid "22ffb5ad-5e5d-4d15-8221-325548612a7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_2_P1+" bidirectional
+			(at 195.58 254 0)
+			(uuid "1871a8ec-eeb7-484c-98bc-8437c90b8a27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_2_P3-" bidirectional
+			(at 195.58 257.81 0)
+			(uuid "4fea518b-cc44-44fe-889e-b695c87da18f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_2_P3+" bidirectional
+			(at 195.58 260.35 0)
+			(uuid "3f3feb1c-e1ca-441e-8d67-0f6e5aa5ea15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_2_P1-" bidirectional
+			(at 195.58 251.46 0)
+			(uuid "b6e1bf1c-77f7-428c-9d55-c1aab191037b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_2_P2+" bidirectional
+			(at 195.58 274.32 0)
+			(uuid "bb2f419b-6d4b-41f1-a67b-e5e5fd8d9843")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB4_SSRX_N" input
+			(at 195.58 248.92 0)
+			(uuid "9069b266-f325-42d8-868b-02b0ac960e4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB4_SSRX_P" input
+			(at 195.58 246.38 0)
+			(uuid "a98f2293-cb04-4c7e-91b2-9c2811d1dd38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB4_SSTX_N" output
+			(at 195.58 243.84 0)
+			(uuid "4810cafc-a9d8-49b3-86a1-29bd693ca181")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB4_SSTX_P" output
+			(at 195.58 241.3 0)
+			(uuid "0cf59706-1769-4ffd-916d-fc99cd16b8a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_2_P2-" bidirectional
+			(at 195.58 276.86 0)
+			(uuid "17ad02bb-0d65-40cc-b5c6-60666ee3fa96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
