@@ -4207,6 +4207,10 @@
 		(uuid "913f542f-47dd-4829-9894-c2082034d89b")
 	)
 	(no_connect
+		(at 251.46 189.23)
+		(uuid "918cd17a-f675-49f8-9e4b-28b095776173")
+	)
+	(no_connect
 		(at 454.66 185.42)
 		(uuid "97b81abf-66bf-4fe5-8e94-5745504b056e")
 	)
@@ -4426,16 +4430,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 189.23) (xy 257.81 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ce60580-1d1f-4b25-a7a9-e2d9f5b010b1")
-	)
-	(wire
-		(pts
 			(xy 160.02 135.89) (xy 163.83 135.89)
 		)
 		(stroke
@@ -4603,16 +4597,6 @@
 			(type default)
 		)
 		(uuid "73d99916-fb13-4e18-b20b-7d38c8b6a31a")
-	)
-	(wire
-		(pts
-			(xy 265.43 189.23) (xy 273.05 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74bc7cab-723d-4408-8ca7-27484727e1fb")
 	)
 	(wire
 		(pts
@@ -10040,210 +10024,6 @@
 			(project "Mu-cyberdeck-carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/ef6f480d-d7ca-4322-a73f-5177e707fe9e"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 261.62 189.23 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "e28d117a-5741-4c48-9239-f6a583ce37a4")
-		(property "Reference" "R28"
-			(at 267.97 190.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R/1%"
-			(at 257.81 190.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 261.62 191.008 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SCH_Show_Footprint" ""
-			(at 261.62 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 261.62 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 261.62 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 261.62 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "811e03a4-8025-4a37-94fb-e1a9ac56d8df")
-		)
-		(pin "2"
-			(uuid "a98ce45d-52cb-445d-bd6d-816c8a308644")
-		)
-		(instances
-			(project "Mu-cyberdeck-carrier"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/ef6f480d-d7ca-4322-a73f-5177e707fe9e"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 273.05 189.23 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea29c49a-3b25-4628-b093-38ec486e45f1")
-		(property "Reference" "#PWR069"
-			(at 279.4 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 276.86 189.23 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 273.05 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d012cfa8-7c35-4e64-b7c0-49f2b5e211d3")
-		)
-		(instances
-			(project "Mu-cyberdeck-carrier"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/ef6f480d-d7ca-4322-a73f-5177e707fe9e"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)

@@ -6922,6 +6922,28 @@
 		)
 		(uuid "4874c704-d3d7-4cea-b020-424d5b8b650d")
 	)
+	(text_box "TCP 0 used for HDMI\n"
+		(exclude_from_sim no)
+		(at 175.26 247.65 0)
+		(size 39.37 10.16)
+		(margins 1.905 1.905 1.905 1.905)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "556ae5cc-c8ed-48cf-a1aa-682fd159df86")
+	)
 	(text_box "HSIO_3 used for M.2 E KEY\n"
 		(exclude_from_sim no)
 		(at 175.26 107.95 0)
@@ -7027,10 +7049,6 @@
 	(no_connect
 		(at 270.51 139.7)
 		(uuid "06d53417-90bd-4baa-b921-dac217bd3474")
-	)
-	(no_connect
-		(at 351.79 218.44)
-		(uuid "071fe0e3-616e-4592-be3f-9cbcd9f1e01e")
 	)
 	(no_connect
 		(at 351.79 275.59)
@@ -7275,10 +7293,6 @@
 	(no_connect
 		(at 351.79 248.92)
 		(uuid "8f0a04f9-2305-46ed-ac9c-8d2f02d5f358")
-	)
-	(no_connect
-		(at 351.79 215.9)
-		(uuid "909763bc-2cab-4909-be50-a673fdea9592")
 	)
 	(no_connect
 		(at 351.79 71.12)
@@ -7564,6 +7578,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 218.44) (xy 351.79 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f75143-e6b0-4461-b236-c54c10fffe26")
+	)
+	(wire
+		(pts
 			(xy 238.76 279.4) (xy 270.51 279.4)
 		)
 		(stroke
@@ -7761,6 +7785,16 @@
 			(type default)
 		)
 		(uuid "53a12b4e-6042-43cd-9219-adbd597e67bc")
+	)
+	(wire
+		(pts
+			(xy 383.54 215.9) (xy 351.79 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4d2cc2-8131-4a7e-9c72-1909e9a2b8a6")
 	)
 	(wire
 		(pts
@@ -8641,6 +8675,17 @@
 		)
 		(uuid "3d470576-9267-4b3e-a4a0-372a2b2c9cbb")
 	)
+	(hierarchical_label "BAT_SDA"
+		(shape bidirectional)
+		(at 383.54 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e65cb41-2c74-4db3-a06c-bddbea815eab")
+	)
 	(hierarchical_label "HSIO_0_RX+"
 		(shape input)
 		(at 238.76 83.82 180)
@@ -9102,6 +9147,17 @@
 			(justify right)
 		)
 		(uuid "cb18e2bd-90be-4c29-bd9a-86850f22ce8c")
+	)
+	(hierarchical_label "BAT_SCL"
+		(shape output)
+		(at 383.54 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce51b02e-9e46-48bf-add6-0f3b8a1bf194")
 	)
 	(hierarchical_label "HSIO_3_RX+"
 		(shape input)

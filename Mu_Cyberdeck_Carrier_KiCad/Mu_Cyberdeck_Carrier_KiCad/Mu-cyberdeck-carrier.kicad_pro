@@ -869,7 +869,7 @@
         "uuid": "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
       }
     ],
-    "used_designators": "#FLG6-7,#FLG13-14,#FLG19-22,#FLG202,R3-4,R61-62,R76,R80-86,R95-98,R104-223,J3,J17,J19-24,L3-6,D34-53,#PWR20-31,#PWR119,#PWR121-123,#PWR130-138,#PWR144-403,C25,C87-88,C90-130,Q9-12,Q17-28,U17-32,Y2-5,A2,BT2,H9-10,TP14",
+    "used_designators": "U79,C87-88,C91-100,#PWR78,#PWR80,#PWR83,#PWR93-94,#PWR103-105,R61-62,R76-77,Q78-79,TH78",
     "variants": []
   },
   "sheets": [
@@ -878,28 +878,16 @@
       "Mu-cyberdeck-carrier"
     ],
     [
-      "0716e4e5-1aca-46b3-961a-42a6c1122566",
-      "PCIe x4"
+      "024b612f-d732-4f1b-ae8a-19d052e1e0e8",
+      "HDMI-LVDS"
     ],
     [
       "3a22e7a6-e840-47a0-9215-15d617138f65",
-      "LattePanda Module1"
+      "LattePanda Module"
     ],
     [
       "f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a",
       "USB2.0&USB3.0"
-    ],
-    [
-      "f4c6eb13-881e-4631-bc2a-bf0410b4dd87",
-      "Gigabit Ethernet"
-    ],
-    [
-      "f7e36582-0575-4ab7-aed9-3fad0f8951d3",
-      "GPIO"
-    ],
-    [
-      "ef6f480d-d7ca-4322-a73f-5177e707fe9e",
-      "M.2 E&M Key"
     ],
     [
       "b23aee49-27d1-466d-98e2-113ee657e42b",
@@ -910,8 +898,20 @@
       "Fan_Temp"
     ],
     [
-      "024b612f-d732-4f1b-ae8a-19d052e1e0e8",
-      "HDMI-LVDS"
+      "f7e36582-0575-4ab7-aed9-3fad0f8951d3",
+      "GPIO"
+    ],
+    [
+      "ef6f480d-d7ca-4322-a73f-5177e707fe9e",
+      "M.2 E&M Key"
+    ],
+    [
+      "f4c6eb13-881e-4631-bc2a-bf0410b4dd87",
+      "Gigabit Ethernet - UNUSED?"
+    ],
+    [
+      "0716e4e5-1aca-46b3-961a-42a6c1122566",
+      "PCIe x4 - UNUSED"
     ]
   ],
   "text_variables": {},

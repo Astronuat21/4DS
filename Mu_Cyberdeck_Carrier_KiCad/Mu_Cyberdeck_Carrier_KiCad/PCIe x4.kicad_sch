@@ -4031,7 +4031,7 @@
 		(in_bom yes)
 		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3e8108c9-12f3-4803-ae63-cbc0f100b717")
 		(property "Reference" "C9"
 			(at 284.48 172.72 90)
@@ -6431,7 +6431,7 @@
 		(in_bom yes)
 		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fab54602-b6d8-415b-9917-8346ff7160c5")
 		(property "Reference" "C10"
 			(at 289.56 172.72 90)

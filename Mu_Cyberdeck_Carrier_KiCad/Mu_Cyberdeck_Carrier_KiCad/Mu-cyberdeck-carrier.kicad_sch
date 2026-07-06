@@ -2354,7 +2354,7 @@
 		(instances
 			(project "Mu-cyberdeck-carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(page "11")
+					(page "2")
 				)
 			)
 		)
@@ -2375,7 +2375,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "0716e4e5-1aca-46b3-961a-42a6c1122566")
-		(property "Sheetname" "PCIe x4"
+		(property "Sheetname" "PCIe x4 - UNUSED"
 			(at 29.21 154.2284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2600,7 +2600,7 @@
 		(instances
 			(project "Mu-cyberdeck-carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(page "3")
+					(page "10")
 				)
 			)
 		)
@@ -2621,7 +2621,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "3a22e7a6-e840-47a0-9215-15d617138f65")
-		(property "Sheetname" "LattePanda Module1"
+		(property "Sheetname" "LattePanda Module"
 			(at 227.33 95.8084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3246,7 +3246,7 @@
 		(instances
 			(project "Mu-cyberdeck-carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
@@ -3343,7 +3343,7 @@
 		(instances
 			(project "Mu-cyberdeck-carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(page "10")
+					(page "6")
 				)
 			)
 		)
@@ -3429,7 +3429,7 @@
 		(instances
 			(project "Mu-cyberdeck-carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(page "9")
+					(page "5")
 				)
 			)
 		)
@@ -3666,7 +3666,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "f4c6eb13-881e-4631-bc2a-bf0410b4dd87")
-		(property "Sheetname" "Gigabit Ethernet"
+		(property "Sheetname" "Gigabit Ethernet - UNUSED?"
 			(at 62.23 154.2284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3761,7 +3761,7 @@
 		(instances
 			(project "Mu-cyberdeck-carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(page "6")
+					(page "9")
 				)
 			)
 		)
@@ -4153,7 +4153,7 @@
 		(instances
 			(project "Mu-cyberdeck-carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
