@@ -869,7 +869,7 @@
         "uuid": "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
       }
     ],
-    "used_designators": "U79,C87-88,C91-100,#PWR78,#PWR80,#PWR83,#PWR93-94,#PWR103-105,R61-62,R76-77,Q78-79,TH78",
+    "used_designators": "U79-81,C87-88,C91-109,C131-132,L78,#PWR78,#PWR80,#PWR83,#PWR93-94,#PWR103-105,#PWR120,#PWR123,#PWR130,#PWR139-142,#FLG78,R61-62,R76-79,R87-88,Q78-79,TH78",
     "variants": []
   },
   "sheets": [
