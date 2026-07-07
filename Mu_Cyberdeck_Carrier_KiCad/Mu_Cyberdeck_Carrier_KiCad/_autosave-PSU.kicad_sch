@@ -6507,12 +6507,6 @@
 		(uuid "65fb4c58-954a-4427-909c-4da6b2cb9f78")
 	)
 	(junction
-		(at 388.62 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68fd3e85-fb93-4ff3-9efe-a98a9b588aba")
-	)
-	(junction
 		(at 483.87 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6597,10 +6591,10 @@
 		(uuid "81e4b489-2ef0-476e-ae11-1b15cc5a5c22")
 	)
 	(junction
-		(at 393.7 180.34)
+		(at 325.12 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "81f90d1a-beae-42ce-80c9-c9c286d805a6")
+		(uuid "83bcd4c8-1a86-4b9a-95e5-05cdedbdff37")
 	)
 	(junction
 		(at 427.99 198.12)
@@ -6655,6 +6649,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95c5477c-12d3-4eab-802e-80ca1fd65dd3")
+	)
+	(junction
+		(at 393.7 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96b24740-57b1-47ef-bed7-cfe6a072ec53")
 	)
 	(junction
 		(at 285.75 101.6)
@@ -6729,12 +6729,6 @@
 		(uuid "aec0fbcb-6459-4dac-b19c-4e11f11c127b")
 	)
 	(junction
-		(at 325.12 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0e58912-f5b4-4858-91f6-fc8ead0bafc1")
-	)
-	(junction
 		(at 280.67 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6799,6 +6793,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c80a0260-7f81-4390-9b28-3473543460c2")
+	)
+	(junction
+		(at 388.62 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb96eac7-3bc0-420c-95f7-5c5db55a571b")
 	)
 	(junction
 		(at 444.5 149.86)
@@ -7675,6 +7675,17 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 180.34) (xy 393.7 180.34)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2d5f164a-2531-4913-9fdf-088f7b64b9ab")
+	)
+	(wire
+		(pts
 			(xy 322.58 187.96) (xy 330.2 187.96)
 		)
 		(stroke
@@ -7712,16 +7723,6 @@
 			(type default)
 		)
 		(uuid "30e750e9-4962-46c8-ad0c-0c56805d9afc")
-	)
-	(wire
-		(pts
-			(xy 320.04 163.83) (xy 325.12 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31c8dd95-6efe-497c-8a3d-19d3e19564f3")
 	)
 	(wire
 		(pts
@@ -8403,7 +8404,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 163.83) (xy 331.47 163.83)
+			(xy 320.04 163.83) (xy 325.12 163.83)
 		)
 		(stroke
 			(width 0)
@@ -9061,6 +9062,16 @@
 			(type default)
 		)
 		(uuid "97a0431d-6f32-44b7-accb-9051a86a9eaa")
+	)
+	(wire
+		(pts
+			(xy 325.12 163.83) (xy 331.47 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e02c05-87a8-4c33-a280-553c513115c3")
 	)
 	(wire
 		(pts
@@ -9790,17 +9801,6 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 180.34) (xy 422.91 180.34)
-		)
-		(stroke
-			(width 1)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "cc8688dd-4833-44fe-b955-2da2eacb09ca")
-	)
-	(wire
-		(pts
 			(xy 232.41 209.55) (xy 232.41 218.44)
 		)
 		(stroke
@@ -9852,7 +9852,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 180.34) (xy 393.7 180.34)
+			(xy 383.54 180.34) (xy 388.62 180.34)
 		)
 		(stroke
 			(width 1)
@@ -9971,17 +9971,6 @@
 			(type default)
 		)
 		(uuid "dc5f91d3-1428-42d0-ace0-75365ba42e59")
-	)
-	(wire
-		(pts
-			(xy 383.54 180.34) (xy 388.62 180.34)
-		)
-		(stroke
-			(width 1)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "dcdfa22a-90fb-4318-9ae0-8e41743fde97")
 	)
 	(wire
 		(pts
@@ -10532,6 +10521,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "fe07e4d9-7322-491f-b0e3-5d7ca416041f")
+	)
+	(wire
+		(pts
+			(xy 393.7 180.34) (xy 422.91 180.34)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "fe7d7207-aa56-42d1-a6de-317d3d4d3ebf")
 	)
 	(wire
 		(pts
@@ -11526,6 +11526,163 @@
 			(project "Mu-cyberdeck-carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
 					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 393.7 176.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "005bdbc7-f890-481a-a39f-c1ff82d7f0c4")
+		(property "Reference" "C108"
+			(at 391.668 178.562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "22uF"
+			(at 394.97 173.228 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+			(at 392.7348 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 393.7 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "C603"
+			(at 393.7 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 393.7 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 393.7 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 393.7 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" ""
+			(at 838.2 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
+			(at 838.2 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 838.2 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "482e28bb-583a-4dae-a1a3-4d82088d0f80")
+		)
+		(pin "1"
+			(uuid "924bcc4f-7837-4f65-be98-31a18dd32525")
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -13076,7 +13233,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
+		(property "DF_Comment" "贴片电阻0402-105K-1%"
 			(at -48.26 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14839,7 +14996,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
+		(property "DF_Comment" "贴片电阻0402-255K-1%"
 			(at -49.53 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -16111,7 +16268,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0603-10uF-10V-X5R(0603)"
+		(property "DF_Comment" "贴片电容0603-8.2nF-10V-X5R(0603)"
 			(at -121.92 12.7 0)
 			(hide yes)
 			(show_name no)
@@ -16345,7 +16502,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
+		(property "DF_Comment" "贴片电容0603-100nF-10V-X5R(0603)"
 			(at -80.01 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -17373,7 +17530,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
+		(property "DF_Comment" "贴片电阻0402-105K-1%"
 			(at 149.86 -246.38 0)
 			(hide yes)
 			(show_name no)
@@ -17561,6 +17718,162 @@
 			(project "Mu-cyberdeck-carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 325.12 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56d661f7-5860-452e-9ab7-e63101b30f92")
+		(property "Reference" "C104"
+			(at 326.898 162.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 323.85 156.718 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+			(at 326.0852 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "C603"
+			(at 325.12 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 325.12 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 325.12 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 325.12 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" ""
+			(at -119.38 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" "贴片电容0603-100nF-10V-X5R(0603)"
+			(at -119.38 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at -119.38 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "12364e16-d1aa-4024-80d7-ecc44e5cd132")
+		)
+		(pin "1"
+			(uuid "ab61583f-5ede-4458-a958-09feaad92a81")
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -17809,7 +18122,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
+		(property "DF_Comment" "贴片电阻0402-0.1K-1%"
 			(at 109.22 603.25 0)
 			(hide yes)
 			(show_name no)
@@ -17966,7 +18279,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0603-10uF-10V-X5R(0603)"
+		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
 			(at 828.04 347.98 0)
 			(hide yes)
 			(show_name no)
@@ -18518,8 +18831,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "63cae0bb-f2ad-45a1-b0f7-affd59a14ed9")
-		(property "Reference" "C104"
+		(uuid "640e6b92-1967-45f9-b91e-59353d5aa53b")
+		(property "Reference" "C136"
 			(at 316.23 169.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18627,7 +18940,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0603-10uF-10V-X5R(0603)"
+		(property "DF_Comment" "贴片电容0603-1uF-10V-X5R(0603)"
 			(at -125.73 0 0)
 			(hide yes)
 			(show_name no)
@@ -18650,15 +18963,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "bcf83ba3-d712-4754-9302-58d3d26868a3")
+			(uuid "f47515bd-0a47-4a59-9a39-c3daaa1706ab")
 		)
 		(pin "1"
-			(uuid "92987eb6-989c-4725-aa19-f5c1e00fbb5b")
+			(uuid "7e5ae005-a392-44bb-8342-0f1a62bc56a1")
 		)
 		(instances
 			(project "Mu-cyberdeck-carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "C104")
+					(reference "C136")
 					(unit 1)
 				)
 			)
@@ -20021,7 +20334,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0603-10uF-10V-X5R(0603)"
+		(property "DF_Comment" "贴片电容0603-1uF-10V-X5R(0603)"
 			(at -132.08 0 0)
 			(hide yes)
 			(show_name no)
@@ -21511,7 +21824,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
+		(property "DF_Comment" "贴片电阻0402-680K-1%"
 			(at -48.26 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -22563,163 +22876,6 @@
 			(project "Mu-cyberdeck-carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
 					(reference "#PWR0902")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 393.7 176.53 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a7ddd831-f5cb-4682-be43-0e75196ced2e")
-		(property "Reference" "C108"
-			(at 391.668 178.562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "22uF"
-			(at 394.97 173.228 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
-			(at 392.7348 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 393.7 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 393.7 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SCH_Show_Footprint" "C603"
-			(at 393.7 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 393.7 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 393.7 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 393.7 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 838.2 347.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电容0603-10uF-10V-X5R(0603)"
-			(at 838.2 347.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 838.2 347.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dc66f90f-48b1-46e7-8baa-2f85ce1a6314")
-		)
-		(pin "1"
-			(uuid "a723b3e5-ec43-474e-b7a0-813878def1a5")
-		)
-		(instances
-			(project "Mu-cyberdeck-carrier"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -24313,162 +24469,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 325.12 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c287a698-2bbc-4107-84ae-0a3ff8295fa6")
-		(property "Reference" "C101"
-			(at 327.152 162.052 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 323.85 156.718 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
-			(at 326.0852 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 325.12 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SCH_Show_Footprint" "C603"
-			(at 325.12 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 325.12 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 325.12 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 325.12 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at -119.38 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电容0603-10uF-10V-X5R(0603)"
-			(at -119.38 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at -119.38 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7a2b2cd3-a170-4f76-b248-c819decb0c5d")
-		)
-		(pin "1"
-			(uuid "c61c78e2-eb7f-4971-b7eb-6d920169746b")
-		)
-		(instances
-			(project "Mu-cyberdeck-carrier"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "C101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 224.79 222.25 270)
 		(unit 1)
@@ -25430,7 +25430,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0603-10uF-10V-X5R(0603)"
+		(property "DF_Comment" "贴片电容0603-100nF-10V-X5R(0603)"
 			(at -124.46 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -26445,7 +26445,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0402-10UF-10V-X5R_GRM155R61A106ME44D"
+		(property "DF_Comment" "贴片电容0402-1nF-50V-X5R"
 			(at 82.55 -233.68 0)
 			(hide yes)
 			(show_name no)
@@ -28705,6 +28705,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 388.62 176.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6d7ce9f-08a1-4b83-8977-2162eb03ab44")
+		(property "Reference" "C107"
+			(at 386.588 178.562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "22uF"
+			(at 389.89 173.228 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+			(at 387.6548 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 388.62 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "C603"
+			(at 388.62 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 388.62 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 388.62 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 388.62 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" ""
+			(at 833.12 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
+			(at 833.12 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 833.12 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1f06db94-52a0-4121-84a9-e6179daa6bb8")
+		)
+		(pin "1"
+			(uuid "abe4cd7b-52a8-4266-9cbb-f8682a0d68bf")
+		)
+		(instances
+			(project "Mu-cyberdeck-carrier"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
+					(reference "C107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 434.34 251.46 180)
 		(unit 1)
@@ -28942,163 +29099,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 388.62 176.53 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fe0297ab-68ab-48e9-9021-bb2b9d2552dc")
-		(property "Reference" "C107"
-			(at 386.588 178.562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "22uF"
-			(at 389.89 173.228 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
-			(at 387.6548 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 388.62 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SCH_Show_Footprint" "C603"
-			(at 388.62 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 388.62 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 388.62 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 388.62 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 833.12 347.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电容0603-10uF-10V-X5R(0603)"
-			(at 833.12 347.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 833.12 347.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "11bb2a2e-c8df-425b-b5f8-e4b5028e561a")
-		)
-		(pin "1"
-			(uuid "939f54fb-bd68-4001-b393-2038a7eb27f8")
-		)
-		(instances
-			(project "Mu-cyberdeck-carrier"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "C107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 532.13 180.34 270)
 		(unit 1)
@@ -29329,7 +29329,7 @@
 				)
 			)
 		)
-		(property "DF_Comment" "贴片电容0603-10uF-10V-X5R(0603)"
+		(property "DF_Comment" "贴片电容0603-100nF-10V-X5R(0603)"
 			(at -129.54 331.47 0)
 			(hide yes)
 			(show_name no)
