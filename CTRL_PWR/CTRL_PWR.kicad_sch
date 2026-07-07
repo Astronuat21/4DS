@@ -1690,7 +1690,7 @@
 			(uuid "5f695933-c70d-4567-92bd-21dbc8906624")
 		)
 		(instances
-			(project "CTRL_R_PWR"
+			(project "CTRL_PWR"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "D2")
 					(unit 1)
@@ -1769,7 +1769,7 @@
 			(uuid "9cd68160-8994-49fb-b87a-d2dc4e9d58fd")
 		)
 		(instances
-			(project "CTRL_R_PWR"
+			(project "CTRL_PWR"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "#PWR05")
 					(unit 1)
@@ -1848,7 +1848,7 @@
 			(uuid "2b5e6e9e-d771-428d-be25-356c68984412")
 		)
 		(instances
-			(project "CTRL_R_PWR"
+			(project "CTRL_PWR"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "#PWR07")
 					(unit 1)
@@ -1927,7 +1927,7 @@
 			(uuid "c097a667-64e6-465e-9213-b426ab957e55")
 		)
 		(instances
-			(project "CTRL_R_PWR"
+			(project "CTRL_PWR"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "#PWR03")
 					(unit 1)
@@ -2005,7 +2005,7 @@
 			(uuid "5820ff0f-e6b2-4b34-914c-00fc39b0fe13")
 		)
 		(instances
-			(project "CTRL_R_PWR"
+			(project "CTRL_PWR"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "#PWR02")
 					(unit 1)
@@ -2084,7 +2084,7 @@
 			(uuid "2c627cc0-7bf4-4ab8-9a8a-60c3ec54f2fa")
 		)
 		(instances
-			(project "CTRL_R_PWR"
+			(project "CTRL_PWR"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "#PWR06")
 					(unit 1)
@@ -2232,7 +2232,7 @@
 			(uuid "63743593-41ae-448a-8961-a9fb42d1079f")
 		)
 		(instances
-			(project "CTRL_R_PWR"
+			(project "CTRL_PWR"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "S1")
 					(unit 1)
@@ -2308,7 +2308,7 @@
 			)
 		)
 		(instances
-			(project "CTRL_R_PWR"
+			(project "CTRL_PWR"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "H1")
 					(unit 1)
@@ -2387,7 +2387,7 @@
 			(uuid "05ea578a-3878-428a-a6a1-2e176ac2593e")
 		)
 		(instances
-			(project "CTRL_R_PWR"
+			(project "CTRL_PWR"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "#PWR04")
 					(unit 1)
@@ -2475,7 +2475,7 @@
 			(uuid "071443f7-bdf0-4c68-8b5f-79234de19cb4")
 		)
 		(instances
-			(project "CTRL_R_PWR"
+			(project "CTRL_PWR"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "D1")
 					(unit 1)
@@ -2554,7 +2554,7 @@
 			(uuid "cd7e721d-bf62-4190-86b7-2882e65d5bb2")
 		)
 		(instances
-			(project "CTRL_R_PWR"
+			(project "CTRL_PWR"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "#PWR08")
 					(unit 1)
@@ -2630,7 +2630,7 @@
 			)
 		)
 		(instances
-			(project "CTRL_R_PWR"
+			(project "CTRL_PWR"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "H2")
 					(unit 1)
@@ -2799,7 +2799,7 @@
 			(uuid "012c410d-8741-4717-8719-1ad7c9d21679")
 		)
 		(instances
-			(project "CTRL_R_PWR"
+			(project "CTRL_PWR"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "J1")
 					(unit 1)
@@ -2877,7 +2877,7 @@
 			(uuid "6b811a9b-f870-40dd-8a26-07d9be0e72db")
 		)
 		(instances
-			(project "CTRL_R_PWR"
+			(project "CTRL_PWR"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "#PWR01")
 					(unit 1)
