@@ -421,6 +421,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 120.65) (xy 227.33 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f70736-3786-470a-97fc-6387ba983b8e")
+	)
+	(wire
+		(pts
 			(xy 341.63 133.35) (xy 367.03 133.35)
 		)
 		(stroke
@@ -928,6 +938,16 @@
 			(type default)
 		)
 		(uuid "da0a525f-7168-49c2-9943-98ed46a9fe23")
+	)
+	(wire
+		(pts
+			(xy 195.58 118.11) (xy 227.33 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7eed5b-acc4-4951-8be4-ddc55de5c829")
 	)
 	(wire
 		(pts
@@ -3243,6 +3263,56 @@
 				(justify right)
 			)
 		)
+		(pin "BAT_SCL" output
+			(at 227.33 118.11 180)
+			(uuid "d335d23b-75f2-442d-995a-29ffe8bb0020")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_SDA" bidirectional
+			(at 227.33 120.65 180)
+			(uuid "21844751-d3b6-489f-8d7c-e5b04ec6a2bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REFCLK4+" output
+			(at 262.89 96.52 90)
+			(uuid "d2ad8ea2-f0c9-424d-97fd-7a22aabd76f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REFCLK4-" output
+			(at 265.43 96.52 90)
+			(uuid "4ffab8c2-d117-4d28-a068-d00682cb2037")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SLS_S3" output
+			(at 260.35 96.52 90)
+			(uuid "5b73b134-c018-432f-a720-47e617da62d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Mu-cyberdeck-carrier"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
@@ -3350,7 +3420,7 @@
 	)
 	(sheet
 		(at 167.64 104.14)
-		(size 27.94 12.7)
+		(size 27.94 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3376,7 +3446,7 @@
 			)
 		)
 		(property "Sheetfile" "PSU.kicad_sch"
-			(at 167.64 117.4246 0)
+			(at 167.64 122.5046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3419,6 +3489,26 @@
 		(pin "~{RST_SW}" output
 			(at 195.58 106.68 0)
 			(uuid "9048d091-421e-4729-9b02-7a0397d80d4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_SDA" bidirectional
+			(at 195.58 120.65 0)
+			(uuid "b43a6fb1-b962-4161-8bdd-a72b96b2d2a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_SCL" input
+			(at 195.58 118.11 0)
+			(uuid "3901d183-f7c9-4c7e-b158-cbfd560e8b79")
 			(effects
 				(font
 					(size 1.27 1.27)
