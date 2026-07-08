@@ -869,7 +869,7 @@
         "uuid": "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
       }
     ],
-    "used_designators": "J78",
+    "used_designators": "D1-2,#PWR5-7,#PWR9-12,#PWR34-36,#PWR38-39,#PWR42-43,#PWR56-63,#PWR124-129,#PWR140,#PWR146-147,S1,S78-79,C17-19,C139-149,R1-2,R5-9,J1,J5,J17,J19-20,J25,U2,U4,SW78-79,Q80",
     "variants": []
   },
   "sheets": [
@@ -878,12 +878,12 @@
       "Motherboard"
     ],
     [
-      "024b612f-d732-4f1b-ae8a-19d052e1e0e8",
-      "HDMI-LVDS"
-    ],
-    [
       "3a22e7a6-e840-47a0-9215-15d617138f65",
       "LattePanda Module"
+    ],
+    [
+      "024b612f-d732-4f1b-ae8a-19d052e1e0e8",
+      "HDMI-LVDS"
     ],
     [
       "f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a",
@@ -899,7 +899,7 @@
     ],
     [
       "f7e36582-0575-4ab7-aed9-3fad0f8951d3",
-      "GPIO"
+      "EXIO"
     ],
     [
       "ef6f480d-d7ca-4322-a73f-5177e707fe9e",
