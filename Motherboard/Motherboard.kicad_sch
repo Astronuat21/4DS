@@ -1224,7 +1224,7 @@
 			(uuid "a52515ba-41fe-4566-ba55-564c64bf6e95")
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(reference "H1")
 					(unit 1)
@@ -1302,7 +1302,7 @@
 			(uuid "b45712e5-bc82-43f6-be07-5a8b31e2ea3b")
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(reference "#PWR01")
 					(unit 1)
@@ -1425,7 +1425,7 @@
 			(uuid "b6ba7df2-92fc-45bc-8fcf-b6dd3b320c93")
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(reference "H4")
 					(unit 1)
@@ -1503,7 +1503,7 @@
 			(uuid "18134e26-ff4e-4700-99b1-118877fdf765")
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(reference "#PWR02")
 					(unit 1)
@@ -1623,7 +1623,7 @@
 			)
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(reference "FID1")
 					(unit 1)
@@ -1743,7 +1743,7 @@
 			)
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(reference "FID2")
 					(unit 1)
@@ -1866,7 +1866,7 @@
 			(uuid "b6e13c41-6a96-4a71-b730-8f40d3ed2d55")
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(reference "H2")
 					(unit 1)
@@ -1989,7 +1989,7 @@
 			(uuid "fcacac49-97ae-4475-931a-2fe00cca6c47")
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(reference "H3")
 					(unit 1)
@@ -2067,7 +2067,7 @@
 			(uuid "6fc7f109-6455-462a-a69f-83d7d9b392e7")
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(reference "#PWR03")
 					(unit 1)
@@ -2145,7 +2145,7 @@
 			(uuid "36b64f07-4a02-497e-bb17-33a41e7bb259")
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(reference "#PWR04")
 					(unit 1)
@@ -2432,7 +2432,7 @@
 			)
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(page "2")
 				)
@@ -2678,7 +2678,7 @@
 			)
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(page "10")
 				)
@@ -3404,7 +3404,7 @@
 			)
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(page "3")
 				)
@@ -3501,7 +3501,7 @@
 			)
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(page "6")
 				)
@@ -3636,7 +3636,7 @@
 			)
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(page "5")
 				)
@@ -3852,7 +3852,7 @@
 			)
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(page "8")
 				)
@@ -3968,7 +3968,7 @@
 			)
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(page "9")
 				)
@@ -4154,7 +4154,7 @@
 			)
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(page "7")
 				)
@@ -4360,7 +4360,7 @@
 			)
 		)
 		(instances
-			(project "Mu-cyberdeck-carrier"
+			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
 					(page "4")
 				)

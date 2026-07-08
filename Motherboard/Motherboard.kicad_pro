@@ -520,7 +520,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Mu-cyberdeck-carrier.kicad_pro",
+    "filename": "Motherboard.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -864,18 +864,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Mu-cyberdeck-carrier.kicad_sch",
-        "name": "Mu-cyberdeck-carrier",
+        "filename": "Motherboard.kicad_sch",
+        "name": "Motherboard",
         "uuid": "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
       }
     ],
-    "used_designators": "U79-82,C87-88,C91-109,C131-138,L78,#PWR5-12,#PWR69,#PWR78,#PWR80,#PWR83,#PWR93-94,#PWR103-105,#PWR120,#PWR123,#PWR130,#PWR139-147,R61-62,R76-79,R87-93,#FLG78,Q78-79,TH78,J1,J17,J19-20,J85-89",
+    "used_designators": "J78",
     "variants": []
   },
   "sheets": [
     [
       "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa",
-      "Mu-cyberdeck-carrier"
+      "Motherboard"
     ],
     [
       "024b612f-d732-4f1b-ae8a-19d052e1e0e8",
