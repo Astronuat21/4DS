@@ -548,7 +548,6 @@
         "bus_width": 12,
         "clearance": 0.1016,
         "diff_pair_gap": 0.1016,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1161,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -567,7 +566,6 @@
         "bus_width": 12,
         "clearance": 0.1016,
         "diff_pair_gap": 0.1016,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1704,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -586,7 +584,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -869,7 +866,7 @@
         "uuid": "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
       }
     ],
-    "used_designators": "U80,U83-84,#PWR124,#PWR129,#PWR148-165,C150-159,IC78,R10-11,R94-95",
+    "used_designators": "U3,U5,U9,U80,U83-87,D7-8,D15-16,#PWR34-36,#PWR61-63,#PWR124,#PWR129,#PWR148-191,#PWR404-405,C26-27,C30-31,C62-63,C86,C88-89,C91,C98,C150-163,J4-5,J80-81,IC78,R10-12,R94-96,R99,Q81,F2-4,F6,Y79-80,L3",
     "variants": []
   },
   "sheets": [
@@ -904,14 +901,6 @@
     [
       "ef6f480d-d7ca-4322-a73f-5177e707fe9e",
       "M.2 E&M Key"
-    ],
-    [
-      "f4c6eb13-881e-4631-bc2a-bf0410b4dd87",
-      "Gigabit Ethernet - UNUSED?"
-    ],
-    [
-      "0716e4e5-1aca-46b3-961a-42a6c1122566",
-      "PCIe x4 - UNUSED"
     ]
   ],
   "text_variables": {},

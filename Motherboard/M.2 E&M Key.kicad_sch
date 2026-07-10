@@ -3985,7 +3985,7 @@
 	)
 	(text "To be grounded for SATA, No Connect for PCIe"
 		(exclude_from_sim no)
-		(at 252.73 194.31 0)
+		(at 251.46 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4129,10 +4129,6 @@
 	(no_connect
 		(at 454.66 134.62)
 		(uuid "4468913b-dcb8-44fd-8595-936c0c066e53")
-	)
-	(no_connect
-		(at 454.66 190.5)
-		(uuid "49ae0f6d-829c-4a21-a3a6-1693cc6a6540")
 	)
 	(no_connect
 		(at 200.66 156.21)
@@ -5180,6 +5176,17 @@
 			(justify right)
 		)
 		(uuid "868c172b-1715-4451-8179-44cd036d7e11")
+	)
+	(hierarchical_label "RPi_WiFi_M2E"
+		(shape output)
+		(at 454.66 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a2a0780-d0c6-4cbf-97ee-e218f31d2d7a")
 	)
 	(hierarchical_label "REFCLKM+"
 		(shape input)
