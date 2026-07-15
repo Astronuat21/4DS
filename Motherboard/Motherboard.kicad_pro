@@ -603,7 +603,12 @@
       "version": 5
     },
     "net_colors": {
-      "GND": "rgb(218, 255, 0)"
+      "+15V": "rgb(194, 0, 0)",
+      "+1V1": "rgb(132, 132, 0)",
+      "+1V8": "rgb(132, 132, 0)",
+      "+3V3": "rgb(194, 194, 0)",
+      "+5V": "rgb(221, 133, 0)",
+      "GND": "rgb(0, 194, 0)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [
@@ -799,6 +804,42 @@
           "label": "Buy_Link",
           "name": "Buy_Link",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC_Part",
+          "name": "LCSC_Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -866,7 +907,7 @@
         "uuid": "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
       }
     ],
-    "used_designators": "R100-131,J82-84,U87-95,L7,D54,#PWR329-330,#PWR332-334,#PWR394-395,#PWR406-408,C146-149,C164-174",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

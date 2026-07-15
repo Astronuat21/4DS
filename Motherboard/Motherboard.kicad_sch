@@ -441,16 +441,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 88.9) (xy 227.33 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10f70736-3786-470a-97fc-6387ba983b8e")
-	)
-	(wire
-		(pts
 			(xy 195.58 276.86) (xy 227.33 276.86)
 		)
 		(stroke
@@ -1258,16 +1248,6 @@
 			(type default)
 		)
 		(uuid "da0a525f-7168-49c2-9943-98ed46a9fe23")
-	)
-	(wire
-		(pts
-			(xy 195.58 86.36) (xy 227.33 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de7eed5b-acc4-4951-8be4-ddc55de5c829")
 	)
 	(wire
 		(pts
@@ -3781,26 +3761,6 @@
 		(pin "~{RST_SW}" output
 			(at 195.58 74.93 0)
 			(uuid "9048d091-421e-4729-9b02-7a0397d80d4b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "BAT_SDA" bidirectional
-			(at 195.58 88.9 0)
-			(uuid "b43a6fb1-b962-4161-8bdd-a72b96b2d2a4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "BAT_SCL" input
-			(at 195.58 86.36 0)
-			(uuid "3901d183-f7c9-4c7e-b158-cbfd560e8b79")
 			(effects
 				(font
 					(size 1.27 1.27)

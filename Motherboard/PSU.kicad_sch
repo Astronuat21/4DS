@@ -8309,6 +8309,10 @@
 		(uuid "1944409e-6bbb-45c2-aa63-b3d51555e8da")
 	)
 	(no_connect
+		(at 201.93 149.86)
+		(uuid "353f8d12-d76f-4f99-99b6-71edb8be1d75")
+	)
+	(no_connect
 		(at 226.06 255.27)
 		(uuid "5df08b7c-fa92-4542-9adb-0c4512cd714f")
 	)
@@ -8323,6 +8327,10 @@
 	(no_connect
 		(at 226.06 252.73)
 		(uuid "d8acfca9-4522-4499-9323-07f21e0f6e63")
+	)
+	(no_connect
+		(at 201.93 152.4)
+		(uuid "ffdc9c2f-23ff-482e-a796-c837041eab2d")
 	)
 	(wire
 		(pts
@@ -13286,17 +13294,6 @@
 			)
 		)
 	)
-	(hierarchical_label "BAT_SCL"
-		(shape input)
-		(at 194.31 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "10a5c8f1-d768-40e2-b091-ce99f65b0634")
-	)
 	(hierarchical_label "RPI_BAT_SDA"
 		(shape bidirectional)
 		(at 276.86 220.98 180)
@@ -13351,17 +13348,6 @@
 			(justify right)
 		)
 		(uuid "5e1dde19-a3f6-42a5-ba39-fed5bc902da9")
-	)
-	(hierarchical_label "BAT_SDA"
-		(shape bidirectional)
-		(at 194.31 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6025073e-a96a-4c8b-8100-b616f23a4ae4")
 	)
 	(hierarchical_label "~{PWR_LED}{slash}~{PSON}"
 		(shape input)
@@ -16782,164 +16768,6 @@
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
 					(reference "J85")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 198.12 152.4 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "218f00f5-3520-4d84-b1ee-20df7fd9fcb0")
-		(property "Reference" "R62"
-			(at 198.12 156.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K/1%"
-			(at 198.12 154.432 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
-			(at 198.12 154.178 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SCH_Show_Footprint" ""
-			(at 198.12 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 198.12 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 198.12 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 198.12 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 22.86 576.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
-			(at 22.86 576.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 22.86 576.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee727967-6159-4875-a986-056e04315dee")
-		)
-		(pin "2"
-			(uuid "94fc2811-a6c3-467b-8ad7-4ff285da2389")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -21906,162 +21734,6 @@
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
 					(reference "C106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 198.12 149.86 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5c0e2c21-1f74-4980-8d60-e72908c34439")
-		(property "Reference" "R61"
-			(at 198.12 146.05 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K/1%"
-			(at 198.12 147.828 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
-			(at 198.12 148.082 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SCH_Show_Footprint" ""
-			(at 198.12 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 198.12 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 198.12 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 198.12 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 22.86 -274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
-			(at 22.86 -274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 22.86 -274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f5cc75d-23f5-4f54-9c0d-19c9d17d8705")
-		)
-		(pin "2"
-			(uuid "1c6b6107-48bb-4760-a21d-3d449859fb2c")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "R61")
 					(unit 1)
 				)
 			)
