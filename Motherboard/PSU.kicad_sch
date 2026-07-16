@@ -13738,7 +13738,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:R_0603_1608Metric"
 			(at 190.5 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -23822,86 +23822,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 292.1 152.4 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71bdb62c-7292-487f-999c-386e898516fa")
-		(property "Reference" "L78"
-			(at 292.1 147.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.5uH"
-			(at 292.1 149.86 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 292.1 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 292.1 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 292.1 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c8acace-6b66-4e26-8d52-f012ef18860b")
-		)
-		(pin "2"
-			(uuid "be76f93d-2ceb-4ade-ae68-7d2edefee640")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "L78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 478.79 179.07 0)
 		(unit 1)
@@ -33526,6 +33446,163 @@
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
 					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 292.1 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f482c28d-5b4f-4072-b5f6-ef8714aacb43")
+		(property "Reference" "L4"
+			(at 292.1 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5uH"
+			(at 292.1 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:L_Sunlord_SWPA4020S"
+			(at 292.1 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" ""
+			(at 292.1 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 292.1 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 292.1 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 292.1 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" ""
+			(at 455.93 567.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" "贴片屏蔽电感2.2uH_4.0*4.0*2.0_4.3A"
+			(at 455.93 567.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 455.93 567.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d195d13-6659-4428-a27d-d57cdf5df554")
+		)
+		(pin "2"
+			(uuid "14170c29-1b05-4ee8-81d6-103dd71805cf")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
+					(reference "L4")
 					(unit 1)
 				)
 			)

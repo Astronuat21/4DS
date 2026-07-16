@@ -34810,6 +34810,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C916313"
+			(at 447.04 424.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "cb29913e-bb39-4e66-8691-6c55aeb45204")
 		)
