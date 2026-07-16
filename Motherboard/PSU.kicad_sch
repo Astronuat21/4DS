@@ -15278,7 +15278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:R_0805_2012Metric"
 			(at 320.802 190.5 90)
 			(hide yes)
 			(show_name no)
@@ -17117,7 +17117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:R_0805_2012Metric"
 			(at 319.532 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -21457,7 +21457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 231.14 179.578 90)
 			(hide yes)
 			(show_name no)
@@ -25780,7 +25780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:R_0805_2012Metric"
 			(at 320.802 182.88 90)
 			(hide yes)
 			(show_name no)
@@ -30135,7 +30135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:R_0603_1608Metric"
 			(at 275.082 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -33091,7 +33091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:R_0805_2012Metric"
 			(at 261.62 123.952 90)
 			(hide yes)
 			(show_name no)
