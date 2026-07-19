@@ -10523,17 +10523,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 179.07) (xy 374.65 179.07)
-		)
-		(stroke
-			(width 1)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "8a162c4b-5a3e-4e5b-892b-4a2bd138c24b")
-	)
-	(wire
-		(pts
 			(xy 320.04 186.69) (xy 322.58 186.69)
 		)
 		(stroke
@@ -11768,17 +11757,6 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 179.07) (xy 401.32 179.07)
-		)
-		(stroke
-			(width 1)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "d216e21b-2f2f-4697-9fe7-db879fd4b4de")
-	)
-	(wire
-		(pts
 			(xy 400.05 148.59) (xy 391.16 148.59)
 		)
 		(stroke
@@ -12112,7 +12090,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 179.07) (xy 369.57 179.07)
+			(xy 360.68 179.07) (xy 401.32 179.07)
 		)
 		(stroke
 			(width 1)
@@ -13176,6 +13154,16 @@
 		)
 		(uuid "255bc4f3-a45d-41e8-b646-37d98f6c92be")
 	)
+	(label "9VIn"
+		(at 312.42 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27c6d19a-d092-4e22-8b9a-2f1500b2de92")
+	)
 	(label "PWR_C_D+"
 		(at 135.89 262.89 0)
 		(effects
@@ -13205,6 +13193,16 @@
 			(justify left bottom)
 		)
 		(uuid "55f496a3-9a03-42ed-8291-4606fc259a28")
+	)
+	(label "9VF"
+		(at 378.46 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d32afd53-8400-4681-8bf4-b0345ad59ab2")
 	)
 	(label "BAT+"
 		(at 252.73 185.42 180)
