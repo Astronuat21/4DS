@@ -3802,270 +3802,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_3_Open"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_3_Open"
-				(at 0 2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Solder Jumper, 3-pole, open"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Solder Jumper SPDT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SolderJumper_3_Open_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.016) (xy -1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 -1.016)
-					(mid -2.0276 0)
-					(end -1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 -1.016)
-					(mid -2.0276 0)
-					(end -1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.508 1.016)
-					(end 0.508 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 1.016)
-					(mid 2.0276 0)
-					(end 1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 1.016)
-					(mid 2.0276 0)
-					(end 1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_3_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Switching:LM2734X"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7483,6 +7219,18 @@
 		(uuid "010cb7d1-4744-4780-913a-b956a269d824")
 	)
 	(junction
+		(at 255.27 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b1f1493-6dd2-450f-ad0b-3928aab638af")
+	)
+	(junction
+		(at 252.73 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ba84507-7069-4160-ae4e-b04a7fcf008f")
+	)
+	(junction
 		(at 180.34 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7549,16 +7297,34 @@
 		(uuid "27314f70-8833-43c0-b62f-7ea48580a051")
 	)
 	(junction
+		(at 252.73 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "290c7baf-29ea-47f9-9454-4cde217ab9d5")
+	)
+	(junction
 		(at 306.07 314.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a24e7a9-db8e-435f-850f-cf4060fd12f1")
 	)
 	(junction
+		(at 255.27 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c35903c-f161-4781-8f7b-d2ec7316dcc8")
+	)
+	(junction
 		(at 450.85 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e1d9d29-1219-4d68-8734-5550468d1ee8")
+	)
+	(junction
+		(at 252.73 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e6e26b1-e17d-4fd1-a7cf-ed3d218ae37b")
 	)
 	(junction
 		(at 135.89 262.89)
@@ -7615,10 +7381,22 @@
 		(uuid "3b00b7ba-4fc9-406e-97fc-facc1570a6f0")
 	)
 	(junction
+		(at 248.92 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41b9b41a-b9d5-476e-8db4-701f719d6d47")
+	)
+	(junction
 		(at 450.85 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44a0a15a-d1fb-4f55-a798-d56d169c139a")
+	)
+	(junction
+		(at 252.73 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4583459c-aa8a-4d38-b372-1b90fb87ed1b")
 	)
 	(junction
 		(at 374.65 148.59)
@@ -7643,6 +7421,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b95c454-d925-43fe-b2b1-1385da57a5ae")
+	)
+	(junction
+		(at 248.92 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ca55c57-e0b6-42e3-baec-7fcd4d141008")
 	)
 	(junction
 		(at 358.14 314.96)
@@ -7771,12 +7555,6 @@
 		(uuid "778b59c5-b2cb-4485-9c96-9ae8c30fdc69")
 	)
 	(junction
-		(at 255.27 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78c0aeef-6431-4bb6-b9fa-3e00a03ca61a")
-	)
-	(junction
 		(at 257.81 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7849,22 +7627,10 @@
 		(uuid "83e36279-25b5-4831-ab9b-1431ddb905e2")
 	)
 	(junction
-		(at 252.73 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8466f5b3-4175-4f1c-9f8a-db09faf4aa7c")
-	)
-	(junction
 		(at 444.5 285.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8478ae85-5b0c-4041-859f-9a874ba96d9a")
-	)
-	(junction
-		(at 255.27 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84e5422f-bd28-4c1d-a721-5f898f601bc3")
 	)
 	(junction
 		(at 311.15 167.64)
@@ -7885,12 +7651,6 @@
 		(uuid "876644c4-1a26-4010-bd51-6b7ac4e62321")
 	)
 	(junction
-		(at 350.52 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e06e48d-b1f8-450e-96a9-73e2a31fac02")
-	)
-	(junction
 		(at 463.55 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7901,12 +7661,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "942fb7c3-321b-40a7-b4cb-a24696f126bd")
-	)
-	(junction
-		(at 252.73 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9449f31e-e076-4829-acff-e89d841fb5b4")
 	)
 	(junction
 		(at 468.63 201.93)
@@ -7961,12 +7715,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fe2a2a9-27a7-49e6-ae1d-8489421a282c")
-	)
-	(junction
-		(at 252.73 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a282a448-ad7b-42ba-ac81-67ef5efce198")
 	)
 	(junction
 		(at 175.26 238.76)
@@ -8033,6 +7781,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "becb4cbb-9e47-4545-a7e6-e3c5b4c237aa")
+	)
+	(junction
+		(at 252.73 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c176eeb6-1240-4324-afec-acbcf0efe6a7")
 	)
 	(junction
 		(at 443.23 217.17)
@@ -8119,6 +7873,12 @@
 		(uuid "d3625a02-b614-4f72-85f5-f948d72b9ad6")
 	)
 	(junction
+		(at 255.27 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4b6b029-56df-48f7-8d39-9c280c43175d")
+	)
+	(junction
 		(at 259.08 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8183,12 +7943,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e60c341c-2366-4e27-97b2-9158759f5673")
-	)
-	(junction
-		(at 255.27 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e742ab90-0cc2-49d6-8014-c37e4e4a3969")
 	)
 	(junction
 		(at 142.24 245.11)
@@ -8525,7 +8279,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 220.98) (xy 255.27 220.98)
+			(xy 237.49 220.98) (xy 255.27 220.98)
 		)
 		(stroke
 			(width 0)
@@ -8686,7 +8440,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 231.14) (xy 255.27 231.14)
+			(xy 237.49 231.14) (xy 255.27 231.14)
 		)
 		(stroke
 			(width 0)
@@ -8839,7 +8593,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 210.82) (xy 255.27 210.82)
+			(xy 237.49 210.82) (xy 255.27 210.82)
 		)
 		(stroke
 			(width 0)
@@ -9002,7 +8756,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 228.6) (xy 252.73 228.6)
+			(xy 237.49 228.6) (xy 252.73 228.6)
 		)
 		(stroke
 			(width 0)
@@ -9275,6 +9029,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 194.31) (xy 252.73 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33613d3a-353a-46a6-882e-19b92d9e680c")
+	)
+	(wire
+		(pts
 			(xy 265.43 165.1) (xy 265.43 166.37)
 		)
 		(stroke
@@ -9468,16 +9232,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 237.49) (xy 350.52 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "415e18b4-7789-4c7c-a5de-864437ae4483")
-	)
-	(wire
-		(pts
 			(xy 201.93 113.03) (xy 201.93 121.92)
 		)
 		(stroke
@@ -9485,6 +9239,16 @@
 			(type default)
 		)
 		(uuid "42288e24-6e91-498b-a9d6-35dbbc58c900")
+	)
+	(wire
+		(pts
+			(xy 350.52 226.06) (xy 350.52 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42445958-805d-4095-8eb4-4d1f439d2962")
 	)
 	(wire
 		(pts
@@ -9539,7 +9303,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 218.44) (xy 252.73 218.44)
+			(xy 237.49 218.44) (xy 252.73 218.44)
 		)
 		(stroke
 			(width 0)
@@ -9721,6 +9485,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 186.69) (xy 252.73 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529a43c7-2176-4a6a-8416-a817598cdb15")
+	)
+	(wire
+		(pts
 			(xy 430.53 222.25) (xy 430.53 224.79)
 		)
 		(stroke
@@ -9895,16 +9669,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 226.06) (xy 350.52 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f8bf9d1-874d-437d-9bfc-e7869194907c")
-	)
-	(wire
-		(pts
 			(xy 478.79 220.98) (xy 478.79 217.17)
 		)
 		(stroke
@@ -10016,7 +9780,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 238.76) (xy 247.65 238.76)
+			(xy 252.73 238.76) (xy 237.49 238.76)
 		)
 		(stroke
 			(width 0)
@@ -10046,7 +9810,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 198.12) (xy 252.73 198.12)
+			(xy 237.49 198.12) (xy 252.73 198.12)
 		)
 		(stroke
 			(width 0)
@@ -10483,7 +10247,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 200.66) (xy 255.27 200.66)
+			(xy 237.49 200.66) (xy 255.27 200.66)
 		)
 		(stroke
 			(width 0)
@@ -10612,6 +10376,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "8d9679b0-f366-4050-b036-5c048e00d01b")
+	)
+	(wire
+		(pts
+			(xy 350.52 232.41) (xy 355.6 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da36367-a15c-4fba-bc06-98032bfb4860")
 	)
 	(wire
 		(pts
@@ -11129,6 +10903,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 194.31) (xy 248.92 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d8f32c-714a-446b-bf27-ed96f049488f")
+	)
+	(wire
+		(pts
 			(xy 200.66 127) (xy 201.93 127)
 		)
 		(stroke
@@ -11190,6 +10974,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 186.69) (xy 248.92 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeaa796f-82d9-4c0b-be0e-63c036934e1c")
+	)
+	(wire
+		(pts
 			(xy 266.7 213.36) (xy 271.78 213.36)
 		)
 		(stroke
@@ -11227,16 +11021,6 @@
 			(type default)
 		)
 		(uuid "b038a3c4-3538-41e9-a499-783d3661ec6e")
-	)
-	(wire
-		(pts
-			(xy 355.6 232.41) (xy 354.33 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b050a377-6545-492b-82c8-34054ce5dccf")
 	)
 	(wire
 		(pts
@@ -12151,7 +11935,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 208.28) (xy 252.73 208.28)
+			(xy 237.49 208.28) (xy 252.73 208.28)
 		)
 		(stroke
 			(width 0)
@@ -12293,7 +12077,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 241.3) (xy 255.27 241.3)
+			(xy 237.49 241.3) (xy 255.27 241.3)
 		)
 		(stroke
 			(width 0)
@@ -13183,6 +12967,16 @@
 			(justify left bottom)
 		)
 		(uuid "37b2740e-670f-4ac3-9740-351e75e9d0b2")
+	)
+	(label "B_RAW"
+		(at 260.35 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "478718fe-f2c8-43de-afa1-48798935b9be")
 	)
 	(label "CC1"
 		(at 135.89 250.19 0)
@@ -15479,91 +15273,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 350.52 232.41 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f779a8d-7675-4a72-9df1-2a78c310af9a")
-		(property "Reference" "JP79"
-			(at 347.98 231.1399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at 347.98 233.6799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels"
-			(at 350.52 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 350.52 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "7135b7fc-66f4-4478-9da9-13e3a01798c0")
-		)
-		(pin "1"
-			(uuid "70d78cb6-2043-4635-921e-c35f4ea01e71")
-		)
-		(pin "2"
-			(uuid "52822c3d-bcd1-496a-91ea-79f742c130f9")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "JP79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 340.36 311.15 270)
 		(unit 1)
@@ -16692,7 +16401,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 242.57 198.12 0)
+		(at 232.41 198.12 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -16704,7 +16413,7 @@
 		(fields_autoplaced yes)
 		(uuid "20730a83-2488-4e72-bc02-99bbdd9e0619")
 		(property "Reference" "J85"
-			(at 243.205 193.04 0)
+			(at 233.045 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16714,7 +16423,7 @@
 			)
 		)
 		(property "Value" "JST_XHP2_Battery1"
-			(at 243.205 195.58 0)
+			(at 233.045 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16724,7 +16433,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 242.57 198.12 0)
+			(at 232.41 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16735,7 +16444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 198.12 0)
+			(at 232.41 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16746,7 +16455,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 242.57 198.12 0)
+			(at 232.41 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23820,6 +23529,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 245.11 190.5 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "716aa75d-bc9b-40af-8712-6b9be51d0cf2")
+		(property "Reference" "D30"
+			(at 246.38 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS54"
+			(at 246.38 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:D_SMA"
+			(at 245.11 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "SMA"
+			(at 245.11 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 245.11 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 245.11 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 245.11 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "761fbe89-26b7-4a58-9637-b2c3e26dd4c7")
+		)
+		(pin "2"
+			(uuid "dc3ea5e7-8248-4052-8fb2-e8de520f0254")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 478.79 179.07 0)
 		(unit 1)
@@ -25356,7 +25189,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 242.57 228.6 0)
+		(at 232.41 228.6 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -25368,7 +25201,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bff0191-f47a-4b3a-bd50-fca9935c41d4")
 		(property "Reference" "J88"
-			(at 243.205 223.52 0)
+			(at 233.045 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25378,7 +25211,7 @@
 			)
 		)
 		(property "Value" "JST_XHP2_Battery4"
-			(at 243.205 226.06 0)
+			(at 233.045 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25388,7 +25221,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 242.57 228.6 0)
+			(at 232.41 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25399,7 +25232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 228.6 0)
+			(at 232.41 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25410,7 +25243,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 242.57 228.6 0)
+			(at 232.41 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25898,6 +25731,130 @@
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
 					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 248.92 190.5 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "923c46c7-f674-4012-bce7-b98a78ba11a2")
+		(property "Reference" "D29"
+			(at 250.19 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS54"
+			(at 250.19 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:D_SMA"
+			(at 248.92 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "SMA"
+			(at 248.92 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 248.92 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 248.92 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 248.92 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4cc224d4-7105-48da-b588-7e8a5c1d5f6b")
+		)
+		(pin "2"
+			(uuid "404b2580-e1cd-4f09-859b-5fe220e10910")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -26729,7 +26686,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 242.57 218.44 0)
+		(at 232.41 218.44 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -26741,7 +26698,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e7bf4e8-2dac-4c32-97ac-3b66d3514034")
 		(property "Reference" "J87"
-			(at 243.205 213.36 0)
+			(at 233.045 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26751,7 +26708,7 @@
 			)
 		)
 		(property "Value" "JST_XHP2_Battery3"
-			(at 243.205 215.9 0)
+			(at 233.045 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26761,7 +26718,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 242.57 218.44 0)
+			(at 232.41 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26772,7 +26729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 218.44 0)
+			(at 232.41 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26783,7 +26740,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 242.57 218.44 0)
+			(at 232.41 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29386,7 +29343,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 242.57 208.28 0)
+		(at 232.41 208.28 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -29398,7 +29355,7 @@
 		(fields_autoplaced yes)
 		(uuid "c93ec654-ff7f-4aac-8fb2-950e51e96b3f")
 		(property "Reference" "J86"
-			(at 243.205 203.2 0)
+			(at 233.045 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29408,7 +29365,7 @@
 			)
 		)
 		(property "Value" "JST_XHP2_Battery2"
-			(at 243.205 205.74 0)
+			(at 233.045 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29418,7 +29375,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 242.57 208.28 0)
+			(at 232.41 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29429,7 +29386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 208.28 0)
+			(at 232.41 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29440,7 +29397,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 242.57 208.28 0)
+			(at 232.41 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33608,7 +33565,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 242.57 238.76 0)
+		(at 232.41 238.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -33620,7 +33577,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5bfb302-57aa-4687-9806-acf319a8248a")
 		(property "Reference" "J89"
-			(at 243.205 233.68 0)
+			(at 233.045 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33630,7 +33587,7 @@
 			)
 		)
 		(property "Value" "JST_XHP2_Battery5"
-			(at 243.205 236.22 0)
+			(at 233.045 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33640,7 +33597,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 242.57 238.76 0)
+			(at 232.41 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33651,7 +33608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 238.76 0)
+			(at 232.41 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33662,7 +33619,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 242.57 238.76 0)
+			(at 232.41 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
