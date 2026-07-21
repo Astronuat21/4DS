@@ -1,0 +1,1021 @@
+;;Reset = True;;
+;;ReadInterface = True;;
+
+Version 3.0c
+68 03 98 added
+TDM scripts removed. Feature not supported.
+
+Version 2.9c
+98 14 7F - Added same drive strength to all scripts except for EDID
+-------------------------------------
+Version 2.8c
+68 6F 08 -> 68 6F 0C as per recommended settings
+
+-------------------------------------
+Version 2.6c
+Writes changed
+72 A5 44 to 72 A5 04
+72 DE 9C to 72 DE D8 
+
+-------------------------------------
+Version 2.5c
+Comments corrected
+72 16 60 change to 72 16 70 (24 bit set to input instead of 36 bit on 7511)
+-------------------------------------
+Version 2.0c
+Removed 68 9D 02
+Added Recommended Settings for non-fast switching scripts
+  68 C1 01 ; ADI recommended setting
+  68 C2 01 ; ADI recommended setting
+  68 C3 01 ; ADI recommended setting
+  68 C4 01 ; ADI recommended setting
+  68 C5 01 ; ADI recommended setting
+  68 C6 01 ; ADI recommended setting
+  68 C7 01 ; ADI recommended setting
+  68 C8 01 ; ADI recommended setting
+  68 C9 01 ; ADI recommended setting
+  68 CA 01 ; ADI recommended setting
+  68 CB 01 ; ADI recommended setting
+  68 CC 01 ; ADI recommended setting
+
+Removed writes
+  68 90 04 ; LFG Port B
+  68 91 1E ; HFG Port B
+
+-------------------------------------
+Version 1.1c
+Changed 68 6F 0C -> 68 6F 08
+Added 64 40 81 ; Disable HDCP 1.1 features
+-------------------------------------
+
+##SETTINGS##
+:Version 3.0c 14 Jan 2014 ADLK:
+End
+
+##Reset script-##
+:reset:
+98 FF 80 ; I2C reset
+56 17 02 ; Encoder reset
+End
+
+## HDMI IN ADV7611 - HDMI OUT ADV7511 ##
+:6-1d Port A, 480i,576i,240p,288p,480p 576p Any Color Space In (YCrCb 444 24bit from ADV761x) Through HDMI Out 444 YCrCb VIC[1-3,6-14,17,18,21-29,30]:
+98 FF 80 ; I2C reset
+98 F4 80 ; CEC
+98 F5 7C ; INFOFRAME
+98 F8 4C ; DPLL
+98 F9 64 ; KSV
+98 FA 6C ; EDID
+98 FB 68 ; HDMI
+98 FD 44 ; CP
+98 01 06 ; Prim_Mode =110b HDMI-GR
+98 02 F5 ; Auto CSC, YCrCb out, Set op_656 bit
+98 03 40 ; 24 bit SDR 444 Mode 0 
+98 05 28 ; AV Codes Off
+98 0B 44 ; Power up part
+98 0C 42 ; Power up part
+98 14 7F ; Max Drive Strength
+98 15 80 ; Disable Tristate of Pins
+98 19 83 ; LLC DLL phase
+98 33 40 ; LLC DLL enable
+44 BA 01 ; Set HDMI FreeRun
+64 40 81 ; Disable HDCP 1.1 features
+68 9B 03 ; ADI recommended setting
+68 C1 01 ; ADI recommended setting
+68 C2 01 ; ADI recommended setting
+68 C3 01 ; ADI recommended setting
+68 C4 01 ; ADI recommended setting
+68 C5 01 ; ADI recommended setting
+68 C6 01 ; ADI recommended setting
+68 C7 01 ; ADI recommended setting
+68 C8 01 ; ADI recommended setting
+68 C9 01 ; ADI recommended setting
+68 CA 01 ; ADI recommended setting
+68 CB 01 ; ADI recommended setting
+68 CC 01 ; ADI recommended setting
+68 00 00 ; Set HDMI Input Port A
+68 83 FE ; Enable clock terminator for port A
+68 6F 0C ; ADI recommended setting
+68 85 1F ; ADI recommended setting
+68 87 70 ; ADI recommended setting
+68 8D 04 ; LFG
+68 8E 1E ; HFG
+68 1A 8A ; unmute audio
+68 57 DA ; ADI recommended setting
+68 58 01 ; ADI recommended setting
+68 03 98 ; DIS_I2C_ZERO_COMPR
+68 75 10 ; DDC drive strength
+72 01 00 ; Set N Value(6144)
+72 02 18 ; Set N Value(6144)
+72 03 00 ; Set N Value(6144)
+72 15 00 ; Input 444 (RGB or YCrCb) with Separate Syncs, 44.1kHz fs
+72 16 70 ; Output format 444, 24-bit input
+72 18 46 ; CSC disabled
+72 40 80 ; General Control packet enable
+72 41 10 ; Power down control
+72 48 08 ; Data right justified
+72 49 A8 ; Set Dither_mode - 12-to-10 bit
+72 4C 00 ; 8 bit Output
+72 55 40 ; Set YCrCb 444 in AVinfo Frame
+72 56 08 ; Set active format Aspect
+72 96 20 ; HPD Interrupt clear
+72 98 03 ; ADI Recommended Write 
+72 99 02 ; ADI Recommended Write
+72 9C 30 ; PLL Filter R1 Value
+72 9D 61 ; Set clock divide
+72 A2 A4 ; ADI Recommended Write
+72 A3 A4 ; ADI Recommended Write
+72 A5 04 ; ADI Recommended Write
+72 AB 40 ; ADI Recommended Write
+72 AF 16 ; Set HDMI Mode
+72 BA 60 ; No clock delay
+72 D1 FF ; ADI Recommended Write
+72 DE D8 ; ADI Recommended Write
+72 E4 60 ; VCO_Swing_Reference_Voltage
+72 FA 7D ; Nbr of times to search for good phase
+End 
+
+
+:6-1e Port A, 720p,1080i Any Color Space In (YCrCb 444 24bit from ADV761x) Through HDMI Out 444 YCrCb VIC[4,5,19,20]:
+98 FF 80 ; I2C reset
+98 F4 80 ; CEC
+98 F5 7C ; INFOFRAME
+98 F8 4C ; DPLL
+98 F9 64 ; KSV
+98 FA 6C ; EDID
+98 FB 68 ; HDMI
+98 FD 44 ; CP
+98 01 06 ; Prim_Mode =110b HDMI-GR
+98 02 F5 ; Auto CSC, YCrCb out, Set op_656 bit
+98 03 40 ; 24 bit SDR 444 Mode 0
+98 05 28 ; AV Codes Off
+98 06 A6 ; Invert VS,HS pins
+98 0B 44 ; Power up part
+98 0C 42 ; Power up part
+98 14 7F ; Max Drive Strength
+98 15 80 ; Disable Tristate of Pins
+98 19 83 ; LLC DLL phase
+98 33 40 ; LLC DLL enable
+44 BA 01 ; Set HDMI FreeRun
+64 40 81 ; Disable HDCP 1.1 features
+68 9B 03 ; ADI recommended setting
+68 C1 01 ; ADI recommended setting
+68 C2 01 ; ADI recommended setting
+68 C3 01 ; ADI recommended setting
+68 C4 01 ; ADI recommended setting
+68 C5 01 ; ADI recommended setting
+68 C6 01 ; ADI recommended setting
+68 C7 01 ; ADI recommended setting
+68 C8 01 ; ADI recommended setting
+68 C9 01 ; ADI recommended setting
+68 CA 01 ; ADI recommended setting
+68 CB 01 ; ADI recommended setting
+68 CC 01 ; ADI recommended setting
+68 00 00 ; Set HDMI Input Port A
+68 83 FE ; Enable clock terminator for port A
+68 6F 0C ; ADI recommended setting
+68 85 1F ; ADI recommended setting
+68 87 70 ; ADI recommended setting
+68 8D 04 ; LFG
+68 8E 1E ; HFG
+68 1A 8A ; unmute audio
+68 57 DA ; ADI recommended setting
+68 58 01 ; ADI recommended setting
+68 03 98 ; DIS_I2C_ZERO_COMPR
+68 75 10 ; DDC drive strength
+72 01 00 ; Set N Value(6144)
+72 02 18 ; Set N Value(6144)
+72 03 00 ; Set N Value(6144)
+72 15 00 ; Input 444 (RGB or YCrCb) with Separate Syncs, 44.1kHz fs
+72 16 70 ; Output format 444, 24-bit input
+72 18 46 ; CSC disabled
+72 40 80 ; General Control packet enable
+72 41 10 ; Power down control
+72 48 08 ; Data right justified
+72 49 A8 ; Set Dither_mode - 12-to-10 bit
+72 4C 00 ; 8 bit Output
+72 55 40 ; Set YCrCb 444 in AVinfo Frame
+72 56 08 ; Set active format Aspect
+72 96 20 ; HPD Interrupt clear
+72 98 03 ; ADI Recommended Write
+72 99 02 ; ADI Recommended Write
+72 9C 30 ; PLL Filter R1 Value
+72 9D 61 ; Set clock divide
+72 A2 A4 ; ADI Recommended Write
+72 A3 A4 ; ADI Recommended Write
+72 A5 04 ; ADI Recommended Write
+72 AB 40 ; ADI Recommended Write
+72 AF 16 ; Set HDMI Mode
+72 BA 60 ; No clock delay
+72 D1 FF ; ADI Recommended Write
+72 DE D8 ; ADI Recommended Write
+72 E4 60 ; VCO_Swing_Reference_Voltage
+72 FA 7D ; Nbr of times to search for good phase
+End 
+
+
+
+:6-1f Port A, 1080p Any Color Space In (YCrCb 444 24bit from ADV761x) Through HDMI Out 444 YCrCb VIC[16,31,32]:
+98 FF 80 ; I2C reset
+98 F4 80 ; CEC
+98 F5 7C ; INFOFRAME
+98 F8 4C ; DPLL
+98 F9 64 ; KSV
+98 FA 6C ; EDID
+98 FB 68 ; HDMI
+98 FD 44 ; CP
+98 01 06 ; Prim_Mode =110b HDMI-GR
+98 02 F5 ; Auto CSC, YCrCb out, Set op_656 bit
+98 03 40 ; 24 bit SDR 444 Mode 0
+98 05 28 ; AV Codes Off
+98 06 A6 ; Invert VS,HS pins
+98 0B 44 ; Power up part
+98 0C 42 ; Power up part
+98 14 7F ; Max Drive Strength
+98 15 80 ; Disable Tristate of Pins
+98 19 83 ; LLC DLL phase
+98 33 40 ; LLC DLL enable
+44 BA 01 ; Set HDMI FreeRun
+64 40 81 ; Disable HDCP 1.1 features
+68 9B 03 ; ADI recommended setting
+68 C1 01 ; ADI recommended setting
+68 C2 01 ; ADI recommended setting
+68 C3 01 ; ADI recommended setting
+68 C4 01 ; ADI recommended setting
+68 C5 01 ; ADI recommended setting
+68 C6 01 ; ADI recommended setting
+68 C7 01 ; ADI recommended setting
+68 C8 01 ; ADI recommended setting
+68 C9 01 ; ADI recommended setting
+68 CA 01 ; ADI recommended setting
+68 CB 01 ; ADI recommended setting
+68 CC 01 ; ADI recommended setting
+68 00 00 ; Set HDMI Input Port A
+68 83 FE ; Enable clock terminator for port A
+68 6F 0C ; ADI recommended setting
+68 85 1F ; ADI recommended setting
+68 87 70 ; ADI recommended setting
+68 8D 04 ; LFG
+68 8E 1E ; HFG
+68 1A 8A ; unmute audio
+68 57 DA ; ADI recommended setting
+68 58 01 ; ADI recommended setting
+68 03 98 ; DIS_I2C_ZERO_COMPR
+68 75 10 ; DDC drive strength
+72 01 00 ; Set N Value(6144)
+72 02 18 ; Set N Value(6144)
+72 03 00 ; Set N Value(6144)
+72 15 00 ; Input 444 (RGB or YCrCb) with Separate Syncs, 44.1kHz fs
+72 16 70 ; Output format 444, 24-bit input
+72 18 46 ; CSC disabled
+72 40 80 ; General Control packet enable
+72 41 10 ; Power down control
+72 48 08 ; Data right justified
+72 49 A8 ; Set Dither_mode - 12-to-10 bit
+72 4C 00 ; 8 bit Output
+72 55 40 ; Set YCrCb 444 in AVinfo Frame
+72 56 08 ; Set active format Aspect
+72 96 20 ; HPD Interrupt clear
+72 98 03 ; ADI Recommended Write
+72 99 02 ; ADI Recommended Write
+72 9C 30 ; PLL Filter R1 Value
+72 9D 61 ; Set clock divide
+72 A2 A4 ; ADI Recommended Write
+72 A3 A4 ; ADI Recommended Write
+72 A5 04 ; ADI Recommended Write
+72 AB 40 ; ADI Recommended Write
+72 AF 16 ; Set HDMI Mode
+72 BA 60 ; No clock delay
+72 D1 FF ; ADI Recommended Write
+72 DE D8 ; ADI Recommended Write
+72 E4 60 ; VCO_Swing_Reference_Voltage
+72 FA 7D ; Nbr of times to search for good phase
+End 
+
+
+## HDMI PCM Audio ADV7611 ##
+:6-4a - 1920 x 1080p60, Any Color Space In (YCrCb 444 24bit from ADV761x) Through HDMI Out 444 YCrCb 32kHz 8ch, VIC 16:
+98 FF 80 ; I2C reset
+98 F4 80 ; CEC
+98 F5 7C ; INFOFRAME
+98 F8 4C ; DPLL
+98 F9 64 ; KSV
+98 FA 6C ; EDID
+98 FB 68 ; HDMI
+98 FD 44 ; CP
+98 01 06 ; Prim_Mode =110b HDMI-GR
+98 02 F5 ; Auto CSC, YCrCb out, Set op_656 bit
+98 03 40 ; 24 bit SDR 444 Mode 0
+98 05 28 ; AV Codes Off
+98 06 A6 ; Invert VS,HS pins
+98 0B 44 ; Power up part
+98 0C 42 ; Power up part
+98 14 7F ; Max Drive Strength
+98 15 80 ; Disable Tristate of Pins
+98 19 83 ; LLC DLL phase
+98 33 40 ; LLC DLL enable
+44 BA 01 ; Set HDMI FreeRun
+64 40 81 ; Disable HDCP 1.1 features
+68 9B 03 ; ADI recommended setting
+68 C1 01 ; ADI recommended setting
+68 C2 01 ; ADI recommended setting
+68 C3 01 ; ADI recommended setting
+68 C4 01 ; ADI recommended setting
+68 C5 01 ; ADI recommended setting
+68 C6 01 ; ADI recommended setting
+68 C7 01 ; ADI recommended setting
+68 C8 01 ; ADI recommended setting
+68 C9 01 ; ADI recommended setting
+68 CA 01 ; ADI recommended setting
+68 CB 01 ; ADI recommended setting
+68 CC 01 ; ADI recommended setting
+68 00 00 ; Set HDMI Input Port A
+68 83 FE ; Enable clock terminator for port A
+68 6F 0C ; ADI recommended setting
+68 85 1F ; ADI recommended setting
+68 87 70 ; ADI recommended setting
+68 8D 04 ; LFG
+68 8E 1E ; HFG
+68 1A 8A ; unmute audio
+68 57 DA ; ADI recommended setting
+68 58 01 ; ADI recommended setting
+68 03 98 ; DIS_I2C_ZERO_COMPR
+68 75 10 ; DDC drive strength
+72 01 00 ; Set 'N' value at 4096
+72 02 10 ; Set 'N' value at 4096
+72 03 00 ; Set 'N' value at 4096
+72 14 70 ; 8 ch
+72 15 30 ; Input 444 (RGB or YCrCb) with Separate Syncs, 32kHz fs
+72 16 70 ; Output format 444, 24-bit input
+72 18 46 ; Disable CSC
+72 40 80 ; General control packet enable
+72 41 10 ; Power down control
+72 49 A8 ; Set dither mode - 12-to-10 bit
+72 96 20 ; HPD interrupt clear
+72 55 40 ; Set YCrCb 444 in AVI infoframe
+72 56 08 ; Set active format aspect
+72 73 07 ; Info frame Ch count to 8
+72 76 1F ; Set speaker allocation for 8 channels
+72 98 03 ; ADI recommended write
+72 99 02 ; ADI recommended write - lock count limit
+72 9C 30 ; PLL filter R1 value
+72 9D 61 ; Set clock divide
+72 A2 A4 ; ADI recommended write
+72 A3 A4 ; ADI Recommended Write
+72 A5 04 ; ADI Recommended Write
+72 AB 40 ; ADI Recommended Write
+72 AF 16 ; Select HDMI mode
+72 BA 60 ; No clock delay
+72 D1 FF ; ADI Recommended Write
+72 DE D8 ; ADI recommended write
+72 E4 60 ; VCO_Swing_Reference_Voltage
+72 FA 7D ; Nbr of times to look for good phase
+End
+
+:6-4b - 1920 x 1080p60, Any Color Space In (YCrCb 444 24bit from ADV761x) Through HDMI Out 444 YCrCb 48kHz 8 Ch VIC 16:
+98 FF 80 ; I2C reset
+98 F4 80 ; CEC
+98 F5 7C ; INFOFRAME
+98 F8 4C ; DPLL
+98 F9 64 ; KSV
+98 FA 6C ; EDID
+98 FB 68 ; HDMI
+98 FD 44 ; CP
+98 01 06 ; Prim_Mode =110b HDMI-GR
+98 02 F5 ; Auto CSC, YCrCb out, Set op_656 bit
+98 03 40 ; 24 bit SDR 444 Mode 0
+98 05 28 ; AV Codes Off
+98 06 A6 ; Invert VS,HS pins
+98 0B 44 ; Power up part
+98 0C 42 ; Power up part
+98 14 7F ; Max Drive Strength
+98 15 80 ; Disable Tristate of Pins
+98 19 83 ; LLC DLL phase
+98 33 40 ; LLC DLL enable
+44 BA 01 ; Set HDMI FreeRun
+64 40 81 ; Disable HDCP 1.1 features
+68 9B 03 ; ADI recommended setting
+68 C1 01 ; ADI recommended setting
+68 C2 01 ; ADI recommended setting
+68 C3 01 ; ADI recommended setting
+68 C4 01 ; ADI recommended setting
+68 C5 01 ; ADI recommended setting
+68 C6 01 ; ADI recommended setting
+68 C7 01 ; ADI recommended setting
+68 C8 01 ; ADI recommended setting
+68 C9 01 ; ADI recommended setting
+68 CA 01 ; ADI recommended setting
+68 CB 01 ; ADI recommended setting
+68 CC 01 ; ADI recommended setting
+68 00 00 ; Set HDMI Input Port A
+68 83 FE ; Enable clock terminator for port A
+68 6F 0C ; ADI recommended setting
+68 85 1F ; ADI recommended setting
+68 87 70 ; ADI recommended setting
+68 8D 04 ; LFG
+68 8E 1E ; HFG
+68 1A 8A ; unmute audio
+68 57 DA ; ADI recommended setting
+68 58 01 ; ADI recommended setting
+68 03 98 ; DIS_I2C_ZERO_COMPR
+68 75 10 ; DDC drive strength
+72 01 00 ; Set 'N' value at 6144
+72 02 18 ; Set 'N' value at 6144
+72 03 00 ; Set 'N' value at 6144
+72 14 70 ; Set Ch count in the channel status to 8.
+72 15 20 ; Input 444 (RGB or YCrCb) with Separate Syncs, 48kHz fs
+72 16 70 ; Output format 444, 24-bit input
+72 18 46 ; Disable CSC
+72 40 80 ; General control packet enable
+72 41 10 ; Power down control
+72 49 A8 ; Set dither mode - 12-to-10 bit
+72 96 20 ; HPD interrupt clear
+72 55 40 ; Set YCrCb 444 in AVI infoframe
+72 56 08 ; Set active format aspect
+72 73 07 ; Info frame Ch count to 8
+72 76 1F ; Set speaker allocation for 8 channels
+72 98 03 ; ADI recommended write
+72 99 02 ; ADI recommended write - lock count limit
+72 9C 30 ; PLL filter R1 value
+72 9D 61 ; Set clock divide
+72 A2 A4 ; ADI recommended write
+72 A3 A4 ; ADI Recommended Write
+72 A5 04 ; ADI Recommended Write
+72 AB 40 ; ADI Recommended Write
+72 AF 16 ; Select HDMI mode
+72 BA 60 ; No clock delay
+72 D1 FF ; ADI Recommended Write
+72 DE D8 ; ADI recommended write
+72 E4 60 ; VCO_Swing_Reference_Voltage
+72 FA 7D ; Nbr of times to look for good phase
+End
+
+:6-4c - 1920 x 1080p60, Any Color Space In (YCrCb 444 24bit from ADV761x) Through HDMI Out 444 YCrCb 192kHz 8Ch, VIC 16:
+98 FF 80 ; I2C reset
+98 F4 80 ; CEC
+98 F5 7C ; INFOFRAME
+98 F8 4C ; DPLL
+98 F9 64 ; KSV
+98 FA 6C ; EDID
+98 FB 68 ; HDMI
+98 FD 44 ; CP
+98 01 06 ; Prim_Mode =110b HDMI-GR
+98 02 F5 ; Auto CSC, YCrCb out, Set op_656 bit
+98 03 40 ; 24 bit SDR 444 Mode 0
+98 05 28 ; AV Codes Off
+98 06 A6 ; Invert VS,HS pins
+98 0B 44 ; Power up part
+98 0C 42 ; Power up part
+98 14 7F ; Max Drive Strength
+98 15 80 ; Disable Tristate of Pins
+98 19 83 ; LLC DLL phase
+98 33 40 ; LLC DLL enable
+44 BA 01 ; Set HDMI FreeRun
+64 40 81 ; Disable HDCP 1.1 features
+68 9B 03 ; ADI recommended setting
+68 C1 01 ; ADI recommended setting
+68 C2 01 ; ADI recommended setting
+68 C3 01 ; ADI recommended setting
+68 C4 01 ; ADI recommended setting
+68 C5 01 ; ADI recommended setting
+68 C6 01 ; ADI recommended setting
+68 C7 01 ; ADI recommended setting
+68 C8 01 ; ADI recommended setting
+68 C9 01 ; ADI recommended setting
+68 CA 01 ; ADI recommended setting
+68 CB 01 ; ADI recommended setting
+68 CC 01 ; ADI recommended setting
+68 00 00 ; Set HDMI Input Port A
+68 83 FE ; Enable clock terminator for port A
+68 6F 0C ; ADI recommended setting
+68 85 1F ; ADI recommended setting
+68 87 70 ; ADI recommended setting
+68 8D 04 ; LFG
+68 8E 1E ; HFG
+68 1A 8A ; unmute audio
+68 57 DA ; ADI recommended setting
+68 58 01 ; ADI recommended setting
+68 03 98 ; DIS_I2C_ZERO_COMPR
+68 75 10 ; DDC drive strength
+72 01 00 ; Set 'N' value at 24576
+72 02 60 ; Set 'N' value at 24576
+72 03 00 ; Set 'N' value at 24576
+72 14 70 ; Set to 8 Ch
+72 15 E0 ; Input 444 (RGB or YCrCb) with Separate Syncs, 192kHz fs
+72 16 70 ; Output format 444, 24-bit input
+72 18 46 ; Disable CSC
+72 40 80 ; General control packet enable
+72 41 10 ; Power down control
+72 49 A8 ; Set dither mode - 12-to-10 bit
+72 96 20 ; HPD interrupt clear
+72 55 40 ; Set YCrCb 444 in AVI infoframe
+72 56 08 ; Set active format aspect
+72 73 07 ; Info frame Ch count to 8
+72 76 1F ; Set speaker allocation for 8 channels
+72 98 03 ; ADI recommended write
+72 99 02 ; ADI recommended write - lock count limit
+72 9C 30 ; PLL filter R1 value
+72 9D 61 ; Set clock divide
+72 A2 A4 ; ADI recommended write
+72 A3 A4 ; ADI Recommended Write
+72 A5 04 ; ADI Recommended Write
+72 AB 40 ; ADI Recommended Write
+72 AF 16 ; Select HDMI mode
+72 BA 60 ; No clock delay
+72 D1 FF ; ADI Recommended Write
+72 DE D8 ; ADI recommended write
+72 E4 60 ; VCO_Swing_Reference_Voltage
+72 FA 7D ; Nbr of times to look for good phase
+End
+
+## HDMI IN ADV7611 - ENCODER OUT ##
+:6-1d1 Port A, 480p60 Any Color Space In (YCrCb 444 24bit from ADV761x) Through Encoder YPrPb:
+98 FF 80 ; I2C reset
+98 F4 80 ; CEC
+98 F5 7C ; INFOFRAME
+98 F8 4C ; DPLL
+98 F9 64 ; KSV
+98 FA 6C ; EDID
+98 FB 68 ; HDMI
+98 FD 44 ; CP
+98 01 06 ; Prim_Mode =110b HDMI-GR
+98 02 F5 ; Auto CSC, YCrCb out, Set op_656 bit
+98 03 40 ; 24 bit SDR 444 Mode 0 
+98 05 28 ; AV Codes Off
+98 0B 44 ; Power up part
+98 0C 42 ; Power up part
+98 14 7F ; Max Drive Strength
+98 15 80 ; Disable Tristate of Pins
+98 19 83 ; LLC DLL phase
+98 33 40 ; LLC DLL enable
+44 BA 01 ; Set HDMI FreeRun
+64 40 81 ; Disable HDCP 1.1 features
+68 9B 03 ; ADI recommended setting
+68 C1 01 ; ADI recommended setting
+68 C2 01 ; ADI recommended setting
+68 C3 01 ; ADI recommended setting
+68 C4 01 ; ADI recommended setting
+68 C5 01 ; ADI recommended setting
+68 C6 01 ; ADI recommended setting
+68 C7 01 ; ADI recommended setting
+68 C8 01 ; ADI recommended setting
+68 C9 01 ; ADI recommended setting
+68 CA 01 ; ADI recommended setting
+68 CB 01 ; ADI recommended setting
+68 CC 01 ; ADI recommended setting
+68 00 00 ; Set HDMI Input Port A
+68 83 FE ; Enable clock terminator for port A
+68 6F 0C ; ADI recommended setting
+68 85 1F ; ADI recommended setting
+68 87 70 ; ADI recommended setting
+68 8D 04 ; LFG
+68 8E 1E ; HFG
+68 1A 8A ; unmute audio
+68 57 DA ; ADI recommended setting
+68 58 01 ; ADI recommended setting
+68 03 98 ; DIS_I2C_ZERO_COMPR
+68 75 10 ; DDC drive strength
+56 17 02 ; Reset Encoder
+56 00 1C ; Power up DACs and PLL
+56 01 10 ; ED/HD-SDR only mode
+56 30 00 ; 525p@60 Frame rate, HS VS enabled
+56 31 01 ; HD4X enabled, Pixel data valid
+56 33 09 ; PrPb SSAF, SINC filter enabled,444
+56 35 00 ; No CB_CR swap
+56 39 20 ; Enable CEA-861 Synchronisation Compliance
+56 84 00 ; Disable SFL
+End 
+
+:6-1d2 Port A, 576p50 Any Color Space In (YCrCb 444 24bit from ADV761x) Through Encoder YPrPb:
+98 FF 80 ; I2C reset
+98 F4 80 ; CEC
+98 F5 7C ; INFOFRAME
+98 F8 4C ; DPLL
+98 F9 64 ; KSV
+98 FA 6C ; EDID
+98 FB 68 ; HDMI
+98 FD 44 ; CP
+98 01 06 ; Prim_Mode =110b HDMI-GR
+98 02 F5 ; Auto CSC, YCrCb out, Set op_656 bit
+98 03 40 ; 24 bit SDR 444 Mode 0 
+98 05 28 ; AV Codes Off
+98 0B 44 ; Power up part
+98 0C 42 ; Power up part
+98 14 7F ; Max Drive Strength
+98 15 80 ; Disable Tristate of Pins
+98 19 83 ; LLC DLL phase
+98 33 40 ; LLC DLL enable
+44 BA 01 ; Set HDMI FreeRun
+64 40 81 ; Disable HDCP 1.1 features
+68 9B 03 ; ADI recommended setting
+68 C1 01 ; ADI recommended setting
+68 C2 01 ; ADI recommended setting
+68 C3 01 ; ADI recommended setting
+68 C4 01 ; ADI recommended setting
+68 C5 01 ; ADI recommended setting
+68 C6 01 ; ADI recommended setting
+68 C7 01 ; ADI recommended setting
+68 C8 01 ; ADI recommended setting
+68 C9 01 ; ADI recommended setting
+68 CA 01 ; ADI recommended setting
+68 CB 01 ; ADI recommended setting
+68 CC 01 ; ADI recommended setting
+68 00 00 ; Set HDMI Input Port A
+68 83 FE ; Enable clock terminator for port A
+68 6F 0C ; ADI recommended setting
+68 85 1F ; ADI recommended setting
+68 87 70 ; ADI recommended setting
+68 8D 04 ; LFG
+68 8E 1E ; HFG
+68 1A 8A ; unmute audio
+68 57 DA ; ADI recommended setting
+68 58 01 ; ADI recommended setting
+68 03 98 ; DIS_I2C_ZERO_COMPR
+68 75 10 ; DDC drive strength
+56 17 02 ; Reset Encoder
+56 00 1C ; Power up DACs and PLL
+56 01 10 ; ED/HD-SDR only mode
+56 30 18 ; 625p@60 Frame rate, HS VS enabled
+56 31 01 ; HD4X enabled, Pixel data valid
+56 33 09 ; PrPb SSAF, SINC filter enabled,444
+56 39 20 ; Enable CEA-861 Synchronisation Compliance
+56 84 00 ; Disable SFL
+End 
+
+:6-1e1 Port A, 720p60 Any Color Space In (YCrCb 444 24bit from ADV761x) Through Encoder YPrPb:
+98 FF 80 ; I2C reset
+98 F4 80 ; CEC
+98 F5 7C ; INFOFRAME
+98 F8 4C ; DPLL
+98 F9 64 ; KSV
+98 FA 6C ; EDID
+98 FB 68 ; HDMI
+98 FD 44 ; CP
+98 01 06 ; Prim_Mode =110b HDMI-GR
+98 02 F5 ; Auto CSC, YCrCb out, Set op_656 bit
+98 03 40 ; 24 bit SDR 444 Mode 0
+98 05 28 ; AV Codes Off
+98 06 A6 ; Invert VS,HS pins
+98 0B 44 ; Power up part
+98 0C 42 ; Power up part
+98 14 7F ; Max Drive Strength
+98 15 80 ; Disable Tristate of Pins
+98 19 83 ; LLC DLL phase
+98 33 40 ; LLC DLL enable
+44 BA 01 ; Set HDMI FreeRun
+64 40 81 ; Disable HDCP 1.1 features
+68 9B 03 ; ADI recommended setting
+68 C1 01 ; ADI recommended setting
+68 C2 01 ; ADI recommended setting
+68 C3 01 ; ADI recommended setting
+68 C4 01 ; ADI recommended setting
+68 C5 01 ; ADI recommended setting
+68 C6 01 ; ADI recommended setting
+68 C7 01 ; ADI recommended setting
+68 C8 01 ; ADI recommended setting
+68 C9 01 ; ADI recommended setting
+68 CA 01 ; ADI recommended setting
+68 CB 01 ; ADI recommended setting
+68 CC 01 ; ADI recommended setting
+68 00 00 ; Set HDMI Input Port A
+68 83 FE ; Enable clock terminator for port A
+68 6F 0C ; ADI recommended setting
+68 85 1F ; ADI recommended setting
+68 87 70 ; ADI recommended setting
+68 8D 04 ; LFG
+68 8E 1E ; HFG
+68 1A 8A ; unmute audio
+68 57 DA ; ADI recommended setting
+68 58 01 ; ADI recommended setting
+68 03 98 ; DIS_I2C_ZERO_COMPR
+68 75 10 ; DDC drive strength
+56 17 02 ; Software Reset
+56 00 1C ; Power up DACs and PLL
+56 01 10 ; ED/HD-SDR only mode
+56 30 28 ; 720p@60 Frame rate, HS-VS
+56 31 01 ; HD4X enabled, Pixel data valid
+56 33 28 ; PrPb SSAF, SINC filter enabled, 8 bit input mode enabled, 444 Enabled
+End 
+
+:6-1e2 Port A, 1080i60 Any Color Space In (YCrCb 444 24bit from ADV761x) Through Encoder YPrPb:
+98 FF 80 ; I2C reset
+98 F4 80 ; CEC
+98 F5 7C ; INFOFRAME
+98 F8 4C ; DPLL
+98 F9 64 ; KSV
+98 FA 6C ; EDID
+98 FB 68 ; HDMI
+98 FD 44 ; CP
+98 01 06 ; Prim_Mode =110b HDMI-GR
+98 02 F5 ; Auto CSC, YCrCb out, Set op_656 bit
+98 03 40 ; 24 bit SDR 444 Mode 0
+98 05 28 ; AV Codes Off
+98 06 A6 ; Invert VS,HS pins
+98 0B 44 ; Power up part
+98 0C 42 ; Power up part
+98 14 7F ; Max Drive Strength
+98 15 80 ; Disable Tristate of Pins
+98 19 83 ; LLC DLL phase
+98 33 40 ; LLC DLL enable
+44 BA 01 ; Set HDMI FreeRun
+64 40 81 ; Disable HDCP 1.1 features
+68 9B 03 ; ADI recommended setting
+68 C1 01 ; ADI recommended setting
+68 C2 01 ; ADI recommended setting
+68 C3 01 ; ADI recommended setting
+68 C4 01 ; ADI recommended setting
+68 C5 01 ; ADI recommended setting
+68 C6 01 ; ADI recommended setting
+68 C7 01 ; ADI recommended setting
+68 C8 01 ; ADI recommended setting
+68 C9 01 ; ADI recommended setting
+68 CA 01 ; ADI recommended setting
+68 CB 01 ; ADI recommended setting
+68 CC 01 ; ADI recommended setting
+68 00 00 ; Set HDMI Input Port A
+68 83 FE ; Enable clock terminator for port A
+68 6F 0C ; ADI recommended setting
+68 85 1F ; ADI recommended setting
+68 87 70 ; ADI recommended setting
+68 8D 04 ; LFG
+68 8E 1E ; HFG
+68 1A 8A ; unmute audio
+68 57 DA ; ADI recommended setting
+68 58 01 ; ADI recommended setting
+68 03 98 ; DIS_I2C_ZERO_COMPR
+68 75 10 ; DDC drive strength
+56 17 02 ; Software Reset
+56 00 1C ; Power up DACs and PLL
+56 01 10 ; ED/HD-SDR only mode
+56 30 68 ; 1080i@30 Frame rate, EAV/SAV codes enabled
+56 31 01 ; HD4X enabled, Pixel data valid
+56 33 28 ; PrPb SSAF, SINC filter enabled, 8 bit input mode enabled, 444 Enabled
+End 
+
+
+## EDID ##
+:ADV7611 EDID 8 bit only NO DSD or HBR Support:
+64 77 00 ; Disable the Internal EDID
+6C 00 00 ; 
+6C 01 FF ; 
+6C 02 FF ; 
+6C 03 FF ; 
+6C 04 FF ; 
+6C 05 FF ; 
+6C 06 FF ; 
+6C 07 00 ; 
+6C 08 06 ; 
+6C 09 8F ; 
+6C 0A 07 ; 
+6C 0B 11 ; 
+6C 0C 01 ; 
+6C 0D 00 ; 
+6C 0E 00 ; 
+6C 0F 00 ; 
+6C 10 17 ; 
+6C 11 11 ; 
+6C 12 01 ; 
+6C 13 03 ; 
+6C 14 80 ; 
+6C 15 0C ; 
+6C 16 09 ; 
+6C 17 78 ; 
+6C 18 0A ; 
+6C 19 1E ; 
+6C 1A AC ; 
+6C 1B 98 ; 
+6C 1C 59 ; 
+6C 1D 56 ; 
+6C 1E 85 ; 
+6C 1F 28 ; 
+6C 20 29 ; 
+6C 21 52 ; 
+6C 22 57 ; 
+6C 23 00 ; 
+6C 24 00 ; 
+6C 25 00 ; 
+6C 26 01 ; 
+6C 27 01 ; 
+6C 28 01 ; 
+6C 29 01 ; 
+6C 2A 01 ; 
+6C 2B 01 ; 
+6C 2C 01 ; 
+6C 2D 01 ; 
+6C 2E 01 ; 
+6C 2F 01 ; 
+6C 30 01 ; 
+6C 31 01 ; 
+6C 32 01 ; 
+6C 33 01 ; 
+6C 34 01 ; 
+6C 35 01 ; 
+6C 36 8C ; 
+6C 37 0A ; 
+6C 38 D0 ; 
+6C 39 8A ; 
+6C 3A 20 ; 
+6C 3B E0 ; 
+6C 3C 2D ; 
+6C 3D 10 ; 
+6C 3E 10 ; 
+6C 3F 3E ; 
+6C 40 96 ; 
+6C 41 00 ; 
+6C 42 81 ; 
+6C 43 60 ; 
+6C 44 00 ; 
+6C 45 00 ; 
+6C 46 00 ; 
+6C 47 18 ; 
+6C 48 01 ; 
+6C 49 1D ; 
+6C 4A 80 ; 
+6C 4B 18 ; 
+6C 4C 71 ; 
+6C 4D 1C ; 
+6C 4E 16 ; 
+6C 4F 20 ; 
+6C 50 58 ; 
+6C 51 2C ; 
+6C 52 25 ; 
+6C 53 00 ; 
+6C 54 81 ; 
+6C 55 49 ; 
+6C 56 00 ; 
+6C 57 00 ; 
+6C 58 00 ; 
+6C 59 9E ; 
+6C 5A 00 ; 
+6C 5B 00 ; 
+6C 5C 00 ; 
+6C 5D FC ; 
+6C 5E 00 ; 
+6C 5F 56 ; 
+6C 60 41 ; 
+6C 61 2D ; 
+6C 62 31 ; 
+6C 63 38 ; 
+6C 64 30 ; 
+6C 65 39 ; 
+6C 66 41 ; 
+6C 67 0A ; 
+6C 68 20 ; 
+6C 69 20 ; 
+6C 6A 20 ; 
+6C 6B 20 ; 
+6C 6C 00 ; 
+6C 6D 00 ; 
+6C 6E 00 ; 
+6C 6F FD ; 
+6C 70 00 ; 
+6C 71 17 ; 
+6C 72 3D ; 
+6C 73 0D ; 
+6C 74 2E ; 
+6C 75 11 ; 
+6C 76 00 ; 
+6C 77 0A ; 
+6C 78 20 ; 
+6C 79 20 ; 
+6C 7A 20 ; 
+6C 7B 20 ; 
+6C 7C 20 ; 
+6C 7D 20 ; 
+6C 7E 01 ; 
+6C 7F 1C ; 
+6C 80 02 ; 
+6C 81 03 ; 
+6C 82 34 ; 
+6C 83 71 ; 
+6C 84 4D ; 
+6C 85 82 ; 
+6C 86 05 ; 
+6C 87 04 ; 
+6C 88 01 ; 
+6C 89 10 ; 
+6C 8A 11 ; 
+6C 8B 14 ; 
+6C 8C 13 ; 
+6C 8D 1F ; 
+6C 8E 06 ; 
+6C 8F 15 ; 
+6C 90 03 ; 
+6C 91 12 ; 
+6C 92 35 ; 
+6C 93 0F ; 
+6C 94 7F ; 
+6C 95 07 ; 
+6C 96 17 ; 
+6C 97 1F ; 
+6C 98 38 ; 
+6C 99 1F ; 
+6C 9A 07 ; 
+6C 9B 30 ; 
+6C 9C 2F ; 
+6C 9D 07 ; 
+6C 9E 72 ; 
+6C 9F 3F ; 
+6C A0 7F ; 
+6C A1 72 ; 
+6C A2 57 ; 
+6C A3 7F ; 
+6C A4 00 ; 
+6C A5 37 ; 
+6C A6 7F ; 
+6C A7 72 ; 
+6C A8 83 ; 
+6C A9 4F ; 
+6C AA 00 ; 
+6C AB 00 ; 
+6C AC 67 ; 
+6C AD 03 ; 
+6C AE 0C ; 
+6C AF 00 ; 
+6C B0 10 ; 
+6C B1 00 ; 
+6C B2 88 ; 
+6C B3 2D ; 
+6C B4 00 ; 
+6C B5 00 ; 
+6C B6 00 ; 
+6C B7 FF ; 
+6C B8 00 ; 
+6C B9 0A ; 
+6C BA 20 ; 
+6C BB 20 ; 
+6C BC 20 ; 
+6C BD 20 ; 
+6C BE 20 ; 
+6C BF 20 ; 
+6C C0 20 ; 
+6C C1 20 ; 
+6C C2 20 ; 
+6C C3 20 ; 
+6C C4 20 ; 
+6C C5 20 ; 
+6C C6 00 ; 
+6C C7 00 ; 
+6C C8 00 ; 
+6C C9 FF ; 
+6C CA 00 ; 
+6C CB 0A ; 
+6C CC 20 ; 
+6C CD 20 ; 
+6C CE 20 ; 
+6C CF 20 ; 
+6C D0 20 ; 
+6C D1 20 ; 
+6C D2 20 ; 
+6C D3 20 ; 
+6C D4 20 ; 
+6C D5 20 ; 
+6C D6 20 ; 
+6C D7 20 ; 
+6C D8 00 ; 
+6C D9 00 ; 
+6C DA 00 ; 
+6C DB FF ; 
+6C DC 00 ; 
+6C DD 0A ; 
+6C DE 20 ; 
+6C DF 20 ; 
+6C E0 20 ; 
+6C E1 20 ; 
+6C E2 20 ; 
+6C E3 20 ; 
+6C E4 20 ; 
+6C E5 20 ; 
+6C E6 20 ; 
+6C E7 20 ; 
+6C E8 20 ; 
+6C E9 20 ; 
+6C EA 00 ; 
+6C EB 00 ; 
+6C EC 00 ; 
+6C ED 00 ; 
+6C EE 00 ; 
+6C EF 00 ; 
+6C F0 00 ; 
+6C F1 00 ; 
+6C F2 00 ; 
+6C F3 00 ; 
+6C F4 00 ; 
+6C F5 00 ; 
+6C F6 00 ; 
+6C F7 00 ; 
+6C F8 00 ; 
+6C F9 00 ; 
+6C FA 00 ; 
+6C FB 00 ; 
+6C FC 00 ; 
+6C FD 00 ; 
+6C FE 00 ; 
+6C FF DA ; 
+64 77 00 ; Set the Most Significant Bit of the SPA location to 0
+64 52 20 ; Set the SPA for port B.
+64 53 00 ; Set the SPA for port B.
+64 70 9E ; Set the Least Significant Byte of the SPA location
+64 74 03 ; Enable the Internal EDID for Ports
+End
+

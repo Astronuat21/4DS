@@ -12783,10 +12783,6 @@
 		(uuid "b3784061-cb97-4ff5-91af-28ec0a412938")
 	)
 	(no_connect
-		(at 562.61 209.55)
-		(uuid "b45864e9-e353-484c-868c-93d1533359e6")
-	)
-	(no_connect
 		(at 351.79 156.21)
 		(uuid "b63fb152-9ec7-424b-b8e9-3561007f4960")
 	)
@@ -16256,6 +16252,17 @@
 			(justify left)
 		)
 		(uuid "a2caf3dc-dca9-4c7f-995c-87084d28bf6f")
+	)
+	(hierarchical_label "RPi_LCD_EN"
+		(shape passive)
+		(at 562.61 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a59ab3a1-c0fe-48b8-88a3-9806453e9a19")
 	)
 	(hierarchical_label "TCP0_TX3-"
 		(shape output)
