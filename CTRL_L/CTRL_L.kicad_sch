@@ -1638,6 +1638,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Magnetic:DRV5033FAxDBZ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 2.54 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DRV5033FAxDBZ"
+				(at 2.54 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5033.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "±3.5 / ±2 mT, 20-kHz, 2-38V, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Digital Omnipolar Switch Hall Effect Sensor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DRV5033FAxDBZ_1_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -1918,7 +2068,7 @@
 		(uuid "45c3a083-53ba-467d-b317-bba58ef697e2")
 	)
 	(junction
-		(at 198.12 87.63)
+		(at 220.98 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50772a2c-d9fd-41d0-ad1e-ee9340c2a3ca")
@@ -2113,7 +2263,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 87.63) (xy 198.12 90.17)
+			(xy 220.98 58.42) (xy 220.98 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2203,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 85.09) (xy 198.12 87.63)
+			(xy 220.98 55.88) (xy 220.98 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2561,7 +2711,7 @@
 	)
 	(global_label "SL_VOL"
 		(shape input)
-		(at 220.98 87.63 0)
+		(at 243.84 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2571,7 +2721,7 @@
 		)
 		(uuid "89dfa1bf-189a-4aa1-abef-0b0a861f2d66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.6176 87.63 0)
+			(at 253.4776 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2679,6 +2829,30 @@
 			)
 		)
 	)
+	(global_label "HALL"
+		(shape input)
+		(at 76.2 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a25e812c-ad78-40ec-bac0-7b8a8e6cc5a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.6605 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Col1"
 		(shape input)
 		(at 87.63 110.49 180)
@@ -2705,7 +2879,7 @@
 	)
 	(global_label "SL_BRI"
 		(shape input)
-		(at 220.98 90.17 0)
+		(at 243.84 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2715,7 +2889,7 @@
 		)
 		(uuid "c16b9f08-15f0-4454-8cf7-d7214599334f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.3152 90.17 0)
+			(at 253.1752 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2740,6 +2914,30 @@
 		(uuid "c1b2d19f-6223-47b6-aacf-b18e9e1eca1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 133.0258 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "HALL"
+		(shape input)
+		(at 167.64 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9d36f93-5b7a-4780-a5f0-21eec12902e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.1795 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2849,7 +3047,7 @@
 	)
 	(global_label "Row1"
 		(shape input)
-		(at 162.56 33.02 180)
+		(at 167.64 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2859,7 +3057,7 @@
 		)
 		(uuid "eb98c9a6-cb3c-423f-a1f7-02b18e70348d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.6158 33.02 0)
+			(at 159.6958 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3241,6 +3439,83 @@
 			(project "CTRL_L"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 66.04 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0788bd3f-cfb1-479d-9f27-f5991890f7c9")
+		(property "Reference" "#PWR012"
+			(at 66.04 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 65.786 49.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 66.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e02d72e4-827b-47b1-8296-e1d63fff47e4")
+		)
+		(instances
+			(project "CTRL_L"
+				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3654,18 +3929,18 @@
 	)
 	(symbol
 		(lib_id "BM04B-NSHSS-TBT_LF__SN_:BM04B-NSHSS-TBT_LF__SN_")
-		(at 198.12 85.09 0)
+		(at 220.98 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "10570260-43a1-4a00-9741-44affdf05975")
 		(property "Reference" "J3"
-			(at 209.55 77.47 0)
+			(at 232.41 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3675,7 +3950,7 @@
 			)
 		)
 		(property "Value" "BM04B-NSHSS-TBT_LF__SN_"
-			(at 209.55 80.01 0)
+			(at 232.41 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3685,7 +3960,7 @@
 			)
 		)
 		(property "Footprint" "BM04B-NSHSS-TBT:BM04BNSHSSTBTLFSN"
-			(at 217.17 180.01 0)
+			(at 240.03 150.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3697,7 +3972,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ch/ProductDetail/JST-Commercial/BM04B-NSHSS-TBTLFSN?qs=QpmGXVUTftH94AWRYLWqmQ%3D%3D"
-			(at 217.17 280.01 0)
+			(at 240.03 250.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3709,7 +3984,7 @@
 			)
 		)
 		(property "Description" "JST NSH Series, 1mm Pitch 4 Way 1 Row Straight PCB Header, Solder Termination, 10A"
-			(at 198.12 85.09 0)
+			(at 220.98 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3720,7 +3995,7 @@
 			)
 		)
 		(property "Height" "6"
-			(at 217.17 480.01 0)
+			(at 240.03 450.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3732,7 +4007,7 @@
 			)
 		)
 		(property "Mouser Part Number" "306-4BNSHSSTBTL"
-			(at 217.17 580.01 0)
+			(at 240.03 550.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3744,7 +4019,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM04B-NSHSS-TBTLFSN?qs=QpmGXVUTftH94AWRYLWqmQ%3D%3D"
-			(at 217.17 680.01 0)
+			(at 240.03 650.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3756,7 +4031,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 217.17 780.01 0)
+			(at 240.03 750.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3768,7 +4043,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BM04B-NSHSS-TBT(LF)(SN)"
-			(at 217.17 880.01 0)
+			(at 240.03 850.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3886,17 +4161,17 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 90.17 0)
+		(at 220.98 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "10995776-cdfe-4d7f-be82-07a6edecf3b8")
 		(property "Reference" "#PWR010"
-			(at 198.12 96.52 0)
+			(at 220.98 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3907,7 +4182,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.818 90.17 0)
+			(at 217.678 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3917,7 +4192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 90.17 0)
+			(at 220.98 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3928,7 +4203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 90.17 0)
+			(at 220.98 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3939,7 +4214,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 90.17 0)
+			(at 220.98 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4585,18 +4860,18 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 220.98 85.09 0)
+		(at 243.84 55.88 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "46baafed-8047-414a-b580-1f916bd1e4f0")
 		(property "Reference" "#PWR08"
-			(at 220.98 88.9 0)
+			(at 243.84 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4607,7 +4882,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 225.044 85.09 0)
+			(at 247.904 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4617,7 +4892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 85.09 0)
+			(at 243.84 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4628,7 +4903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 85.09 0)
+			(at 243.84 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4639,7 +4914,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 220.98 85.09 0)
+			(at 243.84 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4757,6 +5032,84 @@
 			(project "CTRL_L"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56e740ef-3d9e-4b91-8946-a8f1aa50a759")
+		(property "Reference" "#PWR014"
+			(at 66.04 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f808abee-f631-4546-90c4-834ed19c5667")
+		)
+		(instances
+			(project "CTRL_L"
+				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4912,18 +5265,18 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 92.71 0)
+		(at 243.84 63.5 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6a4b5993-3c17-4dfb-b4ab-f624bae64e18")
 		(property "Reference" "#PWR09"
-			(at 220.98 99.06 0)
+			(at 243.84 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4934,7 +5287,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.282 92.71 0)
+			(at 247.142 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4944,7 +5297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 92.71 0)
+			(at 243.84 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4955,7 +5308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 92.71 0)
+			(at 243.84 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4966,7 +5319,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 92.71 0)
+			(at 243.84 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5100,7 +5453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BM14BNSHSSTBTLFSN"
+		(property "Footprint" "BM14B-NSHSS-TBT:BM14BNSHSSTBTLFSN"
 			(at 171.45 129.21 0)
 			(hide yes)
 			(show_name no)
@@ -5931,6 +6284,91 @@
 			(project "CTRL_L"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5033FAxDBZ")
+		(at 68.58 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbb86f29-cad2-427f-8cf8-336770dea0d8")
+		(property "Reference" "U2"
+			(at 62.23 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5033FAxDBZ"
+			(at 62.23 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 68.58 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5033.pdf"
+			(at 68.58 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "±3.5 / ±2 mT, 20-kHz, 2-38V, SOT-23"
+			(at 68.58 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3f02da7e-592d-4332-b75a-1ab448300d4c")
+		)
+		(pin "3"
+			(uuid "4d50378e-3cc6-46a2-b2b4-6bda09b2adc9")
+		)
+		(pin "1"
+			(uuid "343cb2db-8d57-4bab-9ca0-eefa9709bd02")
+		)
+		(instances
+			(project "CTRL_L"
+				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
+					(reference "U2")
 					(unit 1)
 				)
 			)
