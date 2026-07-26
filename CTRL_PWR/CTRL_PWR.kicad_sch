@@ -2482,7 +2482,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "538-503480-0800"
+		(property "LCSC Part" "C596711"
 			(at 43.18 572.39 0)
 			(hide yes)
 			(show_name no)
