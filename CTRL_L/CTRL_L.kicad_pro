@@ -61,10 +61,10 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.5,
-          "min_island_area": 0.0013161349,
+          "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 1,
+          "remove_islands": 2,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -162,7 +162,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -674,7 +674,7 @@
         "uuid": "8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
       }
     ],
-    "used_designators": "J2,D22-29,#PWR1-3,#PWR5,#PWR12,#PWR15,#PWR17-29",
+    "used_designators": "#PWR7,#PWR30-32,J3,J5-6",
     "variants": []
   },
   "sheets": [
