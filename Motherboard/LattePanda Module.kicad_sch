@@ -12473,6 +12473,12 @@
 		(uuid "61ca3214-3ac6-4e1a-9e85-b28a78f00136")
 	)
 	(junction
+		(at 524.51 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bd5df62-e96a-4b82-8d24-4bafaad2ed92")
+	)
+	(junction
 		(at 118.11 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12551,12 +12557,6 @@
 		(uuid "c66a1fed-4578-41ec-bd1b-8783f136b511")
 	)
 	(junction
-		(at 500.38 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c76e039d-2eb1-4613-9096-493ebe7b25be")
-	)
-	(junction
 		(at 549.91 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12567,6 +12567,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d185abfd-66b6-44f0-9d1f-e8c480ee00bf")
+	)
+	(junction
+		(at 500.38 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d32518f0-ccff-4156-bd38-b8f1e2e2db2e")
 	)
 	(junction
 		(at 539.75 151.13)
@@ -12721,10 +12727,6 @@
 		(uuid "29e91608-cd41-4262-a73c-0aae08632ee8")
 	)
 	(no_connect
-		(at 562.61 222.25)
-		(uuid "2a1d0671-2c4c-4817-8b6a-7f74ec10991e")
-	)
-	(no_connect
 		(at 102.87 213.36)
 		(uuid "2a4bfe38-b920-42d0-a8c6-750b52455fae")
 	)
@@ -12735,10 +12737,6 @@
 	(no_connect
 		(at 351.79 95.25)
 		(uuid "31394eb0-4b42-448c-8799-24f3698cda06")
-	)
-	(no_connect
-		(at 562.61 219.71)
-		(uuid "34bb58f0-daaf-449f-b8fb-dd68bb745d94")
 	)
 	(no_connect
 		(at 562.61 212.09)
@@ -13460,7 +13458,7 @@
 	)
 	(wire
 		(pts
-			(xy 562.61 214.63) (xy 572.77 214.63)
+			(xy 562.61 214.63) (xy 576.58 214.63)
 		)
 		(stroke
 			(width 0)
@@ -13597,6 +13595,16 @@
 			(type default)
 		)
 		(uuid "343b1b6e-05c8-491c-a5de-941e49505cac")
+	)
+	(wire
+		(pts
+			(xy 500.38 208.28) (xy 500.38 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35fd0b3d-441e-4e7b-a77a-e78bb1c59a82")
 	)
 	(wire
 		(pts
@@ -13850,7 +13858,7 @@
 	)
 	(wire
 		(pts
-			(xy 572.77 214.63) (xy 572.77 265.43)
+			(xy 576.58 214.63) (xy 576.58 265.43)
 		)
 		(stroke
 			(width 0)
@@ -14350,7 +14358,7 @@
 	)
 	(wire
 		(pts
-			(xy 562.61 217.17) (xy 574.04 217.17)
+			(xy 562.61 217.17) (xy 577.85 217.17)
 		)
 		(stroke
 			(width 0)
@@ -14800,7 +14808,7 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 262.89) (xy 574.04 262.89)
+			(xy 520.7 262.89) (xy 577.85 262.89)
 		)
 		(stroke
 			(width 0)
@@ -14980,7 +14988,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 262.89) (xy 574.04 217.17)
+			(xy 577.85 262.89) (xy 577.85 217.17)
 		)
 		(stroke
 			(width 0)
@@ -15340,7 +15348,7 @@
 	)
 	(wire
 		(pts
-			(xy 572.77 265.43) (xy 520.7 265.43)
+			(xy 576.58 265.43) (xy 520.7 265.43)
 		)
 		(stroke
 			(width 0)
@@ -15417,16 +15425,6 @@
 			(type default)
 		)
 		(uuid "fbd5f677-ce7d-4929-b12b-47d5bd54aa05")
-	)
-	(wire
-		(pts
-			(xy 500.38 208.28) (xy 500.38 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbf5773a-0120-4d40-931b-35ae79942244")
 	)
 	(wire
 		(pts
@@ -16467,6 +16465,17 @@
 		)
 		(uuid "8c2a1342-27ca-4164-9955-824b65b29e12")
 	)
+	(hierarchical_label "RPi_HALL_R"
+		(shape output)
+		(at 562.61 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90027d9f-49a5-4de8-ac51-7f125e6467cf")
+	)
 	(hierarchical_label "USB_2_P2+"
 		(shape bidirectional)
 		(at 238.76 180.34 180)
@@ -16543,6 +16552,17 @@
 			(justify left)
 		)
 		(uuid "9a8db912-a779-4a2e-8fb6-776b2ce8f563")
+	)
+	(hierarchical_label "RPi_HALL_L"
+		(shape output)
+		(at 562.61 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bca64e7-16c8-444d-8145-ba5a0ad4a091")
 	)
 	(hierarchical_label "HSIO_2_RX+"
 		(shape input)
@@ -21330,6 +21350,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:ESD9B5.0ST5G")
+		(at 492.76 160.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "592bffe0-cf29-4f0e-9b73-e4f434df1d77")
+		(property "Reference" "D31"
+			(at 497.84 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD5V0B03"
+			(at 488.95 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+			(at 492.76 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 492.76 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 492.76 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "D0402"
+			(at 492.76 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 492.76 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 492.76 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 492.76 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" "https://item.szlcsc.com/539388.html"
+			(at 184.15 -199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" "双向静电保护二极管_ESD5V0B03-1006_DFN1006"
+			(at 184.15 -199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 184.15 -199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "00e975ff-5945-4898-828c-58f9e0502127")
+		)
+		(pin "1"
+			(uuid "8eeef388-f147-4615-833c-e2d2a842ec7b")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:D3V3XA4B10LP")
 		(at 464.82 303.53 0)
 		(unit 1)
@@ -22908,164 +23086,6 @@
 			(project "LattePanda Module"
 				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0160")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD9B5.0ST5G")
-		(at 504.19 208.28 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "77aa37ea-e4b7-4479-a8b7-365c0ad9a322")
-		(property "Reference" "D22"
-			(at 502.412 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD5V0B03"
-			(at 500.634 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
-			(at 504.19 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 504.19 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 504.19 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SCH_Show_Footprint" "D0402"
-			(at 504.19 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 504.19 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 504.19 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 504.19 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" "https://item.szlcsc.com/539388.html"
-			(at 863.6 -100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "双向静电保护二极管_ESD5V0B03-1006_DFN1006"
-			(at 863.6 -100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 863.6 -100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1bea1fb6-bc10-4e53-92de-cb2290c682e7")
-		)
-		(pin "1"
-			(uuid "82d9524f-bf62-4244-8bde-dad51f66db16")
-		)
-		(instances
-			(project "LattePanda Module"
-				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
-					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -25413,6 +25433,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:ESD9B5.0ST5G")
+		(at 504.19 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a9580110-c63f-4cc4-995c-cd19dcba0637")
+		(property "Reference" "D32"
+			(at 505.968 205.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD5V0B03"
+			(at 510.54 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+			(at 504.19 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 504.19 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 504.19 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "D0402"
+			(at 504.19 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 504.19 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 504.19 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 504.19 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" "https://item.szlcsc.com/539388.html"
+			(at 144.78 516.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" "双向静电保护二极管_ESD5V0B03-1006_DFN1006"
+			(at 144.78 516.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 144.78 516.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a4fe0e55-2906-4bea-a2d6-2d075f9fe1bd")
+		)
+		(pin "1"
+			(uuid "02105c4f-2540-410d-9d3a-5f2eee14bf17")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 50.8 229.87 0)
 		(unit 1)
@@ -25936,164 +26114,6 @@
 			(project "LattePanda Module"
 				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "C157")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD9B5.0ST5G")
-		(at 492.76 160.02 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b0f2cd99-506a-485d-9f59-39cdf8833c6e")
-		(property "Reference" "D21"
-			(at 497.84 158.75 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD5V0B03"
-			(at 488.95 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
-			(at 492.76 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 492.76 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 492.76 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SCH_Show_Footprint" "D0402"
-			(at 492.76 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 492.76 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 492.76 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 492.76 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" "https://item.szlcsc.com/539388.html"
-			(at 184.15 -199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "双向静电保护二极管_ESD5V0B03-1006_DFN1006"
-			(at 184.15 -199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 184.15 -199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8ae87599-5a05-474e-b89e-1d546f79f515")
-		)
-		(pin "1"
-			(uuid "b3db4e06-f79d-4bc4-955d-ef54e4b9bf15")
-		)
-		(instances
-			(project "LattePanda Module"
-				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
-					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -26656,9 +26676,94 @@
 			(uuid "084d1000-4408-40b2-a78c-3d2ec54d0fbb")
 		)
 		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
 			(project "LattePanda Module"
 				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 524.51 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8d2273e-f7f8-4af5-b697-5b09dd68d32b")
+		(property "Reference" "#PWR0199"
+			(at 528.32 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 520.7 151.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 524.51 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "082d3bac-f959-4554-b0ff-1998ace4fbac")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -27932,6 +28037,12 @@
 			(uuid "9bdc8c54-02a2-4c39-8b62-29e516ff9f87")
 		)
 		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
 			(project "LattePanda Module"
 				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR044")
@@ -30383,5 +30494,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
