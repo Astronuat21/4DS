@@ -496,6 +496,12 @@
 		)
 		(uuid "98bf8fa1-1bae-4586-b105-0e1067be1dbd")
 	)
+	(junction
+		(at 410.21 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2aadbd79-f601-4601-937b-319b1fa23395")
+	)
 	(no_connect
 		(at 180.34 278.13)
 		(uuid "25dd296a-b273-4bdf-bc9b-1b5b608c6757")
@@ -948,6 +954,16 @@
 	)
 	(wire
 		(pts
+			(xy 410.21 198.12) (xy 410.21 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637700d2-c1c5-455f-8ac5-949a91bb438a")
+	)
+	(wire
+		(pts
 			(xy 354.33 68.58) (xy 379.73 68.58)
 		)
 		(stroke
@@ -1285,6 +1301,16 @@
 			(type default)
 		)
 		(uuid "a749ba23-4867-467f-aa93-a4b5998f87eb")
+	)
+	(wire
+		(pts
+			(xy 354.33 267.97) (xy 410.21 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f9d9bb-e625-49fb-860d-a93536411a3f")
 	)
 	(wire
 		(pts
@@ -2824,7 +2850,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "024b612f-d732-4f1b-ae8a-19d052e1e0e8")
-		(property "Sheetname" "HDMI-LVDS"
+		(property "Sheetname" "RGB"
 			(at 379.73 56.4384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4352,6 +4378,16 @@
 				(justify right)
 			)
 		)
+		(pin "SL_BRI" output
+			(at 354.33 267.97 0)
+			(uuid "ecba3203-71f0-4f7e-b2e2-d81e29c5eb2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
@@ -5130,7 +5166,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a")
-		(property "Sheetname" "USB2.0&USB3.0"
+		(property "Sheetname" "USB"
 			(at 180.34 291.3884 0)
 			(show_name no)
 			(do_not_autoplace no)

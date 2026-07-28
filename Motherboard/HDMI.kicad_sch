@@ -13251,7 +13251,7 @@
 	)
 	(text "SCREEN-DDIB\n"
 		(exclude_from_sim no)
-		(at 695.96 116.84 0)
+		(at 645.16 113.792 0)
 		(effects
 			(font
 				(size 30 30)
