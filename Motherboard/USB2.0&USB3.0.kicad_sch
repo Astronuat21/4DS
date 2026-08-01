@@ -3141,6 +3141,12 @@
 		)
 	)
 	(junction
+		(at 361.95 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05b5c2c9-1f1e-47d2-b048-3a4242a085ab")
+	)
+	(junction
 		(at 339.09 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3151,6 +3157,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f9bf9b0-cf92-40c7-9918-7b48ade7db19")
+	)
+	(junction
+		(at 405.13 285.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "449b61f8-b9bd-4e31-8a49-1fb06e7a0cf6")
 	)
 	(junction
 		(at 269.24 226.06)
@@ -3175,12 +3187,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82ab1e93-4154-4f5e-9130-123f3f11239f")
-	)
-	(junction
-		(at 361.95 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85f429ff-98b7-4056-8b8e-342c54275631")
 	)
 	(junction
 		(at 294.64 226.06)
@@ -3286,7 +3292,17 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 207.01) (xy 361.95 207.01)
+			(xy 407.67 285.75) (xy 405.13 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bfd81e3-e758-46e6-b4d4-7d92afd47484")
+	)
+	(wire
+		(pts
+			(xy 359.41 207.01) (xy 364.49 207.01)
 		)
 		(stroke
 			(width 0)
@@ -3556,16 +3572,6 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 207.01) (xy 364.49 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79025b38-8463-485a-8894-2e46ae69e273")
-	)
-	(wire
-		(pts
 			(xy 339.09 231.14) (xy 339.09 236.22)
 		)
 		(stroke
@@ -3796,13 +3802,13 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 285.75) (xy 364.49 285.75)
+			(xy 405.13 285.75) (xy 402.59 285.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf164ed6-c356-43a3-b0d7-37e139a546a4")
+		(uuid "cafde1d3-2c3f-4381-b356-b4009b96add1")
 	)
 	(wire
 		(pts
@@ -3936,7 +3942,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 285.75) (xy 361.95 285.75)
+			(xy 359.41 285.75) (xy 364.49 285.75)
 		)
 		(stroke
 			(width 0)
@@ -5240,19 +5246,19 @@
 	)
 	(symbol
 		(lib_id "Connector:USB3_A_Stacked")
-		(at 359.41 267.97 0)
+		(at 402.59 267.97 0)
 		(mirror y)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "50878518-bd7b-4a53-be3c-2b584f123df4")
 		(property "Reference" "J4"
-			(at 370.84 267.335 0)
+			(at 414.02 267.335 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5263,7 +5269,7 @@
 			)
 		)
 		(property "Value" "USB3_A_Stacked"
-			(at 370.84 269.875 0)
+			(at 414.02 269.875 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5274,7 +5280,7 @@
 			)
 		)
 		(property "Footprint" "A_HDJ_Library:USB3_A_Molex_48406-0001_Horizontal_Stacked"
-			(at 355.6 265.43 0)
+			(at 398.78 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5285,7 +5291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 265.43 0)
+			(at 398.78 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5296,7 +5302,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 359.41 267.97 0)
+			(at 402.59 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5307,7 +5313,7 @@
 			)
 		)
 		(property "SCH_Show_Footprint" ""
-			(at 359.41 267.97 0)
+			(at 402.59 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5318,7 +5324,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 359.41 267.97 0)
+			(at 402.59 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5329,7 +5335,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 359.41 267.97 0)
+			(at 402.59 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5340,7 +5346,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 359.41 267.97 0)
+			(at 402.59 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5351,7 +5357,7 @@
 			)
 		)
 		(property "Buy_Link" "https://item.szlcsc.com/3132965.html"
-			(at 685.8 538.48 0)
+			(at 728.98 538.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5362,7 +5368,7 @@
 			)
 		)
 		(property "DF_Comment" "双层USB3.0 A母座_USB-303WSD-BRY"
-			(at 685.8 538.48 0)
+			(at 728.98 538.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5373,7 +5379,7 @@
 			)
 		)
 		(property "LCSC Part" "C2895028"
-			(at 685.8 538.48 0)
+			(at 728.98 538.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5451,7 +5457,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB3_A")
-		(at 402.59 189.23 0)
+		(at 359.41 189.23 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5463,7 +5469,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dbfa8e0-7ee9-46e5-b85d-fdef3eca3918")
 		(property "Reference" "J82"
-			(at 414.02 188.5949 0)
+			(at 370.84 188.5949 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5474,7 +5480,7 @@
 			)
 		)
 		(property "Value" "USB3_A"
-			(at 414.02 191.1349 0)
+			(at 370.84 191.1349 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5485,7 +5491,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB3_A_Molex_48393-001"
-			(at 398.78 186.69 0)
+			(at 355.6 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5496,7 +5502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 398.78 186.69 0)
+			(at 355.6 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5507,7 +5513,7 @@
 			)
 		)
 		(property "Description" "USB 3.0 A connector"
-			(at 402.59 189.23 0)
+			(at 359.41 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7322,217 +7328,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB3_A_Stacked")
-		(at 359.41 189.23 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df457112-433b-49d4-9100-55bf0a7235b3")
-		(property "Reference" "J4"
-			(at 370.84 188.595 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB3_A_Stacked"
-			(at 370.84 191.135 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "A_HDJ_Library:USB3_A_Molex_48406-0001_Horizontal_Stacked"
-			(at 355.6 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 359.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SCH_Show_Footprint" ""
-			(at 359.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 359.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 359.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 359.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" "https://item.szlcsc.com/3132965.html"
-			(at 685.8 381 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "双层USB3.0 A母座_USB-303WSD-BRY"
-			(at 685.8 381 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2895028"
-			(at 685.8 459.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "b7390d55-a512-439b-ad80-c1bf072f85af")
-		)
-		(pin "15"
-			(uuid "f7268b4b-60f6-46ec-8baf-3ef3700fea99")
-		)
-		(pin "2"
-			(uuid "052c8aae-4493-4d49-8240-e49d707dc5cc")
-		)
-		(pin "12"
-			(uuid "b14d7141-da8d-42b7-a64a-8089f9476830")
-		)
-		(pin "13"
-			(uuid "4be7263c-6bff-404a-87d0-4fb08b36b33f")
-		)
-		(pin "9"
-			(uuid "5d1186da-9f95-47a1-9d55-cd75574b91aa")
-		)
-		(pin "17"
-			(uuid "b9f303ae-475d-4ee2-8c8c-51c4f915521f")
-		)
-		(pin "6"
-			(uuid "42d2649a-2667-4540-920b-6b7ec54e3c43")
-		)
-		(pin "14"
-			(uuid "47dd9258-e533-41d0-a7c9-61408fb017b4")
-		)
-		(pin "11"
-			(uuid "47ad72bf-67fe-4860-9e06-59e308672bd4")
-		)
-		(pin "10"
-			(uuid "6ffb97a5-b8d2-4efb-88b8-72f1078ad437")
-		)
-		(pin "1"
-			(uuid "c4ad5610-afa3-46e1-9974-6e13434b2edc")
-		)
-		(pin "5"
-			(uuid "a4c40bfd-eb8c-4f29-adb0-13871bb12a6d")
-		)
-		(pin "7"
-			(uuid "0c764219-b019-484a-a5d2-b7547abd38ae")
-		)
-		(pin "8"
-			(uuid "78d2fc23-7bf4-495e-afab-247556b1058c")
-		)
-		(pin "16"
-			(uuid "60a75029-1415-488e-841e-43e3b323c6ce")
-		)
-		(pin "4"
-			(uuid "98daffc0-5e87-4bb4-a846-146b4f9fafb0")
-		)
-		(pin "19"
-			(uuid "3b1f7bf0-7cf5-4bbc-918f-029f920a9d2f")
-		)
-		(pin "18"
-			(uuid "465346c7-4cd1-427d-a4e9-e97e59426814")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 342.9 257.81 90)
 		(unit 1)
@@ -8107,7 +7902,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB3_A")
-		(at 402.59 267.97 0)
+		(at 359.41 267.97 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8119,7 +7914,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa365e0d-837f-492b-8e4f-257a5ca82c2c")
 		(property "Reference" "J92"
-			(at 414.02 267.3349 0)
+			(at 370.84 267.3349 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8130,7 +7925,7 @@
 			)
 		)
 		(property "Value" "USB3_A"
-			(at 414.02 269.8749 0)
+			(at 370.84 269.8749 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8141,7 +7936,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB3_A_Molex_48393-001"
-			(at 398.78 265.43 0)
+			(at 355.6 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8152,7 +7947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 398.78 265.43 0)
+			(at 355.6 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8163,7 +7958,7 @@
 			)
 		)
 		(property "Description" "USB 3.0 A connector"
-			(at 402.59 267.97 0)
+			(at 359.41 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

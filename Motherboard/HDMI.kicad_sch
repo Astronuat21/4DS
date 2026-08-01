@@ -13229,6 +13229,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "IC of Pain and Suffering ^^^^"
+		(exclude_from_sim no)
+		(at 273.558 314.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "31d22508-fac2-44f2-9ee0-19884d2ecd31")
+	)
 	(text "Screen Inputs R->G->B 0->7\nwhere R0 is #0 and B7 is #23"
 		(exclude_from_sim no)
 		(at 344.932 213.868 0)
@@ -21171,7 +21181,7 @@
 		)
 		(uuid "26878426-51a5-4a05-a93d-be602da2e01f")
 	)
-	(hierarchical_label "TCP0_SDA"
+	(hierarchical_label "TCP0_TOUCH_SDA"
 		(shape bidirectional)
 		(at 364.49 336.55 180)
 		(effects
@@ -21369,7 +21379,7 @@
 		)
 		(uuid "97377b30-4029-4003-9b17-4236febf501d")
 	)
-	(hierarchical_label "DDIB_SCL"
+	(hierarchical_label "DDIB_TOUCH_SCL"
 		(shape input)
 		(at 754.38 337.82 180)
 		(effects
@@ -21401,6 +21411,17 @@
 			(justify right)
 		)
 		(uuid "9c8ac8b7-9751-4b9f-9c27-bf2318ca0a3c")
+	)
+	(hierarchical_label "DDIB_RST"
+		(shape output)
+		(at 754.38 327.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1e19800-eb4e-4068-84c6-4a788c6ca4c8")
 	)
 	(hierarchical_label "DDIB_TX1-"
 		(shape input)
@@ -21501,7 +21522,7 @@
 		)
 		(uuid "bbb035f1-9867-46a6-95a0-826537b04837")
 	)
-	(hierarchical_label "DDIB_SDA"
+	(hierarchical_label "DDIB_TOUCH_SDA"
 		(shape bidirectional)
 		(at 754.38 332.74 180)
 		(effects
@@ -21567,6 +21588,17 @@
 		)
 		(uuid "d091bb9b-894a-4911-ba71-0f8503a5f19e")
 	)
+	(hierarchical_label "TCP0_RST"
+		(shape bidirectional)
+		(at 364.49 339.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfa2ba99-9e9c-4b9a-80d5-3c34c4278b73")
+	)
 	(hierarchical_label "DBUG_TX3+"
 		(shape input)
 		(at 231.14 427.99 180)
@@ -21589,7 +21621,7 @@
 		)
 		(uuid "e1fa533b-6652-4713-bc6d-dddff2c722fd")
 	)
-	(hierarchical_label "TCP0_SCL"
+	(hierarchical_label "TCP0_TOUCH_SCL"
 		(shape input)
 		(at 389.89 334.01 0)
 		(effects
@@ -24532,86 +24564,6 @@
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/024b612f-d732-4f1b-ae8a-19d052e1e0e8"
 					(reference "#PWR0304")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V3_2")
-		(lib_id "power:+3V3")
-		(at 746.76 327.66 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "225eac66-5d9b-4a8a-98bb-8b399e39b376")
-		(property "Reference" "#PWR026"
-			(at 750.57 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 742.95 327.6599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 746.76 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 746.76 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 746.76 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4e2e4b2e-4585-49db-9c37-0f95166e9731")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/024b612f-d732-4f1b-ae8a-19d052e1e0e8"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -28970,87 +28922,6 @@
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/024b612f-d732-4f1b-ae8a-19d052e1e0e8"
 					(reference "R185")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V3_2")
-		(lib_id "power:+3V3")
-		(at 356.87 339.09 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50b7f82c-ff99-4a31-8843-77648ba15493")
-		(property "Reference" "#PWR024"
-			(at 360.68 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 353.06 339.0901 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 356.87 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 356.87 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 356.87 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f734d9c5-a36f-47ad-b470-182fd3336b83")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/024b612f-d732-4f1b-ae8a-19d052e1e0e8"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -37493,162 +37364,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 360.68 339.09 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b5f166b5-ea02-4aba-bdb2-e52710228fad")
-		(property "Reference" "R102"
-			(at 360.68 342.9 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K/1%"
-			(at 360.68 341.122 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
-			(at 360.68 340.868 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 360.68 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SCH_Show_Footprint" ""
-			(at 360.68 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 360.68 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 360.68 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 360.68 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 535.94 763.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
-			(at 535.94 763.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 535.94 763.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a6847d3b-b85b-440c-a78c-f8587837a588")
-		)
-		(pin "2"
-			(uuid "8c484546-5bf7-4f24-824c-89c6e2073080")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/024b612f-d732-4f1b-ae8a-19d052e1e0e8"
-					(reference "R102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 270.51 407.67 90)
 		(unit 1)
@@ -42029,162 +41744,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 750.57 327.66 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ddbe425e-dc22-4a0d-a55e-7b9617bcde98")
-		(property "Reference" "R103"
-			(at 750.57 323.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K/1%"
-			(at 750.57 325.628 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
-			(at 750.57 325.882 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 750.57 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 750.57 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SCH_Show_Footprint" ""
-			(at 750.57 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 750.57 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 750.57 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 750.57 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 575.31 -96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电阻0402-10K-1%"
-			(at 575.31 -96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 575.31 -96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "28c69d52-d2ec-472b-a774-d10ef3cfff3c")
-		)
-		(pin "2"
-			(uuid "8280ae3b-4d26-4c74-99cd-f42fe491d3c5")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/024b612f-d732-4f1b-ae8a-19d052e1e0e8"
-					(reference "R103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 298.45 443.23 0)
 		(unit 1)
 		(body_style 1)
@@ -43820,7 +43379,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "f0910b49-afac-4941-bf13-e84969cf7c84")
