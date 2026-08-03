@@ -70,36 +70,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "malformed_courtyard|100020007|101360000|f72041de-e2f2-448c-885a-62b0e6e5cbf2|00000000-0000-0000-0000-000000000000",
-          "Take it up with Mouser"
-        ],
-        [
-          "malformed_courtyard|100020007|93520000|f72041de-e2f2-448c-885a-62b0e6e5cbf2|00000000-0000-0000-0000-000000000000",
-          "Take it up with Mouser"
-        ],
-        [
-          "malformed_courtyard|105289999|101360000|f72041de-e2f2-448c-885a-62b0e6e5cbf2|00000000-0000-0000-0000-000000000000",
-          "Take it up with Mouser"
-        ],
-        [
-          "malformed_courtyard|105289999|93520000|f72041de-e2f2-448c-885a-62b0e6e5cbf2|00000000-0000-0000-0000-000000000000",
-          "Take it up with Mouser"
-        ],
-        [
-          "malformed_courtyard|110559991|101360000|f72041de-e2f2-448c-885a-62b0e6e5cbf2|00000000-0000-0000-0000-000000000000",
-          "Take it up with Mouser"
-        ],
-        [
-          "malformed_courtyard|110559991|93520000|f72041de-e2f2-448c-885a-62b0e6e5cbf2|00000000-0000-0000-0000-000000000000",
-          "Take it up with Mouser"
-        ],
-        [
-          "malformed_courtyard|110559991|97440000|f72041de-e2f2-448c-885a-62b0e6e5cbf2|00000000-0000-0000-0000-000000000000",
-          "Take it up with Mouser"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -690,7 +661,7 @@
         "uuid": "8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
       }
     ],
-    "used_designators": "H6-10,D23-31,#PWR16-17,#PWR19-34,J2,J6",
+    "used_designators": "J4-5,#PWR34",
     "variants": []
   },
   "sheets": [
