@@ -8008,6 +8008,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_A")
+		(at 382.27 105.41 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faaf259a-2de4-4a9b-ac90-641872f03b1e")
+		(property "Reference" "J93"
+			(at 388.62 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USB_A"
+			(at 388.62 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_A_Molex_48037-2200_Horizontal"
+			(at 378.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB Type A connector"
+			(at 382.27 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "1985668d-10f3-46b3-88ed-134f44f82649")
+		)
+		(pin "2"
+			(uuid "b8787659-e37e-423d-aa17-8b2c793aa860")
+		)
+		(pin "3"
+			(uuid "a5d2f7de-40f9-4cf2-9bcc-2cade7a06842")
+		)
+		(pin "1"
+			(uuid "683deda4-a3a6-4c7d-a600-a20e51088954")
+		)
+		(pin "SH"
+			(uuid "92929f92-a9f9-4b26-a24e-46f04b73ec30")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a"
+					(reference "J93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:D3V3XA4B10LP")
 		(at 351.79 228.6 0)
 		(unit 1)

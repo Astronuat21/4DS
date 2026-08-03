@@ -13585,9 +13585,9 @@
 		)
 		(uuid "9a6f5ad7-3d47-4cf2-9c0c-5a1d5bf09854")
 	)
-	(text "Screens Require I2C Configuration -_-"
+	(text "Screens Require I2C Configuration ;-;"
 		(exclude_from_sim no)
-		(at 558.8 190.5 0)
+		(at 550.926 186.944 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14051,12 +14051,6 @@
 		(uuid "52fe479e-1a72-4833-9bf0-f6749cdd3c38")
 	)
 	(junction
-		(at 146.05 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55c3208e-8160-4fea-9731-3626f13fc518")
-	)
-	(junction
 		(at 504.19 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14193,6 +14187,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3fcf564-a4cc-4cc0-b851-be5dadf19381")
+	)
+	(junction
+		(at 146.05 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5019241-a345-46b0-aed5-daa7bf9426ed")
 	)
 	(junction
 		(at 471.17 88.9)
@@ -14443,6 +14443,10 @@
 		(uuid "31394eb0-4b42-448c-8799-24f3698cda06")
 	)
 	(no_connect
+		(at 459.74 222.25)
+		(uuid "320ee8eb-078d-4a12-b27b-2e563ec2799f")
+	)
+	(no_connect
 		(at 351.79 180.34)
 		(uuid "38076a3c-7956-4605-8929-dc686e8fa9ce")
 	)
@@ -14517,6 +14521,10 @@
 	(no_connect
 		(at 270.51 172.72)
 		(uuid "5a86cc6a-7341-49f0-b309-3286cde1794c")
+	)
+	(no_connect
+		(at 459.74 224.79)
+		(uuid "61a0921a-b3a1-4536-afa9-3e37aed05cf8")
 	)
 	(no_connect
 		(at 270.51 149.86)
@@ -14715,6 +14723,10 @@
 		(uuid "cff64792-8a5b-4cdf-aae0-c3088e8b6bdf")
 	)
 	(no_connect
+		(at 510.54 184.15)
+		(uuid "d041e447-1411-46dc-a140-d59022c777ab")
+	)
+	(no_connect
 		(at 351.79 121.92)
 		(uuid "d3c13c89-f4e3-4e29-924a-6f6b782d4340")
 	)
@@ -14757,10 +14769,6 @@
 	(no_connect
 		(at 351.79 228.6)
 		(uuid "dcf52a65-e462-4ef2-aa6f-96f6e9e2f61a")
-	)
-	(no_connect
-		(at 270.51 165.1)
-		(uuid "e2a2834c-d3eb-4273-83b4-3c52e4cecadd")
 	)
 	(no_connect
 		(at 270.51 167.64)
@@ -14922,16 +14930,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 198.12) (xy 163.83 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a3b53d5-745d-4812-8b5f-ccc4f42f4045")
-	)
-	(wire
-		(pts
 			(xy 353.06 44.45) (xy 355.6 44.45)
 		)
 		(stroke
@@ -15012,7 +15010,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 186.69) (xy 138.43 186.69)
+			(xy 146.05 187.96) (xy 138.43 187.96)
 		)
 		(stroke
 			(width 0)
@@ -15092,16 +15090,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 194.31) (xy 146.05 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18844681-008a-4e39-884e-5e2067ac695b")
-	)
-	(wire
-		(pts
 			(xy 482.6 88.9) (xy 492.76 88.9)
 		)
 		(stroke
@@ -15162,13 +15150,13 @@
 	)
 	(wire
 		(pts
-			(xy 511.81 184.15) (xy 510.54 184.15)
+			(xy 146.05 195.58) (xy 163.83 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ced04fb-df5d-43a1-8297-3287ae52c29b")
+		(uuid "1d582d5a-65c9-476f-b366-448a4da1e9b8")
 	)
 	(wire
 		(pts
@@ -16062,7 +16050,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 186.69) (xy 138.43 190.5)
+			(xy 138.43 187.96) (xy 138.43 190.5)
 		)
 		(stroke
 			(width 0)
@@ -16422,7 +16410,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 195.58) (xy 163.83 195.58)
+			(xy 129.54 195.58) (xy 146.05 195.58)
 		)
 		(stroke
 			(width 0)
@@ -16772,7 +16760,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 198.12) (xy 146.05 198.12)
+			(xy 138.43 198.12) (xy 163.83 198.12)
 		)
 		(stroke
 			(width 0)
@@ -17710,7 +17698,7 @@
 		)
 		(uuid "07751bbf-b594-4153-846c-8ebe21cfd13c")
 	)
-	(label "Audio_D-"
+	(label "Audio_DX-"
 		(at 148.7546 198.12 0)
 		(effects
 			(font
@@ -17880,6 +17868,16 @@
 		)
 		(uuid "90446242-362c-4933-a875-649e413421a3")
 	)
+	(label "Audio_D+"
+		(at 217.17 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97f22757-d0b9-4be7-9277-77c104ca65cd")
+	)
 	(label "I2C3_SDA"
 		(at 478.79 334.01 180)
 		(effects
@@ -17920,6 +17918,16 @@
 		)
 		(uuid "ac83345b-4094-4cd9-a219-78cf0912414f")
 	)
+	(label "RPi_PAM_LPWR"
+		(at 53.34 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcfb5712-8795-4f7e-9c45-122adee25888")
+	)
 	(label "I2C2_SDA"
 		(at 414.02 334.01 0)
 		(effects
@@ -17950,16 +17958,6 @@
 		)
 		(uuid "ca9ae320-f965-4207-bdfe-a5d7cbe6d1ca")
 	)
-	(label "RPi_MUTE"
-		(at 511.81 184.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d14338d5-24f5-48d0-8096-d60702d21c66")
-	)
 	(label "ROUT+"
 		(at 26.67 157.48 180)
 		(effects
@@ -17979,16 +17977,6 @@
 			(justify left bottom)
 		)
 		(uuid "d36ce1b9-04db-45e7-91fe-38f158781b02")
-	)
-	(label "RPi_MUTE"
-		(at 53.34 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dbb670bc-1a46-42ab-b15a-c0ea26e8952f")
 	)
 	(label "LOUT-"
 		(at 26.67 172.72 180)
@@ -18020,7 +18008,7 @@
 		)
 		(uuid "f7647127-0f1b-4f43-aadb-963d5e9472fe")
 	)
-	(label "Audio_D+"
+	(label "Audio_DX+"
 		(at 148.59 195.58 0)
 		(effects
 			(font
@@ -18039,6 +18027,16 @@
 			(justify left bottom)
 		)
 		(uuid "f96481d3-5a29-4f5e-b034-eacc9693a954")
+	)
+	(label "Audio_D-"
+		(at 217.3346 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa31b450-f65a-4f93-812e-4483a3f575dc")
 	)
 	(label "RP+"
 		(at 459.74 148.59 90)
@@ -21775,7 +21773,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 190.5 0)
+		(at 146.05 191.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21785,7 +21783,7 @@
 		(dnp no)
 		(uuid "1893a483-18a7-4331-b10c-ce7e01598f87")
 		(property "Reference" "R107"
-			(at 142.24 190.5 90)
+			(at 142.24 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21795,7 +21793,7 @@
 			)
 		)
 		(property "Value" "1.5k/1%"
-			(at 144.018 190.5 90)
+			(at 144.018 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21805,7 +21803,7 @@
 			)
 		)
 		(property "Footprint" "A_HDJ_Library:R_0805_2012Metric"
-			(at 144.272 190.5 90)
+			(at 144.272 191.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21816,7 +21814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 190.5 0)
+			(at 146.05 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21827,7 +21825,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 190.5 0)
+			(at 146.05 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21838,7 +21836,7 @@
 			)
 		)
 		(property "SCH_Show_Footprint" ""
-			(at 146.05 190.5 0)
+			(at 146.05 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21849,7 +21847,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 146.05 190.5 0)
+			(at 146.05 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21860,7 +21858,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 146.05 190.5 0)
+			(at 146.05 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21871,7 +21869,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 146.05 190.5 0)
+			(at 146.05 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21882,7 +21880,7 @@
 			)
 		)
 		(property "Buy_Link" ""
-			(at -278.13 365.76 0)
+			(at -278.13 367.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21893,7 +21891,7 @@
 			)
 		)
 		(property "DF_Comment" "贴片电阻0402-0.1K-1%"
-			(at -278.13 365.76 0)
+			(at -278.13 367.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21904,7 +21902,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at -278.13 365.76 0)
+			(at -278.13 367.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

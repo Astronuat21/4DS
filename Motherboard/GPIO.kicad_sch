@@ -2760,7 +2760,7 @@
 	)
 	(text "Update these to use top facing connectors\n"
 		(exclude_from_sim no)
-		(at 239.268 279.908 0)
+		(at 241.554 279.654 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2770,7 +2770,7 @@
 	)
 	(text "Update these to use top facing connectors\n"
 		(exclude_from_sim no)
-		(at 239.522 254.508 0)
+		(at 241.808 254.254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
