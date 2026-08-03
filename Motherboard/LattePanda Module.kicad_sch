@@ -13607,7 +13607,7 @@
 	)
 	(text "Have to send just 1 message on this I2C lane,\nbecause 5A charging isn't the default, 1A is. \nThis makes charging take 5hrs instead of 25.\nWHY... I HATE I2C."
 		(exclude_from_sim no)
-		(at 552.704 205.74 0)
+		(at 562.864 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15310,6 +15310,16 @@
 	)
 	(wire
 		(pts
+			(xy 520.7 196.85) (xy 510.54 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3067465a-7ff0-4b8b-b10f-89f6103a88a6")
+	)
+	(wire
+		(pts
 			(xy 238.76 250.19) (xy 270.51 250.19)
 		)
 		(stroke
@@ -16650,6 +16660,16 @@
 	)
 	(wire
 		(pts
+			(xy 520.7 204.47) (xy 510.54 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c9b299-d5cc-472c-9cc1-8715a5152ce5")
+	)
+	(wire
+		(pts
 			(xy 528.32 241.3) (xy 528.32 242.57)
 		)
 		(stroke
@@ -16960,6 +16980,16 @@
 	)
 	(wire
 		(pts
+			(xy 520.7 189.23) (xy 510.54 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e4260f-0874-4c4f-8d8e-eb7dc81ecdfa")
+	)
+	(wire
+		(pts
 			(xy 351.79 119.38) (xy 369.57 119.38)
 		)
 		(stroke
@@ -17060,6 +17090,16 @@
 	)
 	(wire
 		(pts
+			(xy 520.7 194.31) (xy 510.54 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3562d3-ca39-4a22-ae7a-b82f10b12bc9")
+	)
+	(wire
+		(pts
 			(xy 459.74 328.93) (xy 459.74 334.01)
 		)
 		(stroke
@@ -17097,6 +17137,16 @@
 			(type default)
 		)
 		(uuid "ccb064a5-d52e-4de9-8c4d-1d9aabcdcab7")
+	)
+	(wire
+		(pts
+			(xy 520.7 201.93) (xy 510.54 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd758e00-bbaa-4492-a5c6-ff8641e72e18")
 	)
 	(wire
 		(pts
@@ -17310,6 +17360,16 @@
 	)
 	(wire
 		(pts
+			(xy 520.7 191.77) (xy 510.54 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3cff53-13c8-4b14-87f4-c4e172c0bdc7")
+	)
+	(wire
+		(pts
 			(xy 238.76 241.3) (xy 270.51 241.3)
 		)
 		(stroke
@@ -17317,6 +17377,16 @@
 			(type default)
 		)
 		(uuid "e0cc0ebc-0857-4b73-86e2-547731159f33")
+	)
+	(wire
+		(pts
+			(xy 520.7 199.39) (xy 510.54 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e146c833-38b3-41ff-b9ac-b70960c062f4")
 	)
 	(wire
 		(pts
@@ -18404,7 +18474,7 @@
 	)
 	(hierarchical_label "RPi_5A_SDA"
 		(shape output)
-		(at 510.54 194.31 0)
+		(at 520.7 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18514,7 +18584,7 @@
 	)
 	(hierarchical_label "DDIB_ADV_SCL"
 		(shape input)
-		(at 510.54 204.47 0)
+		(at 520.7 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18536,7 +18606,7 @@
 	)
 	(hierarchical_label "TCP0_ADV_SDA"
 		(shape bidirectional)
-		(at 510.54 196.85 0)
+		(at 520.7 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18855,7 +18925,7 @@
 	)
 	(hierarchical_label "DDIB_ADV_SDA"
 		(shape bidirectional)
-		(at 510.54 201.93 0)
+		(at 520.7 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19130,7 +19200,7 @@
 	)
 	(hierarchical_label "TCP0_ADV_SCL"
 		(shape input)
-		(at 510.54 199.39 0)
+		(at 520.7 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19295,7 +19365,7 @@
 	)
 	(hierarchical_label "RPi_5A_INT"
 		(shape output)
-		(at 510.54 189.23 0)
+		(at 520.7 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19383,7 +19453,7 @@
 	)
 	(hierarchical_label "RPi_5A_SCL"
 		(shape output)
-		(at 510.54 191.77 0)
+		(at 520.7 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19520,6 +19590,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0151")
 					(unit 1)
 				)
@@ -19682,6 +19758,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19839,6 +19921,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "R95")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19914,6 +20002,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0149")
 					(unit 1)
 				)
@@ -20011,6 +20105,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "Y1")
 					(unit 1)
 				)
@@ -20174,6 +20274,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20248,6 +20354,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0222")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0222")
 					(unit 1)
 				)
@@ -20404,6 +20516,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "C151")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "C151")
 					(unit 1)
 				)
@@ -21527,6 +21645,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21603,6 +21727,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "C15")
 					(unit 1)
 				)
@@ -21925,6 +22055,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "R107")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22087,6 +22223,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22163,6 +22305,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "C21")
 					(unit 1)
 				)
@@ -22323,6 +22471,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "C150")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22395,6 +22549,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -22628,6 +22788,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "SW80")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "SW80")
 					(unit 1)
 				)
@@ -22973,6 +23139,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "U88")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23045,6 +23217,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR058")
 					(unit 1)
 				)
@@ -23227,6 +23405,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "#PWR0221")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23303,6 +23487,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "C9")
 					(unit 1)
 				)
@@ -23713,6 +23903,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "C146")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23872,6 +24068,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23946,6 +24148,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0224")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0224")
 					(unit 1)
 				)
@@ -24316,6 +24524,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24472,6 +24686,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "C118")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24546,6 +24766,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0161")
 					(unit 1)
 				)
@@ -24628,6 +24854,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "#PWR0227")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24703,6 +24935,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0155")
 					(unit 1)
 				)
@@ -24865,6 +25103,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24939,6 +25183,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0148")
 					(unit 1)
 				)
@@ -25274,6 +25524,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -25421,6 +25677,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "U12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -25496,6 +25758,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0229")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0229")
 					(unit 1)
 				)
@@ -25741,6 +26009,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -25894,6 +26168,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "C147")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "C147")
 					(unit 1)
 				)
@@ -26139,6 +26419,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "D31")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -26214,6 +26500,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0159")
 					(unit 1)
 				)
@@ -26375,6 +26667,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "R103")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -26451,6 +26749,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "C13")
 					(unit 1)
 				)
@@ -26765,6 +27069,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "C161")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -26929,6 +27239,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -27005,6 +27321,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "C11")
 					(unit 1)
 				)
@@ -27250,6 +27572,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "R106")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -27488,6 +27816,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -27563,6 +27897,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0232")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0232")
 					(unit 1)
 				)
@@ -27654,6 +27994,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "J5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -27728,6 +28074,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0160")
 					(unit 1)
 				)
@@ -27807,6 +28159,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0226")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0226")
 					(unit 1)
 				)
@@ -27969,6 +28327,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -28044,6 +28408,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0156")
 					(unit 1)
 				)
@@ -28484,6 +28854,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -28745,6 +29121,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "Y2")
 					(unit 1)
 				)
@@ -29151,6 +29533,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "#PWR0228")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -29303,6 +29691,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "C160")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "C160")
 					(unit 1)
 				)
@@ -29549,6 +29943,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "R102")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -29625,6 +30025,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "C4")
 					(unit 1)
 				)
@@ -29932,6 +30338,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "IC78")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -30209,6 +30621,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -30622,6 +31040,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "#PWR0223")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -30697,6 +31121,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0129")
 					(unit 1)
 				)
@@ -30943,6 +31373,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0162")
 					(unit 1)
 				)
@@ -31267,6 +31703,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "D32")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -31342,6 +31784,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0154")
 					(unit 1)
 				)
@@ -31426,6 +31874,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "C10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -31500,6 +31954,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR041")
 					(unit 1)
 				)
@@ -31949,6 +32409,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0124")
 					(unit 1)
 				)
@@ -32516,6 +32982,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "#PWR0199")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -32919,6 +33391,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "C148")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -33083,6 +33561,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -33236,6 +33720,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "C120")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "C120")
 					(unit 1)
 				)
@@ -33446,6 +33936,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -33521,6 +34017,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0150")
 					(unit 1)
 				)
@@ -33601,6 +34103,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -33675,6 +34183,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0219")
 					(unit 1)
 				)
@@ -34000,6 +34514,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -34076,6 +34596,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "C17")
 					(unit 1)
 				)
@@ -34656,6 +35182,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "#PWR0230")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -34731,6 +35263,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "SW81")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "SW81")
 					(unit 1)
 				)
@@ -34972,6 +35510,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "C119")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "C119")
 					(unit 1)
 				)
@@ -35220,6 +35764,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -35457,6 +36007,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "R105")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "R105")
 					(unit 1)
 				)
@@ -35858,6 +36414,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "R94")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "R94")
 					(unit 1)
 				)
@@ -36274,6 +36836,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -36349,6 +36917,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0158")
 					(unit 1)
 				)
@@ -36595,6 +37169,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -36670,6 +37250,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0231")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0231")
 					(unit 1)
 				)
@@ -36829,6 +37415,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "L5")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "L5")
 					(unit 1)
 				)
@@ -36996,6 +37588,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -37148,6 +37746,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "R108")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "R108")
 					(unit 1)
 				)
@@ -37391,6 +37995,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -37471,6 +38081,12 @@
 					(unit 1)
 				)
 			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -37546,6 +38162,12 @@
 		(instances
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0220")
+					(unit 1)
+				)
+			)
+			(project "LattePanda Module"
+				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR0220")
 					(unit 1)
 				)
@@ -37934,4 +38556,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

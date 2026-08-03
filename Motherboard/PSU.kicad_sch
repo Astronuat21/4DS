@@ -7420,6 +7420,12 @@
 		(uuid "ab5f8bd9-003c-4b9a-87d2-b7758b346c3b")
 	)
 	(junction
+		(at 289.56 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b25a70ed-11ba-4ae3-84e5-675b1a9cec43")
+	)
+	(junction
 		(at 227.33 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8301,7 +8307,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 238.76) (xy 289.56 242.57)
+			(xy 289.56 238.76) (xy 289.56 241.3)
 		)
 		(stroke
 			(width 0)
@@ -9100,7 +9106,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 241.3) (xy 276.86 241.3)
+			(xy 292.1 241.3) (xy 289.56 241.3)
 		)
 		(stroke
 			(width 0)
@@ -10383,6 +10389,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "a06d33fb-7708-4a0a-82d5-78ee7439a4e4")
+	)
+	(wire
+		(pts
+			(xy 289.56 241.3) (xy 276.86 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0af56ab-e92d-4b18-97ae-21cdd6b4bb90")
 	)
 	(wire
 		(pts
@@ -23804,84 +23820,6 @@
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
 					(reference "#PWR0180")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 289.56 242.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a9efcca-1d29-450a-93fe-17465a2abea5")
-		(property "Reference" "#PWR0185"
-			(at 289.56 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 289.56 247.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 289.56 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 289.56 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7bbd52a6-efd9-49bc-8b7f-79e90d892917")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
