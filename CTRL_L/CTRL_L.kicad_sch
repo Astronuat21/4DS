@@ -5,6 +5,252 @@
 	(uuid "8eeed083-de7a-4dfe-ba6c-9e042c3ef75c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "503480-0440:503480-0440"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "503480-0440"
+				(at 19.05 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "5034800440"
+				(at 19.05 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/5034800440_sd.pdf"
+				(at 19.05 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Connector FFC/FPC SKT 4 Position 0.5mm Solder Right Angle Surface Mount T/R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "2.12"
+				(at 19.05 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "538-503480-0440"
+				(at 19.05 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/503480-0440?qs=LBbezbu20sggwP%2FAt293Pw%3D%3D"
+				(at 19.05 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 19.05 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "503480-0440"
+				(at 19.05 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "503480-0440_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "503480-0540:503480-0540"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7782,6 +8028,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 80.01 119.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a128417-6c5f-4458-bd29-233080114360")
+		(property "Reference" "#PWR033"
+			(at 86.36 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 119.3799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3a75cac-e8eb-41fb-920c-47adf2b530d5")
+		)
+		(instances
+			(project "CTRL_L"
+				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "503480-0540:503480-0540")
 		(at 58.42 29.21 0)
 		(unit 1)
@@ -9393,7 +9718,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AYF530365TA:AYF530365TA")
+		(lib_id "503480-0440:503480-0440")
 		(at 57.15 127 0)
 		(mirror x)
 		(unit 1)
@@ -9403,8 +9728,19 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c330d562-7728-47d7-aef1-f39680366401")
-		(property "Reference" "J6"
+		(fields_autoplaced yes)
+		(uuid "cbd2afc0-4676-4327-8120-5993d2cec3b7")
+		(property "Reference" "J4"
+			(at 68.58 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "503480-0440"
 			(at 68.58 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9414,17 +9750,7 @@
 				)
 			)
 		)
-		(property "Value" "AYF530365TA"
-			(at 68.58 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AYF530365TA:AYF530365T"
+		(property "Footprint" "503480-0440:5034800440"
 			(at 76.2 32.08 0)
 			(hide yes)
 			(show_name no)
@@ -9436,7 +9762,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www3.panasonic.biz/ac/e_download/control/connector/fpc-ffc/catalog/con_eng_y5bw.pdf"
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/5034800440_sd.pdf"
 			(at 76.2 -67.92 0)
 			(hide yes)
 			(show_name no)
@@ -9448,7 +9774,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "3 Position FPC Connector Contacts, Top and Bottom 0.020\" (0.50mm) Surface Mount, Right Angle"
+		(property "Description" "Connector FFC/FPC SKT 4 Position 0.5mm Solder Right Angle Surface Mount T/R"
 			(at 57.15 127 0)
 			(hide yes)
 			(show_name no)
@@ -9459,7 +9785,7 @@
 				)
 			)
 		)
-		(property "Height" "1.76"
+		(property "Height" "2.12"
 			(at 76.2 -267.92 0)
 			(hide yes)
 			(show_name no)
@@ -9471,7 +9797,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "667-AYF530365TA"
+		(property "Mouser Part Number" "538-503480-0440"
 			(at 76.2 -367.92 0)
 			(hide yes)
 			(show_name no)
@@ -9483,7 +9809,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/AYF530365TA?qs=tY4uNICHPYl8dOyO14vLEA%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/503480-0440?qs=LBbezbu20sggwP%2FAt293Pw%3D%3D"
 			(at 76.2 -467.92 0)
 			(hide yes)
 			(show_name no)
@@ -9495,7 +9821,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
+		(property "Manufacturer_Name" "Molex"
 			(at 76.2 -567.92 0)
 			(hide yes)
 			(show_name no)
@@ -9507,7 +9833,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "AYF530365TA"
+		(property "Manufacturer_Part_Number" "503480-0440"
 			(at 76.2 -667.92 0)
 			(hide yes)
 			(show_name no)
@@ -9519,25 +9845,28 @@
 				(justify left top)
 			)
 		)
-		(pin "3"
-			(uuid "27162301-df7e-4480-bc2c-59b3bbfb207b")
+		(pin "4"
+			(uuid "152d8d86-b70d-41f3-9dd7-07b7abe7d2d9")
 		)
-		(pin "5"
-			(uuid "0abee45f-5c51-436e-9519-6cbb7d8468b8")
+		(pin "MP1"
+			(uuid "d00602ce-6286-4d6a-8479-d5046e3a426c")
+		)
+		(pin "3"
+			(uuid "159322c2-bb7d-49bf-8ea4-c03c5e636c14")
 		)
 		(pin "2"
-			(uuid "0574744a-ef3a-4ca9-b958-bd1b1b9eb92c")
+			(uuid "89e6becb-4232-4a34-898e-2d4baef673e7")
 		)
-		(pin "4"
-			(uuid "30c8987e-71d4-461b-9f1c-4d79cda5c726")
+		(pin "MP2"
+			(uuid "2776259c-bc71-4882-877b-a036ce85f552")
 		)
 		(pin "1"
-			(uuid "10637ff8-9662-45e4-88d5-19eb77c68494")
+			(uuid "266fde0b-afcc-45e9-be08-4fcf042b2755")
 		)
 		(instances
 			(project "CTRL_L"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)

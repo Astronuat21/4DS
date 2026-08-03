@@ -1972,7 +1972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "5034800440"
+		(property "Footprint" "503480-0440:5034800440"
 			(at 57.15 0.33 0)
 			(hide yes)
 			(show_name no)
