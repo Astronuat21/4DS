@@ -22296,7 +22296,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "NOTE" "LOTES ADDR0207-P001A connector"
 			(at 311.15 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -22329,7 +22329,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2761395"
+		(property "LCSC Part" "C962120"
 			(at 311.15 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -35810,7 +35810,7 @@
 				)
 			)
 		)
-		(property "Description" "SMTWEM250STR"
+		(property "Description" "SMTWE2025MTJ"
 			(at 297.18 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -35854,7 +35854,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5301799"
+		(property "LCSC Part" "C2928178"
 			(at 297.18 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -40754,7 +40754,7 @@
 				)
 			)
 		)
-		(property "Description" "SMTWEM250STR"
+		(property "Description" "SMTWE2025MTJ"
 			(at 322.58 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -40798,7 +40798,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5301799"
+		(property "LCSC Part" "C2928178"
 			(at 322.58 345.44 0)
 			(hide yes)
 			(show_name no)

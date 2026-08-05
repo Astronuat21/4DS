@@ -3153,12 +3153,6 @@
 		(uuid "21fb1520-f85c-4704-ace9-eae2aae3312b")
 	)
 	(junction
-		(at 361.95 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f9bf9b0-cf92-40c7-9918-7b48ade7db19")
-	)
-	(junction
 		(at 405.13 285.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3187,6 +3181,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82ab1e93-4154-4f5e-9130-123f3f11239f")
+	)
+	(junction
+		(at 361.95 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9121bdfc-c573-4efe-a5eb-36c5adf72bc7")
 	)
 	(junction
 		(at 294.64 226.06)
@@ -5875,98 +5875,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_A")
-		(at 359.41 105.41 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "813f5ab4-6fa1-4479-9ec2-cf86c0b941c8")
-		(property "Reference" "J81"
-			(at 365.76 104.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB_A"
-			(at 365.76 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 355.6 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB Type A connector"
-			(at 359.41 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4d243279-3123-4c00-8e7c-41935725bb72")
-		)
-		(pin "SH"
-			(uuid "8bbfcfd9-0b2d-4d68-8fa3-5d47442d2539")
-		)
-		(pin "1"
-			(uuid "9926fb10-e54e-4212-93f0-fee24baaa4ec")
-		)
-		(pin "3"
-			(uuid "3b1edbf4-38d0-459e-bdde-34d50fcbff3a")
-		)
-		(pin "4"
-			(uuid "9639a75a-f92a-4b5d-a23d-398b44704613")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a"
-					(reference "J81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:D3V3XA4B10LP")
 		(at 320.04 127 0)
 		(unit 1)
@@ -8009,7 +7917,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_A")
-		(at 382.27 105.41 0)
+		(at 359.41 105.41 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8021,7 +7929,7 @@
 		(fields_autoplaced yes)
 		(uuid "faaf259a-2de4-4a9b-ac90-641872f03b1e")
 		(property "Reference" "J93"
-			(at 388.62 104.1399 0)
+			(at 365.76 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8032,7 +7940,7 @@
 			)
 		)
 		(property "Value" "USB_A"
-			(at 388.62 106.6799 0)
+			(at 365.76 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8043,7 +7951,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_A_Molex_48037-2200_Horizontal"
-			(at 378.46 106.68 0)
+			(at 355.6 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8054,7 +7962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 378.46 106.68 0)
+			(at 355.6 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8065,7 +7973,7 @@
 			)
 		)
 		(property "Description" "USB Type A connector"
-			(at 382.27 105.41 0)
+			(at 359.41 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
