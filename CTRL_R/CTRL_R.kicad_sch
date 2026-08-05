@@ -4434,7 +4434,7 @@
 		)
 		(uuid "f6a64322-16c1-4f1b-87a4-3db21d957f52")
 	)
-	(label "ADC_X"
+	(label "ADC_Y"
 		(at 102.87 95.25 0)
 		(effects
 			(font
@@ -4444,7 +4444,7 @@
 		)
 		(uuid "12f191d3-a573-4751-a0bc-109d59e831c9")
 	)
-	(label "ADC_Y"
+	(label "ADC_X"
 		(at 102.87 87.63 0)
 		(effects
 			(font

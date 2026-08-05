@@ -672,6 +672,126 @@
       {
         "netclass": "90Ω",
         "pattern": "*USB_2_FP*"
+      },
+      {
+        "netclass": "100Ω",
+        "pattern": ""
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/TCP0_TX(0+|0-|1+|1-|2+|2-|3+|3-)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": ""
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": ""
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/TCP0_TX0+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/TCP0_TX1+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/TCP0_TX2+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/TCP0_TX3+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/DDIB_TX(0+|0-|1+|1-|2+|2-|3+|3-)"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/RGB/DDIB_(CK+|CK-|D0+|D0-|D1+|D1-|D2+|D2-)"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/RGB/DDIB_D2+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/RGB/DDIB_D1+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/RGB/DDIB_D0+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/RGB/DDIB_CK+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/DDIB_TX0+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/DDIB_TX1+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/DDIB_TX2+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/DDIB_TX3+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/TCP0_(HPD|SCL|SDA)"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/DBUG_(HPD|SCL|SDA|TX0+|TX0-|TX1+|TX1-|TX2+|TX2-|TX3+|TX3-)"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/DBUG_TX0+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/DBUG_TX1+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/DBUG_TX2+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/DBUG_TX3+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/DDIB_(HPD|SCL|SDA)"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/RGB/DBUG_(CK+|CK-|D0+|D0-|D1+|D1-|D2+|D2-)"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/RGB/DBUG_D2+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/RGB/DBUG_D1+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/RGB/DBUG_D0+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/RGB/DBUG_CK+"
       }
     ]
   },
