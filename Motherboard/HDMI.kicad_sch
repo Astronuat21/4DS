@@ -41169,7 +41169,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 318.77 466.09 270)
+		(at 318.77 466.09 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41179,7 +41180,7 @@
 		(dnp no)
 		(uuid "b25c5894-3af0-4bbb-a9f6-e6801463489a")
 		(property "Reference" "R193"
-			(at 312.42 464.82 90)
+			(at 325.12 464.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41190,7 +41191,7 @@
 			)
 		)
 		(property "Value" "21.5K/1%"
-			(at 322.58 464.82 90)
+			(at 314.96 464.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

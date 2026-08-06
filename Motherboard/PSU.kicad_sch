@@ -14063,7 +14063,7 @@
 				)
 			)
 		)
-		(property "Value" "3K/1%"
+		(property "Value" "4.7K/1%"
 			(at 184.15 174.752 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30052,7 +30052,7 @@
 				)
 			)
 		)
-		(property "Value" "56K/1%"
+		(property "Value" "6.8K/1%"
 			(at 241.3 248.92 90)
 			(show_name no)
 			(do_not_autoplace no)
