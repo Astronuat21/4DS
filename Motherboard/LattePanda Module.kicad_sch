@@ -14869,7 +14869,7 @@
 	)
 	(text "HPD pin of unused DDI/TCP port\nneeds to be pulled down"
 		(exclude_from_sim no)
-		(at 251.714 284.48 0)
+		(at 246.126 284.734 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16919,6 +16919,16 @@
 			(type default)
 		)
 		(uuid "481567af-034c-4eac-a49d-02761a764ca0")
+	)
+	(wire
+		(pts
+			(xy 265.43 284.48) (xy 270.51 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4822e805-96ad-40b6-928f-cece7940ed25")
 	)
 	(wire
 		(pts
@@ -22143,6 +22153,85 @@
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
 					(reference "IC79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 284.48 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08332183-61d2-44b2-8862-a00492600e40")
+		(property "Reference" "#PWR024"
+			(at 251.46 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 284.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b2d0863-e916-4c85-996f-df0e97c7173e")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -40195,6 +40284,162 @@
 			(project "LattePanda Module"
 				(path "/865faa68-e6e9-4d0c-b235-4bdae2aa7e2b"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 261.62 284.48 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd3b99a9-ba08-4fac-9795-7ccb1dd1b0ba")
+		(property "Reference" "R80"
+			(at 260.858 289.052 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K/1%"
+			(at 262.128 287.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+			(at 261.62 282.702 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" ""
+			(at 261.62 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 261.62 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 261.62 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 261.62 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" ""
+			(at 15.24 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" ""
+			(at 15.24 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 15.24 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da54036a-437a-4901-b864-a35bfef1bbdc")
+		)
+		(pin "2"
+			(uuid "398f3531-1c49-46ab-b611-fdbc99ef0bc3")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "R80")
 					(unit 1)
 				)
 			)
