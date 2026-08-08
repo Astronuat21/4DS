@@ -6837,7 +6837,7 @@
 				(thickness 0.2794)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b9c9da03-91c0-417e-a329-f31a4fca8bb5")
 	)

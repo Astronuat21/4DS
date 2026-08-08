@@ -15771,6 +15771,10 @@
 		(uuid "53c4a64e-5bd8-4bec-89f3-6cf95f10ff09")
 	)
 	(no_connect
+		(at 270.51 165.1)
+		(uuid "5566a50b-e421-4752-8eea-7ba171ef1ed2")
+	)
+	(no_connect
 		(at 351.79 87.63)
 		(uuid "5656ab60-4081-48b8-9751-1728d4bc5691")
 	)
@@ -19988,17 +19992,6 @@
 		)
 		(uuid "4b461fe4-29df-4360-b457-059e4f7fc319")
 	)
-	(hierarchical_label "Col3"
-		(shape output)
-		(at 510.54 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4dd0e87d-62c6-460b-b08c-910395b08e90")
-	)
 	(hierarchical_label "~{PWR_SW}"
 		(shape input)
 		(at 247.65 60.96 180)
@@ -20064,6 +20057,17 @@
 			(justify right)
 		)
 		(uuid "59edc413-0e23-4037-9090-114711ddee11")
+	)
+	(hierarchical_label "Col4"
+		(shape output)
+		(at 541.02 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59f86970-1532-4768-b0a3-03416810c768")
 	)
 	(hierarchical_label "HSIO_3_TX+"
 		(shape output)
@@ -20166,7 +20170,7 @@
 	)
 	(hierarchical_label "Row3"
 		(shape input)
-		(at 510.54 140.97 0)
+		(at 510.54 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20408,18 +20412,18 @@
 	)
 	(hierarchical_label "DDIB_TOUCH_SCL"
 		(shape input)
-		(at 351.79 220.98 0)
+		(at 351.79 220.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9a61ce39-8b3e-4737-849b-64681efbd4f3")
 	)
 	(hierarchical_label "Row1"
 		(shape input)
-		(at 510.54 135.89 0)
+		(at 510.54 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20430,14 +20434,14 @@
 	)
 	(hierarchical_label "RPi_HALL_L"
 		(shape output)
-		(at 510.54 176.53 0)
+		(at 510.54 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "9bca64e7-16c8-444d-8145-ba5a0ad4a091")
+		(uuid "9ba71494-02af-4968-82eb-ca0bca448b83")
 	)
 	(hierarchical_label "HSIO_2_RX+"
 		(shape input)
@@ -20471,17 +20475,6 @@
 			(justify left)
 		)
 		(uuid "a2caf3dc-dca9-4c7f-995c-87084d28bf6f")
-	)
-	(hierarchical_label "RPi_LCD_EN"
-		(shape passive)
-		(at 510.54 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a59ab3a1-c0fe-48b8-88a3-9806453e9a19")
 	)
 	(hierarchical_label "TCP0_TX3-"
 		(shape output)
@@ -20527,6 +20520,17 @@
 		)
 		(uuid "af66c5fc-5f96-471b-952d-73b6c2067da3")
 	)
+	(hierarchical_label "Col3"
+		(shape output)
+		(at 541.02 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3972c67-116d-4750-bff4-20f91fc4e938")
+	)
 	(hierarchical_label "TCP0_TX3+"
 		(shape output)
 		(at 238.76 261.62 180)
@@ -20570,17 +20574,6 @@
 			(justify left)
 		)
 		(uuid "bf02a276-a560-4322-a4df-cffbcaa1aab3")
-	)
-	(hierarchical_label "Col4"
-		(shape output)
-		(at 510.54 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c06fd856-9845-4d80-9fcd-6cd6463f868e")
 	)
 	(hierarchical_label "DDIB_TOUCH_SDA"
 		(shape bidirectional)
@@ -20802,6 +20795,17 @@
 		)
 		(uuid "e7e5f80b-e03f-46db-bde9-a25b0b4df106")
 	)
+	(hierarchical_label "RPi_LCD_EN"
+		(shape passive)
+		(at 510.54 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eaf5a06c-1609-4f65-81c7-240a85828eba")
+	)
 	(hierarchical_label "L_ADC_X"
 		(shape output)
 		(at 459.74 207.01 180)
@@ -20859,18 +20863,18 @@
 	)
 	(hierarchical_label "TCP0_TOUCH_SCL"
 		(shape input)
-		(at 351.79 218.44 0)
+		(at 351.79 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "fb1c1d1b-b913-4056-9e31-c300805240ea")
 	)
 	(hierarchical_label "Row2"
 		(shape input)
-		(at 510.54 138.43 0)
+		(at 510.54 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
