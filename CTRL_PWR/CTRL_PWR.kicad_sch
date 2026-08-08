@@ -2010,7 +2010,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 77.47 270)
+		(at 24.13 92.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2021,7 +2021,7 @@
 		(fields_autoplaced yes)
 		(uuid "498b5b76-2692-403d-94a3-eb9eec780478")
 		(property "Reference" "#PWR03"
-			(at 17.78 77.47 0)
+			(at 17.78 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2032,7 +2032,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.32 77.4699 90)
+			(at 20.32 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2043,7 +2043,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 77.47 0)
+			(at 24.13 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2054,7 +2054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 77.47 0)
+			(at 24.13 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2065,7 +2065,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 77.47 0)
+			(at 24.13 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2673,6 +2673,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "N/A"
+			(at 72.39 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "CTRL_PWR"
 				(path "/8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
@@ -2766,7 +2777,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 80.01 270)
+		(at 24.13 95.25 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2777,7 +2788,7 @@
 		(fields_autoplaced yes)
 		(uuid "8761333d-a7f6-4964-adc0-7e5ad76b8e0f")
 		(property "Reference" "#PWR04"
-			(at 17.78 80.01 0)
+			(at 17.78 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2788,7 +2799,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.32 80.0099 90)
+			(at 20.32 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2799,7 +2810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 80.01 0)
+			(at 24.13 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2810,7 +2821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 80.01 0)
+			(at 24.13 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2821,7 +2832,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 80.01 0)
+			(at 24.13 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3086,7 +3097,8 @@
 	)
 	(symbol
 		(lib_id "503480-0800:503480-0800")
-		(at 24.13 77.47 0)
+		(at 24.13 95.25 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3096,7 +3108,7 @@
 		(dnp no)
 		(uuid "b2f35cd4-5358-4855-9fa0-d68a9b5afcb6")
 		(property "Reference" "J2"
-			(at 35.56 102.87 0)
+			(at 35.56 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3106,7 +3118,7 @@
 			)
 		)
 		(property "Value" "503480-0800"
-			(at 35.56 100.33 0)
+			(at 35.56 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3116,7 +3128,7 @@
 			)
 		)
 		(property "Footprint" "503480-0800:5034800800"
-			(at 43.18 172.39 0)
+			(at 43.18 0.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3128,7 +3140,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/dd73662b6fd345cd2d55f223314e3d3c.pdf"
-			(at 43.18 272.39 0)
+			(at 43.18 -99.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3140,7 +3152,7 @@
 			)
 		)
 		(property "Description" "Easy-On BackFlip 0.5mm FPC Connector, 8P Molex 503480 Series 0.5mm Pitch 8 Way Right Angle SMT Male FPC Connector, Solder"
-			(at 24.13 77.47 0)
+			(at 24.13 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3151,7 +3163,7 @@
 			)
 		)
 		(property "Height" "1.87"
-			(at 43.18 472.39 0)
+			(at 43.18 -299.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3163,7 +3175,7 @@
 			)
 		)
 		(property "LCSC Part" "C596711"
-			(at 43.18 572.39 0)
+			(at 43.18 -399.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3175,7 +3187,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/503480-0800?qs=bodV9ulq6Gz33SKuZL445g%3D%3D"
-			(at 43.18 672.39 0)
+			(at 43.18 -499.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3187,7 +3199,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 43.18 772.39 0)
+			(at 43.18 -599.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3199,7 +3211,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "503480-0800"
-			(at 43.18 872.39 0)
+			(at 43.18 -699.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3306,6 +3318,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 91.44 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "N/A"
 			(at 91.44 135.89 0)
 			(hide yes)
 			(show_name no)

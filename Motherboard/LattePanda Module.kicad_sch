@@ -14682,6 +14682,16 @@
 		)
 		(uuid "079af5f8-10e7-40c4-b602-5968a2ef171e")
 	)
+	(text "HSIO 3\n\n\n"
+		(exclude_from_sim no)
+		(at 335.026 101.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "08e82acc-51bf-4a53-975b-8aa9b70b7bf7")
+	)
 	(text "Lite Carrier has no second BIOS ROM\n~{BIOS_SEL} pull up to 3.3V to select ROM on LattePanda Mu"
 		(exclude_from_sim no)
 		(at 387.35 256.54 0)
@@ -14726,6 +14736,16 @@
 		)
 		(uuid "4fd896d3-e4fa-48f5-b25c-231e032b31e8")
 	)
+	(text "HSIO 8\n\n"
+		(exclude_from_sim no)
+		(at 335.026 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6264dd42-0b6c-4fc0-9460-9edee932b026")
+	)
 	(text "Sleeping State Signal\n\n- SLS_S0: \n  - S0 (Working): HIGH\n  - S3 (Slpeeping): LOW\n  - S4 (Hibernation): LOW\n  - S5 (Soft Off): LOW\n- SLS_S3:\n  - S0 (Working): HIGH\n  - S3 (Slpeeping): HIGH\n  - S4 (Hibernation): LOW\n  - S5 (Soft Off): LOW"
 		(exclude_from_sim no)
 		(at 165.1 50.8 0)
@@ -14738,6 +14758,16 @@
 			(justify left top)
 		)
 		(uuid "63c779e4-b629-4099-82bd-b0ff1fb97de6")
+	)
+	(text "HSIO 6\n\n\n\n"
+		(exclude_from_sim no)
+		(at 335.28 107.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6df838cf-2da4-4329-8110-c7dd6892e6f0")
 	)
 	(text "USB2_P6 is reserved for TypeC PD Controller\nDO NOT use it as a normal USB"
 		(exclude_from_sim no)
@@ -14760,6 +14790,16 @@
 			(justify left)
 		)
 		(uuid "7ef43269-38c0-4067-b203-907618be0ee9")
+	)
+	(text "???\n"
+		(exclude_from_sim no)
+		(at 336.804 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7feb4bd8-2769-479a-aca0-daf476519bb8")
 	)
 	(text "All I2C have integrated pull-up resistors.\nno need to add pull-up resistors"
 		(exclude_from_sim no)
@@ -14847,6 +14887,26 @@
 		)
 		(uuid "b13360d1-10f8-4b80-ad13-56690648eacc")
 	)
+	(text "HSIO 8\n\n\n\n"
+		(exclude_from_sim no)
+		(at 263.652 129.286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c69df634-8903-4c21-86da-599bd4f25fe5")
+	)
+	(text "HSIO 6\n\n\n\n"
+		(exclude_from_sim no)
+		(at 264.16 171.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d15f015e-c9c6-4652-ba5f-fd7339f87e0a")
+	)
 	(text "Have to send just 1 message on this I2C lane,\nbecause 5A charging isn't the default, 1A is. \nThis makes charging take 5hrs instead of 25.\nWHY... I HATE I2C."
 		(exclude_from_sim no)
 		(at 562.864 205.74 0)
@@ -14877,6 +14937,16 @@
 			(justify right top)
 		)
 		(uuid "edc56b6d-27b3-4225-bdc9-4cc6e629c57d")
+	)
+	(text "HSIO 2\n"
+		(exclude_from_sim no)
+		(at 335.026 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ef13a3f9-e9e9-40cf-aec2-f22267b2b94b")
 	)
 	(text_box "HSIO_0/HSIO_1 used for USB3.0 \n"
 		(exclude_from_sim no)

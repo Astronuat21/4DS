@@ -7102,6 +7102,12 @@
 		(uuid "5ae0930f-6944-45ce-a0d5-e42b1559fe2d")
 	)
 	(junction
+		(at 200.66 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d543b05-fd2d-4d9f-a8e3-ca772096f165")
+	)
+	(junction
 		(at 278.13 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7394,6 +7400,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3d1748b-3b34-4866-b4b4-d0d6c6e95e2a")
+	)
+	(junction
+		(at 200.66 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4e05c65-a8ea-4529-bf42-5232c8b8e781")
 	)
 	(junction
 		(at 468.63 217.17)
@@ -8073,6 +8085,17 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 121.92) (xy 200.66 127)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1202f743-9319-4ae1-902a-101c9da8161e")
+	)
+	(wire
+		(pts
 			(xy 278.13 165.1) (xy 271.78 165.1)
 		)
 		(stroke
@@ -8262,6 +8285,17 @@
 			(type default)
 		)
 		(uuid "1cf86345-c85e-4b0a-82af-e7790024f503")
+	)
+	(wire
+		(pts
+			(xy 200.66 121.92) (xy 201.93 121.92)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1ea5c15e-2bdd-4e72-8b6b-31e7240ffc5c")
 	)
 	(wire
 		(pts
@@ -8895,6 +8929,17 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 127) (xy 200.66 134.62)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "3e210bf8-1820-4213-aa0a-16781fd4bf4c")
+	)
+	(wire
+		(pts
 			(xy 222.25 132.08) (xy 227.33 132.08)
 		)
 		(stroke
@@ -9143,6 +9188,17 @@
 			(type default)
 		)
 		(uuid "56ebbc55-e7a0-4245-8400-a73728b73709")
+	)
+	(wire
+		(pts
+			(xy 200.66 127) (xy 201.93 127)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "57312748-5108-458d-9411-5aca02765936")
 	)
 	(wire
 		(pts
@@ -9723,6 +9779,17 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 134.62) (xy 201.93 134.62)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "81783206-d5fb-4f9c-b55d-84373a0da1c7")
+	)
+	(wire
+		(pts
 			(xy 276.86 132.08) (xy 276.86 172.72)
 		)
 		(stroke
@@ -9791,16 +9858,6 @@
 			(type default)
 		)
 		(uuid "868be3e2-d080-4ca5-a00f-99ed2c812396")
-	)
-	(wire
-		(pts
-			(xy 200.66 127) (xy 201.93 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86a691aa-1f7f-418b-ac44-988dddfbfb48")
 	)
 	(wire
 		(pts
@@ -9885,7 +9942,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 121.92) (xy 201.93 121.92)
+			(xy 195.58 121.92) (xy 200.66 121.92)
 		)
 		(stroke
 			(width 1)
@@ -10562,16 +10619,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 134.62) (xy 200.66 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af0cf2f7-2014-456a-8037-f396c867167e")
-	)
-	(wire
-		(pts
 			(xy 360.68 148.59) (xy 374.65 148.59)
 		)
 		(stroke
@@ -10893,16 +10940,6 @@
 			(type default)
 		)
 		(uuid "c42332fa-7dcb-43a8-9cad-a7455fd1360a")
-	)
-	(wire
-		(pts
-			(xy 201.93 134.62) (xy 200.66 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4eab80b-e79b-4804-8233-caadd3b943be")
 	)
 	(wire
 		(pts
@@ -26496,7 +26533,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 228.6 129.54 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26506,7 +26542,7 @@
 		(dnp no)
 		(uuid "90a1ff31-9745-4d29-ad1b-54abe6870cb8")
 		(property "Reference" "C93"
-			(at 230.632 131.826 0)
+			(at 226.568 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26516,7 +26552,7 @@
 			)
 		)
 		(property "Value" "47nF/10V"
-			(at 232.918 127 0)
+			(at 224.282 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26526,7 +26562,7 @@
 			)
 		)
 		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
-			(at 227.6348 133.35 0)
+			(at 229.5652 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26603,7 +26639,7 @@
 			)
 		)
 		(property "Buy_Link" ""
-			(at 673.1 300.99 0)
+			(at -215.9 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26614,7 +26650,7 @@
 			)
 		)
 		(property "DF_Comment" "贴片电容0603-47nF-10V-X5R(0603)"
-			(at 673.1 300.99 0)
+			(at -215.9 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26625,7 +26661,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 673.1 300.99 0)
+			(at -215.9 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33308,7 +33344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:L_Sunlord_SWPA4020S"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 228.6 137.16 0)
 			(hide yes)
 			(show_name no)

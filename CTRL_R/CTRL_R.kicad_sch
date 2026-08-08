@@ -5623,6 +5623,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C917117"
+			(at 130.81 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d26ef632-59cc-4b7f-84bd-b3aa4fd1adea")
 		)
@@ -5640,7 +5651,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 87.63 270)
+		(at 80.01 97.79 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5650,7 +5662,7 @@
 		(dnp no)
 		(uuid "0d7b842f-a9de-451e-bbee-3509b98f544b")
 		(property "Reference" "#PWR015"
-			(at 73.66 87.63 0)
+			(at 73.66 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5661,7 +5673,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.676 87.63 90)
+			(at 74.676 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5671,7 +5683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 87.63 0)
+			(at 80.01 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5682,7 +5694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 87.63 0)
+			(at 80.01 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5693,7 +5705,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 87.63 0)
+			(at 80.01 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5717,7 +5729,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 120.65 270)
+		(at 33.02 113.03 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5728,7 +5741,7 @@
 		(fields_autoplaced yes)
 		(uuid "1042412f-ee12-4626-b46c-9b04e71c3aa7")
 		(property "Reference" "#PWR032"
-			(at 26.67 120.65 0)
+			(at 26.67 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5739,7 +5752,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 120.6499 90)
+			(at 29.21 113.0301 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5750,7 +5763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 120.65 0)
+			(at 33.02 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5761,7 +5774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 120.65 0)
+			(at 33.02 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5772,7 +5785,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 120.65 0)
+			(at 33.02 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6979,7 +6992,8 @@
 	)
 	(symbol
 		(lib_id "503480-0540:503480-0540")
-		(at 80.01 87.63 0)
+		(at 80.01 97.79 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6990,7 +7004,7 @@
 		(fields_autoplaced yes)
 		(uuid "41fd5767-d4b8-4744-bb94-eb1404579bff")
 		(property "Reference" "J5"
-			(at 91.44 80.01 0)
+			(at 91.44 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7000,7 +7014,7 @@
 			)
 		)
 		(property "Value" "503480-0540"
-			(at 91.44 82.55 0)
+			(at 91.44 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7010,7 +7024,7 @@
 			)
 		)
 		(property "Footprint" "503480-0540:5034800540"
-			(at 99.06 182.55 0)
+			(at 99.06 2.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7022,7 +7036,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/5034800540_sd.pdf"
-			(at 99.06 282.55 0)
+			(at 99.06 -97.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7034,7 +7048,7 @@
 			)
 		)
 		(property "Description" "Connector FFC/FPC SKT 5 Position 0.5mm Solder Right Angle Surface Mount T/R"
-			(at 80.01 87.63 0)
+			(at 80.01 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7045,7 +7059,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at 99.06 482.55 0)
+			(at 99.06 -297.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7057,7 +7071,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-503480-0540"
-			(at 99.06 582.55 0)
+			(at 99.06 -397.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7069,7 +7083,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/503480-0540?qs=LBbezbu20sgPzcVKHN0rmQ%3D%3D"
-			(at 99.06 682.55 0)
+			(at 99.06 -497.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7081,7 +7095,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 99.06 782.55 0)
+			(at 99.06 -597.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7093,7 +7107,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "503480-0540"
-			(at 99.06 882.55 0)
+			(at 99.06 -697.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7102,6 +7116,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC Part" "C5527934"
+			(at 80.01 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "MP1"
@@ -7359,6 +7384,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C2869057"
+			(at 90.17 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "46866c8e-dcf6-472d-a22d-9311f9c7205f")
 		)
@@ -7504,6 +7540,17 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC Part" "C5571510"
+			(at 33.02 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "14ef0539-9fa6-41ce-8556-88c5773c1e20")
 		)
@@ -7585,6 +7632,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 158.75 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C505360"
 			(at 158.75 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7899,6 +7957,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C917117"
+			(at 138.43 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d122ef04-fdd7-4ea2-90db-ec82d7bc95af")
 		)
@@ -8152,8 +8221,7 @@
 	)
 	(symbol
 		(lib_id "503480-0440:503480-0440")
-		(at 33.02 120.65 0)
-		(mirror x)
+		(at 33.02 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8164,7 +8232,7 @@
 		(fields_autoplaced yes)
 		(uuid "50f45dfb-ba4e-4b9b-a8cb-cfc36968743d")
 		(property "Reference" "J4"
-			(at 44.45 105.41 0)
+			(at 44.45 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8174,7 +8242,7 @@
 			)
 		)
 		(property "Value" "503480-0440"
-			(at 44.45 107.95 0)
+			(at 44.45 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8184,7 +8252,7 @@
 			)
 		)
 		(property "Footprint" "5034800440"
-			(at 52.07 25.73 0)
+			(at 52.07 207.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8196,7 +8264,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/5034800440_sd.pdf"
-			(at 52.07 -74.27 0)
+			(at 52.07 307.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8208,7 +8276,7 @@
 			)
 		)
 		(property "Description" "Connector FFC/FPC SKT 4 Position 0.5mm Solder Right Angle Surface Mount T/R"
-			(at 33.02 120.65 0)
+			(at 33.02 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8219,7 +8287,7 @@
 			)
 		)
 		(property "Height" "2.12"
-			(at 52.07 -274.27 0)
+			(at 52.07 507.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8231,7 +8299,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-503480-0440"
-			(at 52.07 -374.27 0)
+			(at 52.07 607.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8243,7 +8311,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/503480-0440?qs=LBbezbu20sggwP%2FAt293Pw%3D%3D"
-			(at 52.07 -474.27 0)
+			(at 52.07 707.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8255,7 +8323,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 52.07 -574.27 0)
+			(at 52.07 807.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8267,7 +8335,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "503480-0440"
-			(at 52.07 -674.27 0)
+			(at 52.07 907.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8276,6 +8344,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC Part" "C3170007"
+			(at 33.02 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8462,7 +8541,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 118.11 270)
+		(at 33.02 115.57 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8473,7 +8553,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ccef5b2-181a-4af7-9be9-4385bf01e199")
 		(property "Reference" "#PWR031"
-			(at 26.67 118.11 0)
+			(at 26.67 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8484,7 +8564,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 118.1099 90)
+			(at 29.21 115.5701 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8495,7 +8575,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 118.11 0)
+			(at 33.02 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8506,7 +8586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 118.11 0)
+			(at 33.02 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8517,7 +8597,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 118.11 0)
+			(at 33.02 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8666,6 +8746,17 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC Part" "C2733655"
+			(at 85.09 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d5ec860e-bce0-4177-88ab-87afd538365a")
 		)
@@ -8744,6 +8835,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 168.91 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "N/A"
 			(at 168.91 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8846,6 +8948,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 91.44 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C917117"
+			(at 91.44 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9196,6 +9309,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C917117"
+			(at 120.65 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "37ed9437-8198-4e15-aa23-d164c4a64dce")
 		)
@@ -9458,6 +9582,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C917117"
+			(at 110.49 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ff537349-ad87-472d-8ea8-8fa3066aa05f")
 		)
@@ -9475,7 +9610,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 90.17 270)
+		(at 80.01 95.25 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9485,7 +9621,7 @@
 		(dnp no)
 		(uuid "8e5639f9-0836-4075-a149-4e2fb208d948")
 		(property "Reference" "#PWR014"
-			(at 73.66 90.17 0)
+			(at 73.66 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9496,7 +9632,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.676 90.17 90)
+			(at 74.676 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9506,7 +9642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 90.17 0)
+			(at 80.01 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9517,7 +9653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 90.17 0)
+			(at 80.01 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9528,7 +9664,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 90.17 0)
+			(at 80.01 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9835,6 +9971,17 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC Part" "C2733655"
+			(at 107.95 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5ca8849f-ce90-4fe4-afb5-aaa47ee24705")
 		)
@@ -9981,6 +10128,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC Part" "C2733655"
+			(at 85.09 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10229,6 +10387,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "N/A"
+			(at 144.78 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5ce7dc75-c5a3-4978-840a-b0e67e76b15c")
 		)
@@ -10366,6 +10535,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC Part" "C2733655"
+			(at 90.17 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10514,6 +10694,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC Part" "C2733655"
+			(at 80.01 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10995,6 +11186,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "N/A"
+			(at 168.91 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fa70545c-148d-4b96-9b08-6f4f91b1f321")
 		)
@@ -11253,6 +11455,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C917117"
+			(at 115.57 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b1654088-1754-4a16-aa07-03948f6f7dde")
 		)
@@ -11348,6 +11561,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 115.57 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C917117"
+			(at 115.57 185.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11577,6 +11801,17 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC Part" "C2733655"
+			(at 60.96 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "782a6834-a794-47aa-98a7-8b3966726df3")
 		)
@@ -11653,6 +11888,17 @@
 		)
 		(property "Description" "Single AND Gate, Low-Voltage CMOS"
 			(at 130.81 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C53185136"
+			(at 130.81 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11743,6 +11989,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 144.78 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "N/A"
 			(at 144.78 144.78 0)
 			(hide yes)
 			(show_name no)
