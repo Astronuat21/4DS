@@ -587,6 +587,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
@@ -687,8 +693,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Height"
+      "sort_asc": false,
+      "sort_field": "MPN"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -739,7 +745,7 @@
         "uuid": "8eeed083-de7a-4dfe-ba6c-9e042c3ef75c"
       }
     ],
-    "used_designators": "R1-6",
+    "used_designators": "R1-6,#PWR9",
     "variants": []
   },
   "sheets": [

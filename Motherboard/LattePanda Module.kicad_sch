@@ -14835,7 +14835,7 @@
 	)
 	(text "JST Debug Connector"
 		(exclude_from_sim no)
-		(at 521.97 227.33 0)
+		(at 525.78 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15375,7 +15375,7 @@
 		(uuid "5b1277ac-acc4-4afe-bf28-7c4c51c3847f")
 	)
 	(junction
-		(at 521.335 242.57)
+		(at 525.145 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b75a89a-0e2a-42f4-a2ad-6dddbda7f3d9")
@@ -15773,10 +15773,6 @@
 		(uuid "31394eb0-4b42-448c-8799-24f3698cda06")
 	)
 	(no_connect
-		(at 459.74 222.25)
-		(uuid "320ee8eb-078d-4a12-b27b-2e563ec2799f")
-	)
-	(no_connect
 		(at 270.51 299.72)
 		(uuid "359921d4-4f49-4789-a7b7-2264e9c08ef0")
 	)
@@ -15863,10 +15859,6 @@
 	(no_connect
 		(at 270.51 172.72)
 		(uuid "5a86cc6a-7341-49f0-b309-3286cde1794c")
-	)
-	(no_connect
-		(at 459.74 224.79)
-		(uuid "61a0921a-b3a1-4536-afa9-3e37aed05cf8")
 	)
 	(no_connect
 		(at 270.51 149.86)
@@ -15959,14 +15951,6 @@
 	(no_connect
 		(at 351.79 280.67)
 		(uuid "9a4177f0-768c-4228-a9ca-ce69749f2798")
-	)
-	(no_connect
-		(at 510.54 224.79)
-		(uuid "9bb67006-92d9-4e14-b64c-dbeecda33f3f")
-	)
-	(no_connect
-		(at 510.54 222.25)
-		(uuid "9dce7748-3338-481e-91a3-86fe1b791b39")
 	)
 	(no_connect
 		(at 270.51 157.48)
@@ -17116,7 +17100,7 @@
 	)
 	(wire
 		(pts
-			(xy 521.335 233.68) (xy 521.335 242.57)
+			(xy 525.145 240.03) (xy 525.145 248.92)
 		)
 		(stroke
 			(width 0)
@@ -17476,7 +17460,7 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 231.14) (xy 523.24 231.14)
+			(xy 514.35 237.49) (xy 527.05 237.49)
 		)
 		(stroke
 			(width 0)
@@ -17936,7 +17920,7 @@
 	)
 	(wire
 		(pts
-			(xy 528.32 241.3) (xy 528.32 242.57)
+			(xy 532.13 247.65) (xy 532.13 248.92)
 		)
 		(stroke
 			(width 0)
@@ -17986,7 +17970,7 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 236.22) (xy 523.24 236.22)
+			(xy 514.35 242.57) (xy 527.05 242.57)
 		)
 		(stroke
 			(width 0)
@@ -18236,16 +18220,6 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 189.23) (xy 510.54 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0e4260f-0874-4c4f-8d8e-eb7dc81ecdfa")
-	)
-	(wire
-		(pts
 			(xy 351.79 119.38) (xy 369.57 119.38)
 		)
 		(stroke
@@ -18323,16 +18297,6 @@
 			(type default)
 		)
 		(uuid "c8f9d3ec-dc5d-40a5-9a85-a19c479d91b7")
-	)
-	(wire
-		(pts
-			(xy 520.7 194.31) (xy 510.54 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca3562d3-ca39-4a22-ae7a-b82f10b12bc9")
 	)
 	(wire
 		(pts
@@ -18456,7 +18420,7 @@
 	)
 	(wire
 		(pts
-			(xy 521.335 242.57) (xy 528.32 242.57)
+			(xy 525.145 248.92) (xy 532.13 248.92)
 		)
 		(stroke
 			(width 0)
@@ -18526,7 +18490,7 @@
 	)
 	(wire
 		(pts
-			(xy 521.335 242.57) (xy 521.335 244.475)
+			(xy 525.145 248.92) (xy 525.145 250.825)
 		)
 		(stroke
 			(width 0)
@@ -18583,16 +18547,6 @@
 			(type default)
 		)
 		(uuid "ddbe21e6-9703-4bbf-8b7d-505e227edb90")
-	)
-	(wire
-		(pts
-			(xy 520.7 191.77) (xy 510.54 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de3cff53-13c8-4b14-87f4-c4e172c0bdc7")
 	)
 	(wire
 		(pts
@@ -18706,7 +18660,7 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 233.68) (xy 521.335 233.68)
+			(xy 527.05 240.03) (xy 525.145 240.03)
 		)
 		(stroke
 			(width 0)
@@ -19205,7 +19159,7 @@
 		(uuid "78f5619c-39f5-4990-80d3-d0e4008acb6b")
 	)
 	(label "SWD"
-		(at 510.54 236.22 0)
+		(at 514.35 242.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19445,7 +19399,7 @@
 		(uuid "d358b701-63ae-4b92-9889-af5574b88c20")
 	)
 	(label "SWCLK"
-		(at 510.54 231.14 0)
+		(at 514.35 237.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19754,6 +19708,17 @@
 		)
 		(uuid "11c830c4-dbad-41ae-997f-7abfef7ca505")
 	)
+	(hierarchical_label "RPi_5A_SCL"
+		(shape output)
+		(at 459.74 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12a73758-bf4b-43ee-9caa-205d8d2ecece")
+	)
 	(hierarchical_label "LED_WiFi_B"
 		(shape output)
 		(at 510.54 161.29 0)
@@ -19908,17 +19873,6 @@
 		)
 		(uuid "2a8c0bb8-1539-425a-ada5-e15ce7741e57")
 	)
-	(hierarchical_label "RPi_5A_SDA"
-		(shape output)
-		(at 520.7 194.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2bf6525a-8aa2-4520-aae8-1423dc6de0cb")
-	)
 	(hierarchical_label "RPI_BAT_SDA"
 		(shape bidirectional)
 		(at 520.7 151.13 0)
@@ -20006,6 +19960,17 @@
 			(justify right)
 		)
 		(uuid "3f6d9498-9cce-44f6-a9d1-da0f65e3df63")
+	)
+	(hierarchical_label "RPi_5A_SDA"
+		(shape output)
+		(at 459.74 222.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41675054-72ec-4801-a21a-01c76372d653")
 	)
 	(hierarchical_label "DBUG_TX0-"
 		(shape output)
@@ -20339,7 +20304,7 @@
 	)
 	(hierarchical_label "RPI_BAT_STAT"
 		(shape input)
-		(at 510.54 171.45 0)
+		(at 510.54 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20482,12 +20447,12 @@
 	)
 	(hierarchical_label "DDIB_TOUCH_SCL"
 		(shape input)
-		(at 351.79 220.98 180)
+		(at 351.79 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9a61ce39-8b3e-4737-849b-64681efbd4f3")
 	)
@@ -20589,6 +20554,17 @@
 			(justify left)
 		)
 		(uuid "af66c5fc-5f96-471b-952d-73b6c2067da3")
+	)
+	(hierarchical_label "RPi_5A_INT"
+		(shape output)
+		(at 510.54 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b34f393b-43d6-43fc-b241-7084c343f7f9")
 	)
 	(hierarchical_label "Col3"
 		(shape output)
@@ -20788,17 +20764,6 @@
 		)
 		(uuid "de49174e-ce5a-4581-a356-75435eafa845")
 	)
-	(hierarchical_label "RPi_5A_INT"
-		(shape output)
-		(at 520.7 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "df52d873-33d9-4289-9a26-915821e7f0b2")
-	)
 	(hierarchical_label "HSIO_2_TX-"
 		(shape output)
 		(at 238.76 101.6 180)
@@ -20887,17 +20852,6 @@
 		)
 		(uuid "ec3d90ea-2457-4513-8d9f-169bec5c20e8")
 	)
-	(hierarchical_label "RPi_5A_SCL"
-		(shape output)
-		(at 520.7 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ec5fd95d-e71f-4541-9644-49274900a909")
-	)
 	(hierarchical_label "HSIO_3_RX-"
 		(shape input)
 		(at 238.76 116.84 180)
@@ -20933,12 +20887,12 @@
 	)
 	(hierarchical_label "TCP0_TOUCH_SCL"
 		(shape input)
-		(at 351.79 218.44 180)
+		(at 351.79 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fb1c1d1b-b913-4056-9e31-c300805240ea")
 	)
@@ -26102,7 +26056,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 521.335 244.475 0)
+		(at 525.145 250.825 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -26113,7 +26067,7 @@
 		(dnp no)
 		(uuid "3e53d73b-c38c-46da-ae79-a7d7e5784900")
 		(property "Reference" "#PWR038"
-			(at 521.335 250.825 0)
+			(at 525.145 257.175 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26124,7 +26078,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 521.208 248.8692 0)
+			(at 525.018 255.2192 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26134,7 +26088,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 521.335 244.475 0)
+			(at 525.145 250.825 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26145,7 +26099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 521.335 244.475 0)
+			(at 525.145 250.825 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26156,7 +26110,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 521.335 244.475 0)
+			(at 525.145 250.825 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30096,7 +30050,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
-		(at 528.32 233.68 0)
+		(at 532.13 240.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30107,7 +30061,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e93d40c-93c0-460a-9039-d2fc5d227160")
 		(property "Reference" "J5"
-			(at 530.86 232.41 0)
+			(at 534.67 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30118,7 +30072,7 @@
 			)
 		)
 		(property "Value" "SM03B-SRSS-TB"
-			(at 530.86 234.95 0)
+			(at 534.67 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30129,7 +30083,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
-			(at 528.32 233.68 0)
+			(at 532.13 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30140,7 +30094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 528.32 233.68 0)
+			(at 532.13 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30151,7 +30105,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 528.32 233.68 0)
+			(at 532.13 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

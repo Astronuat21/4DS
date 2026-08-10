@@ -6830,7 +6830,7 @@
 	)
 	(text "CH224K get DC 9-20V power from USB-PD adapter"
 		(exclude_from_sim no)
-		(at 191.77 275.59 0)
+		(at 246.38 275.59 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -7204,6 +7204,12 @@
 		(uuid "756456c2-2190-4f72-b310-026adf5146c4")
 	)
 	(junction
+		(at 330.2 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75df6892-d21f-486c-80d2-61e3a96c21b3")
+	)
+	(junction
 		(at 468.63 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7262,6 +7268,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81e4b489-2ef0-476e-ae11-1b15cc5a5c22")
+	)
+	(junction
+		(at 335.28 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83a00b7d-df8b-4ced-ac72-39d28d24b251")
 	)
 	(junction
 		(at 271.78 162.56)
@@ -7594,12 +7606,6 @@
 		(uuid "e1e17efd-de51-44e9-b80b-5cd2b0b40945")
 	)
 	(junction
-		(at 340.36 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4acaad7-fb10-4ed6-aac3-481c19c9aa12")
-	)
-	(junction
 		(at 463.55 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7622,12 +7628,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eaa8f258-29ad-4dde-983b-a9fac75224fc")
-	)
-	(junction
-		(at 335.28 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb34dee7-a9d4-4349-a10e-94f88043d33d")
 	)
 	(junction
 		(at 463.55 217.17)
@@ -7688,12 +7688,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f899b8e6-a0df-4878-a0ce-a1d9612ca62b")
-	)
-	(junction
-		(at 330.2 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa7a9c7a-06cb-45f3-a4db-35bd6b7313ff")
 	)
 	(junction
 		(at 443.23 201.93)
@@ -7758,16 +7752,6 @@
 	(no_connect
 		(at 226.06 252.73)
 		(uuid "d8acfca9-4522-4499-9323-07f21e0f6e63")
-	)
-	(wire
-		(pts
-			(xy 330.2 168.91) (xy 325.12 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00a53cc1-222c-4e3e-a5f8-4b5e6986feb3")
 	)
 	(wire
 		(pts
@@ -8595,16 +8579,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 168.91) (xy 325.12 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30cbb924-b548-427f-af8a-62617542fb13")
-	)
-	(wire
-		(pts
 			(xy 222.25 162.56) (xy 261.62 162.56)
 		)
 		(stroke
@@ -8825,6 +8799,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 165.1) (xy 335.28 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38fa4589-e810-45fd-b5a0-ba65cd04537e")
+	)
+	(wire
+		(pts
 			(xy 165.1 245.11) (xy 179.07 245.11)
 		)
 		(stroke
@@ -8967,6 +8951,16 @@
 			(type default)
 		)
 		(uuid "3f84114f-d3e1-4253-ab39-df838817da2c")
+	)
+	(wire
+		(pts
+			(xy 325.12 165.1) (xy 325.12 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404da5e8-14a1-4544-b791-8a4ae572f4ec")
 	)
 	(wire
 		(pts
@@ -9456,7 +9450,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 157.48) (xy 307.34 162.56)
+			(xy 307.34 153.67) (xy 307.34 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9556,7 +9550,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 168.91) (xy 335.28 171.45)
+			(xy 335.28 165.1) (xy 335.28 171.45)
 		)
 		(stroke
 			(width 0)
@@ -10045,6 +10039,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 165.1) (xy 330.2 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1b09c2-3dd2-4426-8d48-d43feee7f6e5")
+	)
+	(wire
+		(pts
 			(xy 257.81 132.08) (xy 267.97 132.08)
 		)
 		(stroke
@@ -10153,6 +10157,16 @@
 			(type default)
 		)
 		(uuid "97f97288-a0c5-43ec-a57c-9646cbcf4fd4")
+	)
+	(wire
+		(pts
+			(xy 335.28 165.1) (xy 340.36 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "988e073a-701e-4b77-95af-89e3e2f35015")
 	)
 	(wire
 		(pts
@@ -10792,16 +10806,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 168.91) (xy 335.28 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbf6dc99-e2c4-43cd-9d47-32a60a764c93")
-	)
-	(wire
-		(pts
 			(xy 276.86 223.52) (xy 266.7 223.52)
 		)
 		(stroke
@@ -10843,7 +10847,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 168.91) (xy 330.2 171.45)
+			(xy 330.2 165.1) (xy 330.2 171.45)
 		)
 		(stroke
 			(width 0)
@@ -10980,16 +10984,6 @@
 			(type default)
 		)
 		(uuid "c6dcfd27-775d-4b7e-b766-8b4bc13bd93b")
-	)
-	(wire
-		(pts
-			(xy 335.28 168.91) (xy 330.2 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c79ab282-1c82-48f9-9e4a-898f27ffa5f2")
 	)
 	(wire
 		(pts
@@ -11438,7 +11432,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 157.48) (xy 311.15 157.48)
+			(xy 307.34 153.67) (xy 311.15 153.67)
 		)
 		(stroke
 			(width 0)
@@ -11915,7 +11909,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 157.48) (xy 311.15 160.02)
+			(xy 311.15 153.67) (xy 311.15 160.02)
 		)
 		(stroke
 			(width 0)
@@ -13071,8 +13065,8 @@
 				)
 			)
 		)
-		(property "Value" "22uF"
-			(at 341.63 171.958 90)
+		(property "Value" "22uF/10V"
+			(at 341.63 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19122,8 +19116,8 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
-			(at 309.88 160.274 90)
+		(property "Value" "100nF/50V"
+			(at 309.88 158.242 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22182,8 +22176,8 @@
 				)
 			)
 		)
-		(property "Value" "22uF"
-			(at 331.47 171.958 90)
+		(property "Value" "22uF/10V"
+			(at 331.47 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26533,6 +26527,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 228.6 129.54 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26542,7 +26537,7 @@
 		(dnp no)
 		(uuid "90a1ff31-9745-4d29-ad1b-54abe6870cb8")
 		(property "Reference" "C93"
-			(at 226.568 131.826 0)
+			(at 230.632 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26552,7 +26547,7 @@
 			)
 		)
 		(property "Value" "47nF/10V"
-			(at 224.282 127 0)
+			(at 232.918 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26562,7 +26557,7 @@
 			)
 		)
 		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
-			(at 229.5652 133.35 0)
+			(at 227.6348 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26639,7 +26634,7 @@
 			)
 		)
 		(property "Buy_Link" ""
-			(at -215.9 300.99 0)
+			(at 673.1 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26650,7 +26645,7 @@
 			)
 		)
 		(property "DF_Comment" "贴片电容0603-47nF-10V-X5R(0603)"
-			(at -215.9 300.99 0)
+			(at 673.1 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26661,7 +26656,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at -215.9 300.99 0)
+			(at 673.1 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28711,8 +28706,8 @@
 				)
 			)
 		)
-		(property "Value" "22uF"
-			(at 326.39 171.958 90)
+		(property "Value" "22uF/10V"
+			(at 326.39 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29475,7 +29470,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 340.36 168.91 180)
+		(at 340.36 165.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29486,7 +29481,7 @@
 		(fields_autoplaced yes)
 		(uuid "b377d2f7-7710-4eb1-8413-fdbb85225222")
 		(property "Reference" "#PWR0141"
-			(at 340.36 162.56 0)
+			(at 340.36 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29497,7 +29492,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 340.36 163.83 0)
+			(at 340.36 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29507,7 +29502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 340.36 168.91 0)
+			(at 340.36 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29518,7 +29513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 168.91 0)
+			(at 340.36 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29529,7 +29524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 340.36 168.91 0)
+			(at 340.36 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35707,7 +35702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:L_Sunlord_SWPA4020S"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 292.1 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -36530,8 +36525,8 @@
 				)
 			)
 		)
-		(property "Value" "22uF"
-			(at 336.55 171.958 90)
+		(property "Value" "22uF/10V"
+			(at 336.55 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
