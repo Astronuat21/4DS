@@ -3323,13 +3323,13 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 212.09) (xy 306.07 212.09)
+			(xy 295.91 214.63) (xy 306.07 214.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b314d2b-482f-4ff1-b17a-d4e4a0d5e205")
+		(uuid "2a784ff2-00f6-4e2a-b438-f252d7943f51")
 	)
 	(wire
 		(pts
@@ -3473,7 +3473,7 @@
 	)
 	(hierarchical_label "L_ADC_X"
 		(shape output)
-		(at 295.91 222.25 0)
+		(at 295.91 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3572,7 +3572,7 @@
 	)
 	(hierarchical_label "SL_VOL"
 		(shape output)
-		(at 295.91 214.63 0)
+		(at 295.91 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3682,7 +3682,7 @@
 	)
 	(hierarchical_label "R_ADC_X"
 		(shape output)
-		(at 295.91 259.08 0)
+		(at 295.91 256.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3704,7 +3704,7 @@
 	)
 	(hierarchical_label "L_ADC_Y"
 		(shape output)
-		(at 295.91 224.79 0)
+		(at 295.91 222.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3726,7 +3726,7 @@
 	)
 	(hierarchical_label "R_ADC_Y"
 		(shape output)
-		(at 295.91 256.54 0)
+		(at 295.91 259.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3748,7 +3748,7 @@
 	)
 	(hierarchical_label "Row2"
 		(shape output)
-		(at 295.91 204.47 0)
+		(at 295.91 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3770,7 +3770,7 @@
 	)
 	(hierarchical_label "Col1"
 		(shape input)
-		(at 295.91 209.55 0)
+		(at 295.91 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6405,7 +6405,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 306.07 212.09 270)
+		(at 306.07 214.63 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6417,7 +6417,7 @@
 		(fields_autoplaced yes)
 		(uuid "f90c22fc-3b88-40ba-9ba4-3b923cf1f854")
 		(property "Reference" "#PWR026"
-			(at 302.26 212.09 0)
+			(at 302.26 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6428,7 +6428,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 309.88 212.0899 90)
+			(at 309.88 214.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6439,7 +6439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 212.09 0)
+			(at 306.07 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6450,7 +6450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 212.09 0)
+			(at 306.07 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6461,7 +6461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 306.07 212.09 0)
+			(at 306.07 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
