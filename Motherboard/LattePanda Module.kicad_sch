@@ -19008,16 +19008,6 @@
 		)
 		(uuid "3f6be22a-5a0e-4e29-b1b3-561cb339e074")
 	)
-	(label "I2C3_SCL"
-		(at 478.79 344.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "42417948-628f-4cdf-a4dd-3a9511f499cf")
-	)
 	(label "I2C4_SDA"
 		(at 406.4 300.99 0)
 		(effects
@@ -19027,16 +19017,6 @@
 			(justify left bottom)
 		)
 		(uuid "4ae5b476-9341-4663-9f1d-1c9a5f6b039e")
-	)
-	(label "I2C2_SCL"
-		(at 414.02 344.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5693131d-8e40-40f7-bb88-2da8cc4772c8")
 	)
 	(label "DDI_TX3-"
 		(at 270.51 226.06 180)
@@ -19218,16 +19198,6 @@
 		)
 		(uuid "a032f2c4-4789-4b81-9f55-cc604350b265")
 	)
-	(label "I2C3_SDA"
-		(at 478.79 334.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a22797b9-3be6-4a5c-8ce0-7afd2c1ef778")
-	)
 	(label "I2C2_SDA"
 		(at 360.68 300.99 0)
 		(effects
@@ -19307,16 +19277,6 @@
 			(justify left bottom)
 		)
 		(uuid "bcfb5712-8795-4f7e-9c45-122adee25888")
-	)
-	(label "I2C2_SDA"
-		(at 414.02 334.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd70e793-4c2a-47d5-946c-26a4262c841f")
 	)
 	(label "DDI_TX1+"
 		(at 177.8 271.78 0)
@@ -19873,6 +19833,17 @@
 		)
 		(uuid "2a8c0bb8-1539-425a-ada5-e15ce7741e57")
 	)
+	(hierarchical_label "DDIB_TOUCH_SDA"
+		(shape bidirectional)
+		(at 478.79 334.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e8d9d0a-9977-4fb2-b614-addd403d9489")
+	)
 	(hierarchical_label "RPI_BAT_SDA"
 		(shape bidirectional)
 		(at 520.7 151.13 0)
@@ -20126,17 +20097,6 @@
 		)
 		(uuid "5de4b3af-a4d5-423c-b233-1ddd646ab277")
 	)
-	(hierarchical_label "SL_BRI"
-		(shape output)
-		(at 459.74 219.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5eafdda4-411d-4838-855d-8a9c96d41db2")
-	)
 	(hierarchical_label "LED_WiFi_R"
 		(shape output)
 		(at 510.54 156.21 0)
@@ -20202,6 +20162,17 @@
 			(justify right)
 		)
 		(uuid "6fa461e1-ecb0-4976-9b1a-9039577e7b61")
+	)
+	(hierarchical_label "DDIB_TOUCH_SCL"
+		(shape input)
+		(at 478.79 344.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71b348b7-0262-43ff-a542-e714fccb9d26")
 	)
 	(hierarchical_label "Row3"
 		(shape input)
@@ -20511,6 +20482,17 @@
 		)
 		(uuid "a2caf3dc-dca9-4c7f-995c-87084d28bf6f")
 	)
+	(hierarchical_label "TCP0_TOUCH_SCL"
+		(shape input)
+		(at 414.02 344.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a54928ab-d945-4b3d-bca5-d3e64609629a")
+	)
 	(hierarchical_label "TCP0_TX3-"
 		(shape output)
 		(at 238.76 264.16 180)
@@ -20598,6 +20580,17 @@
 			(justify right)
 		)
 		(uuid "b695b0f1-f8f3-44cd-8665-96afa09aaa35")
+	)
+	(hierarchical_label "TCP0_TOUCH_SDA"
+		(shape bidirectional)
+		(at 414.02 334.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8290bbd-75d8-46c3-9a0b-dfd6a6ed1307")
 	)
 	(hierarchical_label "HSIO_1_TX-"
 		(shape output)
@@ -26529,7 +26522,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "15pF"
 			(at 452.501 176.403 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32112,7 +32105,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "15pF"
 			(at 446.659 191.897 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39610,7 +39603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:L_Sunlord_SWPA4020S"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 518.16 113.03 0)
 			(hide yes)
 			(show_name no)
