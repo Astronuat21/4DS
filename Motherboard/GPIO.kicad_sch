@@ -3303,7 +3303,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 302.26) (xy 314.96 302.26)
+			(xy 314.96 289.56) (xy 326.39 289.56)
 		)
 		(stroke
 			(width 0)
@@ -3313,7 +3313,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 294.64) (xy 326.39 294.64)
+			(xy 314.96 297.18) (xy 326.39 297.18)
 		)
 		(stroke
 			(width 0)
@@ -3330,6 +3330,26 @@
 			(type default)
 		)
 		(uuid "3771cecb-ebed-4017-ad33-a11987d0365d")
+	)
+	(wire
+		(pts
+			(xy 325.12 302.26) (xy 326.39 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "471e1520-381d-450e-870d-f05e78132e17")
+	)
+	(wire
+		(pts
+			(xy 325.12 294.64) (xy 326.39 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ac1046-5654-4b84-b362-a830fec8b1c6")
 	)
 	(wire
 		(pts
@@ -3353,16 +3373,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 297.18) (xy 326.39 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78ef2f93-7aaa-4538-926c-39197a090986")
-	)
-	(wire
-		(pts
 			(xy 295.91 191.77) (xy 295.91 189.23)
 		)
 		(stroke
@@ -3373,7 +3383,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 289.56) (xy 298.45 289.56)
+			(xy 317.5 302.26) (xy 298.45 302.26)
 		)
 		(stroke
 			(width 0)
@@ -3383,17 +3393,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 289.56) (xy 325.12 289.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e195151-0ac0-46cf-a502-16cbb0bc4adc")
-	)
-	(wire
-		(pts
-			(xy 298.45 294.64) (xy 307.34 294.64)
+			(xy 298.45 297.18) (xy 307.34 297.18)
 		)
 		(stroke
 			(width 0)
@@ -3403,7 +3403,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 302.26) (xy 298.45 302.26)
+			(xy 307.34 289.56) (xy 298.45 289.56)
 		)
 		(stroke
 			(width 0)
@@ -3413,7 +3413,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 292.1) (xy 306.07 292.1)
+			(xy 326.39 299.72) (xy 306.07 299.72)
 		)
 		(stroke
 			(width 0)
@@ -3423,7 +3423,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 297.18) (xy 298.45 297.18)
+			(xy 317.5 294.64) (xy 298.45 294.64)
 		)
 		(stroke
 			(width 0)
@@ -3443,7 +3443,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 299.72) (xy 306.07 299.72)
+			(xy 326.39 292.1) (xy 306.07 292.1)
 		)
 		(stroke
 			(width 0)
@@ -3484,7 +3484,7 @@
 	)
 	(hierarchical_label "LED_PWR_B"
 		(shape input)
-		(at 326.39 302.26 0)
+		(at 326.39 289.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3495,7 +3495,7 @@
 	)
 	(hierarchical_label "LED_WiFi_G"
 		(shape input)
-		(at 326.39 292.1 0)
+		(at 326.39 299.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3561,7 +3561,7 @@
 	)
 	(hierarchical_label "LED_WiFi_R"
 		(shape input)
-		(at 326.39 289.56 0)
+		(at 326.39 302.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3605,7 +3605,7 @@
 	)
 	(hierarchical_label "LED_PWR_R"
 		(shape input)
-		(at 326.39 297.18 0)
+		(at 326.39 294.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3671,7 +3671,7 @@
 	)
 	(hierarchical_label "LED_PWR_G"
 		(shape input)
-		(at 326.39 299.72 0)
+		(at 326.39 292.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3847,7 +3847,7 @@
 	)
 	(hierarchical_label "LED_WiFi_B"
 		(shape input)
-		(at 326.39 294.64 0)
+		(at 326.39 297.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4174,7 +4174,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 311.15 294.64 270)
+		(at 311.15 297.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4184,7 +4184,7 @@
 		(dnp no)
 		(uuid "21107d69-701e-46e7-8cb2-64510dbeb541")
 		(property "Reference" "R133"
-			(at 311.15 290.576 90)
+			(at 311.15 293.116 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4194,7 +4194,7 @@
 			)
 		)
 		(property "Value" "47R/1%"
-			(at 311.15 292.354 90)
+			(at 311.15 294.894 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4204,7 +4204,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 311.15 292.862 90)
+			(at 311.15 295.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4215,7 +4215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 294.64 0)
+			(at 311.15 297.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4226,7 +4226,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 311.15 294.64 0)
+			(at 311.15 297.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4333,7 +4333,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 302.26 299.72 270)
+		(at 302.26 292.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4343,7 +4343,7 @@
 		(dnp no)
 		(uuid "2e6abe62-9fb4-4436-9bca-8bcca11c095d")
 		(property "Reference" "R132"
-			(at 302.26 295.656 90)
+			(at 302.26 288.036 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4353,7 +4353,7 @@
 			)
 		)
 		(property "Value" "47R/1%"
-			(at 302.26 297.434 90)
+			(at 302.26 289.814 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4363,7 +4363,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 302.26 297.942 90)
+			(at 302.26 290.322 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4374,7 +4374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 299.72 0)
+			(at 302.26 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4385,7 +4385,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 302.26 299.72 0)
+			(at 302.26 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4412,7 +4412,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 311.15 302.26 270)
+		(at 311.15 289.56 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4422,7 +4422,7 @@
 		(dnp no)
 		(uuid "2f721cdd-a669-426d-8b78-161360d4dad0")
 		(property "Reference" "R131"
-			(at 311.15 298.196 90)
+			(at 311.15 285.496 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4432,7 +4432,7 @@
 			)
 		)
 		(property "Value" "47R/1%"
-			(at 311.15 299.974 90)
+			(at 311.15 287.274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4442,7 +4442,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 311.15 300.482 90)
+			(at 311.15 287.782 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4453,7 +4453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 302.26 0)
+			(at 311.15 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4464,7 +4464,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 311.15 302.26 0)
+			(at 311.15 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4649,7 +4649,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 302.26 292.1 270)
+		(at 302.26 299.72 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4659,7 +4659,7 @@
 		(dnp no)
 		(uuid "44fb93f2-ed4d-4711-b73f-30c2e8b886b1")
 		(property "Reference" "R130"
-			(at 302.26 288.036 90)
+			(at 302.26 295.656 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4669,7 +4669,7 @@
 			)
 		)
 		(property "Value" "47R/1%"
-			(at 302.26 289.814 90)
+			(at 302.26 297.434 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4679,7 +4679,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 302.26 290.322 90)
+			(at 302.26 297.942 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4690,7 +4690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 292.1 0)
+			(at 302.26 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4701,7 +4701,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 302.26 292.1 0)
+			(at 302.26 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5161,7 +5161,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 321.31 289.56 270)
+		(at 321.31 302.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5171,7 +5171,7 @@
 		(dnp no)
 		(uuid "7cf83cb2-0e31-4fba-8b12-907ba6b92847")
 		(property "Reference" "R84"
-			(at 321.31 285.496 90)
+			(at 321.31 298.196 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5181,7 +5181,7 @@
 			)
 		)
 		(property "Value" "150R/1%"
-			(at 321.31 287.274 90)
+			(at 321.31 299.974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5191,7 +5191,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 321.31 287.782 90)
+			(at 321.31 300.482 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5202,7 +5202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 289.56 0)
+			(at 321.31 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5213,7 +5213,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 321.31 289.56 0)
+			(at 321.31 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6089,7 +6089,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 321.31 297.18 270)
+		(at 321.31 294.64 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6099,7 +6099,7 @@
 		(dnp no)
 		(uuid "dbc22482-d4b5-411e-ac77-dbd413a5a4a3")
 		(property "Reference" "R119"
-			(at 321.31 293.116 90)
+			(at 321.31 290.576 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6109,7 +6109,7 @@
 			)
 		)
 		(property "Value" "150R/1%"
-			(at 321.31 294.894 90)
+			(at 321.31 292.354 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6119,7 +6119,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 321.31 295.402 90)
+			(at 321.31 292.862 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6130,7 +6130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 297.18 0)
+			(at 321.31 294.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6141,7 +6141,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 321.31 297.18 0)
+			(at 321.31 294.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

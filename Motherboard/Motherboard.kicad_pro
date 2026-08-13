@@ -126,15 +126,15 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -164,10 +164,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.6,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1704,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.3,
+        "min_via_diameter": 0.2,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.005,
@@ -946,6 +946,34 @@
       {
         "netclass": "50Ω",
         "pattern": "/RGB/B(-DE|-HS|-LLC|-VS|0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23)"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/RP(+|-)"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "USB_RPI(+|-)"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/RPR(+|-)"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/RPR+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/RPR-"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/RP+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/LattePanda Module/RP-"
       }
     ]
   },
@@ -1182,7 +1210,7 @@
         "uuid": "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
       }
     ],
-    "used_designators": "L81-82,D4-5,D33,#PWR26,#PWR47,#PWR139,#PWR145,#PWR177,#PWR242,#PWR249,#PWR257-272,U80,U83,U85,C101,C134,C164-166,C175-179,R84,R119-133",
+    "used_designators": "L81-82,D4-5,D33,#PWR26,#PWR47,#PWR139,#PWR145,#PWR177,#PWR242-245,#PWR249,#PWR257-272,U80,U83,U85,C101,C134,C164-166,C175-179,IC80,R18-21,R84,R119-133",
     "variants": []
   },
   "sheets": [

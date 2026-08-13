@@ -15126,6 +15126,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 421.64) (xy 379.73 430.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d91022-851b-4f74-bbb0-49c5bd3c51df")
+	)
+	(wire
+		(pts
 			(xy 411.48 444.5) (xy 422.91 444.5)
 		)
 		(stroke
@@ -15396,16 +15406,6 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 421.64) (xy 375.92 421.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "251d09f6-aaea-44a1-b817-a47fb881383d")
-	)
-	(wire
-		(pts
 			(xy 38.1 334.01) (xy 60.96 334.01)
 		)
 		(stroke
@@ -15563,6 +15563,16 @@
 			(type default)
 		)
 		(uuid "2db52e62-28e3-4b56-af64-16d416586ec1")
+	)
+	(wire
+		(pts
+			(xy 378.46 421.64) (xy 375.92 421.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e92172c-c617-4921-8f16-0ffee7dbf2e3")
 	)
 	(wire
 		(pts
@@ -17466,16 +17476,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 419.1) (xy 379.73 430.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b2b4211-7cc8-401a-afa9-d7f7cfbfefdc")
-	)
-	(wire
-		(pts
 			(xy 302.26 439.42) (xy 302.26 396.24)
 		)
 		(stroke
@@ -18036,6 +18036,16 @@
 	)
 	(wire
 		(pts
+			(xy 436.88 421.64) (xy 379.73 421.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ed2b1e-d630-45b6-8de9-f773cb20dc4b")
+	)
+	(wire
+		(pts
 			(xy 193.04 337.82) (xy 203.2 337.82)
 		)
 		(stroke
@@ -18243,6 +18253,16 @@
 			(type default)
 		)
 		(uuid "af2e5708-a29d-4547-857c-d53353df0c8f")
+	)
+	(wire
+		(pts
+			(xy 436.88 419.1) (xy 378.46 419.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af90f7fe-c783-4e14-ace2-7b254358ff7c")
 	)
 	(wire
 		(pts
@@ -19356,6 +19376,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 419.1) (xy 378.46 421.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf0be5d-22d3-4f00-954c-d39497217794")
+	)
+	(wire
+		(pts
 			(xy 377.19 408.94) (xy 436.88 408.94)
 		)
 		(stroke
@@ -19543,16 +19573,6 @@
 			(type default)
 		)
 		(uuid "f4941e36-3c83-447c-8823-d7214e6eb1b6")
-	)
-	(wire
-		(pts
-			(xy 436.88 419.1) (xy 379.73 419.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5007ba1-75df-4355-a4f6-84e605146160")
 	)
 	(wire
 		(pts
@@ -34512,7 +34532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 247.65 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -49972,7 +49992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 726.44 142.24 0)
 			(hide yes)
 			(show_name no)
