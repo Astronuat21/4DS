@@ -12,537 +12,6 @@
 		(comment 1 "20240901")
 	)
 	(lib_symbols
-		(symbol "Connector:USB3_A"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -10.16 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USB3_A"
-				(at 10.16 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.81 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "USB 3.0 A connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "usb universal serial bus"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "USB3*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "USB3_A_0_0"
-				(rectangle
-					(start -9.144 8.636)
-					(end -5.08 -3.81)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.874 7.366)
-					(end -6.604 -2.286)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -6.35 5.334)
-					(end -6.096 4.572)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -6.35 3.556)
-					(end -6.096 2.794)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -6.35 1.778)
-					(end -6.096 1.016)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -6.35 0)
-					(end -6.096 -0.762)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.794 -15.24)
-					(end -2.286 -14.224)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 -15.24)
-					(end 0.254 -14.224)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 10.414)
-					(end 9.144 9.906)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 5.334)
-					(end 9.144 4.826)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 2.794)
-					(end 9.144 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -2.286)
-					(end 9.144 -2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -4.826)
-					(end 9.144 -5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -9.906)
-					(end 9.144 -10.414)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -12.446)
-					(end 9.144 -12.954)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB3_A_0_1"
-				(rectangle
-					(start -10.16 13.97)
-					(end 10.16 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "USB3_A_1_1"
-				(circle
-					(center -2.54 1.143)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.842) (xy 0 4.318)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.905 1.778)
-					(end 3.175 3.048)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin power_in line
-					(at 12.7 10.16 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -17.78 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "SSRX-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "SSRX+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -17.78 90)
-					(length 2.54)
-					(name "DRAIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "SSTX-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -12.7 180)
-					(length 2.54)
-					(name "SSTX+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -17.78 90)
-					(length 2.54)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_A"
 			(pin_names
 				(offset 1.016)
@@ -1358,6 +827,340 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GSB311A41EU:GSB311A41EU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J81"
+				(at 13.462 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GSB311A41EU"
+				(at 13.716 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "GSB311A41EU"
+				(at 39.37 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gsb311ax1eu.pdf"
+				(at 39.37 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "USB 3.2, Type A, Receptacle, Right Angle Reverse, 9 Pins, Shell Forklock with Nickel Plating, 30uin Gold, Dip 2mm, Blue High Temperature Housing, Tape and Reel Packaging"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "7.93"
+				(at 39.37 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 39.37 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 39.37 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Amphenol Communications Solutions"
+				(at 39.37 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GSB311A41EU"
+				(at 39.37 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "GSB311A41EU_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -34.29)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 0)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 0)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -34.29 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -11.43 0)
+					(length 5.08)
+					(name "STDA_SSRX-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -13.97 0)
+					(length 5.08)
+					(name "STDA_SSRX+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -34.29 90)
+					(length 5.08)
+					(name "GND_DRAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -19.05 0)
+					(length 5.08)
+					(name "STDA_SSTX-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -21.59 0)
+					(length 5.08)
+					(name "STDA_SSTX+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -34.29 90)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -34.29 90)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2365,10 +2168,16 @@
 		)
 	)
 	(junction
-		(at 361.95 207.01)
+		(at 364.49 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05b5c2c9-1f1e-47d2-b048-3a4242a085ab")
+	)
+	(junction
+		(at 335.28 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1557732b-aad0-4372-8ca4-e5d307ca62f2")
 	)
 	(junction
 		(at 339.09 236.22)
@@ -2381,12 +2190,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a88b201-f041-4436-af8e-62b816f33d85")
-	)
-	(junction
-		(at 335.28 257.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64a66301-f136-4c9e-8076-e967942763e5")
 	)
 	(junction
 		(at 294.64 236.22)
@@ -2407,6 +2210,12 @@
 		(uuid "9121bdfc-c573-4efe-a5eb-36c5adf72bc7")
 	)
 	(junction
+		(at 361.95 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ca212bb-bc13-4b61-8408-7e3c5466da0b")
+	)
+	(junction
 		(at 294.64 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2417,6 +2226,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b00b159a-6100-484c-8484-de5e9b0e6e26")
+	)
+	(junction
+		(at 335.28 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2d69e40-e714-4b82-86b4-e485538afd32")
 	)
 	(junction
 		(at 207.01 264.16)
@@ -2431,16 +2246,16 @@
 		(uuid "d631269d-d63e-471d-ae89-f5bea80be123")
 	)
 	(junction
-		(at 335.28 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db545a7b-1803-49dd-8a1c-9369733c9407")
-	)
-	(junction
 		(at 339.09 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e51ac59c-86cb-4847-b134-cc5cb1a0d25b")
+	)
+	(junction
+		(at 361.95 293.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6b38a3a-99a5-4da3-a0d0-d745e820d3d4")
 	)
 	(junction
 		(at 227.33 264.16)
@@ -2455,7 +2270,7 @@
 		(uuid "f149b8f7-ee3b-431b-ab27-01ac4b964f46")
 	)
 	(junction
-		(at 361.95 285.75)
+		(at 364.49 293.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f66fddc5-9197-4a99-b36c-fcfcc4a0e2ea")
@@ -2500,6 +2315,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 257.81) (xy 335.28 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a49e9d4-5d36-4ccd-8c59-f5cc94539f0d")
+	)
+	(wire
+		(pts
 			(xy 292.1 134.62) (xy 307.34 134.62)
 		)
 		(stroke
@@ -2510,7 +2335,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 207.01) (xy 364.49 207.01)
+			(xy 361.95 214.63) (xy 367.03 214.63)
 		)
 		(stroke
 			(width 0)
@@ -2610,6 +2435,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 214.63) (xy 361.95 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33be2e3a-dd82-46bd-b136-e8a78721789c")
+	)
+	(wire
+		(pts
 			(xy 293.37 199.39) (xy 346.71 199.39)
 		)
 		(stroke
@@ -2680,6 +2515,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 179.07) (xy 335.28 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55840be4-d625-4c39-af5e-405a13d8c2b1")
+	)
+	(wire
+		(pts
 			(xy 227.33 236.22) (xy 240.03 236.22)
 		)
 		(stroke
@@ -2690,7 +2535,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 257.81) (xy 339.09 257.81)
+			(xy 337.82 259.08) (xy 339.09 259.08)
 		)
 		(stroke
 			(width 0)
@@ -2860,13 +2705,23 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 179.07) (xy 339.09 179.07)
+			(xy 337.82 180.34) (xy 339.09 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8b1c145c-8a9d-447b-90f5-a2fbc6ae17e5")
+	)
+	(wire
+		(pts
+			(xy 337.82 259.08) (xy 337.82 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd48a3d-ce95-4c41-a66c-a3fa1c1f42d9")
 	)
 	(wire
 		(pts
@@ -3010,6 +2865,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 293.37) (xy 361.95 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0f278a-bbfa-4249-9eb3-ad3e4fe82953")
+	)
+	(wire
+		(pts
 			(xy 196.85 228.6) (xy 240.03 228.6)
 		)
 		(stroke
@@ -3120,6 +2985,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 180.34) (xy 337.82 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee933128-ae6f-4049-a507-ba76d8c6ddbd")
+	)
+	(wire
+		(pts
 			(xy 269.24 231.14) (xy 269.24 236.22)
 		)
 		(stroke
@@ -3140,7 +3015,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 285.75) (xy 364.49 285.75)
+			(xy 361.95 293.37) (xy 367.03 293.37)
 		)
 		(stroke
 			(width 0)
@@ -4652,212 +4527,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB3_A")
-		(at 359.41 189.23 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5dbfa8e0-7ee9-46e5-b85d-fdef3eca3918")
-		(property "Reference" "J82"
-			(at 370.84 188.5949 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB3_A"
-			(at 370.84 191.1349 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB3_A_Molex_48393-001"
-			(at 355.6 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 3.0 A connector"
-			(at 359.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 359.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 359.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 359.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 359.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VIN" ""
-			(at 359.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 359.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 359.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 359.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
-			(at 359.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "1cb59b8a-b46b-457d-acc8-4063e8953c2e")
-		)
-		(pin "1"
-			(uuid "bfc34a9b-d601-46e5-a23f-7fbc13c2927b")
-		)
-		(pin "3"
-			(uuid "09819407-c66e-4889-be37-e364bc4de4e5")
-		)
-		(pin "4"
-			(uuid "802bf74e-5c0b-4a46-9655-ef53d4d00ec2")
-		)
-		(pin "5"
-			(uuid "64ef2735-3d43-4b33-9741-80cf6c450ddc")
-		)
-		(pin "6"
-			(uuid "60bf09a4-5d42-4425-9be8-9a4b6fa62fab")
-		)
-		(pin "2"
-			(uuid "83c320db-d78b-4b77-bde2-0085bfb92902")
-		)
-		(pin "7"
-			(uuid "6cfd026b-760f-42b4-aecb-59ff26f2fee7")
-		)
-		(pin "SH"
-			(uuid "2c7bff15-39e4-42af-8f46-bb4823ae6a14")
-		)
-		(pin "9"
-			(uuid "6d3ef34b-4408-45f2-8383-128d5e3245a2")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a"
-					(reference "J82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 330.2 97.79 0)
 		(unit 1)
@@ -5015,7 +4684,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 342.9 179.07 90)
+		(at 342.9 180.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5025,7 +4694,7 @@
 		(dnp no)
 		(uuid "6b3f4421-441d-4e4f-b95a-33ea2394d34c")
 		(property "Reference" "F4"
-			(at 341.63 173.99 90)
+			(at 341.63 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5035,7 +4704,7 @@
 			)
 		)
 		(property "Value" "6V/2A"
-			(at 342.9 176.53 90)
+			(at 342.9 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5045,7 +4714,7 @@
 			)
 		)
 		(property "Footprint" "A_HDJ_Library:Fuse_0805_2012Metric"
-			(at 342.9 180.848 90)
+			(at 342.9 182.118 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5056,7 +4725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 179.07 0)
+			(at 342.9 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5067,7 +4736,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 342.9 179.07 0)
+			(at 342.9 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5078,7 +4747,7 @@
 			)
 		)
 		(property "SCH_Show_Footprint" "R0805"
-			(at 342.9 179.07 0)
+			(at 342.9 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5089,7 +4758,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 342.9 179.07 0)
+			(at 342.9 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5100,7 +4769,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 342.9 179.07 0)
+			(at 342.9 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5111,7 +4780,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 342.9 179.07 0)
+			(at 342.9 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5122,7 +4791,7 @@
 			)
 		)
 		(property "Buy_Link" "https://item.szlcsc.com/947787.html"
-			(at 524.51 488.95 0)
+			(at 524.51 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5133,7 +4802,7 @@
 			)
 		)
 		(property "DF_Comment" "0805贴片自恢复保险丝2A/6V-BSMD0805L-200"
-			(at 524.51 488.95 0)
+			(at 524.51 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5144,7 +4813,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 524.51 488.95 0)
+			(at 524.51 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5155,7 +4824,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 342.9 179.07 90)
+			(at 342.9 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5166,7 +4835,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 342.9 179.07 90)
+			(at 342.9 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5177,7 +4846,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 342.9 179.07 90)
+			(at 342.9 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5188,7 +4857,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 342.9 179.07 90)
+			(at 342.9 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5199,7 +4868,7 @@
 			)
 		)
 		(property "KLC_S4.2_VIN" ""
-			(at 342.9 179.07 90)
+			(at 342.9 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5210,7 +4879,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 342.9 179.07 90)
+			(at 342.9 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5221,7 +4890,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 342.9 179.07 90)
+			(at 342.9 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5232,7 +4901,7 @@
 			)
 		)
 		(property "MPN" "SMD0805B110TF"
-			(at 342.9 179.07 90)
+			(at 342.9 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5243,7 +4912,7 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 342.9 179.07 90)
+			(at 342.9 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5254,7 +4923,7 @@
 			)
 		)
 		(property "LCSC_Part" ""
-			(at 342.9 179.07 90)
+			(at 342.9 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5274,6 +4943,175 @@
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a"
 					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GSB311A41EU:GSB311A41EU")
+		(at 346.71 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75afbe3b-59a6-47e6-bcaa-e064d199ff90")
+		(property "Reference" "J81"
+			(at 360.172 173.736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GSB311A41EU"
+			(at 360.426 176.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GSB311A41EU:GSB311A41EU"
+			(at 386.08 275.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gsb311ax1eu.pdf"
+			(at 386.08 375.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "USB 3.2, Type A, Receptacle, Right Angle Reverse, 9 Pins, Shell Forklock with Nickel Plating, 30uin Gold, Dip 2mm, Blue High Temperature Housing, Tape and Reel Packaging"
+			(at 346.71 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "7.93"
+			(at 386.08 575.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 386.08 675.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 386.08 775.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol Communications Solutions"
+			(at 386.08 875.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GSB311A41EU"
+			(at 386.08 975.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "df685ad6-b2d4-4bf5-8a12-4a3a4029046f")
+		)
+		(pin "MH2"
+			(uuid "cbd5761e-d7c5-4619-af33-e1f732430dda")
+		)
+		(pin "1"
+			(uuid "cc04618b-9555-4e96-a158-e08809a84825")
+		)
+		(pin "5"
+			(uuid "675a90ff-d2c7-4fa8-a2ea-3584f18d5aa8")
+		)
+		(pin "4"
+			(uuid "3e60a726-6410-402f-91e2-b41d9ff87bf5")
+		)
+		(pin "7"
+			(uuid "a21d8ae1-d165-4694-bf8a-de2b65c9a6d4")
+		)
+		(pin "3"
+			(uuid "05c96838-a48f-4e38-aeb4-3b4928ab1f45")
+		)
+		(pin "9"
+			(uuid "9c3bc8a1-70d2-4dcb-8ca6-f15cffe20330")
+		)
+		(pin "MH1"
+			(uuid "bb6c403b-eb9a-476e-bd68-87552c00125c")
+		)
+		(pin "8"
+			(uuid "b4e4405d-3752-4515-91ca-b24f6b0d12e1")
+		)
+		(pin "2"
+			(uuid "432577ff-7859-4ff8-bc83-2898e2e67341")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a"
+					(reference "J81")
 					(unit 1)
 				)
 			)
@@ -6443,7 +6281,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 361.95 285.75 0)
+		(at 364.49 293.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6454,7 +6292,7 @@
 		(fields_autoplaced yes)
 		(uuid "aca67778-a106-4449-903d-9cd6852de18f")
 		(property "Reference" "#PWR0175"
-			(at 361.95 292.1 0)
+			(at 364.49 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6465,7 +6303,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 361.95 290.83 0)
+			(at 364.49 298.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6475,7 +6313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 361.95 285.75 0)
+			(at 364.49 293.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6486,7 +6324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 361.95 285.75 0)
+			(at 364.49 293.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6497,7 +6335,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 361.95 285.75 0)
+			(at 364.49 293.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7389,8 +7227,177 @@
 		)
 	)
 	(symbol
+		(lib_id "GSB311A41EU:GSB311A41EU")
+		(at 346.71 259.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef8094e7-9e3b-44f7-a5a8-bc948a18aa16")
+		(property "Reference" "J94"
+			(at 360.172 252.476 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GSB311A41EU"
+			(at 360.426 255.016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GSB311A41EU:GSB311A41EU"
+			(at 386.08 354 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gsb311ax1eu.pdf"
+			(at 386.08 454 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "USB 3.2, Type A, Receptacle, Right Angle Reverse, 9 Pins, Shell Forklock with Nickel Plating, 30uin Gold, Dip 2mm, Blue High Temperature Housing, Tape and Reel Packaging"
+			(at 346.71 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "7.93"
+			(at 386.08 654 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 386.08 754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 386.08 854 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol Communications Solutions"
+			(at 386.08 954 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GSB311A41EU"
+			(at 386.08 1054 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "bd42e3ec-465f-4387-81ef-0bb285a0a50d")
+		)
+		(pin "MH2"
+			(uuid "57b8868e-2731-4e35-a1d5-e351351bd711")
+		)
+		(pin "1"
+			(uuid "d0516901-7aea-45a3-a1a7-fbb2e08e0e2b")
+		)
+		(pin "5"
+			(uuid "ce65f3b2-1a0c-429c-a2a1-32356e087bd4")
+		)
+		(pin "4"
+			(uuid "530e06eb-e2ea-48eb-af4f-889edb992738")
+		)
+		(pin "7"
+			(uuid "2bffe9d3-9db2-4373-8657-813f2bf54c6e")
+		)
+		(pin "3"
+			(uuid "9cea3ed2-0909-4e2d-bf28-9c7b046c2876")
+		)
+		(pin "9"
+			(uuid "9bd2d14a-142a-472a-880c-0aee4937c506")
+		)
+		(pin "MH1"
+			(uuid "4248c2bb-5d75-44ed-93ae-6d0c00c9b7c8")
+		)
+		(pin "8"
+			(uuid "b41d6637-a05d-4725-a427-9442799a0371")
+		)
+		(pin "2"
+			(uuid "f65bfbbb-bc87-42c3-9eed-341693e0b96a")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a"
+					(reference "J94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
-		(at 342.9 257.81 90)
+		(at 342.9 259.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7400,7 +7407,7 @@
 		(dnp no)
 		(uuid "f041cf98-b1ff-4ff8-9b7a-3f55ae0f7dc3")
 		(property "Reference" "F6"
-			(at 341.63 252.73 90)
+			(at 341.63 254 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7410,7 +7417,7 @@
 			)
 		)
 		(property "Value" "6V/2A"
-			(at 342.9 255.27 90)
+			(at 342.9 256.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7420,7 +7427,7 @@
 			)
 		)
 		(property "Footprint" "A_HDJ_Library:Fuse_0805_2012Metric"
-			(at 342.9 259.588 90)
+			(at 342.9 260.858 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7431,7 +7438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 257.81 0)
+			(at 342.9 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7442,7 +7449,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 342.9 257.81 0)
+			(at 342.9 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7453,7 +7460,7 @@
 			)
 		)
 		(property "SCH_Show_Footprint" "R0805"
-			(at 342.9 257.81 0)
+			(at 342.9 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7464,7 +7471,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 342.9 257.81 0)
+			(at 342.9 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7475,7 +7482,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 342.9 257.81 0)
+			(at 342.9 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7486,7 +7493,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 342.9 257.81 0)
+			(at 342.9 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7497,7 +7504,7 @@
 			)
 		)
 		(property "Buy_Link" "https://item.szlcsc.com/947770.html"
-			(at 603.25 567.69 0)
+			(at 603.25 568.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7508,7 +7515,7 @@
 			)
 		)
 		(property "DF_Comment" "0805贴片自恢复保险丝1A/6V-BSMD0805-100-6V"
-			(at 603.25 567.69 0)
+			(at 603.25 568.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7519,7 +7526,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 603.25 567.69 0)
+			(at 603.25 568.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7530,7 +7537,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 342.9 257.81 90)
+			(at 342.9 259.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7541,7 +7548,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 342.9 257.81 90)
+			(at 342.9 259.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7552,7 +7559,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 342.9 257.81 90)
+			(at 342.9 259.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7563,7 +7570,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 342.9 257.81 90)
+			(at 342.9 259.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7574,7 +7581,7 @@
 			)
 		)
 		(property "KLC_S4.2_VIN" ""
-			(at 342.9 257.81 90)
+			(at 342.9 259.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7585,7 +7592,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 342.9 257.81 90)
+			(at 342.9 259.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7596,7 +7603,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 342.9 257.81 90)
+			(at 342.9 259.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7607,7 +7614,7 @@
 			)
 		)
 		(property "MPN" "SMD0805B110TF"
-			(at 342.9 257.81 90)
+			(at 342.9 259.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7618,7 +7625,7 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 342.9 257.81 90)
+			(at 342.9 259.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7629,7 +7636,7 @@
 			)
 		)
 		(property "LCSC_Part" ""
-			(at 342.9 257.81 90)
+			(at 342.9 259.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8215,7 +8222,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 361.95 207.01 0)
+		(at 364.49 214.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8226,7 +8233,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7abd6fd-638b-4699-95e7-02a21d2cd439")
 		(property "Reference" "#PWR0174"
-			(at 361.95 213.36 0)
+			(at 364.49 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8237,7 +8244,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 361.95 212.09 0)
+			(at 364.49 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8247,7 +8254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 361.95 207.01 0)
+			(at 364.49 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8258,7 +8265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 361.95 207.01 0)
+			(at 364.49 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8269,7 +8276,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 361.95 207.01 0)
+			(at 364.49 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8286,212 +8293,6 @@
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a"
 					(reference "#PWR0174")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB3_A")
-		(at 359.41 267.97 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa365e0d-837f-492b-8e4f-257a5ca82c2c")
-		(property "Reference" "J92"
-			(at 370.84 267.3349 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB3_A"
-			(at 370.84 269.8749 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB3_A_Molex_48393-001"
-			(at 355.6 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 3.0 A connector"
-			(at 359.41 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 359.41 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 359.41 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 359.41 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 359.41 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VIN" ""
-			(at 359.41 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 359.41 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 359.41 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 359.41 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
-			(at 359.41 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "fa6f0a01-f792-4dba-9134-a7152faf7e9e")
-		)
-		(pin "1"
-			(uuid "e896972b-36f5-49c5-b3f4-4308a89f08b9")
-		)
-		(pin "3"
-			(uuid "c75fa08d-fbd6-4e11-91f6-b51a7c1bc454")
-		)
-		(pin "4"
-			(uuid "beac778d-6189-4b83-a2bb-17c4a78466e2")
-		)
-		(pin "5"
-			(uuid "b4f72432-efae-445b-8180-4788b7d57e26")
-		)
-		(pin "6"
-			(uuid "60380106-11d7-4508-825d-3b2c39792ab3")
-		)
-		(pin "2"
-			(uuid "d298ae1d-9caf-48bd-9a58-d692df76cdf1")
-		)
-		(pin "7"
-			(uuid "c922e199-ca92-45a7-9834-02f394a61e0d")
-		)
-		(pin "SH"
-			(uuid "0a1ad911-9520-4d9c-b840-c5828dc2467e")
-		)
-		(pin "9"
-			(uuid "35c770f9-8fac-4f36-97f8-066da91debac")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a"
-					(reference "J92")
 					(unit 1)
 				)
 			)
