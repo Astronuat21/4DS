@@ -981,6 +981,14 @@
       {
         "netclass": "PWR",
         "pattern": "VDC"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/PSU/PWR_C_D+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/PSU/PWR_C_D-"
       }
     ]
   },
@@ -1277,7 +1285,7 @@
         "uuid": "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
       }
     ],
-    "used_designators": "L78-84,D4-6,D17,D24,D31,D33-34,#PWR26,#PWR47,#PWR86-87,#PWR95-96,#PWR125-128,#PWR139,#PWR145,#PWR177,#PWR199,#PWR242-247,#PWR249-251,#PWR257-273,#PWR277-280,#PWR282-283,#PWR285-296,#PWR903,U80,U83,U85,C101,C106-107,C134,C139,C143,C149,C155-157,C164-183,J81,J94,IC80-84,#FLG903-904,#FLG906,R18-21,R53,R84,R119-145,TP5-7,TP13",
+    "used_designators": "#PWR26,#PWR47,#PWR86-87,#PWR95-96,#PWR125-128,#PWR139,#PWR145,#PWR177,#PWR199,#PWR242-247,#PWR249-251,#PWR257-273,#PWR277-280,#PWR282-283,#PWR285-296,#PWR903,D4-6,D17,D24,D31,D33-34,L78-85,U80,U83,U85,C101,C106-107,C134,C139,C143,C149,C155-157,C164-183,R18-21,R53,R84,R119-145,#FLG903-904,#FLG906,IC80-84,J81,J94,TP5-7,TP13",
     "variants": []
   },
   "sheets": [

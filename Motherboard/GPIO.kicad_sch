@@ -3243,6 +3243,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 276.86) (xy 307.34 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18015b3a-6d21-4573-ae66-18811707223a")
+	)
+	(wire
+		(pts
 			(xy 314.96 289.56) (xy 326.39 289.56)
 		)
 		(stroke
@@ -3263,13 +3273,13 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 276.86) (xy 307.34 276.86)
+			(xy 295.91 214.63) (xy 307.34 214.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3771cecb-ebed-4017-ad33-a11987d0365d")
+		(uuid "41a43750-2f5a-40a7-bd92-4846bdfd43a1")
 	)
 	(wire
 		(pts
@@ -3290,16 +3300,6 @@
 			(type default)
 		)
 		(uuid "49ac1046-5654-4b84-b362-a830fec8b1c6")
-	)
-	(wire
-		(pts
-			(xy 295.91 214.63) (xy 309.88 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b141bcc-e7b9-4563-8e45-6a37819de72c")
 	)
 	(wire
 		(pts
@@ -3512,7 +3512,7 @@
 	)
 	(hierarchical_label "SL_VOL"
 		(shape output)
-		(at 295.91 279.4 0)
+		(at 295.91 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3589,7 +3589,7 @@
 	)
 	(hierarchical_label "SL_BRI"
 		(shape output)
-		(at 295.91 212.09 0)
+		(at 295.91 279.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6529,7 +6529,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 309.88 214.63 270)
+		(at 307.34 276.86 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6540,7 +6540,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ab354d6-2168-4418-aa42-1407974e834e")
 		(property "Reference" "#PWR0145"
-			(at 306.07 214.63 0)
+			(at 303.53 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6551,7 +6551,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 313.69 214.6299 90)
+			(at 311.15 276.8599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6562,7 +6562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 309.88 214.63 0)
+			(at 307.34 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6573,7 +6573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 214.63 0)
+			(at 307.34 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6584,7 +6584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 309.88 214.63 0)
+			(at 307.34 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7566,7 +7566,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 307.34 276.86 270)
+		(at 307.34 214.63 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7578,7 +7578,7 @@
 		(fields_autoplaced yes)
 		(uuid "f90c22fc-3b88-40ba-9ba4-3b923cf1f854")
 		(property "Reference" "#PWR026"
-			(at 303.53 276.86 0)
+			(at 303.53 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7589,7 +7589,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 311.15 276.8599 90)
+			(at 311.15 214.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7600,7 +7600,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 307.34 276.86 0)
+			(at 307.34 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7611,7 +7611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 307.34 276.86 0)
+			(at 307.34 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7622,7 +7622,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 307.34 276.86 0)
+			(at 307.34 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
