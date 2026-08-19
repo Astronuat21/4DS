@@ -1748,17 +1748,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 473.71 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "a52515ba-41fe-4566-ba55-564c64bf6e95")
 		)
@@ -2038,17 +2027,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 499.11 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 499.11 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -2348,17 +2326,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 473.71 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "b6e13c41-6a96-4a71-b730-8f40d3ed2d55")
 		)
@@ -2560,17 +2527,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 499.11 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 499.11 336.55 0)
 			(hide yes)
 			(show_name no)

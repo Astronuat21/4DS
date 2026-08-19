@@ -1012,7 +1012,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "${PROJECTNAME}_BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1067,7 +1067,7 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1106,70 +1106,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Specifications (For Resistors/Capacitors)",
           "name": "Specifications (For Resistors/Capacitors)",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "DF_Comment",
-          "name": "DF_Comment",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Buy_Link",
-          "name": "Buy_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC_Part",
-          "name": "LCSC_Part",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "NOTE",
-          "name": "NOTE",
-          "show": false
         },
         {
           "group_by": false,
@@ -1182,6 +1122,24 @@
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DF_Comment",
+          "name": "DF_Comment",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Buy_Link",
+          "name": "Buy_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
         },
         {
           "group_by": false,
@@ -1285,7 +1243,7 @@
         "uuid": "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
       }
     ],
-    "used_designators": "#PWR26,#PWR47,#PWR86-87,#PWR95-96,#PWR125-128,#PWR139,#PWR145,#PWR177,#PWR199,#PWR242-247,#PWR249-251,#PWR257-273,#PWR277-280,#PWR282-283,#PWR285-296,#PWR903,D4-6,D17,D24,D31,D33-34,L78-85,U80,U83,U85,C101,C106-107,C134,C139,C143,C149,C155-157,C164-183,R18-21,R53,R84,R119-145,#FLG903-904,#FLG906,IC80-84,J81,J94,TP5-7,TP13",
+    "used_designators": "#PWR26,#PWR47,#PWR86-87,#PWR95-96,#PWR125-128,#PWR139,#PWR145,#PWR177,#PWR199,#PWR242-247,#PWR249-251,#PWR257-273,#PWR277-280,#PWR282-283,#PWR285-296,#PWR903,D4-6,D17,D24,D31,D33-34,L78-88,U80,U83,U85,C101,C106-107,C134,C139,C143,C149,C155-157,C164-183,R18-21,R53,R84,R119-145,#FLG903-904,#FLG906,IC80-84,J81,J94,TP5-7,TP13",
     "variants": []
   },
   "sheets": [

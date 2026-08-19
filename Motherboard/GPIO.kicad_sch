@@ -4253,7 +4253,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "47R 1% 63mW 0402"
 			(at 311.15 297.18 90)
 			(hide yes)
 			(show_name no)
@@ -4264,7 +4264,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 311.15 297.18 90)
 			(hide yes)
 			(show_name no)
@@ -4511,7 +4511,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "47R 1% 63mW 0402"
 			(at 302.26 292.1 90)
 			(hide yes)
 			(show_name no)
@@ -4522,7 +4522,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 302.26 292.1 90)
 			(hide yes)
 			(show_name no)
@@ -4689,7 +4689,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "47R 1% 63mW 0402"
 			(at 311.15 289.56 90)
 			(hide yes)
 			(show_name no)
@@ -4700,7 +4700,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 311.15 289.56 90)
 			(hide yes)
 			(show_name no)
@@ -5025,7 +5025,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "47R 1% 63mW 0402"
 			(at 302.26 299.72 90)
 			(hide yes)
 			(show_name no)
@@ -5036,7 +5036,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 302.26 299.72 90)
 			(hide yes)
 			(show_name no)
@@ -5295,18 +5295,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 295.91 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 295.91 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -5453,54 +5442,6 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "306-4BNSHSSTBTL"
-			(at 295.91 658.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM04B-NSHSS-TBTLFSN?qs=QpmGXVUTftH94AWRYLWqmQ%3D%3D"
-			(at 295.91 758.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 295.91 858.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BM04B-NSHSS-TBT(LF)(SN)"
-			(at 295.91 958.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 276.86 163.83 0)
 			(hide yes)
@@ -5579,17 +5520,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 276.86 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 276.86 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5845,7 +5775,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "150R 1% 63mW 0402"
 			(at 321.31 302.26 90)
 			(hide yes)
 			(show_name no)
@@ -5856,7 +5786,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 321.31 302.26 90)
 			(hide yes)
 			(show_name no)
@@ -5961,54 +5891,6 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "306-4BNSHSSTBTL"
-			(at 295.91 638.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM04B-NSHSS-TBTLFSN?qs=QpmGXVUTftH94AWRYLWqmQ%3D%3D"
-			(at 295.91 738.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 295.91 838.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BM04B-NSHSS-TBT(LF)(SN)"
-			(at 295.91 938.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 276.86 143.51 0)
 			(hide yes)
@@ -6087,17 +5969,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 276.86 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 276.86 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6448,18 +6319,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 295.91 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 295.91 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -6738,17 +6598,6 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
-			(at -7.62 -48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "ESD5V0B03-1006"
 			(at 300.99 311.15 90)
 			(hide yes)
@@ -6837,18 +6686,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 300.99 311.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 300.99 311.15 90)
 			(hide yes)
 			(show_name no)
@@ -6952,54 +6790,6 @@
 				(justify left top)
 			)
 		)
-		(property "LCSC Part" "C596711"
-			(at 294.64 784.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/503480-0800?qs=bodV9ulq6Gz33SKuZL445g%3D%3D"
-			(at 294.64 884.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 294.64 984.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 294.64 1084.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 275.59 289.56 0)
 			(hide yes)
@@ -7088,18 +6878,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 275.59 289.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 275.59 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -7290,7 +7069,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "150R 1% 63mW 0402"
 			(at 321.31 294.64 90)
 			(hide yes)
 			(show_name no)
@@ -7301,7 +7080,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 321.31 294.64 90)
 			(hide yes)
 			(show_name no)

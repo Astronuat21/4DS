@@ -14915,17 +14915,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 558.8 306.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "5d6534a9-603e-4aa9-b0d7-a30c319e9869")
 		)
@@ -15094,18 +15083,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 176.53 177.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 176.53 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -15362,17 +15340,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 330.2 181.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 330.2 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -15663,17 +15630,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 467.36 172.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f9440e16-188c-4720-90bf-0694bf50ee8e")
 		)
@@ -15915,17 +15871,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 344.17 166.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "CRCW0402681KFKED"
 			(at 344.17 166.37 90)
 			(hide yes)
@@ -16148,17 +16093,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 546.1 264.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "8035e0ed-c61c-4c95-8f1e-68a53cff5ee7")
 		)
@@ -16341,17 +16275,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 523.24 347.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "15"
 			(uuid "72cd506f-281d-44b2-81e1-9b1faba0e0e2")
 		)
@@ -16491,8 +16414,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "595-TPS61288LRQQR"
-			(at 320.04 657.48 0)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 290.83 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16500,11 +16423,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61288LRQQR?qs=doiCPypUmgHcBtLncJEgGg%3D%3D"
-			(at 320.04 757.48 0)
+		(property "MPN" "TPS61288LRQQR"
+			(at 290.83 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16512,31 +16434,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 320.04 857.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS61288LRQQR"
-			(at 320.04 957.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 			)
 		)
 		(pin "3"
@@ -16833,17 +16730,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 292.1 318.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "066cd88a-42f3-422d-9b12-dc75a2a8d240")
 		)
@@ -17088,17 +16974,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 538.48 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "126f43fe-5175-4448-ae21-32d0b619f86e")
 		)
@@ -17292,17 +17167,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 358.14 320.04 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 358.14 320.04 90)
 			(hide yes)
 			(show_name no)
@@ -17547,7 +17411,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "4.7k 1% 63mW 0402"
 			(at 184.15 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -17558,7 +17422,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 184.15 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -17605,7 +17469,7 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "5.1K/1%"
 			(at 262.89 213.868 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17802,7 +17666,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "5.1k 1% 63mW 0402"
 			(at 262.89 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -17813,7 +17677,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 262.89 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -18058,7 +17922,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "10k 1% 63mW 0402"
 			(at 240.03 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -18069,7 +17933,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 240.03 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -18402,17 +18266,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 538.48 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9f7e77b2-77e7-4c02-8529-b7c0cec7cd3e")
 		)
@@ -18658,17 +18511,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 568.96 267.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 568.96 267.97 90)
 			(hide yes)
 			(show_name no)
@@ -18935,17 +18777,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 393.7 166.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "3b0ffb5e-4bbe-42b0-9aab-548bf8889158")
 		)
@@ -19201,17 +19032,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 292.1 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "d23fcd6b-1630-4835-b95e-241c73648657")
 		)
@@ -19447,17 +19267,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" "105 1% 50mW 0805"
-			(at 481.33 318.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 481.33 318.77 0)
 			(hide yes)
 			(show_name no)
@@ -19790,7 +19599,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 330.2 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -20034,7 +19843,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "10k 1% 63mW 0402"
 			(at 189.23 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -20045,7 +19854,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 189.23 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -20467,17 +20276,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 292.1 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "a97c4aeb-8f26-4895-a995-52bc282e1624")
 		)
@@ -20801,17 +20599,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 340.36 311.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ffe665d2-b506-4a9b-bc0c-b8678e0ecbba")
 		)
@@ -21025,18 +20812,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 156.21 274.32 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 156.21 274.32 90)
 			(hide yes)
 			(show_name no)
@@ -21359,7 +21135,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "10k 1% 63mW 0402"
 			(at 195.58 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -21370,7 +21146,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 195.58 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -21693,7 +21469,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "100k 1% 63mW 0402"
 			(at 184.15 170.18 90)
 			(hide yes)
 			(show_name no)
@@ -21704,7 +21480,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 184.15 170.18 90)
 			(hide yes)
 			(show_name no)
@@ -22047,17 +21823,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 185.42 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "86ee8e87-2c2d-4c19-a3a0-a8f06bd74a8b")
 		)
@@ -22306,17 +22071,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 506.73 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 506.73 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -22585,17 +22339,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 284.48 167.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 284.48 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -22897,17 +22640,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 292.1 302.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "23f177cd-dfe6-4fd9-ad24-e430cf5f07f3")
 		)
@@ -23154,17 +22886,6 @@
 			)
 		)
 		(property "MPN" "GRM32ER61E226KE15L"
-			(at 403.86 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 403.86 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -23502,18 +23223,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 232.41 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 232.41 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -23768,7 +23478,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 337.82 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -24023,7 +23733,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 453.39 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -24290,17 +24000,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 430.53 260.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "b11f5f5f-5ee3-41cc-9b08-bb2e30bb53d9")
 		)
@@ -24545,7 +24244,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "CRCW040240K2FKED"
 			(at 284.48 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -24811,17 +24510,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 195.58 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "7f077d39-6e88-4af8-8444-9ac62d1907c9")
 		)
@@ -25056,17 +24744,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" "255K 1% 125mW 0805"
-			(at 480.06 287.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 480.06 287.02 90)
 			(hide yes)
 			(show_name no)
@@ -25332,17 +25009,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 467.36 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "19f98b87-caec-423d-a317-c5a030e85f3e")
 		)
@@ -25557,18 +25223,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 213.36 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 213.36 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -25924,17 +25579,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" "100k 1% 63mW 0402"
-			(at 537.21 350.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 537.21 350.52 90)
 			(hide yes)
 			(show_name no)
@@ -26313,18 +25957,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 179.07 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 179.07 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -26535,7 +26168,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "10k 1% 63mW 0402"
 			(at 193.04 245.11 90)
 			(hide yes)
 			(show_name no)
@@ -26546,7 +26179,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 193.04 245.11 90)
 			(hide yes)
 			(show_name no)
@@ -26790,7 +26423,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "10k 1% 63mW 0402"
 			(at 311.15 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -26801,7 +26434,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 311.15 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -27113,17 +26746,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 194.31 252.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "8e3bb4cd-ad19-4e72-b4b0-b028f0acedb0")
 		)
@@ -27368,7 +26990,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "CRCW040240K2FKED"
 			(at 407.67 182.88 90)
 			(hide yes)
 			(show_name no)
@@ -27615,17 +27237,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 351.79 318.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 351.79 318.77 90)
 			(hide yes)
 			(show_name no)
@@ -27892,17 +27503,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 427.99 311.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "1c595176-799b-4ebc-809e-d1a7e014959b")
 		)
@@ -28138,7 +27738,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "2.2k 1% 63mW 0402"
 			(at 405.13 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -28149,7 +27749,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 405.13 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -28404,7 +28004,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 461.01 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -28817,17 +28417,6 @@
 			)
 		)
 		(property "MPN" "C0603C104M4RACTU"
-			(at 469.9 292.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 469.9 292.1 0)
 			(hide yes)
 			(show_name no)
@@ -29323,8 +28912,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "595-TPS62903RPJR"
-			(at 337.82 600.33 0)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 306.07 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29332,11 +28921,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62903RPJR?qs=DRkmTr78QASXhnguMSVgtg%3D%3D"
-			(at 337.82 700.33 0)
+		(property "MPN" "TPS62903RPJR"
+			(at 306.07 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29344,31 +28932,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 337.82 800.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS62903RPJR"
-			(at 337.82 900.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 			)
 		)
 		(pin "4"
@@ -29626,7 +29189,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay-Dale"
 			(at 330.2 173.99 90)
 			(hide yes)
 			(show_name no)
@@ -29714,7 +29277,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "CRCW040240K2FKED"
 			(at 330.2 173.99 90)
 			(hide yes)
 			(show_name no)
@@ -29959,17 +29522,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 538.48 309.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 538.48 309.88 0)
 			(hide yes)
 			(show_name no)
@@ -30236,17 +29788,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 430.53 254 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "7902c6ac-1de7-452e-b5e8-7ad1c319f6d4")
 		)
@@ -30480,7 +30021,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "1k 1% 63mW 0402"
 			(at 361.95 252.73 90)
 			(hide yes)
 			(show_name no)
@@ -30491,7 +30032,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 361.95 252.73 90)
 			(hide yes)
 			(show_name no)
@@ -30757,17 +30298,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 521.97 260.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "75f1397b-5c83-43ad-baf4-e5addfc08a00")
 		)
@@ -31002,7 +30532,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "127k 1% 63mW 0402"
 			(at 198.12 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -31013,7 +30543,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 198.12 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -31424,17 +30954,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 434.34 304.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "any/open"
 			(at 434.34 304.8 90)
 			(hide yes)
@@ -31679,7 +31198,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "0.01R 1% 3W 2512"
 			(at 267.97 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -31690,7 +31209,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 267.97 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -31989,18 +31508,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 374.65 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 374.65 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -32423,17 +31931,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 538.48 363.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "e260fdff-faeb-4ecc-9378-342d47d94661")
 		)
@@ -32635,17 +32132,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 546.1 302.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 546.1 302.26 90)
 			(hide yes)
 			(show_name no)
@@ -32889,7 +32375,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "10k 1% 63mW 0402"
 			(at 195.58 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -32900,7 +32386,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 195.58 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -33166,17 +32652,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 501.65 342.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "c90d5172-fe3f-4ec2-a00d-d57ecff43180")
 		)
@@ -33411,7 +32886,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "100R 1% 250mW 1206"
 			(at 231.14 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -33422,7 +32897,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 231.14 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -33688,17 +33163,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 496.57 342.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "5437d0ac-82e4-4965-8353-e32cc815003b")
 		)
@@ -33891,7 +33355,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 179.07 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -33902,7 +33366,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "N/A"
 			(at 179.07 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -34103,17 +33567,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 344.17 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 344.17 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -34367,18 +33820,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 292.1 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 292.1 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -34835,17 +34277,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 424.18 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "f47515bd-0a47-4a59-9a39-c3daaa1706ab")
 		)
@@ -35179,17 +34610,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 227.33 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "f525b619-49ff-4492-a282-859022546273")
 		)
@@ -35417,6 +34837,28 @@
 		)
 		(property "Description" "Inductor"
 			(at 331.47 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "74438336010HT"
+			(at 331.47 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 331.47 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35717,18 +35159,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 172.72 273.05 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 172.72 273.05 90)
 			(hide yes)
 			(show_name no)
@@ -36049,7 +35480,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "10k 1% 63mW 0402"
 			(at 369.57 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -36060,7 +35491,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 369.57 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -36284,18 +35715,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 165.1 273.05 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 165.1 273.05 90)
 			(hide yes)
 			(show_name no)
@@ -36539,7 +35959,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "5.24k 1% 63mW 0402"
 			(at 186.69 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -36550,7 +35970,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 186.69 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -36813,18 +36233,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 308.61 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 308.61 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -36909,6 +36318,28 @@
 		)
 		(property "Description" "Inductor"
 			(at 280.67 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XAL8080-222MEB"
+			(at 280.67 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 280.67 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37252,17 +36683,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 563.88 306.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "b56ccd07-00ff-483d-92b7-68d5acdfc097")
 		)
@@ -37475,18 +36895,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 245.11 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 245.11 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -37821,17 +37230,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 285.75 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 285.75 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -38569,17 +37967,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 417.83 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "8144ca26-bbcd-4e93-9354-6ad1749b0761")
 		)
@@ -38826,17 +38213,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 252.73 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 252.73 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -39239,7 +38615,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "100R 1% 63mW 0402"
 			(at 370.84 207.01 90)
 			(hide yes)
 			(show_name no)
@@ -39250,7 +38626,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 370.84 207.01 90)
 			(hide yes)
 			(show_name no)
@@ -39419,7 +38795,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 120.65 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -39430,7 +38806,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "USB4105-GF-A"
 			(at 120.65 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -39741,17 +39117,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 574.04 306.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "ad00e5c7-528b-4243-b1da-78be77227cef")
 		)
@@ -39997,17 +39362,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 574.04 267.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 574.04 267.97 90)
 			(hide yes)
 			(show_name no)
@@ -40352,17 +39706,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 222.25 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "02d999c1-b825-41b9-aa89-22d1a40f5336")
 		)
@@ -40618,17 +39961,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 232.41 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "6a293b23-f9e9-4abb-9763-d0bf9d0c161f")
 		)
@@ -40798,18 +40130,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 232.41 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 232.41 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -41153,17 +40474,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 398.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "b37381ee-6c62-44b5-9aa0-d4e4366b5a3b")
 		)
@@ -41335,8 +40645,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "710-74438336022HT"
-			(at 245.11 633.35 0)
+		(property "MPN" "74438336022HT"
+			(at 228.6 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41344,11 +40654,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438336022HT?qs=HFfMDpzxxd2GIPQhOs5uPA%3D%3D"
-			(at 245.11 733.35 0)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 228.6 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41356,31 +40665,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 245.11 833.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74438336022HT"
-			(at 245.11 933.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 			)
 		)
 		(pin "1"
@@ -41629,17 +40913,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 228.6 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 228.6 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -41973,17 +41246,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 481.33 311.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "5f6d61b7-5ad9-4b50-896e-4f3f75d02ae5")
 		)
@@ -42275,18 +41537,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 248.92 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 248.92 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -42632,17 +41883,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 553.72 306.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "7c7dfffd-5980-4914-8670-5ba973bfc8d5")
 		)
@@ -42889,17 +42129,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 273.05 166.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 273.05 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -43223,7 +42452,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "100k 1% 63mW 0402"
 			(at 381 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -43234,7 +42463,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 381 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -43501,17 +42730,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 398.78 166.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "81de4b35-71b4-4927-9cc6-f9da575787f8")
 		)
@@ -43606,8 +42824,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "595-TPS62903RPJR"
-			(at 337.82 634.62 0)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 306.07 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43615,11 +42833,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62903RPJR?qs=DRkmTr78QASXhnguMSVgtg%3D%3D"
-			(at 337.82 734.62 0)
+		(property "MPN" "TPS62903RPJR"
+			(at 306.07 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43627,31 +42844,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 337.82 834.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS62903RPJR"
-			(at 337.82 934.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 			)
 		)
 		(pin "4"
@@ -43825,6 +43017,28 @@
 		)
 		(property "Description" "Inductor"
 			(at 454.66 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "74438336010HT"
+			(at 454.66 172.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 454.66 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44085,18 +43299,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 378.46 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 378.46 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -44366,17 +43569,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 393.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "2c0c001d-f5db-4131-8d1e-80d9002779c9")
 		)
@@ -44546,18 +43738,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 232.41 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 232.41 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -44782,18 +43963,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 381 241.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 381 241.3 90)
 			(hide yes)
 			(show_name no)
@@ -45139,17 +44309,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 284.48 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "0d53c595-95b1-4051-8d11-074e217d3a14")
 		)
@@ -45221,6 +44380,28 @@
 		)
 		(property "Description" "Inductor"
 			(at 331.47 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "74438336010HT"
+			(at 331.47 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 331.47 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45563,17 +44744,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 344.17 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "3c5a5d21-d116-453e-bf3a-73fbd7cfe44b")
 		)
@@ -45829,17 +44999,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 558.8 267.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "2f513107-c0b1-4aa9-8990-4fba33a69e1e")
 		)
@@ -46074,17 +45233,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 538.48 302.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 538.48 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -46341,17 +45489,6 @@
 			)
 		)
 		(property "MPN" "GRM32ER61E226KE15L"
-			(at 388.62 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 388.62 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -46694,17 +45831,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 521.97 298.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "d77e4999-ea12-4cbc-bc5b-0023bbd6b66c")
 		)
@@ -46952,18 +46078,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 212.09 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 212.09 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -47376,7 +46491,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "CRCW040240K2FKED"
 			(at 284.48 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -47658,17 +46773,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 344.17 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 344.17 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -48044,17 +47148,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 344.17 302.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3e6f282e-ed55-406b-9e96-fba04b329679")
 		)
@@ -48267,18 +47360,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 252.73 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 252.73 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -48535,17 +47617,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 262.89 166.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 262.89 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -48989,7 +48060,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "6.8k 1% 63mW 0402"
 			(at 234.95 250.19 90)
 			(hide yes)
 			(show_name no)
@@ -49000,7 +48071,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 234.95 250.19 90)
 			(hide yes)
 			(show_name no)
@@ -49213,17 +48284,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 422.91 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "20e1c61e-f81d-43da-a4bd-6f5ef245f376")
 		)
@@ -49315,8 +48375,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "595-TPS62903RPJR"
-			(at 461.01 672.72 0)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 429.26 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49324,11 +48384,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62903RPJR?qs=DRkmTr78QASXhnguMSVgtg%3D%3D"
-			(at 461.01 772.72 0)
+		(property "MPN" "TPS62903RPJR"
+			(at 429.26 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49336,31 +48395,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 461.01 872.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS62903RPJR"
-			(at 461.01 972.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 			)
 		)
 		(pin "4"
@@ -49706,7 +48740,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 337.82 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -50029,7 +49063,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "127k 1% 63mW 0402"
 			(at 198.12 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -50040,7 +49074,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 198.12 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -50262,18 +49296,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 171.45 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 171.45 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -50529,17 +49552,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 568.96 306.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 568.96 306.07 90)
 			(hide yes)
 			(show_name no)
@@ -50806,17 +49818,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 234.95 156.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "1f200986-6a12-4e25-82f6-78c6df181b90")
 		)
@@ -50986,18 +49987,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 232.41 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 232.41 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -51169,54 +50159,6 @@
 		)
 		(property "Height" "2"
 			(at 549.91 739.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "710-74438336022HT"
-			(at 549.91 839.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438336022HT?qs=HFfMDpzxxd2GIPQhOs5uPA%3D%3D"
-			(at 549.91 939.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 549.91 1039.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74438336022HT"
-			(at 549.91 1139.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51482,17 +50424,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 415.29 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "29e5f601-8588-4812-9139-32f4d04cebf7")
 		)
@@ -51706,18 +50637,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 148.59 274.32 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 148.59 274.32 90)
 			(hide yes)
 			(show_name no)
@@ -52005,7 +50925,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "1k 1% 63mW 0402"
 			(at 193.04 248.92 90)
 			(hide yes)
 			(show_name no)
@@ -52016,7 +50936,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 193.04 248.92 90)
 			(hide yes)
 			(show_name no)
@@ -52416,7 +51336,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "10k 1% 100mW 0603"
 			(at 276.86 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -52427,7 +51347,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 276.86 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -52752,17 +51672,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 529.59 298.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 529.59 298.45 90)
 			(hide yes)
 			(show_name no)
@@ -53254,17 +52163,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 529.59 260.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "d1b3bb8d-e998-4bf8-8570-94b78c18b7f0")
 		)
@@ -53576,7 +52474,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "30k 1% 63mW 0402"
 			(at 176.53 185.42 90)
 			(hide yes)
 			(show_name no)
@@ -53587,7 +52485,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 176.53 185.42 90)
 			(hide yes)
 			(show_name no)
@@ -53909,7 +52807,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "2R 1% 125mW 0805"
 			(at 177.8 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -53920,7 +52818,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 177.8 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -54186,17 +53084,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 553.72 267.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "dcdf60c1-71a1-4343-a7cb-037e7f2b5613")
 		)
@@ -54442,17 +53329,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 231.14 172.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 231.14 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -54787,17 +53663,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 337.82 181.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 337.82 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -55174,18 +54039,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 175.26 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 175.26 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -55294,54 +54148,6 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "595-TPS61088RHLR"
-			(at 431.8 787.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61088RHLR?qs=MiqG6Kq1qKNjgpnslrNKug%3D%3D"
-			(at 431.8 887.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 431.8 987.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 431.8 1087.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 400.05 302.26 0)
 			(hide yes)
@@ -55431,17 +54237,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 400.05 302.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 400.05 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -55764,17 +54559,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 344.17 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "d2a23923-6f88-4092-9eb6-76fd004bb4ce")
 		)
@@ -55978,18 +54762,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 414.02 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 414.02 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -56256,17 +55029,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 228.6 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "79426119-b4d5-4e7f-a420-a91df0e329e7")
 		)
@@ -56502,7 +55264,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "100R 1% 63mW 0402"
 			(at 288.29 311.15 90)
 			(hide yes)
 			(show_name no)
@@ -56513,7 +55275,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 288.29 311.15 90)
 			(hide yes)
 			(show_name no)
@@ -56856,17 +55618,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 177.8 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "1f300171-c88e-49be-a56d-a5692de282bf")
 		)
@@ -57112,17 +55863,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 308.61 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 308.61 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -57379,18 +56119,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 299.72 318.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 299.72 318.77 90)
 			(hide yes)
 			(show_name no)
@@ -57649,17 +56378,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 506.73 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 506.73 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -57937,17 +56655,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 563.88 267.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "12f3a08a-e9e9-48bb-89fd-0c9c4478f2e7")
 		)
@@ -58194,17 +56901,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 508 359.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 508 359.41 90)
 			(hide yes)
 			(show_name no)
@@ -58471,17 +57167,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 284.48 148.59 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "0e191a39-9ae7-4c7d-80f9-7542032b843f")
 		)
@@ -58716,17 +57401,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 344.17 318.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 344.17 318.77 0)
 			(hide yes)
 			(show_name no)
@@ -59138,17 +57812,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 344.17 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "CRCW040248K7FKED"
 			(at 344.17 173.99 90)
 			(hide yes)
@@ -59416,17 +58079,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 407.67 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "03da5b08-d29b-41ac-8d76-66f79b8eac3b")
 		)
@@ -59662,17 +58314,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 420.37 254 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 420.37 254 90)
 			(hide yes)
 			(show_name no)
@@ -60095,17 +58736,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 388.62 166.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "52a29a34-33bd-4997-bf5d-04ad1e82e4cb")
 		)
@@ -60275,18 +58905,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 232.41 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 232.41 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -60587,18 +59206,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 180.34 273.05 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 180.34 273.05 90)
 			(hide yes)
 			(show_name no)
@@ -60854,17 +59462,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 190.5 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 190.5 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -61132,17 +59729,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 247.65 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "3b1f11e5-43d9-4d2d-8d70-53b0b1269c3f")
 		)
@@ -61180,7 +59766,7 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "5.1K/1%"
 			(at 261.62 225.298 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61377,7 +59963,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "5.1k 1% 63mW 0402"
 			(at 262.89 223.52 90)
 			(hide yes)
 			(show_name no)
@@ -61388,7 +59974,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 262.89 223.52 90)
 			(hide yes)
 			(show_name no)
@@ -61712,7 +60298,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "2.2k 1% 63mW 0402"
 			(at 381 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -61723,7 +60309,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 381 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -62057,17 +60643,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 271.78 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 271.78 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -62557,7 +61132,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
+		(property "MPN" "any/open"
 			(at 330.2 142.24 90)
 			(hide yes)
 			(show_name no)

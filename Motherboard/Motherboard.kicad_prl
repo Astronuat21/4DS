@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -21,7 +21,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -93,18 +93,18 @@
       11
     ],
     "col_widths": [
-      163,
-      148,
+      130,
+      118,
       98,
       79,
-      91,
+      85,
       99,
-      91,
+      87,
       83,
-      91,
-      91,
-      91,
-      91
+      73,
+      73,
+      73,
+      73
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

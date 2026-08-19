@@ -3697,17 +3697,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 289.56 199.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "0dca63b5-3a81-4fda-b0be-9b33143e2063")
 		)
@@ -4255,17 +4244,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 326.39 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 326.39 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -4911,18 +4889,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 342.9 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 342.9 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -5027,8 +4994,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 386.08 675.26 0)
+		(property "MPN" "GSB311A41EU"
+			(at 346.71 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5036,11 +5003,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 386.08 775.26 0)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 346.71 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5048,31 +5014,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Amphenol Communications Solutions"
-			(at 386.08 875.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GSB311A41EU"
-			(at 386.08 975.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 			)
 		)
 		(pin "6"
@@ -5336,17 +5277,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 320.04 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 320.04 127 0)
 			(hide yes)
 			(show_name no)
@@ -5626,17 +5556,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 326.39 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 326.39 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -5973,18 +5892,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 196.85 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 196.85 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -6242,18 +6150,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 217.17 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 217.17 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -6668,18 +6565,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 227.33 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 227.33 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -6945,17 +6831,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 289.56 201.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "11214acc-2941-4e13-9980-f7b77668bb8f")
 		)
@@ -7200,17 +7075,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 342.9 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "967b9121-a1ad-46ea-9cc5-a3f0b52caafe")
 		)
@@ -7305,8 +7169,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 386.08 754 0)
+		(property "MPN" "GSB311A41EU"
+			(at 346.71 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7314,11 +7178,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 386.08 854 0)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 346.71 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7326,31 +7189,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Amphenol Communications Solutions"
-			(at 386.08 954 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GSB311A41EU"
-			(at 386.08 1054 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 			)
 		)
 		(pin "6"
@@ -7624,18 +7462,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 342.9 259.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 342.9 259.08 90)
 			(hide yes)
 			(show_name no)
@@ -7890,18 +7717,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 281.94 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 281.94 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8183,18 +7999,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 207.01 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 207.01 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -8444,17 +8249,6 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 359.41 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 359.41 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8718,18 +8512,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
-			(at 351.79 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 351.79 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -9019,17 +8802,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 326.39 257.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "9a89794c-96ac-4de8-a26b-5f661e135aff")
 		)
@@ -9285,17 +9057,6 @@
 				)
 			)
 		)
-		(property "LCSC_Part" ""
-			(at 289.56 280.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "04b23ce8-18f4-4797-b74b-681791bef8d7")
 		)
@@ -9541,17 +9302,6 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 289.56 278.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Part" ""
 			(at 289.56 278.13 90)
 			(hide yes)
 			(show_name no)
