@@ -81,60 +81,7 @@
           "width": 0.1704
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|106825001|134518026|e9e6db39-306c-4c40-8438-a12fe29d4de3|2d4ab044-ce0d-4811-9756-0d7e64d78bb5",
-          "Thermal Vias"
-        ],
-        [
-          "hole_clearance|106890001|134518026|a410cdb7-902a-463d-b20a-149d8e3d601e|e9e6db39-306c-4c40-8438-a12fe29d4de3",
-          "Thermal Vias"
-        ],
-        [
-          "hole_clearance|107800001|133793026|35aa6be2-3812-4b54-8490-e11df0c88719|2d4ab044-ce0d-4811-9756-0d7e64d78bb5",
-          "Thermal Vias"
-        ],
-        [
-          "hole_clearance|107800001|133793026|a410cdb7-902a-463d-b20a-149d8e3d601e|35aa6be2-3812-4b54-8490-e11df0c88719",
-          "Thermal Vias"
-        ],
-        [
-          "hole_clearance|107800001|133793026|d89a946c-5097-440f-9979-5d188e5b0b39|35aa6be2-3812-4b54-8490-e11df0c88719",
-          "Thermal Vias"
-        ],
-        [
-          "hole_clearance|107800001|134518026|a410cdb7-902a-463d-b20a-149d8e3d601e|b1d86d22-b21f-4186-b1bc-a89bd6b4ab64",
-          "Thermal Vias"
-        ],
-        [
-          "hole_clearance|107800001|134518026|b1d86d22-b21f-4186-b1bc-a89bd6b4ab64|2d4ab044-ce0d-4811-9756-0d7e64d78bb5",
-          "Thermal Vias"
-        ],
-        [
-          "hole_clearance|107800001|134518026|d89a946c-5097-440f-9979-5d188e5b0b39|b1d86d22-b21f-4186-b1bc-a89bd6b4ab64",
-          "Thermal Vias"
-        ],
-        [
-          "hole_clearance|107800001|135243026|2d4ab044-ce0d-4811-9756-0d7e64d78bb5|a8f8dd1e-523e-4431-82d7-1d89b7d808a7",
-          "Thermal Vias"
-        ],
-        [
-          "hole_clearance|107800001|135243026|a410cdb7-902a-463d-b20a-149d8e3d601e|a8f8dd1e-523e-4431-82d7-1d89b7d808a7",
-          "Thermal Vias"
-        ],
-        [
-          "hole_clearance|107800001|135243026|d89a946c-5097-440f-9979-5d188e5b0b39|a8f8dd1e-523e-4431-82d7-1d89b7d808a7",
-          "Thermal Vias"
-        ],
-        [
-          "hole_clearance|108710001|134518026|d89a946c-5097-440f-9979-5d188e5b0b39|c1463759-9d5f-4943-b2b7-3ed6497ec843",
-          "Thermal Vias"
-        ],
-        [
-          "hole_clearance|108775001|134518026|2d4ab044-ce0d-4811-9756-0d7e64d78bb5|c1463759-9d5f-4943-b2b7-3ed6497ec843",
-          "Thermal Vias"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -1231,12 +1178,12 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "C160",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Footprint"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1296,7 +1243,7 @@
         "uuid": "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
       }
     ],
-    "used_designators": "#PWR26,#PWR47,#PWR86-87,#PWR95-96,#PWR125-128,#PWR139,#PWR145,#PWR177,#PWR199,#PWR242-247,#PWR249-251,#PWR257-273,#PWR277-280,#PWR282-283,#PWR285-296,#PWR903,D4-6,D17,D24,D31,D33-34,L78-88,U80,U83,U85,C101,C106-107,C134,C139,C143,C149,C155-157,C164-183,R18-21,R53,R84,R119-145,#FLG903-904,#FLG906,IC80-84,J81,J94,TP5-7,TP13",
+    "used_designators": "#PWR26,#PWR47,#PWR86-87,#PWR95-96,#PWR125-128,#PWR139,#PWR145,#PWR177,#PWR199,#PWR242-247,#PWR249-251,#PWR257-273,#PWR277-280,#PWR282-283,#PWR285-297,#PWR903,D4-6,D17,D24,D31,D33-34,L78-88,U80,U83,U85,C95,C101,C106-107,C134,C139,C143,C149,C155-157,C164-183,R18-21,R53,R84,R119-145,#FLG903-904,#FLG906,IC80-84,J81,J94,TP5-7,TP13",
     "variants": []
   },
   "sheets": [

@@ -13106,7 +13106,7 @@
 	)
 	(text "Some of this uses polarized caps.\nI do not care to use those.\n"
 		(exclude_from_sim no)
-		(at 154.686 215.646 0)
+		(at 162.814 224.536 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13581,6 +13581,12 @@
 		(uuid "5f097dda-7f07-49c5-b470-97ca6c24629c")
 	)
 	(junction
+		(at 76.2 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f4e638c-d5c9-4d80-849b-551006e708ca")
+	)
+	(junction
 		(at 448.31 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13645,6 +13651,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9689cdf3-0479-4032-9f83-e479147e393d")
+	)
+	(junction
+		(at 149.86 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99f55e5b-f916-4d5a-89a4-a84d7a5cdb78")
 	)
 	(junction
 		(at 381 300.99)
@@ -14349,16 +14361,6 @@
 			(type default)
 		)
 		(uuid "07e8cdb5-9d75-4695-a87c-8a88d6b43ddc")
-	)
-	(wire
-		(pts
-			(xy 161.29 208.28) (xy 157.48 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08258e3e-d193-42fd-beb1-d8b395a957d3")
 	)
 	(wire
 		(pts
@@ -15282,7 +15284,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 208.28) (xy 68.58 208.28)
+			(xy 64.77 208.28) (xy 76.2 208.28)
 		)
 		(stroke
 			(width 0)
@@ -15869,6 +15871,16 @@
 			(type default)
 		)
 		(uuid "a66f468d-d987-4fad-9d34-85f909d9c35b")
+	)
+	(wire
+		(pts
+			(xy 149.86 208.28) (xy 161.29 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a712feac-a4ab-4870-becb-f2359af87998")
 	)
 	(wire
 		(pts
@@ -24916,7 +24928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 146.05 209.2452 0)
 			(hide yes)
 			(show_name no)
@@ -25346,7 +25358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
 			(at 450.5452 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -25455,7 +25467,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "15pF 0402 Ceramic 20% 16V X5R"
+		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 449.58 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -25466,7 +25478,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "C0603C150K4RACTU"
 			(at 449.58 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -25529,7 +25541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 80.01 209.2452 0)
 			(hide yes)
 			(show_name no)
@@ -27653,6 +27665,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 149.86 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ab82848-7de2-4957-8600-b8f066d6f26e")
+		(property "Reference" "#PWR0297"
+			(at 149.86 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d99a458-b958-4dd4-bcf5-5dc7f00e6e75")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0297")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 113.03 153.67 0)
 		(unit 1)
 		(body_style 1)
@@ -27738,7 +27828,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 72.39 208.28 90)
+		(at 76.2 212.09 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -27749,7 +27839,7 @@
 		(dnp no)
 		(uuid "5c6d0051-a08f-4334-ba48-3eddbc547fbe")
 		(property "Reference" "R103"
-			(at 72.39 204.47 90)
+			(at 72.39 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27759,7 +27849,7 @@
 			)
 		)
 		(property "Value" "330R/1%"
-			(at 72.39 206.248 90)
+			(at 74.168 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27769,7 +27859,7 @@
 			)
 		)
 		(property "Footprint" "A_HDJ_Library:R_0805_2012Metric"
-			(at 72.39 206.502 90)
+			(at 74.422 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27780,7 +27870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 208.28 0)
+			(at 76.2 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27791,7 +27881,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 208.28 0)
+			(at 76.2 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27802,7 +27892,7 @@
 			)
 		)
 		(property "SCH_Show_Footprint" ""
-			(at 72.39 208.28 0)
+			(at 76.2 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27813,7 +27903,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 72.39 208.28 0)
+			(at 76.2 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27824,7 +27914,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 72.39 208.28 0)
+			(at 76.2 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27835,7 +27925,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 72.39 208.28 0)
+			(at 76.2 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27846,7 +27936,7 @@
 			)
 		)
 		(property "Buy_Link" ""
-			(at 247.65 -215.9 0)
+			(at -347.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27857,7 +27947,7 @@
 			)
 		)
 		(property "DF_Comment" ""
-			(at 247.65 -215.9 0)
+			(at -347.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27868,7 +27958,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 247.65 -215.9 0)
+			(at -347.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27879,7 +27969,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 72.39 208.28 90)
+			(at 76.2 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27890,7 +27980,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 72.39 208.28 90)
+			(at 76.2 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27901,7 +27991,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 72.39 208.28 90)
+			(at 76.2 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27912,7 +28002,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 72.39 208.28 90)
+			(at 76.2 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27923,7 +28013,7 @@
 			)
 		)
 		(property "KLC_S4.2_VIN" ""
-			(at 72.39 208.28 90)
+			(at 76.2 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27934,7 +28024,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 72.39 208.28 90)
+			(at 76.2 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27945,7 +28035,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 72.39 208.28 90)
+			(at 76.2 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27956,7 +28046,7 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" "330R 1% 125mW 0805"
-			(at 72.39 208.28 90)
+			(at 76.2 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27967,7 +28057,7 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 72.39 208.28 90)
+			(at 76.2 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31965,7 +32055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
 			(at 448.6148 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -32074,7 +32164,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "15pF 0402 Ceramic 20% 16V X5R"
+		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 449.58 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -32085,7 +32175,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "C0603C150K4RACTU"
 			(at 449.58 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -32998,7 +33088,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "0.1uF 0603 Ceramic 20% 25V X5R"
+		(property "Specifications (For Resistors/Capacitors)" "0.1uF 0603 Ceramic 10% 25V X5R"
 			(at 62.23 170.18 90)
 			(hide yes)
 			(show_name no)
@@ -38066,6 +38156,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 76.2 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4d41656-f726-43df-90de-be79ef0ef77d")
+		(property "Reference" "#PWR0291"
+			(at 76.2 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be1f7f26-39cd-40e1-aa2a-8b314738fb77")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/3a22e7a6-e840-47a0-9215-15d617138f65"
+					(reference "#PWR0291")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 60.96 208.28 90)
 		(unit 1)
@@ -38513,7 +38681,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 153.67 208.28 270)
+		(at 149.86 212.09 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38523,7 +38691,7 @@
 		(dnp no)
 		(uuid "dbcbf82d-cb77-43fc-bfc2-8b007f547ced")
 		(property "Reference" "R105"
-			(at 153.67 204.47 90)
+			(at 153.67 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38533,7 +38701,7 @@
 			)
 		)
 		(property "Value" "330R/1%"
-			(at 153.67 206.248 90)
+			(at 151.892 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38543,7 +38711,7 @@
 			)
 		)
 		(property "Footprint" "A_HDJ_Library:R_0805_2012Metric"
-			(at 153.67 206.502 90)
+			(at 151.638 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38554,7 +38722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 208.28 0)
+			(at 149.86 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38565,7 +38733,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 208.28 0)
+			(at 149.86 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38576,7 +38744,7 @@
 			)
 		)
 		(property "SCH_Show_Footprint" ""
-			(at 153.67 208.28 0)
+			(at 149.86 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38587,7 +38755,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 153.67 208.28 0)
+			(at 149.86 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38598,7 +38766,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 153.67 208.28 0)
+			(at 149.86 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38609,7 +38777,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 153.67 208.28 0)
+			(at 149.86 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38620,7 +38788,7 @@
 			)
 		)
 		(property "Buy_Link" ""
-			(at -21.59 -215.9 0)
+			(at 574.04 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38631,7 +38799,7 @@
 			)
 		)
 		(property "DF_Comment" ""
-			(at -21.59 -215.9 0)
+			(at 574.04 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38642,7 +38810,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at -21.59 -215.9 0)
+			(at 574.04 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38653,7 +38821,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 153.67 208.28 90)
+			(at 149.86 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38664,7 +38832,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 153.67 208.28 90)
+			(at 149.86 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38675,7 +38843,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 153.67 208.28 90)
+			(at 149.86 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38686,7 +38854,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 153.67 208.28 90)
+			(at 149.86 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38697,7 +38865,7 @@
 			)
 		)
 		(property "KLC_S4.2_VIN" ""
-			(at 153.67 208.28 90)
+			(at 149.86 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38708,7 +38876,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 153.67 208.28 90)
+			(at 149.86 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38719,7 +38887,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 153.67 208.28 90)
+			(at 149.86 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38730,7 +38898,7 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" "330R 1% 125mW 0805"
-			(at 153.67 208.28 90)
+			(at 149.86 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38741,7 +38909,7 @@
 			)
 		)
 		(property "MPN" "any/open"
-			(at 153.67 208.28 90)
+			(at 149.86 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39929,7 +40097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "RP2350:L_pol_2016"
 			(at 518.16 113.03 0)
 			(hide yes)
 			(show_name no)

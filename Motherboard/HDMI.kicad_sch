@@ -32348,7 +32348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:R_0805_2012Metric"
 			(at 268.478 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -33782,7 +33782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "A_HDJ_Library:R_0805_2012Metric"
 			(at 747.268 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -44132,7 +44132,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "10nF 0402 Ceramic 20% 16V X5R"
+		(property "Specifications (For Resistors/Capacitors)" "10nF 0402 Ceramic 10% 16V X5R"
 			(at 720.09 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -51458,7 +51458,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "10nF 0402 Ceramic 20% 16V X5R"
+		(property "Specifications (For Resistors/Capacitors)" "10nF 0402 Ceramic 10% 16V X5R"
 			(at 241.3 172.72 90)
 			(hide yes)
 			(show_name no)

@@ -8517,6 +8517,12 @@
 		(uuid "81e4b489-2ef0-476e-ae11-1b15cc5a5c22")
 	)
 	(junction
+		(at 232.41 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82b80798-af57-45d7-95da-68aee2bffc5c")
+	)
+	(junction
 		(at 398.78 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8581,12 +8587,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96ff8b8e-01f6-41f5-b4f5-e929524d33ad")
-	)
-	(junction
-		(at 232.41 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98926144-e120-4562-833e-d143db02f38e")
 	)
 	(junction
 		(at 200.66 252.73)
@@ -15328,7 +15328,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "39nF 0402 Ceramic 20% 10V X5R"
+		(property "Specifications (For Resistors/Capacitors)" "39nF 0402 Ceramic 10% 10V X5R"
 			(at 330.2 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -18568,7 +18568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 394.6652 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -18755,7 +18755,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "47uF 0805 Ceramic 20% 16V X7R"
+		(property "Specifications (For Resistors/Capacitors)" "47uF 1210 Ceramic 20% 16V X7R"
 			(at 393.7 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -24488,7 +24488,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "0.1uF 0603 Ceramic 20% 25V X5R"
+		(property "Specifications (For Resistors/Capacitors)" "0.1uF 0603 Ceramic 10% 25V X5R"
 			(at 195.58 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -42117,7 +42117,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "100nF 0603 Ceramic 20% 6.3V X7R"
+		(property "Specifications (For Resistors/Capacitors)" "100nF 0603 Ceramic 10% 6.3V X7R"
 			(at 273.05 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -42521,7 +42521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 399.7452 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -42708,7 +42708,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "47uF 0805 Ceramic 20% 16V X7R"
+		(property "Specifications (For Resistors/Capacitors)" "47uF 1210 Ceramic 20% 16V X7R"
 			(at 398.78 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -44287,7 +44287,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "1.2nF 0402 Ceramic 20% 50V X7R"
+		(property "Specifications (For Resistors/Capacitors)" "1.2nF 0402 Ceramic 10% 50V X7R"
 			(at 284.48 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -53651,7 +53651,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "91pF 0402 Ceramic 20% 50V C0G/NP0"
+		(property "Specifications (For Resistors/Capacitors)" "91pF 0402 Ceramic 5% 50V C0G/NP0"
 			(at 337.82 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -57145,7 +57145,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "1.2nF 0402 Ceramic 20% 50V X7R"
+		(property "Specifications (For Resistors/Capacitors)" "1.2nF 0402 Ceramic 10% 50V X7R"
 			(at 284.48 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -58057,7 +58057,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "1.2nF 0402 Ceramic 20% 50V X7R"
+		(property "Specifications (For Resistors/Capacitors)" "1.2nF 0402 Ceramic 10% 50V X7R"
 			(at 407.67 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -58527,7 +58527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 389.5852 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -58714,7 +58714,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "47uF 0805 Ceramic 20% 16V X7R"
+		(property "Specifications (For Resistors/Capacitors)" "47uF 1210 Ceramic 20% 16V X7R"
 			(at 388.62 166.37 90)
 			(hide yes)
 			(show_name no)

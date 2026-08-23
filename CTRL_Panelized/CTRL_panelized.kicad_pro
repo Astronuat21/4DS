@@ -611,12 +611,24 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -656,15 +668,20 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "CTRL_panelized.kicad_sch",
-        "name": "CTRL_panelized",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "untitled.kicad_sch",
+        "name": "",
+        "uuid": "3423ff97-cad6-48fa-9025-2c1963007e5b"
       }
     ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "3423ff97-cad6-48fa-9025-2c1963007e5b",
+      ""
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
