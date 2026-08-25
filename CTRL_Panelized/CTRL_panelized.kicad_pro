@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.0,
+          "height": 0.7,
+          "width": 0.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -668,8 +668,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "untitled.kicad_sch",
-        "name": "",
+        "filename": "CTRL_panelized.kicad_sch",
+        "name": "CTRL_panelized",
         "uuid": "3423ff97-cad6-48fa-9025-2c1963007e5b"
       }
     ],
