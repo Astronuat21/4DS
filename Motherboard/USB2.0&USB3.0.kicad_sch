@@ -3478,7 +3478,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50V"
+		(property "Value" "100nF"
 			(at 295.91 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3488,7 +3488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 293.37 198.4248 0)
 			(hide yes)
 			(show_name no)
@@ -3587,7 +3587,7 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Field-1" "N"
 			(at 491.49 455.93 0)
 			(hide yes)
 			(show_name no)
@@ -3686,7 +3686,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "TCC0402X5R104M500AT"
 			(at 289.56 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -5347,7 +5347,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/10V"
+		(property "Value" "22uF"
 			(at 326.39 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5357,7 +5357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 330.2 178.1048 0)
 			(hide yes)
 			(show_name no)
@@ -5555,7 +5555,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "CL10A226MP8NUNE"
 			(at 326.39 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -6612,7 +6612,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50V"
+		(property "Value" "100nF"
 			(at 295.91 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6622,7 +6622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 293.37 200.9648 0)
 			(hide yes)
 			(show_name no)
@@ -6721,7 +6721,7 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Field-1" "N"
 			(at 494.03 458.47 0)
 			(hide yes)
 			(show_name no)
@@ -6820,7 +6820,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "TCC0402X5R104M500AT"
 			(at 289.56 201.93 90)
 			(hide yes)
 			(show_name no)
@@ -7509,7 +7509,7 @@
 				)
 			)
 		)
-		(property "Value" "ULC0524P"
+		(property "Value" "D3V3XA4B10LP-7"
 			(at 293.37 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7519,7 +7519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1x2.5mm_P0.5mm"
 			(at 257.81 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -7706,7 +7706,7 @@
 				)
 			)
 		)
-		(property "MPN" "ESDULC0524P5-TP"
+		(property "MPN" "D3V3XA4B10LP-7"
 			(at 281.94 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8304,7 +8304,7 @@
 				)
 			)
 		)
-		(property "Value" "ULC0524P"
+		(property "Value" "D3V3XA4B10LP-7"
 			(at 363.22 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8314,7 +8314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1x2.5mm_P0.5mm"
 			(at 327.66 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -8501,7 +8501,7 @@
 				)
 			)
 		)
-		(property "MPN" "ESDULC0524P5-TP"
+		(property "MPN" "D3V3XA4B10LP-7"
 			(at 351.79 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8583,7 +8583,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/10V"
+		(property "Value" "22uF"
 			(at 326.39 254 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8593,7 +8593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 330.2 256.8448 0)
 			(hide yes)
 			(show_name no)
@@ -8791,7 +8791,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "CL10A226MP8NUNE"
 			(at 326.39 257.81 90)
 			(hide yes)
 			(show_name no)
@@ -8838,7 +8838,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50V"
+		(property "Value" "100nF"
 			(at 295.91 279.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8848,7 +8848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 293.37 279.7048 0)
 			(hide yes)
 			(show_name no)
@@ -8947,7 +8947,7 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Field-1" "N"
 			(at 572.77 537.21 0)
 			(hide yes)
 			(show_name no)
@@ -9046,7 +9046,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "TCC0402X5R104M500AT"
 			(at 289.56 280.67 90)
 			(hide yes)
 			(show_name no)
@@ -9093,7 +9093,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50V"
+		(property "Value" "100nF"
 			(at 295.91 276.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9103,7 +9103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 293.37 277.1648 0)
 			(hide yes)
 			(show_name no)
@@ -9202,7 +9202,7 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Field-1" "N"
 			(at 570.23 534.67 0)
 			(hide yes)
 			(show_name no)
@@ -9301,7 +9301,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "TCC0402X5R104M500AT"
 			(at 289.56 278.13 90)
 			(hide yes)
 			(show_name no)

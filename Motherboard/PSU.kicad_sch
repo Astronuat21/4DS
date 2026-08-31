@@ -8043,12 +8043,6 @@
 		(uuid "0131a02a-3844-4120-aa21-8b5398f1d9c5")
 	)
 	(junction
-		(at 274.32 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "033c5290-88e3-43eb-a3b3-f25fb8af9b50")
-	)
-	(junction
 		(at 458.47 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8145,6 +8139,12 @@
 		(uuid "1dfa7d5c-3224-4a0f-8cf5-4eecb1e1df64")
 	)
 	(junction
+		(at 257.81 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ff9dd22-67bd-442b-8d96-403b15c53216")
+	)
+	(junction
 		(at 558.8 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8161,6 +8161,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2559f392-5e40-4177-afbf-e08f0ce6b4bd")
+	)
+	(junction
+		(at 254 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26b7e4a6-d0c3-4051-ac2b-cfb04f17d520")
 	)
 	(junction
 		(at 306.07 314.96)
@@ -8209,12 +8215,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3413e784-bd0c-405b-a5b2-ea8b3e26b0e3")
-	)
-	(junction
-		(at 273.05 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "357ee466-34da-4758-8b51-f51d0cb6b799")
 	)
 	(junction
 		(at 568.96 283.21)
@@ -8277,22 +8277,16 @@
 		(uuid "44a0a15a-d1fb-4f55-a798-d56d169c139a")
 	)
 	(junction
-		(at 252.73 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4583459c-aa8a-4d38-b372-1b90fb87ed1b")
-	)
-	(junction
-		(at 262.89 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4672b3c8-b04c-42a5-b2d4-6fbd61b3f7aa")
-	)
-	(junction
 		(at 538.48 320.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49d818be-5a32-4679-8f80-a7170c0d46ae")
+	)
+	(junction
+		(at 274.32 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a1c4681-d840-47f6-bef4-1c1669e4cedc")
 	)
 	(junction
 		(at 248.92 186.69)
@@ -8367,10 +8361,10 @@
 		(uuid "5fe713f6-f20c-43f5-98f5-32ad0c76cecf")
 	)
 	(junction
-		(at 247.65 177.8)
+		(at 270.51 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6224e1b0-6ca0-4235-a562-32c41cca0cb3")
+		(uuid "62377111-2a17-4aa1-b530-9ab92b0f03ab")
 	)
 	(junction
 		(at 553.72 342.9)
@@ -8407,6 +8401,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b8e2fdd-a175-4d9f-ba6d-2ab53fbb77b5")
+	)
+	(junction
+		(at 252.73 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bae0171-c23d-4876-87d3-f10254b27016")
 	)
 	(junction
 		(at 222.25 118.11)
@@ -8457,12 +8457,6 @@
 		(uuid "74bd083a-01e1-4d88-9a41-480e11310b98")
 	)
 	(junction
-		(at 393.7 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75df6892-d21f-486c-80d2-61e3a96c21b3")
-	)
-	(junction
 		(at 563.88 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8473,12 +8467,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78d30583-b8a0-4acf-9e64-a556034e6bb0")
-	)
-	(junction
-		(at 403.86 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c801a2d-faee-495d-9f18-a111e17f5a89")
 	)
 	(junction
 		(at 496.57 354.33)
@@ -8511,6 +8499,12 @@
 		(uuid "80ba31ba-ee25-4be8-8b7f-751310ca8e6e")
 	)
 	(junction
+		(at 265.43 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81276b46-fa5b-499b-a099-7799015044cf")
+	)
+	(junction
 		(at 299.72 330.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8521,12 +8515,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82b80798-af57-45d7-95da-68aee2bffc5c")
-	)
-	(junction
-		(at 398.78 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83a00b7d-df8b-4ced-ac72-39d28d24b251")
 	)
 	(junction
 		(at 542.29 367.03)
@@ -8679,6 +8667,12 @@
 		(uuid "b280b17d-873b-414a-b920-77356667b459")
 	)
 	(junction
+		(at 255.27 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b485b1e1-8fb9-4f10-adec-197ae4199530")
+	)
+	(junction
 		(at 422.91 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8727,6 +8721,18 @@
 		(uuid "c80a0260-7f81-4390-9b28-3473543460c2")
 	)
 	(junction
+		(at 243.84 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c98faa9a-c7b3-4003-895c-9a58cb2a15f7")
+	)
+	(junction
+		(at 243.84 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9d3b0d1-5f62-4da9-ba81-532ceabae8e3")
+	)
+	(junction
 		(at 172.72 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8737,6 +8743,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd56883c-15a7-4e76-8c2b-58146547cd23")
+	)
+	(junction
+		(at 267.97 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce992f82-77fc-4296-9f5f-f28c899a2f51")
 	)
 	(junction
 		(at 252.73 220.98)
@@ -8781,12 +8793,6 @@
 		(uuid "d7ee44eb-9157-4dba-83d4-504fe1e05435")
 	)
 	(junction
-		(at 270.51 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d80699e4-7937-4e77-a2ae-1f6160b76c7e")
-	)
-	(junction
 		(at 344.17 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8823,12 +8829,6 @@
 		(uuid "de4009d2-29d8-42a7-9702-d925a7c57418")
 	)
 	(junction
-		(at 403.86 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0502780-a0b6-4c8b-bc3a-3ca936a48e7b")
-	)
-	(junction
 		(at 383.54 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8857,6 +8857,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e94501c6-9da3-4f66-b4d1-8f00843d58e4")
+	)
+	(junction
+		(at 260.35 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9dd944a-9d9f-496d-94e3-b9b2cdfc865e")
 	)
 	(junction
 		(at 344.17 311.15)
@@ -8905,6 +8911,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f87cfa5a-9310-44a6-8b9f-1b63238f5208")
+	)
+	(junction
+		(at 262.89 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa1a6d7d-22e2-4028-9292-4877e061fad8")
 	)
 	(junction
 		(at 538.48 283.21)
@@ -8972,7 +8984,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 181.61) (xy 243.84 177.8)
+			(xy 243.84 182.88) (xy 243.84 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9139,6 +9151,16 @@
 			(type default)
 		)
 		(uuid "07f27d82-0cb8-4bf0-b1a6-378a602deb54")
+	)
+	(wire
+		(pts
+			(xy 265.43 162.56) (xy 267.97 162.56)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "0a5b72c2-ccfb-4a6e-a57c-05435eb5a64a")
 	)
 	(wire
 		(pts
@@ -9416,7 +9438,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 181.61) (xy 243.84 181.61)
+			(xy 252.73 182.88) (xy 243.84 182.88)
 		)
 		(stroke
 			(width 0)
@@ -9453,6 +9475,16 @@
 			(type default)
 		)
 		(uuid "17b76bd9-f0a4-429d-8884-78a3b1544b42")
+	)
+	(wire
+		(pts
+			(xy 255.27 162.56) (xy 257.81 162.56)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "18886ff2-4259-4d0e-bac1-5996b740bd6a")
 	)
 	(wire
 		(pts
@@ -9544,6 +9576,26 @@
 			(type default)
 		)
 		(uuid "1cf86345-c85e-4b0a-82af-e7790024f503")
+	)
+	(wire
+		(pts
+			(xy 243.84 175.26) (xy 243.84 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d50def5-b862-4dbf-965a-3b0ada202ec0")
+	)
+	(wire
+		(pts
+			(xy 254 176.53) (xy 254 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8a55d1-f3a3-439a-acff-c34548c70596")
 	)
 	(wire
 		(pts
@@ -10012,13 +10064,13 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 162.56) (xy 274.32 162.56)
+			(xy 243.84 170.18) (xy 243.84 167.64)
 		)
 		(stroke
-			(width 1)
+			(width 0)
 			(type default)
 		)
-		(uuid "350bc7df-c9ec-4af0-8f56-e4564a0ced08")
+		(uuid "35269f56-22dd-4299-ad3e-47b03211f7c0")
 	)
 	(wire
 		(pts
@@ -10082,7 +10134,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 181.61) (xy 252.73 186.69)
+			(xy 252.73 182.88) (xy 252.73 186.69)
 		)
 		(stroke
 			(width 0)
@@ -10099,16 +10151,6 @@
 			(type default)
 		)
 		(uuid "38f7de69-792a-4015-8bd5-4c4de0526311")
-	)
-	(wire
-		(pts
-			(xy 393.7 148.59) (xy 398.78 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38fa4589-e810-45fd-b5a0-ba65cd04537e")
 	)
 	(wire
 		(pts
@@ -10245,6 +10287,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 162.56) (xy 260.35 162.56)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "3f1b0622-2cac-471a-b8fb-58ee66c69d63")
+	)
+	(wire
+		(pts
 			(xy 307.34 215.9) (xy 308.61 215.9)
 		)
 		(stroke
@@ -10252,16 +10304,6 @@
 			(type default)
 		)
 		(uuid "3f84114f-d3e1-4253-ab39-df838817da2c")
-	)
-	(wire
-		(pts
-			(xy 388.62 148.59) (xy 388.62 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "404da5e8-14a1-4544-b791-8a4ae572f4ec")
 	)
 	(wire
 		(pts
@@ -10586,6 +10628,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 170.18) (xy 254 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57197581-b413-44cc-a09b-786ad7e2b24e")
+	)
+	(wire
+		(pts
 			(xy 299.72 322.58) (xy 299.72 330.2)
 		)
 		(stroke
@@ -10658,16 +10710,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 162.56) (xy 273.05 162.56)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "5c451825-b6c8-4fec-afec-b090ab7006dd")
-	)
-	(wire
-		(pts
 			(xy 171.45 238.76) (xy 171.45 224.79)
 		)
 		(stroke
@@ -10736,6 +10778,16 @@
 			(type default)
 		)
 		(uuid "5e9d164d-89b4-49c3-b2a4-29a513ca1666")
+	)
+	(wire
+		(pts
+			(xy 257.81 162.56) (xy 275.59 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee427bf-1ffd-40c4-b5d8-6acac1bbb627")
 	)
 	(wire
 		(pts
@@ -10879,6 +10931,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 162.56) (xy 274.32 162.56)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "6c26733a-a0d5-4c91-af69-65bcb32b19ac")
+	)
+	(wire
+		(pts
 			(xy 351.79 311.15) (xy 344.17 311.15)
 		)
 		(stroke
@@ -10989,16 +11051,6 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 148.59) (xy 398.78 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73558425-a716-43bd-97cc-c096a91556ea")
-	)
-	(wire
-		(pts
 			(xy 568.96 320.04) (xy 563.88 320.04)
 		)
 		(stroke
@@ -11079,6 +11131,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 162.56) (xy 255.27 162.56)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "78c972ea-d622-4816-b92d-7fb15f18d34f")
+	)
+	(wire
+		(pts
 			(xy 226.06 250.19) (xy 231.14 250.19)
 		)
 		(stroke
@@ -11086,26 +11148,6 @@
 			(type default)
 		)
 		(uuid "79421c3c-f1b2-4329-a26b-1467bbcbbf1c")
-	)
-	(wire
-		(pts
-			(xy 403.86 162.56) (xy 410.21 162.56)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "7bd8f822-2c4d-407e-973f-728c5019480b")
-	)
-	(wire
-		(pts
-			(xy 403.86 148.59) (xy 403.86 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c669b42-80f0-48fa-8210-9940641ccf2a")
 	)
 	(wire
 		(pts
@@ -11279,16 +11321,6 @@
 			(type default)
 		)
 		(uuid "8210495f-5977-46c6-abc2-9736b5aa91b9")
-	)
-	(wire
-		(pts
-			(xy 252.73 177.8) (xy 247.65 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "822dd234-b1ed-43a1-8019-1f7ba1284762")
 	)
 	(wire
 		(pts
@@ -11544,16 +11576,6 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 148.59) (xy 393.7 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f1b09c2-3dd2-4426-8d48-d43feee7f6e5")
-	)
-	(wire
-		(pts
 			(xy 274.32 162.56) (xy 289.56 162.56)
 		)
 		(stroke
@@ -11694,16 +11716,6 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 148.59) (xy 403.86 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "988e073a-701e-4b77-95af-89e3e2f35015")
-	)
-	(wire
-		(pts
 			(xy 156.21 144.78) (xy 156.21 270.51)
 		)
 		(stroke
@@ -11814,16 +11826,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 162.56) (xy 270.51 162.56)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "9d682b1f-6a72-458e-b74d-a307913cc842")
-	)
-	(wire
-		(pts
 			(xy 190.5 121.92) (xy 195.58 121.92)
 		)
 		(stroke
@@ -11852,16 +11854,6 @@
 			(type default)
 		)
 		(uuid "9db62886-04ca-4d81-b73b-4793cfbf8da7")
-	)
-	(wire
-		(pts
-			(xy 243.84 177.8) (xy 247.65 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e80d2bd-7e8f-4ff7-95d8-a4181295692f")
 	)
 	(wire
 		(pts
@@ -12056,7 +12048,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 177.8) (xy 243.84 167.64)
+			(xy 243.84 177.8) (xy 243.84 175.26)
 		)
 		(stroke
 			(width 0)
@@ -12458,16 +12450,6 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 148.59) (xy 393.7 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf18e4b7-ae3e-46b8-b6cf-9cd0a46fc035")
-	)
-	(wire
-		(pts
 			(xy 226.06 193.04) (xy 226.06 156.21)
 		)
 		(stroke
@@ -12595,6 +12577,16 @@
 			(type default)
 		)
 		(uuid "c5eede3d-5b3c-4b2a-aac8-004c90296533")
+	)
+	(wire
+		(pts
+			(xy 260.35 162.56) (xy 262.89 162.56)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "c6572062-66bb-4bf3-a832-fec5148d6aed")
 	)
 	(wire
 		(pts
@@ -12779,16 +12771,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 175.26) (xy 247.65 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce1a3513-53b5-445a-b72e-5b976ef7ffde")
-	)
-	(wire
-		(pts
 			(xy 295.91 124.46) (xy 297.18 124.46)
 		)
 		(stroke
@@ -12887,16 +12869,6 @@
 			(type default)
 		)
 		(uuid "d4b068b0-44a3-4c23-98e5-b7600966ddf8")
-	)
-	(wire
-		(pts
-			(xy 252.73 175.26) (xy 252.73 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4c6ab30-afad-4c20-b635-bff5e12a7675")
 	)
 	(wire
 		(pts
@@ -13142,6 +13114,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 170.18) (xy 254 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1557252-d33f-417e-bbf7-fb301a2bcfc0")
+	)
+	(wire
+		(pts
 			(xy 287.02 90.17) (xy 287.02 100.33)
 		)
 		(stroke
@@ -13262,16 +13244,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 162.56) (xy 262.89 162.56)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "e79ff57e-7d99-49fe-a39a-14db3baf86e2")
-	)
-	(wire
-		(pts
 			(xy 172.72 250.19) (xy 172.72 269.24)
 		)
 		(stroke
@@ -13279,6 +13251,16 @@
 			(type default)
 		)
 		(uuid "e7cea817-5baa-4c50-b30c-48a60cdba140")
+	)
+	(wire
+		(pts
+			(xy 262.89 162.56) (xy 265.43 162.56)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "e807af02-e9d4-4583-88fd-c7f15d30812e")
 	)
 	(wire
 		(pts
@@ -13313,7 +13295,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 162.56) (xy 403.86 162.56)
+			(xy 398.78 162.56) (xy 410.21 162.56)
 		)
 		(stroke
 			(width 1)
@@ -13557,6 +13539,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 175.26) (xy 251.46 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f854819b-eb59-4b62-b495-c5dd8b549705")
+	)
+	(wire
+		(pts
 			(xy 222.25 152.4) (xy 240.03 152.4)
 		)
 		(stroke
@@ -13605,6 +13597,16 @@
 			(type default)
 		)
 		(uuid "f9d07bd9-6887-4946-9cb1-e93dc8bd94d0")
+	)
+	(wire
+		(pts
+			(xy 267.97 162.56) (xy 270.51 162.56)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "fa4643bd-8d8e-46c0-aaae-0c85d8f0473a")
 	)
 	(wire
 		(pts
@@ -14466,7 +14468,7 @@
 		(uuid "c141128d-47a4-4692-9a2c-0e48c6cc9b9c")
 	)
 	(label "BAT+"
-		(at 252.73 181.61 0)
+		(at 252.73 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15141,7 +15143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 331.1652 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -15339,7 +15341,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "GRM155R61A393KA01D"
 			(at 330.2 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -15673,7 +15675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 345.948 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -16511,7 +16513,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/16V"
+		(property "Value" "1uF"
 			(at 287.02 316.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16521,7 +16523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 293.0652 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -16719,7 +16721,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "TCC0402X5R105M160AT"
 			(at 292.1 318.77 0)
 			(hide yes)
 			(show_name no)
@@ -17214,7 +17216,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/1%"
+		(property "Value" "4.7k/1%"
 			(at 184.15 174.752 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17224,7 +17226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 184.15 174.498 90)
 			(hide yes)
 			(show_name no)
@@ -17422,7 +17424,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "CQ02WGF4701TCE"
 			(at 184.15 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -17469,7 +17471,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1K/1%"
+		(property "Value" "5.1k/1%"
 			(at 262.89 213.868 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17479,7 +17481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 262.89 214.122 90)
 			(hide yes)
 			(show_name no)
@@ -17677,7 +17679,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "AC0402FR-075K1L"
 			(at 262.89 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -17725,7 +17727,7 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "10k/1%"
 			(at 242.062 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17735,7 +17737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 241.808 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -17933,7 +17935,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "MCR01MZPF1002"
 			(at 240.03 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -18755,7 +18757,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "47uF 1210 Ceramic 20% 16V X7R"
+		(property "Specifications (For Resistors/Capacitors)" "47uF 1210 Ceramic 20% 16V X5R"
 			(at 393.7 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -18766,7 +18768,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "C1210C476M4PACTU"
 			(at 393.7 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -18798,10 +18800,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "0a00c9b1-abe8-4168-bb19-af70b6447348")
 		(property "Reference" "C101"
 			(at 288.544 88.392 90)
@@ -19021,7 +19023,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "CL10A106MQ8NNWC"
 			(at 292.1 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19376,10 +19378,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "0e67cc34-a723-4551-80f6-3b2f80045468")
 		(property "Reference" "R134"
 			(at 330.2 105.664 90)
@@ -19599,7 +19601,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "SFR01MZPF1003"
 			(at 330.2 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -19646,7 +19648,7 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "10k/1%"
 			(at 189.23 159.512 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19656,7 +19658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.23 159.258 90)
 			(hide yes)
 			(show_name no)
@@ -19854,7 +19856,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "MCR01MZPF1002"
 			(at 189.23 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -20067,7 +20069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 295.91 123.4948 0)
 			(hide yes)
 			(show_name no)
@@ -20254,7 +20256,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "10uF 0603 Ceramic 20% 6.3V X5R"
+		(property "Specifications (For Resistors/Capacitors)" "10uF 0402 Ceramic 20% 6.3V X5R"
 			(at 292.1 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -20265,7 +20267,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "GRM155R60J106ME15D"
 			(at 292.1 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -20938,7 +20940,7 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "10k/1%"
 			(at 195.58 147.828 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20948,7 +20950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 195.58 148.082 90)
 			(hide yes)
 			(show_name no)
@@ -21146,7 +21148,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "MCR01MZPF1002"
 			(at 195.58 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -21282,7 +21284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 184.15 168.402 90)
 			(hide yes)
 			(show_name no)
@@ -21480,7 +21482,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "SFR01MZPF1003"
 			(at 184.15 170.18 90)
 			(hide yes)
 			(show_name no)
@@ -21604,7 +21606,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF/25V"
+		(property "Value" "10uF"
 			(at 184.15 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21614,7 +21616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.3852 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -21812,7 +21814,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "CM105X5R106M25AT"
 			(at 185.42 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -22140,7 +22142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 285.4452 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -22338,7 +22340,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "TCC0402X5R224M100AT"
 			(at 284.48 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -22656,262 +22658,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 403.86 158.75 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e5a0e38-c65d-427e-9699-25da440f8fc4")
-		(property "Reference" "C157"
-			(at 401.828 160.782 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "22uF/25V"
-			(at 405.13 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 402.8948 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 403.86 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 403.86 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SCH_Show_Footprint" "C603"
-			(at 403.86 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 403.86 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 403.86 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 403.86 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 848.36 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at 848.36 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 848.36 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "any/open"
-			(at 403.86 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 403.86 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 403.86 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 403.86 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VIN" ""
-			(at 403.86 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 403.86 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 403.86 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "22uF 1210 Ceramic 20% 25V X7R"
-			(at 403.86 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM32ER61E226KE15L"
-			(at 403.86 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4a45875f-5f85-4f1a-9b89-b20f3186dc0e")
-		)
-		(pin "1"
-			(uuid "d32df92c-a831-4725-ab97-3aae0d265eeb")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "C157")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 226.06 262.89 90)
 		(unit 1)
@@ -23064,6 +22810,262 @@
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 260.35 158.75 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2058ab3b-3d03-4e2a-a27c-2f7449d3d986")
+		(property "Reference" "C215"
+			(at 257.81 156.464 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 262.89 160.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 261.3152 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "C603"
+			(at 260.35 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 260.35 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 260.35 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 260.35 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" ""
+			(at -184.15 -12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" ""
+			(at -184.15 -12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at -184.15 -12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "any/open"
+			(at 260.35 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 260.35 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 260.35 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 260.35 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VIN" ""
+			(at 260.35 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 260.35 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 260.35 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications (For Resistors/Capacitors)" "10uF 0402 Ceramic 20% 6.3V X5R"
+			(at 260.35 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R60J106ME15D"
+			(at 260.35 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "46e64a3a-5820-4fd2-88a9-6115bbd2cd04")
+		)
+		(pin "1"
+			(uuid "cc891700-9cf3-4c9d-b7a2-6945a5a8642f")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
+					(reference "C215")
 					(unit 1)
 				)
 			)
@@ -23270,7 +23272,7 @@
 				)
 			)
 		)
-		(property "Value" "249K/1%"
+		(property "Value" "249k/1%"
 			(at 337.82 144.018 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23280,7 +23282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 337.82 144.272 90)
 			(hide yes)
 			(show_name no)
@@ -23478,7 +23480,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "0402WGF2493TCE"
 			(at 337.82 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -23525,7 +23527,7 @@
 				)
 			)
 		)
-		(property "Value" "100K/1%"
+		(property "Value" "100k/1%"
 			(at 453.39 182.372 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23535,7 +23537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 453.39 182.118 90)
 			(hide yes)
 			(show_name no)
@@ -23733,7 +23735,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "SFR01MZPF1003"
 			(at 453.39 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -24021,10 +24023,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "2490b05e-d816-42dc-a92a-5ef5f95117f2")
 		(property "Reference" "R136"
 			(at 284.48 106.68 90)
@@ -24291,7 +24293,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF/25V"
+		(property "Value" "0.1uF"
 			(at 194.31 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24301,7 +24303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 196.5452 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -24400,7 +24402,7 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Field-1" "G"
 			(at -248.92 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -24488,7 +24490,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "0.1uF 0603 Ceramic 10% 25V X5R"
+		(property "Specifications (For Resistors/Capacitors)" "0.1uF 0402 Ceramic 10% 25V X5R"
 			(at 195.58 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -24791,7 +24793,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 469.9 174.498 0)
+			(at 463.042 174.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24998,7 +25000,7 @@
 				)
 			)
 		)
-		(property "MPN" "MCASA21GAB5226MTNA01"
+		(property "MPN" "GRM21BR61A226ME44L"
 			(at 467.36 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -25880,7 +25882,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Zhengxin"
 			(at 179.07 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -26004,7 +26006,7 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "10k/1%"
 			(at 199.39 243.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26014,7 +26016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 193.04 246.888 90)
 			(hide yes)
 			(show_name no)
@@ -26179,7 +26181,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "MCR01MZPF1002"
 			(at 193.04 245.11 90)
 			(hide yes)
 			(show_name no)
@@ -26226,7 +26228,7 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "10k/1%"
 			(at 313.182 217.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26236,7 +26238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 312.928 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -26434,7 +26436,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "MCR01MZPF1002"
 			(at 311.15 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -26560,7 +26562,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/16V"
+		(property "Value" "1uF"
 			(at 199.39 254 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26570,7 +26572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 190.5 253.6952 0)
 			(hide yes)
 			(show_name no)
@@ -26735,7 +26737,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "TCC0402X5R105M160AT"
 			(at 194.31 252.73 90)
 			(hide yes)
 			(show_name no)
@@ -26762,6 +26764,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 262.89 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31f9dc41-62e1-465d-8da4-662b284be446")
+		(property "Reference" "#PWR0339"
+			(at 262.89 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74737564-2701-46a0-914e-23e028cdc259")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
+					(reference "#PWR0339")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 407.67 182.88 270)
 		(unit 1)
@@ -26782,7 +26861,7 @@
 				)
 			)
 		)
-		(property "Value" "40.2K/1%"
+		(property "Value" "40.2k/1%"
 			(at 407.67 180.848 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26792,7 +26871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 407.67 181.102 90)
 			(hide yes)
 			(show_name no)
@@ -27540,7 +27619,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K/1%"
+		(property "Value" "2.2k/1%"
 			(at 409.194 136.144 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27551,7 +27630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 405.13 133.858 90)
 			(hide yes)
 			(show_name no)
@@ -27749,7 +27828,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "NQ02WGF2201TCE"
 			(at 405.13 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -27806,7 +27885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 461.01 182.372 90)
 			(hide yes)
 			(show_name no)
@@ -28004,7 +28083,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "NQ02WGF7682TCE"
 			(at 461.01 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -28527,10 +28606,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3e9ce304-57ab-4575-a82a-2df5267e724f")
 		(property "Reference" "#PWR0128"
@@ -28758,7 +28837,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 262.89 170.18 0)
+		(at 265.43 154.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28768,7 +28847,7 @@
 		(dnp no)
 		(uuid "3ff5d130-500f-4d9a-a215-e90beb582244")
 		(property "Reference" "#PWR0279"
-			(at 262.89 176.53 0)
+			(at 265.43 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28779,7 +28858,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 173.99 0)
+			(at 265.43 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28789,7 +28868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 170.18 0)
+			(at 265.43 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28800,7 +28879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 170.18 0)
+			(at 265.43 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28811,7 +28890,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 170.18 0)
+			(at 265.43 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28839,10 +28918,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "40dbfa18-6ab1-447b-a76b-ef42db9b2cfc")
 		(property "Reference" "IC81"
@@ -29069,7 +29148,7 @@
 				)
 			)
 		)
-		(property "Value" "40.2K/1%"
+		(property "Value" "40.2k/1%"
 			(at 328.168 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29079,7 +29158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 328.422 173.99 90)
 			(hide yes)
 			(show_name no)
@@ -29824,7 +29903,7 @@
 				)
 			)
 		)
-		(property "Value" "1K/1%"
+		(property "Value" "1k/1%"
 			(at 361.95 250.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29834,7 +29913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 361.95 254.508 90)
 			(hide yes)
 			(show_name no)
@@ -30032,7 +30111,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "CQ02WGF1001TCE"
 			(at 361.95 252.73 90)
 			(hide yes)
 			(show_name no)
@@ -30335,7 +30414,7 @@
 				)
 			)
 		)
-		(property "Value" "127K/1%"
+		(property "Value" "127k/1%"
 			(at 196.088 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30345,7 +30424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 196.342 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -30543,7 +30622,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "0402WGF1273TCE"
 			(at 198.12 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -31209,7 +31288,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "WSLP2512R0100FED"
 			(at 267.97 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -31431,7 +31510,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Zhengxin"
 			(at 374.65 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -32178,7 +32257,7 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "10k/1%"
 			(at 195.58 154.432 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32188,7 +32267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 195.58 154.178 90)
 			(hide yes)
 			(show_name no)
@@ -32386,7 +32465,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "MCR01MZPF1002"
 			(at 195.58 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -32897,7 +32976,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "NQ06W4F1000T5E"
 			(at 231.14 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -32918,6 +32997,262 @@
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
 					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 262.89 166.37 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "590ed2a0-2009-4fd3-912e-5a38a9dc2ae4")
+		(property "Reference" "C218"
+			(at 265.43 168.656 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 260.35 164.338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 261.9248 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "C603"
+			(at 262.89 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 262.89 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 262.89 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 262.89 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" ""
+			(at 707.39 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" ""
+			(at 707.39 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 707.39 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "any/open"
+			(at 262.89 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 262.89 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 262.89 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 262.89 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VIN" ""
+			(at 262.89 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 262.89 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 262.89 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications (For Resistors/Capacitors)" "10uF 0402 Ceramic 20% 6.3V X5R"
+			(at 262.89 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R60J106ME15D"
+			(at 262.89 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "747f5e59-bd57-41a1-994a-d5a0c072b712")
+		)
+		(pin "1"
+			(uuid "58b57597-2197-4a1d-b92d-2d126fb38330")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
+					(reference "C218")
 					(unit 1)
 				)
 			)
@@ -33396,9 +33731,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5f5b8bc9-6b41-4790-b31c-12a7ac1f4cec")
 		(property "Reference" "TP7"
@@ -34391,7 +34726,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF/25V"
+		(property "Value" "10uF"
 			(at 226.06 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34401,7 +34736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 228.2952 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -34599,7 +34934,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "CM105X5R106M25AT"
 			(at 227.33 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -35283,7 +35618,7 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "10k/1%"
 			(at 364.49 255.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35293,7 +35628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 371.348 256.54 90)
 			(hide yes)
 			(show_name no)
@@ -35491,7 +35826,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "MCR01MZPF1002"
 			(at 369.57 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -35772,7 +36107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 186.69 182.372 90)
 			(hide yes)
 			(show_name no)
@@ -35970,7 +36305,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "CR0402-FX-5231GLF"
 			(at 186.69 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -36002,10 +36337,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6e32fef9-377e-4a1a-ab43-e78dbe237937")
 		(property "Reference" "#PWR0125"
@@ -36145,7 +36480,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 308.61 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -36818,7 +37153,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Zhengxin"
 			(at 245.11 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -37031,7 +37366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 281.94 178.1048 0)
 			(hide yes)
 			(show_name no)
@@ -37218,7 +37553,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "2.2uF 0603 Ceramic 20% 10V X7R"
+		(property "Specifications (For Resistors/Capacitors)" "2.2uF 0603 Ceramic 10% 25V X5R"
 			(at 285.75 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -37229,7 +37564,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "C1608X5R1E225KTJ00N"
 			(at 285.75 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -37984,7 +38319,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 252.73 171.45 0)
+		(at 247.65 175.26 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -37995,7 +38330,7 @@
 		(dnp no)
 		(uuid "7d5c11c1-17fa-4749-b056-937f21005130")
 		(property "Reference" "C96"
-			(at 250.698 169.418 0)
+			(at 250.444 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38004,8 +38339,8 @@
 				)
 			)
 		)
-		(property "Value" "10uF/10V"
-			(at 254.254 176.53 90)
+		(property "Value" "10uF"
+			(at 250.698 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38014,8 +38349,8 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
-			(at 253.6952 167.64 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 251.46 176.2252 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38026,7 +38361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 171.45 0)
+			(at 247.65 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38037,7 +38372,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 171.45 0)
+			(at 247.65 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38048,7 +38383,7 @@
 			)
 		)
 		(property "SCH_Show_Footprint" "C603"
-			(at 252.73 171.45 0)
+			(at 247.65 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38059,7 +38394,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 252.73 171.45 0)
+			(at 247.65 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38070,7 +38405,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 252.73 171.45 0)
+			(at 247.65 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38081,7 +38416,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 252.73 171.45 0)
+			(at 247.65 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38092,7 +38427,7 @@
 			)
 		)
 		(property "Buy_Link" ""
-			(at -191.77 0 0)
+			(at 419.1 -269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38103,7 +38438,7 @@
 			)
 		)
 		(property "DF_Comment" ""
-			(at -191.77 0 0)
+			(at 419.1 -269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38113,8 +38448,8 @@
 				)
 			)
 		)
-		(property "Field-1" ""
-			(at -191.77 0 0)
+		(property "Field-1" "G"
+			(at 419.1 -269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38125,7 +38460,7 @@
 			)
 		)
 		(property "Manufacturer" "any/open"
-			(at 252.73 171.45 0)
+			(at 247.65 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38136,7 +38471,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 252.73 171.45 0)
+			(at 247.65 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38147,7 +38482,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 252.73 171.45 0)
+			(at 247.65 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38158,7 +38493,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 252.73 171.45 0)
+			(at 247.65 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38169,7 +38504,7 @@
 			)
 		)
 		(property "KLC_S4.2_VIN" ""
-			(at 252.73 171.45 0)
+			(at 247.65 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38180,7 +38515,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 252.73 171.45 0)
+			(at 247.65 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38191,7 +38526,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 252.73 171.45 0)
+			(at 247.65 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38201,8 +38536,8 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "10uF 0603 Ceramic 20% 10V X5R"
-			(at 252.73 171.45 0)
+		(property "Specifications (For Resistors/Capacitors)" "10uF 0402 Ceramic 20% 10V X5R"
+			(at 247.65 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38212,8 +38547,8 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
-			(at 252.73 171.45 0)
+		(property "MPN" "GMC04X5R106M10NT"
+			(at 247.65 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38428,7 +38763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 370.84 205.232 90)
 			(hide yes)
 			(show_name no)
@@ -38626,7 +38961,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "AC0402FR-07100RL"
 			(at 370.84 207.01 90)
 			(hide yes)
 			(show_name no)
@@ -39487,7 +39822,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF/25V"
+		(property "Value" "10uF"
 			(at 220.98 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39497,7 +39832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 223.2152 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -39695,7 +40030,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "CM105X5R106M25AT"
 			(at 222.25 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -39742,7 +40077,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF/25V"
+		(property "Value" "10uF"
 			(at 231.14 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39752,7 +40087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 233.3752 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -39950,7 +40285,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "CM105X5R106M25AT"
 			(at 232.41 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -40157,6 +40492,262 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 255.27 158.75 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c514916-82f8-41a6-9668-92f36bfac6fd")
+		(property "Reference" "C216"
+			(at 252.73 156.464 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 257.81 160.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 256.2352 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "C603"
+			(at 255.27 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 255.27 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 255.27 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 255.27 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" ""
+			(at -189.23 -12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" ""
+			(at -189.23 -12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at -189.23 -12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "any/open"
+			(at 255.27 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 255.27 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 255.27 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 255.27 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VIN" ""
+			(at 255.27 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 255.27 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 255.27 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications (For Resistors/Capacitors)" "10uF 0402 Ceramic 20% 6.3V X5R"
+			(at 255.27 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R60J106ME15D"
+			(at 255.27 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b9143284-ed45-4cb6-abb2-5e975d1fc190")
+		)
+		(pin "1"
+			(uuid "aeb20378-71af-4bbc-8d8b-1887b30f4f2e")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
+					(reference "C216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 466.09 320.04 0)
 		(unit 1)
@@ -40228,262 +40819,6 @@
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
 					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 398.78 158.75 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8eee3003-e880-4d61-babc-53c91d5e84d6")
-		(property "Reference" "C156"
-			(at 396.748 160.782 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "22uF/25V"
-			(at 400.05 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 397.8148 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 398.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 398.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SCH_Show_Footprint" "C603"
-			(at 398.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 398.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 398.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 398.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 843.28 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at 843.28 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 843.28 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "any/open"
-			(at 398.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 398.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 398.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 398.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VIN" ""
-			(at 398.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 398.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 398.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "22uF 1210 Ceramic 20% 25V X7R"
-			(at 398.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM32ER61E226KE15L"
-			(at 398.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b37381ee-6c62-44b5-9aa0-d4e4366b5a3b")
-		)
-		(pin "1"
-			(uuid "d713b02a-d9ad-4d8f-9367-dd31ab115244")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "C156")
 					(unit 1)
 				)
 			)
@@ -40704,7 +41039,7 @@
 				)
 			)
 		)
-		(property "Value" "47nF/10V"
+		(property "Value" "47nF"
 			(at 232.918 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40714,7 +41049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 227.6348 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -40912,7 +41247,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "GMK107BJ473KAHT"
 			(at 228.6 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -41460,7 +41795,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Zhengxin"
 			(at 248.92 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -41900,7 +42235,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 273.05 166.37 0)
+		(at 257.81 166.37 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -41911,7 +42246,7 @@
 		(dnp no)
 		(uuid "9476e827-a8a3-461b-9fdd-be7ee9babd01")
 		(property "Reference" "C171"
-			(at 270.51 164.084 0)
+			(at 260.35 168.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41921,7 +42256,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 275.59 164.084 0)
+			(at 255.016 164.338 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41930,8 +42265,8 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
-			(at 274.0152 162.56 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 258.7752 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41942,7 +42277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 166.37 0)
+			(at 257.81 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41953,7 +42288,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 166.37 0)
+			(at 257.81 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41964,7 +42299,7 @@
 			)
 		)
 		(property "SCH_Show_Footprint" "C603"
-			(at 273.05 166.37 0)
+			(at 257.81 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41975,7 +42310,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 273.05 166.37 0)
+			(at 257.81 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41986,7 +42321,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 273.05 166.37 0)
+			(at 257.81 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41997,7 +42332,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 273.05 166.37 0)
+			(at 257.81 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42008,7 +42343,7 @@
 			)
 		)
 		(property "Buy_Link" ""
-			(at -171.45 -5.08 0)
+			(at -186.69 -5.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42019,7 +42354,7 @@
 			)
 		)
 		(property "DF_Comment" ""
-			(at -171.45 -5.08 0)
+			(at -186.69 -5.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42030,7 +42365,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at -171.45 -5.08 0)
+			(at -186.69 -5.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42041,7 +42376,7 @@
 			)
 		)
 		(property "Manufacturer" "any/open"
-			(at 273.05 166.37 90)
+			(at 257.81 166.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42052,7 +42387,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 273.05 166.37 90)
+			(at 257.81 166.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42063,7 +42398,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 273.05 166.37 90)
+			(at 257.81 166.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42074,7 +42409,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 273.05 166.37 90)
+			(at 257.81 166.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42085,7 +42420,7 @@
 			)
 		)
 		(property "KLC_S4.2_VIN" ""
-			(at 273.05 166.37 90)
+			(at 257.81 166.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42096,7 +42431,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 273.05 166.37 90)
+			(at 257.81 166.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42107,7 +42442,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 273.05 166.37 90)
+			(at 257.81 166.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42118,7 +42453,7 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" "100nF 0603 Ceramic 10% 6.3V X7R"
-			(at 273.05 166.37 90)
+			(at 257.81 166.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42128,8 +42463,8 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
-			(at 273.05 166.37 90)
+		(property "MPN" "C0603C104K9RACTU"
+			(at 257.81 166.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42255,7 +42590,7 @@
 				)
 			)
 		)
-		(property "Value" "100K/1%"
+		(property "Value" "100k/1%"
 			(at 375.92 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42265,7 +42600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 382.778 213.36 90)
 			(hide yes)
 			(show_name no)
@@ -42463,7 +42798,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "SFR01MZPF1003"
 			(at 381 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -42708,7 +43043,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "47uF 1210 Ceramic 20% 16V X7R"
+		(property "Specifications (For Resistors/Capacitors)" "47uF 1210 Ceramic 20% 16V X5R"
 			(at 398.78 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -42719,7 +43054,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "C1210C476M4PACTU"
 			(at 398.78 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -43065,7 +43400,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 167.64 180)
+		(at 254 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -43075,7 +43410,7 @@
 		(dnp no)
 		(uuid "9d5af54b-d255-4f0e-b3e0-79e5198710e4")
 		(property "Reference" "#PWR0238"
-			(at 252.73 161.29 0)
+			(at 254 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43086,7 +43421,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 163.83 0)
+			(at 254 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43096,7 +43431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 167.64 0)
+			(at 254 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43107,7 +43442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 167.64 0)
+			(at 254 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43118,7 +43453,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 167.64 0)
+			(at 254 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43211,7 +43546,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 378.46 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -43323,262 +43658,6 @@
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
 					(reference "Q81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 393.7 158.75 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9e5ef85c-438a-41c0-bb13-5db91b0184b1")
-		(property "Reference" "C155"
-			(at 391.668 160.782 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "22uF/25V"
-			(at 394.97 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 392.7348 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 393.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 393.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SCH_Show_Footprint" "C603"
-			(at 393.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 393.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 393.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 393.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 838.2 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at 838.2 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 838.2 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "any/open"
-			(at 393.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 393.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 393.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 393.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VIN" ""
-			(at 393.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 393.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 393.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "22uF 1210 Ceramic 20% 25V X7R"
-			(at 393.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM32ER61E226KE15L"
-			(at 393.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2c0c001d-f5db-4131-8d1e-80d9002779c9")
-		)
-		(pin "1"
-			(uuid "4fc5e431-ae8a-4339-82ed-85c9b2358a5c")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "C155")
 					(unit 1)
 				)
 			)
@@ -43995,10 +44074,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a33bc163-15c4-4367-884e-bde71a8671e8")
 		(property "Reference" "#PWR0246"
@@ -44075,10 +44154,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "a4f6e179-58f2-426c-9d58-979ee7128890")
 		(property "Reference" "C167"
 			(at 287.782 112.776 90)
@@ -44298,7 +44377,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "0402B122K500CT"
 			(at 284.48 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -44330,10 +44409,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a53433a2-9c14-40d9-bdb5-0f8be673ea66")
 		(property "Reference" "L80"
@@ -44525,7 +44604,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF/4V"
+		(property "Value" "22uF"
 			(at 340.614 136.398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45259,264 +45338,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 388.62 158.75 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aa5996b7-60f3-4a4a-be1f-bc6b27d929fe")
-		(property "Reference" "C154"
-			(at 386.588 160.782 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "22uF/25V"
-			(at 389.89 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 387.6548 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 388.62 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SCH_Show_Footprint" "C603"
-			(at 388.62 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 388.62 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 388.62 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 388.62 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 833.12 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at 833.12 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 833.12 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "any/open"
-			(at 388.62 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 388.62 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 388.62 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 388.62 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VIN" ""
-			(at 388.62 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 388.62 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 388.62 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "22uF 1210 Ceramic 20% 25V X7R"
-			(at 388.62 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM32ER61E226KE15L"
-			(at 388.62 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "04084482-b980-4726-8d19-befdf4699b1d")
-		)
-		(pin "1"
-			(uuid "83c2a8f0-3476-44cc-bbbd-6a8241306aa5")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "C154")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 273.05 170.18 0)
+		(at 257.81 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -45526,7 +45349,7 @@
 		(dnp no)
 		(uuid "aa776e55-408e-492e-be41-cfe8eb740371")
 		(property "Reference" "#PWR0280"
-			(at 273.05 176.53 0)
+			(at 257.81 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45537,7 +45360,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 173.99 0)
+			(at 257.81 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45547,7 +45370,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 170.18 0)
+			(at 257.81 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45558,7 +45381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 170.18 0)
+			(at 257.81 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45569,7 +45392,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 170.18 0)
+			(at 257.81 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45848,7 +45671,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 280.67 114.3 270)
+		(at 255.27 154.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -45856,6 +45679,83 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(uuid "ad76feb4-4380-4f1c-b2a5-81c6034226f0")
+		(property "Reference" "#PWR0320"
+			(at 255.27 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d925c71-38ca-4dbd-8963-93911bc98f27")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
+					(reference "#PWR0320")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 280.67 114.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ae024968-492a-4677-a2e1-9f0b0c7b7005")
 		(property "Reference" "#PWR0199"
@@ -46283,7 +46183,7 @@
 				)
 			)
 		)
-		(property "Value" "40.2K/1%"
+		(property "Value" "40.2k/1%"
 			(at 284.48 142.748 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46293,7 +46193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 284.48 143.002 90)
 			(hide yes)
 			(show_name no)
@@ -46518,8 +46418,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 360.68 101.6 180)
+		(lib_id "Device:C")
+		(at 267.97 166.37 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -46527,6 +46428,261 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(uuid "b110346a-20c0-47e6-8d1f-87b78482a367")
+		(property "Reference" "C217"
+			(at 270.51 168.656 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 265.43 164.338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 267.0048 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SCH_Show_Footprint" "C603"
+			(at 267.97 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 267.97 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 267.97 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_Link" ""
+			(at 712.47 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DF_Comment" ""
+			(at 712.47 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 712.47 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "any/open"
+			(at 267.97 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 267.97 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 267.97 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 267.97 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VIN" ""
+			(at 267.97 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 267.97 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 267.97 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications (For Resistors/Capacitors)" "10uF 0402 Ceramic 20% 6.3V X5R"
+			(at 267.97 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R60J106ME15D"
+			(at 267.97 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5069584f-4305-48f2-821e-97cda3203d9b")
+		)
+		(pin "1"
+			(uuid "57883994-81b3-4f53-a10c-ac2754e0f497")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
+					(reference "C217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 360.68 101.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b1a2c70c-d89c-4b8f-8fa4-443df7297949")
 		(property "Reference" "#FLG0903"
@@ -46873,84 +47029,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 403.86 148.59 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b377d2f7-7710-4eb1-8413-fdbb85225222")
-		(property "Reference" "#PWR0141"
-			(at 403.86 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 403.86 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 403.86 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 403.86 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 403.86 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30b5a5a6-04d5-4163-a544-27adc0a53206")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "#PWR0141")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 344.17 302.26 180)
 		(unit 1)
@@ -47283,7 +47361,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Zhengxin"
 			(at 252.73 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -47388,7 +47466,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 262.89 166.37 0)
+		(at 265.43 158.75 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -47399,7 +47477,7 @@
 		(dnp no)
 		(uuid "b79c59a6-06af-44a0-94bb-f6515bdab6fc")
 		(property "Reference" "C170"
-			(at 260.35 164.084 0)
+			(at 262.89 156.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47409,7 +47487,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 265.43 164.084 0)
+			(at 267.716 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47418,8 +47496,8 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
-			(at 263.8552 162.56 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 266.3952 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47430,7 +47508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 166.37 0)
+			(at 265.43 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47441,7 +47519,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 166.37 0)
+			(at 265.43 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47452,7 +47530,7 @@
 			)
 		)
 		(property "SCH_Show_Footprint" "C603"
-			(at 262.89 166.37 0)
+			(at 265.43 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47463,7 +47541,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 262.89 166.37 0)
+			(at 265.43 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47474,7 +47552,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 262.89 166.37 0)
+			(at 265.43 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47485,7 +47563,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 262.89 166.37 0)
+			(at 265.43 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47496,7 +47574,7 @@
 			)
 		)
 		(property "Buy_Link" ""
-			(at -181.61 -5.08 0)
+			(at -179.07 -12.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47507,7 +47585,7 @@
 			)
 		)
 		(property "DF_Comment" ""
-			(at -181.61 -5.08 0)
+			(at -179.07 -12.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47518,7 +47596,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at -181.61 -5.08 0)
+			(at -179.07 -12.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47529,7 +47607,7 @@
 			)
 		)
 		(property "Manufacturer" "any/open"
-			(at 262.89 166.37 90)
+			(at 265.43 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47540,7 +47618,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 262.89 166.37 90)
+			(at 265.43 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47551,7 +47629,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 262.89 166.37 90)
+			(at 265.43 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47562,7 +47640,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 262.89 166.37 90)
+			(at 265.43 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47573,7 +47651,7 @@
 			)
 		)
 		(property "KLC_S4.2_VIN" ""
-			(at 262.89 166.37 90)
+			(at 265.43 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47584,7 +47662,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 262.89 166.37 90)
+			(at 265.43 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47595,7 +47673,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 262.89 166.37 90)
+			(at 265.43 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47605,8 +47683,8 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "10nF 0402 Ceramic 20% 6.3V X5R"
-			(at 262.89 166.37 90)
+		(property "Specifications (For Resistors/Capacitors)" "10uF 0402 Ceramic 20% 6.3V X5R"
+			(at 265.43 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47616,8 +47694,8 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
-			(at 262.89 166.37 90)
+		(property "MPN" "GRM155R60J106ME15D"
+			(at 265.43 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47803,10 +47881,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bca7c818-8257-4f70-9421-c4b81f82fe48")
 		(property "Reference" "#PWR0126"
@@ -47896,7 +47974,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8K/1%"
+		(property "Value" "6.8k/1%"
 			(at 241.3 248.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47906,7 +47984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 234.95 251.968 90)
 			(hide yes)
 			(show_name no)
@@ -48071,7 +48149,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "NQ02WGF6801TCE"
 			(at 234.95 250.19 90)
 			(hide yes)
 			(show_name no)
@@ -48517,10 +48595,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "c0bab18d-c395-4bff-bd63-c498f6ab83e5")
 		(property "Reference" "R135"
 			(at 337.82 114.046 90)
@@ -48740,7 +48818,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "RC0402FR-0721KL"
 			(at 337.82 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -48846,6 +48924,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 260.35 154.94 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2b64039-2496-4517-a51e-43478c6e0235")
+		(property "Reference" "#PWR0281"
+			(at 260.35 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af9d3242-6e3b-4e1f-9eaa-8d44d0612cc3")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
+					(reference "#PWR0281")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 198.12 184.15 180)
 		(unit 1)
@@ -48866,7 +49021,7 @@
 				)
 			)
 		)
-		(property "Value" "127K/1%"
+		(property "Value" "127k/1%"
 			(at 200.152 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48876,7 +49031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 199.898 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -49074,7 +49229,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "0402WGF1273TCE"
 			(at 198.12 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -49219,7 +49374,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Zhengxin"
 			(at 171.45 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -49599,7 +49754,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF/10V"
+		(property "Value" "4.7uF"
 			(at 229.362 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49609,7 +49764,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 238.76 157.1752 0)
 			(hide yes)
 			(show_name no)
@@ -49796,7 +49951,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "4.7uF 0603 Ceramic 20% 10V X5R"
+		(property "Specifications (For Resistors/Capacitors)" "4.7uF 0402 Ceramic 20% 10V X5R"
 			(at 234.95 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -49807,7 +49962,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "0402X475M100NT"
 			(at 234.95 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -50413,7 +50568,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "TCC0805X5R106M160FT"
 			(at 415.29 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -50761,7 +50916,7 @@
 				)
 			)
 		)
-		(property "Value" "1K/1%"
+		(property "Value" "1k/1%"
 			(at 199.39 247.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50771,7 +50926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 193.04 250.698 90)
 			(hide yes)
 			(show_name no)
@@ -50936,7 +51091,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "CQ02WGF1001TCE"
 			(at 193.04 248.92 90)
 			(hide yes)
 			(show_name no)
@@ -51139,7 +51294,7 @@
 				)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "10k/1%"
 			(at 274.828 237.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51149,7 +51304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 275.082 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -51347,7 +51502,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "KTR03EZPF1002"
 			(at 276.86 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -52287,7 +52442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.53 187.198 90)
 			(hide yes)
 			(show_name no)
@@ -52485,7 +52640,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "NQ02WGF3002TCE"
 			(at 176.53 185.42 90)
 			(hide yes)
 			(show_name no)
@@ -52620,7 +52775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 176.022 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -52818,7 +52973,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "AC0805FR-072RL"
 			(at 177.8 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -53120,7 +53275,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF/50V"
+		(property "Value" "1nF"
 			(at 231.14 169.418 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53130,7 +53285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 227.33 173.6852 0)
 			(hide yes)
 			(show_name no)
@@ -53328,7 +53483,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "CC0402KRX5R9BB102"
 			(at 231.14 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -53464,7 +53619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 338.7852 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -53662,7 +53817,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "TCC0402COG910J500AT"
 			(at 337.82 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -53962,7 +54117,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Zhengxin"
 			(at 175.26 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -54325,10 +54480,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "de3c5680-ac85-453b-bcde-e7ab13de6acf")
 		(property "Reference" "C139"
 			(at 345.948 106.172 0)
@@ -54674,7 +54829,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TECH PUBLIC"
 			(at 414.02 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -54810,7 +54965,7 @@
 				)
 			)
 		)
-		(property "Value" "47nF/10V"
+		(property "Value" "47nF"
 			(at 232.918 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54820,7 +54975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 227.6348 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -55018,7 +55173,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "GMK107BJ473KAHT"
 			(at 228.6 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -55077,7 +55232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 288.29 309.372 90)
 			(hide yes)
 			(show_name no)
@@ -55275,7 +55430,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "AC0402FR-07100RL"
 			(at 288.29 311.15 90)
 			(hide yes)
 			(show_name no)
@@ -55302,83 +55457,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 247.65 167.64 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e114235e-4a9d-4964-8609-2c922cc9f457")
-		(property "Reference" "#PWR0237"
-			(at 247.65 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 247.65 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a9c287c-1630-4ebc-97d8-d7ac99caa291")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "#PWR0237")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 177.8 110.49 0)
 		(unit 1)
@@ -55399,7 +55477,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF/25V"
+		(property "Value" "2.2uF"
 			(at 172.974 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55409,7 +55487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 178.7652 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -55607,7 +55685,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "C1608X5R1E225KTJ00N"
 			(at 177.8 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -55664,7 +55742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 307.6448 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -55862,7 +55940,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "C0603C474K8PACTU"
 			(at 308.61 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -56958,7 +57036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 288.29 149.5552 0)
 			(hide yes)
 			(show_name no)
@@ -57156,7 +57234,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "0402B122K500CT"
 			(at 284.48 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -57614,7 +57692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 345.948 173.99 90)
 			(hide yes)
 			(show_name no)
@@ -57870,7 +57948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 411.48 187.6552 0)
 			(hide yes)
 			(show_name no)
@@ -58068,7 +58146,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "0402B122K500CT"
 			(at 407.67 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -58496,6 +58574,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 267.97 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f44c2546-1290-4e6c-8a37-ddbf2c45e6cc")
+		(property "Reference" "#PWR0321"
+			(at 267.97 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e65d8d87-0aee-476c-919d-dadf90032af7")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
+					(reference "#PWR0321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 388.62 166.37 0)
 		(mirror x)
@@ -58714,7 +58869,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "47uF 1210 Ceramic 20% 16V X7R"
+		(property "Specifications (For Resistors/Capacitors)" "47uF 1210 Ceramic 20% 16V X5R"
 			(at 388.62 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -58725,7 +58880,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "C1210C476M4PACTU"
 			(at 388.62 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -59253,7 +59408,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF/25V"
+		(property "Value" "10uF"
 			(at 189.23 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59263,7 +59418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 191.4652 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -59461,7 +59616,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "CM105X5R106M25AT"
 			(at 190.5 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -59489,7 +59644,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 247.65 171.45 0)
+		(at 247.65 170.18 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -59500,7 +59655,7 @@
 		(dnp no)
 		(uuid "f6b4207f-1871-4ff1-a10d-a98d784676fd")
 		(property "Reference" "C153"
-			(at 250.19 173.482 0)
+			(at 250.698 168.656 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59509,8 +59664,8 @@
 				)
 			)
 		)
-		(property "Value" "10uF/10V"
-			(at 256.032 176.53 90)
+		(property "Value" "10uF"
+			(at 242.57 178.562 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59520,8 +59675,8 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
-			(at 248.6152 167.64 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 251.46 171.1452 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59532,7 +59687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 171.45 0)
+			(at 247.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59543,7 +59698,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 171.45 0)
+			(at 247.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59554,7 +59709,7 @@
 			)
 		)
 		(property "SCH_Show_Footprint" "C603"
-			(at 247.65 171.45 0)
+			(at 247.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59565,7 +59720,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 247.65 171.45 0)
+			(at 247.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59576,7 +59731,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 247.65 171.45 0)
+			(at 247.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59587,7 +59742,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 247.65 171.45 0)
+			(at 247.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59598,7 +59753,7 @@
 			)
 		)
 		(property "Buy_Link" ""
-			(at -196.85 0 0)
+			(at 419.1 -274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59609,7 +59764,7 @@
 			)
 		)
 		(property "DF_Comment" ""
-			(at -196.85 0 0)
+			(at 419.1 -274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59619,8 +59774,8 @@
 				)
 			)
 		)
-		(property "Field-1" ""
-			(at -196.85 0 0)
+		(property "Field-1" "G"
+			(at 419.1 -274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59631,7 +59786,7 @@
 			)
 		)
 		(property "Manufacturer" "any/open"
-			(at 247.65 171.45 0)
+			(at 247.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59642,7 +59797,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 247.65 171.45 0)
+			(at 247.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59653,7 +59808,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 247.65 171.45 0)
+			(at 247.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59664,7 +59819,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 247.65 171.45 0)
+			(at 247.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59675,7 +59830,7 @@
 			)
 		)
 		(property "KLC_S4.2_VIN" ""
-			(at 247.65 171.45 0)
+			(at 247.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59686,7 +59841,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 247.65 171.45 0)
+			(at 247.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59697,7 +59852,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 247.65 171.45 0)
+			(at 247.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59707,8 +59862,8 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "10uF 0603 Ceramic 20% 10V X5R"
-			(at 247.65 171.45 0)
+		(property "Specifications (For Resistors/Capacitors)" "10uF 0402 Ceramic 20% 10V X5R"
+			(at 247.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59718,8 +59873,8 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
-			(at 247.65 171.45 0)
+		(property "MPN" "GMC04X5R106M10NT"
+			(at 247.65 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59766,7 +59921,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1K/1%"
+		(property "Value" "5.1k/1%"
 			(at 261.62 225.298 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59776,7 +59931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 262.89 225.298 90)
 			(hide yes)
 			(show_name no)
@@ -59974,7 +60129,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "AC0402FR-075K1L"
 			(at 262.89 223.52 90)
 			(hide yes)
 			(show_name no)
@@ -60006,10 +60161,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f7039098-5c48-483c-95d9-14d5c235d826")
 		(property "Reference" "#PWR0295"
@@ -60100,7 +60255,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K/1%"
+		(property "Value" "2.2k/1%"
 			(at 389.89 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60111,7 +60266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 382.778 232.41 90)
 			(hide yes)
 			(show_name no)
@@ -60309,7 +60464,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "NQ02WGF2201TCE"
 			(at 381 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -60444,7 +60599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 270.8148 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -60631,7 +60786,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" "1uF 0603 Ceramic 20% 10V X5R"
+		(property "Specifications (For Resistors/Capacitors)" "1uF 0402 Ceramic 20% 10V X5R"
 			(at 271.78 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -60642,7 +60797,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "TCC0402X5R105M100AT"
 			(at 271.78 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -60924,7 +61079,7 @@
 				)
 			)
 		)
-		(property "Value" "100K/1%"
+		(property "Value" "100k/1%"
 			(at 330.2 144.272 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60934,7 +61089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 330.2 144.018 90)
 			(hide yes)
 			(show_name no)
@@ -61132,7 +61287,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "SFR01MZPF1003"
 			(at 330.2 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -61243,10 +61398,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "ff74f5f4-8c6e-49aa-8f77-3bcf77a9cdd6")
 		(property "Reference" "#PWR0127"
 			(at 303.53 90.17 0)

@@ -3955,6 +3955,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 307.34 276.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e9b511e-cc47-46a1-b414-7b90d1920b6e")
+		(property "Reference" "#PWR0131"
+			(at 303.53 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 311.15 276.8599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 307.34 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e839e9bf-0801-4f62-80a7-55b6be5e78cf")
+		)
+		(instances
+			(project "Motherboard"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f7e36582-0575-4ab7-aed9-3fad0f8951d3"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 298.45 304.8 90)
 		(unit 1)
@@ -4264,7 +4343,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "AC0402FR-0747RL"
 			(at 311.15 297.18 90)
 			(hide yes)
 			(show_name no)
@@ -4522,7 +4601,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "AC0402FR-0747RL"
 			(at 302.26 292.1 90)
 			(hide yes)
 			(show_name no)
@@ -4700,7 +4779,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "AC0402FR-0747RL"
 			(at 311.15 289.56 90)
 			(hide yes)
 			(show_name no)
@@ -5036,7 +5115,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "AC0402FR-0747RL"
 			(at 302.26 299.72 90)
 			(hide yes)
 			(show_name no)
@@ -5786,7 +5865,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "0402WGF1500TCE"
 			(at 321.31 302.26 90)
 			(hide yes)
 			(show_name no)
@@ -6382,85 +6461,6 @@
 			(project "Motherboard"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f7e36582-0575-4ab7-aed9-3fad0f8951d3"
 					(reference "J50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 307.34 276.86 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ab354d6-2168-4418-aa42-1407974e834e")
-		(property "Reference" "#PWR0145"
-			(at 303.53 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 311.15 276.8599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 307.34 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "975a1869-0dea-438a-9075-a2a6479c617d")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f7e36582-0575-4ab7-aed9-3fad0f8951d3"
-					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -7080,7 +7080,7 @@
 				)
 			)
 		)
-		(property "MPN" "any/open"
+		(property "MPN" "0402WGF1500TCE"
 			(at 321.31 294.64 90)
 			(hide yes)
 			(show_name no)
