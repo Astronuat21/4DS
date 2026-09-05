@@ -701,7 +701,7 @@
         "name": "50Ω",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgb(116, 128, 255)",
+        "schematic_color": "rgb(101, 255, 131)",
         "tuning_profile": "",
         "wire_width": 6
       },
@@ -747,7 +747,6 @@
     },
     "net_colors": {
       "+1V1": "rgb(132, 132, 0)",
-      "+1V8": "rgb(132, 132, 0)",
       "+3V3": "rgb(194, 194, 0)",
       "+5V": "rgb(221, 133, 0)",
       "GND": "rgb(0, 194, 0)"
@@ -1037,6 +1036,26 @@
       {
         "netclass": "90Ω",
         "pattern": "/LattePanda Module/Audio_DX-"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/RGB/DDIB_TX(0-|1-|2-|3-)"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/RGB/DDIB_TX3+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/RGB/DDIB_TX2+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/RGB/DDIB_TX1+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/RGB/DDIB_TX0+"
       }
     ]
   },
@@ -1291,7 +1310,7 @@
         "uuid": "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
       }
     ],
-    "used_designators": "#PWR26,#PWR47,#PWR86-87,#PWR95-96,#PWR120,#PWR125-129,#PWR131-132,#PWR135-136,#PWR139,#PWR145,#PWR177,#PWR192-196,#PWR199,#PWR202,#PWR242-247,#PWR249-251,#PWR257-273,#PWR277-283,#PWR285-302,#PWR311-330,#PWR336-340,#PWR903,D4-6,D17,D24,D31,D33-34,L78-93,U78,U80-81,U83,U85,U100,C95,C101-102,C104,C106-108,C131,C134,C139,C143,C149,C155-158,C164-218,R18-21,R53,R83-84,R98,R119-146,R194-195,R200,R204,#FLG903-904,#FLG906,IC80-85,J81,J94,TP5-7,TP13",
+    "used_designators": "#PWR26,#PWR39,#PWR47,#PWR86-87,#PWR95-96,#PWR120-121,#PWR125-129,#PWR131-132,#PWR135-136,#PWR139,#PWR145,#PWR177,#PWR192-196,#PWR199,#PWR202-203,#PWR242-247,#PWR249-251,#PWR257-273,#PWR277-283,#PWR285-302,#PWR311-330,#PWR336-340,#PWR903,D4-6,D17,D24,D31,D33-34,L78-93,U78,U80-81,U83,U85,U100,C95,C101-102,C104,C106-108,C131,C134,C139,C143,C149,C155-158,C164-218,R18-21,R53,R83-84,R98,R119-147,R194-195,R200,R204,#FLG903-904,#FLG906,IC80-85,J81-82,J94,TP5-7,TP13",
     "variants": []
   },
   "sheets": [

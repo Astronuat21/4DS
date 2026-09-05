@@ -7703,7 +7703,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bus_M.2_Socket_E"
+		(property "Value" "M.2 Socket E"
 			(at 431.4541 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7714,7 +7714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:PCIe_M.2_Connectors_P=0.5mm_H=4.2mm_KeyE"
+		(property "Footprint" "MDT420E03001:MDT420E03001"
 			(at 429.26 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10401,7 +10401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bus_M.2_Socket_M"
+		(property "Value" "M.2 Socket M"
 			(at 228.2541 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10412,7 +10412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:PCIe_M.2_Connectors_P=0.5mm_H=4.2mm_KeyM"
+		(property "Footprint" "MDT420M03001:MDT420M03001"
 			(at 226.06 142.24 0)
 			(hide yes)
 			(show_name no)

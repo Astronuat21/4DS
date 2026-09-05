@@ -36619,7 +36619,7 @@
 				)
 			)
 		)
-		(property "Value" "XAL8080-222MEB"
+		(property "Value" "7443330220"
 			(at 280.67 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36629,7 +36629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XAL8080-222MED:XAL8080222MED"
+		(property "Footprint" "7443330220:WE-HCC_109021"
 			(at 280.67 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -36662,7 +36662,7 @@
 				)
 			)
 		)
-		(property "MPN" "XAL8080-222MEB"
+		(property "MPN" "7443330220"
 			(at 280.67 158.75 90)
 			(hide yes)
 			(show_name no)
