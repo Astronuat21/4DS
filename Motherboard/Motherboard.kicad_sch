@@ -270,22 +270,6 @@
 		(uuid "295763a6-57eb-4008-8853-447e5373707e")
 	)
 	(no_connect
-		(at 208.28 278.13)
-		(uuid "61c0598f-a03f-4600-a201-4358956a5f47")
-	)
-	(no_connect
-		(at 240.03 274.32)
-		(uuid "750a398f-6629-44e9-9357-6518c7c15f7e")
-	)
-	(no_connect
-		(at 240.03 278.13)
-		(uuid "75b17673-3b9a-4beb-9992-2bd930c5b71d")
-	)
-	(no_connect
-		(at 208.28 274.32)
-		(uuid "783a766d-9022-45eb-9478-4b336fe02e14")
-	)
-	(no_connect
 		(at 180.34 274.32)
 		(uuid "f4c4c05c-28da-4125-8046-609871dd5a82")
 	)
@@ -421,7 +405,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 63.5) (xy 240.03 63.5)
+			(xy 208.28 110.49) (xy 240.03 110.49)
 		)
 		(stroke
 			(width 0)
@@ -431,7 +415,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 76.2) (xy 191.77 87.63)
+			(xy 190.5 123.19) (xy 190.5 134.62)
 		)
 		(stroke
 			(width 0)
@@ -468,6 +452,16 @@
 			(type default)
 		)
 		(uuid "1ce5dea4-7a2a-4560-a0f7-c7ab79297b6a")
+	)
+	(wire
+		(pts
+			(xy 208.28 274.32) (xy 240.03 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e807281-cd89-4736-9523-805a6a81d48a")
 	)
 	(wire
 		(pts
@@ -511,7 +505,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 85.09) (xy 189.23 76.2)
+			(xy 187.96 132.08) (xy 187.96 123.19)
 		)
 		(stroke
 			(width 0)
@@ -521,7 +515,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 53.34) (xy 412.75 53.34)
+			(xy 208.28 100.33) (xy 411.48 100.33)
 		)
 		(stroke
 			(width 0)
@@ -541,7 +535,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 82.55) (xy 186.69 76.2)
+			(xy 185.42 129.54) (xy 185.42 123.19)
 		)
 		(stroke
 			(width 0)
@@ -551,7 +545,7 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 203.2) (xy 412.75 203.2)
+			(xy 407.67 203.2) (xy 411.48 203.2)
 		)
 		(stroke
 			(width 0)
@@ -591,7 +585,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 87.63) (xy 240.03 87.63)
+			(xy 190.5 134.62) (xy 240.03 134.62)
 		)
 		(stroke
 			(width 0)
@@ -601,7 +595,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 58.42) (xy 240.03 58.42)
+			(xy 208.28 105.41) (xy 240.03 105.41)
 		)
 		(stroke
 			(width 0)
@@ -631,7 +625,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 80.01) (xy 240.03 80.01)
+			(xy 182.88 127) (xy 240.03 127)
 		)
 		(stroke
 			(width 0)
@@ -641,7 +635,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 69.85) (xy 240.03 69.85)
+			(xy 208.28 116.84) (xy 240.03 116.84)
 		)
 		(stroke
 			(width 0)
@@ -651,7 +645,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 74.93) (xy 240.03 74.93)
+			(xy 208.28 121.92) (xy 240.03 121.92)
 		)
 		(stroke
 			(width 0)
@@ -731,7 +725,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 76.2) (xy 184.15 80.01)
+			(xy 182.88 123.19) (xy 182.88 127)
 		)
 		(stroke
 			(width 0)
@@ -801,7 +795,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 82.55) (xy 186.69 82.55)
+			(xy 240.03 129.54) (xy 185.42 129.54)
 		)
 		(stroke
 			(width 0)
@@ -811,13 +805,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 66.04) (xy 240.03 66.04)
+			(xy 208.28 113.03) (xy 240.03 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7d7227e5-a8dc-4535-932d-40fb56df66ad")
+	)
+	(wire
+		(pts
+			(xy 208.28 278.13) (xy 240.03 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e514058-39bf-4b76-aecd-3bcdb7610b9c")
 	)
 	(wire
 		(pts
@@ -831,7 +835,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 85.09) (xy 189.23 85.09)
+			(xy 240.03 132.08) (xy 187.96 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1091,7 +1095,7 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 203.2) (xy 412.75 53.34)
+			(xy 411.48 203.2) (xy 411.48 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1141,7 +1145,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 60.96) (xy 240.03 60.96)
+			(xy 208.28 107.95) (xy 240.03 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1181,7 +1185,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 72.39) (xy 240.03 72.39)
+			(xy 208.28 119.38) (xy 240.03 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1290,7 +1294,7 @@
 		(uuid "3c0aea3f-fd5b-4436-8912-31618c944a58")
 	)
 	(label "~{PWR_LED}{slash}~{PSON}"
-		(at 218.44 66.04 0)
+		(at 217.17 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1386,50 +1390,6 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 473.71 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 473.71 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 473.71 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 0 673.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 473.71 336.55 0)
 			(hide yes)
@@ -1441,18 +1401,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 473.71 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 473.71 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -1486,28 +1435,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 473.71 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 473.71 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 473.71 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -1675,50 +1602,6 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 499.11 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 499.11 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 499.11 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 0 698.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 499.11 349.25 0)
 			(hide yes)
@@ -1730,18 +1613,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 499.11 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 499.11 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -1775,28 +1647,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 499.11 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 499.11 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 499.11 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -1964,50 +1814,6 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 473.71 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 473.71 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 473.71 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 0 698.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 473.71 349.25 0)
 			(hide yes)
@@ -2019,18 +1825,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 473.71 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 473.71 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -2064,28 +1859,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 473.71 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 473.71 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 473.71 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -2175,50 +1948,6 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 499.11 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 499.11 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 499.11 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 0 673.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 499.11 336.55 0)
 			(hide yes)
@@ -2230,18 +1959,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 499.11 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 499.11 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -2275,28 +1993,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 499.11 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 499.11 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 499.11 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -2476,8 +2172,8 @@
 		)
 	)
 	(sheet
-		(at 379.73 57.15)
-		(size 29.21 133.35)
+		(at 379.73 104.14)
+		(size 27.94 86.36)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2491,7 +2187,7 @@
 		)
 		(uuid "024b612f-d732-4f1b-ae8a-19d052e1e0e8")
 		(property "Sheetname" "RGB"
-			(at 379.73 56.4384 0)
+			(at 379.73 103.4284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2502,7 +2198,7 @@
 			)
 		)
 		(property "Sheetfile" "HDMI.kicad_sch"
-			(at 391.414 54.864 0)
+			(at 391.414 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2781,8 +2477,8 @@
 		)
 	)
 	(sheet
-		(at 240.03 55.88)
-		(size 114.3 279.4)
+		(at 240.03 102.87)
+		(size 114.3 232.41)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2797,7 +2493,7 @@
 		)
 		(uuid "3a22e7a6-e840-47a0-9215-15d617138f65")
 		(property "Sheetname" "LattePanda Module"
-			(at 240.03 55.1684 0)
+			(at 240.03 102.1584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2969,7 +2665,7 @@
 			)
 		)
 		(pin "~{PWR_LED}{slash}~{PSON}" output
-			(at 240.03 66.04 180)
+			(at 240.03 113.03 180)
 			(uuid "ec528c0a-0e52-4837-a3f9-4300bec4f136")
 			(effects
 				(font
@@ -2979,7 +2675,7 @@
 			)
 		)
 		(pin "~{PWR_SW}" input
-			(at 240.03 60.96 180)
+			(at 240.03 107.95 180)
 			(uuid "a69258f4-a023-42db-a3ef-ce73d10a857d")
 			(effects
 				(font
@@ -2989,7 +2685,7 @@
 			)
 		)
 		(pin "~{RST_SW}" input
-			(at 240.03 58.42 180)
+			(at 240.03 105.41 180)
 			(uuid "67102a1c-ae08-4ccb-b3e9-a8df4ae438df")
 			(effects
 				(font
@@ -3319,7 +3015,7 @@
 			)
 		)
 		(pin "SLS_S3" output
-			(at 240.03 63.5 180)
+			(at 240.03 110.49 180)
 			(uuid "5b73b134-c018-432f-a720-47e617da62d4")
 			(effects
 				(font
@@ -3329,7 +3025,7 @@
 			)
 		)
 		(pin "RPI_BAT_GPO" input
-			(at 240.03 80.01 180)
+			(at 240.03 127 180)
 			(uuid "d60ea533-df2a-496b-bfa9-f8028321087b")
 			(effects
 				(font
@@ -3338,8 +3034,8 @@
 				(justify left)
 			)
 		)
-		(pin "RPI_BAT_SCL" output
-			(at 240.03 82.55 180)
+		(pin "RPI_BAT_SCL" input
+			(at 240.03 129.54 180)
 			(uuid "34ea509c-e29f-43c0-b0dc-b47ebb031033")
 			(effects
 				(font
@@ -3349,7 +3045,7 @@
 			)
 		)
 		(pin "RPI_BAT_SDA" bidirectional
-			(at 240.03 85.09 180)
+			(at 240.03 132.08 180)
 			(uuid "4252f950-eb18-4ab1-8987-9e3e2146d4f8")
 			(effects
 				(font
@@ -3549,7 +3245,7 @@
 			)
 		)
 		(pin "RPI_BAT_STAT" input
-			(at 240.03 87.63 180)
+			(at 240.03 134.62 180)
 			(uuid "a945ea6d-9bce-46a7-9896-d8bc105e3eec")
 			(effects
 				(font
@@ -3596,116 +3292,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "DBUG_HPD" input
-			(at 354.33 58.42 0)
-			(uuid "25f2c080-adcd-4c0c-ad29-419173f224d3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DBUG_SCL" output
-			(at 354.33 60.96 0)
-			(uuid "be0a4ad1-91ee-428a-8c59-7a4f85f2618e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DBUG_SDA" bidirectional
-			(at 354.33 63.5 0)
-			(uuid "5e2ae6c7-d060-47ef-b471-05418fe80581")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DBUG_TX0+" output
-			(at 354.33 82.55 0)
-			(uuid "995d7437-6478-44d5-ae28-1ca48a687146")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DBUG_TX0-" output
-			(at 354.33 85.09 0)
-			(uuid "f819b4a8-fbd6-4734-a17c-2cf3a0521fd2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DBUG_TX1+" output
-			(at 354.33 77.47 0)
-			(uuid "ba429af2-c079-419d-a3d5-4889c1e706a2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DBUG_TX1-" output
-			(at 354.33 80.01 0)
-			(uuid "1c6245a1-5f87-4549-a272-e7485bb60dfd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DBUG_TX2+" output
-			(at 354.33 72.39 0)
-			(uuid "c8fbea22-7235-489f-9049-ab5b5b92adb4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DBUG_TX2-" output
-			(at 354.33 74.93 0)
-			(uuid "e49b32d1-8e97-4761-b691-b17399d9d3f7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DBUG_TX3+" output
-			(at 354.33 67.31 0)
-			(uuid "65bab0b7-6235-4ff3-94e1-38fddce74e5f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DBUG_TX3-" output
-			(at 354.33 69.85 0)
-			(uuid "610e52e9-da55-4f36-8243-be1bcee2a444")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "DDIB_INT" input
@@ -3819,7 +3405,7 @@
 			)
 		)
 		(pin "RPi_5A_SCL" output
-			(at 240.03 69.85 180)
+			(at 240.03 116.84 180)
 			(uuid "79966671-1d56-4ce1-8b53-133e9e4a4198")
 			(effects
 				(font
@@ -3829,7 +3415,7 @@
 			)
 		)
 		(pin "RPi_5A_SDA" output
-			(at 240.03 72.39 180)
+			(at 240.03 119.38 180)
 			(uuid "61de697c-0934-4781-81e2-89654d9bfac8")
 			(effects
 				(font
@@ -3839,7 +3425,7 @@
 			)
 		)
 		(pin "RPi_5A_INT" output
-			(at 240.03 74.93 180)
+			(at 240.03 121.92 180)
 			(uuid "e913bfe8-e01a-462f-bcc7-b06015e7ac8f")
 			(effects
 				(font
@@ -3964,7 +3550,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 50.8)
+		(at 180.34 97.79)
 		(size 27.94 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3979,7 +3565,7 @@
 		)
 		(uuid "b23aee49-27d1-466d-98e2-113ee657e42b")
 		(property "Sheetname" "PSU"
-			(at 181.61 50.0884 0)
+			(at 180.34 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3990,7 +3576,7 @@
 			)
 		)
 		(property "Sheetfile" "PSU.kicad_sch"
-			(at 191.008 48.768 0)
+			(at 189.738 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4001,7 +3587,7 @@
 			)
 		)
 		(pin "~{PWR_LED}{slash}~{PSON}" input
-			(at 209.55 66.04 0)
+			(at 208.28 113.03 0)
 			(uuid "01bfb923-323f-4552-93c2-a5ccbee06ba1")
 			(effects
 				(font
@@ -4011,7 +3597,7 @@
 			)
 		)
 		(pin "SLS_S3" input
-			(at 209.55 63.5 0)
+			(at 208.28 110.49 0)
 			(uuid "91053ec3-c2f9-418c-b958-c984c20c10ab")
 			(effects
 				(font
@@ -4021,7 +3607,7 @@
 			)
 		)
 		(pin "~{PWR_SW}" output
-			(at 209.55 60.96 0)
+			(at 208.28 107.95 0)
 			(uuid "098c6660-93a9-4414-83c6-aaebf2bcea70")
 			(effects
 				(font
@@ -4031,7 +3617,7 @@
 			)
 		)
 		(pin "~{RST_SW}" output
-			(at 209.55 58.42 0)
+			(at 208.28 105.41 0)
 			(uuid "9048d091-421e-4729-9b02-7a0397d80d4b")
 			(effects
 				(font
@@ -4041,7 +3627,7 @@
 			)
 		)
 		(pin "RPI_BAT_GPO" output
-			(at 184.15 76.2 270)
+			(at 182.88 123.19 270)
 			(uuid "9baf360a-4b4c-4da6-902d-96d2ae06c567")
 			(effects
 				(font
@@ -4051,7 +3637,7 @@
 			)
 		)
 		(pin "RPI_BAT_SCL" input
-			(at 186.69 76.2 270)
+			(at 185.42 123.19 270)
 			(uuid "a97c3569-4212-4e1a-9d06-02ba20d56dbe")
 			(effects
 				(font
@@ -4061,7 +3647,7 @@
 			)
 		)
 		(pin "RPI_BAT_SDA" bidirectional
-			(at 189.23 76.2 270)
+			(at 187.96 123.19 270)
 			(uuid "56afe930-3f42-460d-96c7-1b962d75a950")
 			(effects
 				(font
@@ -4071,7 +3657,7 @@
 			)
 		)
 		(pin "PWR_Button" input
-			(at 209.55 53.34 0)
+			(at 208.28 100.33 0)
 			(uuid "e8bad31a-d028-4948-9fb2-ca71fde8361e")
 			(effects
 				(font
@@ -4081,7 +3667,7 @@
 			)
 		)
 		(pin "BAT_STAT" output
-			(at 191.77 76.2 270)
+			(at 190.5 123.19 270)
 			(uuid "7d3ddf9e-6c31-41ac-8e3d-eaaf203d1874")
 			(effects
 				(font
@@ -4091,7 +3677,7 @@
 			)
 		)
 		(pin "RPi_5A_SCL" input
-			(at 209.55 69.85 0)
+			(at 208.28 116.84 0)
 			(uuid "72600738-f6de-4d8f-b717-e8f0017dd703")
 			(effects
 				(font
@@ -4101,7 +3687,7 @@
 			)
 		)
 		(pin "RPi_5A_SDA" bidirectional
-			(at 209.55 72.39 0)
+			(at 208.28 119.38 0)
 			(uuid "f2257521-3369-4653-98fb-2cd153fe0c8f")
 			(effects
 				(font
@@ -4111,7 +3697,7 @@
 			)
 		)
 		(pin "RPi_5A_INT" output
-			(at 209.55 74.93 0)
+			(at 208.28 121.92 0)
 			(uuid "c55b645c-a46b-4c28-8044-f2f512e4b649")
 			(effects
 				(font
@@ -4130,7 +3716,7 @@
 	)
 	(sheet
 		(at 379.73 271.78)
-		(size 29.21 63.5)
+		(size 27.94 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)

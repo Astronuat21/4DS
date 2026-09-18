@@ -3521,83 +3521,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
-			(at 289.56 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 289.56 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 289.56 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 289.56 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 491.49 455.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at 491.49 455.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" "N"
-			(at 491.49 455.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "any/open"
 			(at 289.56 199.39 90)
 			(hide yes)
@@ -3609,7 +3532,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "Specifications (For Resistors/Capacitors)" "100nF 0402 Ceramic 20% 50V X5R"
 			(at 289.56 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -3620,7 +3543,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "MPN" "TCC0402X5R104M500AT"
 			(at 289.56 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -3654,39 +3577,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 289.56 199.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 289.56 199.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "100nF 0402 Ceramic 20% 50V X5R"
-			(at 289.56 199.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TCC0402X5R104M500AT"
 			(at 289.56 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -4089,83 +3979,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C603"
-			(at 326.39 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 326.39 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 326.39 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 326.39 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 426.72 391.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "贴片电容0603-22uF-10V-X5R(0603)"
-			(at 426.72 391.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 426.72 391.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 326.39 97.79 90)
 			(hide yes)
@@ -4177,18 +3990,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 326.39 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 326.39 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -4222,28 +4024,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 326.39 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 326.39 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 326.39 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -4724,83 +4504,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "R0805"
-			(at 342.9 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 342.9 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 342.9 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 342.9 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" "https://item.szlcsc.com/947787.html"
-			(at 524.51 490.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "0805贴片自恢复保险丝2A/6V-BSMD0805L-200"
-			(at 524.51 490.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 524.51 490.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 342.9 180.34 90)
 			(hide yes)
@@ -4812,7 +4515,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "MPN" "SMD0805B110TF"
 			(at 342.9 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -4823,7 +4526,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 342.9 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -4857,39 +4560,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 342.9 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 342.9 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SMD0805B110TF"
-			(at 342.9 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 342.9 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -4982,18 +4652,6 @@
 				)
 			)
 		)
-		(property "Height" "7.93"
-			(at 386.08 575.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "MPN" "GSB311A41EU"
 			(at 346.71 180.34 0)
 			(hide yes)
@@ -5006,6 +4664,39 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 346.71 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 346.71 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VIN" ""
+			(at 346.71 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 346.71 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -5122,83 +4813,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" ""
-			(at 320.04 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 320.04 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 320.04 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 320.04 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 33.02 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "ESD静电保护IC-BV-ULC0524P-DFN2510-10L"
-			(at 33.02 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 33.02 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 320.04 127 0)
 			(hide yes)
@@ -5210,18 +4824,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 320.04 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 320.04 127 0)
 			(hide yes)
 			(show_name no)
@@ -5255,28 +4858,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 320.04 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 320.04 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 320.04 127 0)
 			(hide yes)
 			(show_name no)
@@ -5390,83 +4971,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C603"
-			(at 326.39 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 326.39 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 326.39 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 326.39 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 508 472.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at 508 472.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 508 472.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "any/open"
 			(at 326.39 179.07 90)
 			(hide yes)
@@ -5478,7 +4982,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "Specifications (For Resistors/Capacitors)" "22uF 0603 Ceramic 20% 10V X5R"
 			(at 326.39 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -5489,7 +4993,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "MPN" "CL10A226MP8NUNE"
 			(at 326.39 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -5523,39 +5027,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 326.39 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 326.39 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "22uF 0603 Ceramic 20% 10V X5R"
-			(at 326.39 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL10A226MP8NUNE"
 			(at 326.39 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -5727,83 +5198,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "D0402"
-			(at 196.85 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 196.85 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 196.85 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 196.85 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" "https://item.szlcsc.com/539388.html"
-			(at -57.15 415.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at -57.15 415.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at -57.15 415.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 196.85 251.46 90)
 			(hide yes)
@@ -5815,7 +5209,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "MPN" "ESD5V0B03-1006"
 			(at 196.85 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -5826,7 +5220,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 196.85 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -5860,39 +5254,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 196.85 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 196.85 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ESD5V0B03-1006"
-			(at 196.85 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 196.85 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -5985,83 +5346,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "D0402"
-			(at 217.17 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 217.17 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 217.17 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 217.17 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" "https://item.szlcsc.com/539388.html"
-			(at -36.83 435.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at -36.83 435.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at -36.83 435.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 217.17 251.46 90)
 			(hide yes)
@@ -6073,7 +5357,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "MPN" "ESD5V0B03-1006"
 			(at 217.17 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -6084,7 +5368,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 217.17 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -6118,39 +5402,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 217.17 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 217.17 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ESD5V0B03-1006"
-			(at 217.17 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 217.17 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -6400,83 +5651,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "D0402"
-			(at 227.33 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 227.33 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 227.33 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 227.33 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" "https://item.szlcsc.com/539388.html"
-			(at -26.67 445.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at -26.67 445.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at -26.67 445.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 227.33 251.46 90)
 			(hide yes)
@@ -6488,7 +5662,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "MPN" "ESD5V0B03-1006"
 			(at 227.33 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -6499,7 +5673,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 227.33 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -6533,39 +5707,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 227.33 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 227.33 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ESD5V0B03-1006"
-			(at 227.33 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 227.33 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -6655,83 +5796,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
-			(at 289.56 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 289.56 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 289.56 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 289.56 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 494.03 458.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at 494.03 458.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" "N"
-			(at 494.03 458.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "any/open"
 			(at 289.56 201.93 90)
 			(hide yes)
@@ -6743,7 +5807,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "Specifications (For Resistors/Capacitors)" "100nF 0402 Ceramic 20% 50V X5R"
 			(at 289.56 201.93 90)
 			(hide yes)
 			(show_name no)
@@ -6754,7 +5818,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "MPN" "TCC0402X5R104M500AT"
 			(at 289.56 201.93 90)
 			(hide yes)
 			(show_name no)
@@ -6788,39 +5852,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 289.56 201.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 289.56 201.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "100nF 0402 Ceramic 20% 50V X5R"
-			(at 289.56 201.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TCC0402X5R104M500AT"
 			(at 289.56 201.93 90)
 			(hide yes)
 			(show_name no)
@@ -6910,83 +5941,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "R0603"
-			(at 342.9 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 342.9 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 342.9 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 342.9 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" "https://item.szlcsc.com/947770.html"
-			(at 445.77 410.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "0805贴片自恢复保险丝1A/6V-BSMD0805-100-6V"
-			(at 445.77 410.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 445.77 410.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 342.9 100.33 90)
 			(hide yes)
@@ -6998,18 +5952,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 342.9 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 342.9 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -7043,28 +5986,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 342.9 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 342.9 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 342.9 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -7157,18 +6078,6 @@
 				)
 			)
 		)
-		(property "Height" "7.93"
-			(at 386.08 654 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "MPN" "GSB311A41EU"
 			(at 346.71 259.08 0)
 			(hide yes)
@@ -7181,6 +6090,39 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 346.71 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 346.71 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VIN" ""
+			(at 346.71 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 346.71 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -7297,83 +6239,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "R0805"
-			(at 342.9 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 342.9 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 342.9 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 342.9 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" "https://item.szlcsc.com/947770.html"
-			(at 603.25 568.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" "0805贴片自恢复保险丝1A/6V-BSMD0805-100-6V"
-			(at 603.25 568.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 603.25 568.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 342.9 259.08 90)
 			(hide yes)
@@ -7385,7 +6250,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "MPN" "SMD0805B110TF"
 			(at 342.9 259.08 90)
 			(hide yes)
 			(show_name no)
@@ -7396,7 +6261,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 342.9 259.08 90)
 			(hide yes)
 			(show_name no)
@@ -7430,39 +6295,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 342.9 259.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 342.9 259.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SMD0805B110TF"
-			(at 342.9 259.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 342.9 259.08 90)
 			(hide yes)
 			(show_name no)
@@ -7552,83 +6384,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" ""
-			(at 281.94 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 281.94 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 281.94 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 281.94 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 33.02 459.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at 33.02 459.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 33.02 459.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 281.94 228.6 0)
 			(hide yes)
@@ -7640,7 +6395,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "MPN" "D3V3XA4B10LP-7"
 			(at 281.94 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -7651,7 +6406,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 281.94 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -7685,39 +6440,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 281.94 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 281.94 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "D3V3XA4B10LP-7"
-			(at 281.94 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 281.94 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -7834,83 +6556,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "D0402"
-			(at 207.01 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 207.01 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 207.01 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 207.01 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" "https://item.szlcsc.com/539388.html"
-			(at -46.99 425.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at -46.99 425.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at -46.99 425.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 207.01 251.46 90)
 			(hide yes)
@@ -7922,7 +6567,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "MPN" "ESD5V0B03-1006"
 			(at 207.01 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -7933,7 +6578,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 207.01 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -7967,39 +6612,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 207.01 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 207.01 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ESD5V0B03-1006"
-			(at 207.01 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 207.01 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -8182,18 +6794,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 359.41 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 359.41 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8227,28 +6828,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 359.41 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 359.41 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 359.41 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8347,83 +6926,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" ""
-			(at 351.79 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 351.79 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 351.79 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 351.79 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 33.02 459.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at 33.02 459.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 33.02 459.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 351.79 228.6 0)
 			(hide yes)
@@ -8435,7 +6937,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "MPN" "D3V3XA4B10LP-7"
 			(at 351.79 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8446,7 +6948,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 351.79 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8480,39 +6982,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 351.79 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 351.79 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "D3V3XA4B10LP-7"
-			(at 351.79 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 351.79 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8626,83 +7095,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C603"
-			(at 326.39 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 326.39 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 326.39 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 326.39 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 586.74 551.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at 586.74 551.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 586.74 551.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "any/open"
 			(at 326.39 257.81 90)
 			(hide yes)
@@ -8714,7 +7106,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "Specifications (For Resistors/Capacitors)" "22uF 0603 Ceramic 20% 10V X5R"
 			(at 326.39 257.81 90)
 			(hide yes)
 			(show_name no)
@@ -8725,7 +7117,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "MPN" "CL10A226MP8NUNE"
 			(at 326.39 257.81 90)
 			(hide yes)
 			(show_name no)
@@ -8759,39 +7151,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 326.39 257.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 326.39 257.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "22uF 0603 Ceramic 20% 10V X5R"
-			(at 326.39 257.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL10A226MP8NUNE"
 			(at 326.39 257.81 90)
 			(hide yes)
 			(show_name no)
@@ -8881,83 +7240,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
-			(at 289.56 280.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 289.56 280.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 289.56 280.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 289.56 280.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 572.77 537.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at 572.77 537.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" "N"
-			(at 572.77 537.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "any/open"
 			(at 289.56 280.67 90)
 			(hide yes)
@@ -8969,7 +7251,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "Specifications (For Resistors/Capacitors)" "100nF 0402 Ceramic 20% 50V X5R"
 			(at 289.56 280.67 90)
 			(hide yes)
 			(show_name no)
@@ -8980,7 +7262,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "MPN" "TCC0402X5R104M500AT"
 			(at 289.56 280.67 90)
 			(hide yes)
 			(show_name no)
@@ -9014,39 +7296,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 289.56 280.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 289.56 280.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "100nF 0402 Ceramic 20% 50V X5R"
-			(at 289.56 280.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TCC0402X5R104M500AT"
 			(at 289.56 280.67 90)
 			(hide yes)
 			(show_name no)
@@ -9136,83 +7385,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "C0402"
-			(at 289.56 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 289.56 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 289.56 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 289.56 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" ""
-			(at 570.23 534.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at 570.23 534.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field-1" "N"
-			(at 570.23 534.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "any/open"
 			(at 289.56 278.13 90)
 			(hide yes)
@@ -9224,7 +7396,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "Specifications (For Resistors/Capacitors)" "100nF 0402 Ceramic 20% 50V X5R"
 			(at 289.56 278.13 90)
 			(hide yes)
 			(show_name no)
@@ -9235,7 +7407,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "MPN" "TCC0402X5R104M500AT"
 			(at 289.56 278.13 90)
 			(hide yes)
 			(show_name no)
@@ -9269,39 +7441,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 289.56 278.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 289.56 278.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "100nF 0402 Ceramic 20% 50V X5R"
-			(at 289.56 278.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TCC0402X5R104M500AT"
 			(at 289.56 278.13 90)
 			(hide yes)
 			(show_name no)

@@ -4128,7 +4128,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "Specifications (For Resistors/Capacitors)" "47R 1% 63mW 0402"
 			(at 311.15 297.18 90)
 			(hide yes)
 			(show_name no)
@@ -4139,7 +4139,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "MPN" "AC0402FR-0747RL"
 			(at 311.15 297.18 90)
 			(hide yes)
 			(show_name no)
@@ -4173,39 +4173,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 311.15 297.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 311.15 297.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "47R 1% 63mW 0402"
-			(at 311.15 297.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AC0402FR-0747RL"
 			(at 311.15 297.18 90)
 			(hide yes)
 			(show_name no)
@@ -4386,7 +4353,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "Specifications (For Resistors/Capacitors)" "47R 1% 63mW 0402"
 			(at 302.26 292.1 90)
 			(hide yes)
 			(show_name no)
@@ -4397,7 +4364,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "MPN" "AC0402FR-0747RL"
 			(at 302.26 292.1 90)
 			(hide yes)
 			(show_name no)
@@ -4431,39 +4398,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 302.26 292.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 302.26 292.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "47R 1% 63mW 0402"
-			(at 302.26 292.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AC0402FR-0747RL"
 			(at 302.26 292.1 90)
 			(hide yes)
 			(show_name no)
@@ -4564,7 +4498,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "Specifications (For Resistors/Capacitors)" "47R 1% 63mW 0402"
 			(at 311.15 289.56 90)
 			(hide yes)
 			(show_name no)
@@ -4575,7 +4509,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "MPN" "AC0402FR-0747RL"
 			(at 311.15 289.56 90)
 			(hide yes)
 			(show_name no)
@@ -4609,39 +4543,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 311.15 289.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 311.15 289.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "47R 1% 63mW 0402"
-			(at 311.15 289.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AC0402FR-0747RL"
 			(at 311.15 289.56 90)
 			(hide yes)
 			(show_name no)
@@ -4900,7 +4801,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "Specifications (For Resistors/Capacitors)" "47R 1% 63mW 0402"
 			(at 302.26 299.72 90)
 			(hide yes)
 			(show_name no)
@@ -4911,7 +4812,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "MPN" "AC0402FR-0747RL"
 			(at 302.26 299.72 90)
 			(hide yes)
 			(show_name no)
@@ -4945,39 +4846,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 302.26 299.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 302.26 299.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "47R 1% 63mW 0402"
-			(at 302.26 299.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AC0402FR-0747RL"
 			(at 302.26 299.72 90)
 			(hide yes)
 			(show_name no)
@@ -5159,7 +5027,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "MPN" "5034801400"
 			(at 295.91 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -5170,7 +5038,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 295.91 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -5204,39 +5072,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 295.91 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 295.91 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5034801400"
-			(at 295.91 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 295.91 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -5371,18 +5206,6 @@
 				)
 			)
 		)
-		(property "Height" "6"
-			(at 295.91 558.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 276.86 163.83 0)
 			(hide yes)
@@ -5394,18 +5217,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 276.86 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 276.86 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5439,28 +5251,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 276.86 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 276.86 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 276.86 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5650,7 +5440,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "Specifications (For Resistors/Capacitors)" "150R 1% 63mW 0402"
 			(at 321.31 302.26 90)
 			(hide yes)
 			(show_name no)
@@ -5661,7 +5451,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "MPN" "0402WGF1500TCE"
 			(at 321.31 302.26 90)
 			(hide yes)
 			(show_name no)
@@ -5695,39 +5485,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 321.31 302.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 321.31 302.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "150R 1% 63mW 0402"
-			(at 321.31 302.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1500TCE"
 			(at 321.31 302.26 90)
 			(hide yes)
 			(show_name no)
@@ -5820,18 +5577,6 @@
 				)
 			)
 		)
-		(property "Height" "6"
-			(at 295.91 538.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 276.86 143.51 0)
 			(hide yes)
@@ -5843,18 +5588,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 276.86 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 276.86 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -5888,28 +5622,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 276.86 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 276.86 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" ""
 			(at 276.86 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6183,7 +5895,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "MPN" "5034801400"
 			(at 295.91 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -6194,7 +5906,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 295.91 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -6228,39 +5940,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 295.91 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 295.91 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5034801400"
-			(at 295.91 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 295.91 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -6394,72 +6073,6 @@
 				)
 			)
 		)
-		(property "SCH_Show_Footprint" "D0402"
-			(at 300.99 311.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 300.99 311.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 300.99 311.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 300.99 311.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy_Link" "https://item.szlcsc.com/539388.html"
-			(at -7.62 -48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DF_Comment" ""
-			(at -7.62 -48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "ESD5V0B03-1006"
 			(at 300.99 311.15 90)
 			(hide yes)
@@ -6482,18 +6095,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 300.99 311.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 300.99 311.15 90)
 			(hide yes)
 			(show_name no)
@@ -6527,28 +6129,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 300.99 311.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 300.99 311.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 300.99 311.15 90)
 			(hide yes)
 			(show_name no)
@@ -6640,18 +6220,6 @@
 				)
 			)
 		)
-		(property "Height" "1.87"
-			(at 294.64 684.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 275.59 289.56 0)
 			(hide yes)
@@ -6663,7 +6231,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "MPN" "5034800800"
 			(at 275.59 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -6674,7 +6242,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 275.59 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -6708,39 +6276,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 275.59 289.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 275.59 289.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5034800800"
-			(at 275.59 289.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 275.59 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -6865,7 +6400,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
+		(property "Specifications (For Resistors/Capacitors)" "150R 1% 63mW 0402"
 			(at 321.31 294.64 90)
 			(hide yes)
 			(show_name no)
@@ -6876,7 +6411,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "MPN" "0402WGF1500TCE"
 			(at 321.31 294.64 90)
 			(hide yes)
 			(show_name no)
@@ -6910,39 +6445,6 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 321.31 294.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 321.31 294.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications (For Resistors/Capacitors)" "150R 1% 63mW 0402"
-			(at 321.31 294.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1500TCE"
 			(at 321.31 294.64 90)
 			(hide yes)
 			(show_name no)

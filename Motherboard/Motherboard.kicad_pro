@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.62,
-          "width": 0.56
+          "height": 5.2,
+          "width": 5.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -1144,39 +1144,9 @@
         },
         {
           "group_by": false,
-          "label": "SCH_Show_Footprint",
-          "name": "SCH_Show_Footprint",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "描述",
           "name": "Description",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field-1",
-          "name": "Field-1",
-          "show": true
         },
         {
           "group_by": false,
@@ -1192,24 +1162,6 @@
         },
         {
           "group_by": false,
-          "label": "DF_Comment",
-          "name": "DF_Comment",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Buy_Link",
-          "name": "Buy_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "KLC_S4.2_DVDD",
           "name": "KLC_S4.2_DVDD",
           "show": false
@@ -1222,30 +1174,12 @@
         },
         {
           "group_by": false,
-          "label": "KLC_S4.2_VREG_VOUT",
-          "name": "KLC_S4.2_VREG_VOUT",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "KLC_S4.2_VIN",
           "name": "KLC_S4.2_VIN",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "KLC_S3.3",
-          "name": "KLC_S3.3",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "KLC_S4.1",
-          "name": "KLC_S4.1",
-          "show": false
         }
       ],
-      "filter_string": "Q",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
@@ -1310,7 +1244,7 @@
         "uuid": "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
       }
     ],
-    "used_designators": "#PWR26,#PWR39,#PWR47,#PWR86-87,#PWR95-96,#PWR120-121,#PWR125-129,#PWR131-132,#PWR135-136,#PWR139,#PWR145,#PWR177,#PWR192-196,#PWR199,#PWR202-203,#PWR242-247,#PWR249-251,#PWR257-273,#PWR277-283,#PWR285-302,#PWR311-330,#PWR336-340,#PWR903,D4-6,D17,D24,D31,D33-34,L78-93,U78,U80-81,U83,U85,U100,C95,C101-102,C104,C106-108,C131,C134,C139,C143,C149,C155-158,C164-218,R18-21,R53,R83-84,R98,R119-147,R194-195,R200,R204,#FLG903-904,#FLG906,IC80-85,J81-82,J94,TP5-7,TP13",
+    "used_designators": "#PWR26,#PWR39,#PWR47,#PWR86-87,#PWR95-96,#PWR120-121,#PWR125-129,#PWR131-132,#PWR135-136,#PWR139,#PWR141,#PWR145,#PWR163,#PWR177-179,#PWR185,#PWR192-197,#PWR199,#PWR202-206,#PWR242-247,#PWR249-255,#PWR257-273,#PWR277-283,#PWR285-304,#PWR311-330,#PWR336-340,#PWR903,D4-6,D17,D24,D31-34,D78,L78-93,U78,U80-81,U83,U85,U100,C95,C101-102,C104,C106-108,C128,C131,C134,C139,C143,C149,C155-158,C164-220,R18-25,R53,R83-84,R98,R119-147,R194-195,R200,R204,#FLG903-904,#FLG906,IC80-85,J81-82,J94,TP5-7,TP13,E2",
     "variants": []
   },
   "sheets": [
