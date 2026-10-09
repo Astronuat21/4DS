@@ -2204,6 +2204,12 @@
 		(uuid "82ab1e93-4154-4f5e-9130-123f3f11239f")
 	)
 	(junction
+		(at 335.28 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87e59a69-edc8-4e21-978b-cf6b95bcebc5")
+	)
+	(junction
 		(at 361.95 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2226,12 +2232,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b00b159a-6100-484c-8484-de5e9b0e6e26")
-	)
-	(junction
-		(at 335.28 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2d69e40-e714-4b82-86b4-e485538afd32")
 	)
 	(junction
 		(at 207.01 264.16)
@@ -2515,7 +2515,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 179.07) (xy 335.28 179.07)
+			(xy 335.28 180.34) (xy 339.09 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2702,16 +2702,6 @@
 			(type default)
 		)
 		(uuid "8606453d-2807-4e47-a94e-63a156d6c1df")
-	)
-	(wire
-		(pts
-			(xy 337.82 180.34) (xy 339.09 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b1c145c-8a9d-447b-90f5-a2fbc6ae17e5")
 	)
 	(wire
 		(pts
@@ -2985,16 +2975,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 180.34) (xy 337.82 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee933128-ae6f-4049-a507-ba76d8c6ddbd")
-	)
-	(wire
-		(pts
 			(xy 269.24 231.14) (xy 269.24 236.22)
 		)
 		(stroke
@@ -3005,7 +2985,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 179.07) (xy 330.2 179.07)
+			(xy 335.28 180.34) (xy 334.01 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4051,7 +4031,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 322.58 179.07 270)
+		(at 326.39 180.34 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4062,7 +4042,7 @@
 		(fields_autoplaced yes)
 		(uuid "233fca6c-9fa2-42bc-852c-736bdac63243")
 		(property "Reference" "#PWR0167"
-			(at 316.23 179.07 0)
+			(at 320.04 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4073,7 +4053,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 318.77 179.07 90)
+			(at 322.58 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4084,7 +4064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.58 179.07 0)
+			(at 326.39 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4095,7 +4075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 179.07 0)
+			(at 326.39 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4106,7 +4086,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 322.58 179.07 0)
+			(at 326.39 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4130,7 +4110,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 335.28 179.07 0)
+		(at 335.28 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4141,7 +4121,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a78263a-8376-4747-b11b-86ac795ccf5f")
 		(property "Reference" "#PWR0170"
-			(at 335.28 182.88 0)
+			(at 335.28 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4152,7 +4132,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 335.28 173.99 0)
+			(at 335.28 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4162,7 +4142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 179.07 0)
+			(at 335.28 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4173,7 +4153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 179.07 0)
+			(at 335.28 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4184,7 +4164,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 335.28 179.07 0)
+			(at 335.28 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4909,7 +4889,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 326.39 179.07 90)
+		(at 330.2 180.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4919,7 +4899,7 @@
 		(dnp no)
 		(uuid "86b1ad47-b883-42ba-82ad-4996a3c40230")
 		(property "Reference" "C63"
-			(at 326.39 172.72 90)
+			(at 330.2 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4929,7 +4909,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 326.39 175.26 90)
+			(at 330.2 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4939,7 +4919,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 330.2 178.1048 0)
+			(at 334.01 179.3748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4950,7 +4930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 179.07 0)
+			(at 330.2 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4961,7 +4941,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 326.39 179.07 0)
+			(at 330.2 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4972,7 +4952,7 @@
 			)
 		)
 		(property "Manufacturer" "any/open"
-			(at 326.39 179.07 90)
+			(at 330.2 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4983,7 +4963,7 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" "22uF 0603 Ceramic 20% 10V X5R"
-			(at 326.39 179.07 90)
+			(at 330.2 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4994,7 +4974,7 @@
 			)
 		)
 		(property "MPN" "CL10A226MP8NUNE"
-			(at 326.39 179.07 90)
+			(at 330.2 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5005,7 +4985,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 326.39 179.07 90)
+			(at 330.2 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5016,7 +4996,7 @@
 			)
 		)
 		(property "KLC_S4.2_VIN" ""
-			(at 326.39 179.07 90)
+			(at 330.2 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5027,7 +5007,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 326.39 179.07 90)
+			(at 330.2 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

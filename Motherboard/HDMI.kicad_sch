@@ -17350,7 +17350,7 @@
 		(uuid "ff57f18a-1fc9-4658-a2ae-75fc79129398")
 	)
 	(image
-		(at 441.65 146.73)
+		(at 437.84 137.84)
 		(uuid "cfedeb98-7aeb-49d8-804f-b74458d05515")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA1UAAAL4CAYAAACTCt1CAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3Xd8TecfwPHPndmSCGJWjNozidjUjD1KjSo/NapGUVWzZinaqlFVm9q1qaKEKFWjKom9d0iM"
@@ -22245,7 +22245,7 @@
 			)
 		)
 	)
-	(global_label "PGND_T"
+	(global_label "PGND_B"
 		(shape input)
 		(at 722.63 101.6 90)
 		(fields_autoplaced yes)
@@ -22317,7 +22317,7 @@
 			)
 		)
 	)
-	(global_label "PGND_T"
+	(global_label "PGND_B"
 		(shape input)
 		(at 739.14 140.97 270)
 		(fields_autoplaced yes)
@@ -22341,7 +22341,7 @@
 			)
 		)
 	)
-	(global_label "PGND_B"
+	(global_label "PGND_T"
 		(shape input)
 		(at 292.1 86.36 90)
 		(fields_autoplaced yes)
@@ -22413,7 +22413,7 @@
 			)
 		)
 	)
-	(global_label "PGND_B"
+	(global_label "PGND_T"
 		(shape input)
 		(at 308.61 125.73 270)
 		(fields_autoplaced yes)
