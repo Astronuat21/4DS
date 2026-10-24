@@ -1,0 +1,55 @@
+A
+B
+C
+D
+E
+F
+G
+R
+
+-> 4 Bytes
+
+#?
+b?
+q?
+##?
+bb?
+none?
+
+-> 3 Bytes
+
+= 7 Bytes OR
+
+A A# Ab An Ax Abb 
+B B#* Bb Bn Bx Bbb
+C C# Cb* Cn Cx Cbb
+D D# Db Dn Dx Dbb
+E E#* Eb En Ex Ebb
+F F# Fb* Fn Fx Fbb
+G G# Gb Gn Gx Gbb
+R
+
+dura:
+
+---4x
+--2x
+whole
+half
+quarter
+eigth
+1/16
+1/32
+1/64
+1/128
+--256
+---512
+---1024
+
+-> 1 Hex
+
+voice 1
+voice 2
+--voice 3
+---voice 4
+
+-> 2 Bytes

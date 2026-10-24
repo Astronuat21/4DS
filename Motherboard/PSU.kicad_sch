@@ -6151,20 +6151,7 @@
 	)
 	(bezier
 		(pts
-			(xy 263.652 53.086) (xy 263.652 53.086) (xy 266.192 56.896) (xy 266.192 56.896)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "07455a90-fed3-4147-99e9-43e66d1ec3e8")
-	)
-	(bezier
-		(pts
-			(xy 263.652 53.086) (xy 263.652 53.086) (xy 268.732 54.356) (xy 268.732 54.356)
+			(xy 262.89 52.07) (xy 262.89 52.07) (xy 267.97 52.07) (xy 267.97 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6177,7 +6164,20 @@
 	)
 	(bezier
 		(pts
-			(xy 263.652 53.086) (xy 278.13 62.992) (xy 285.242 51.816) (xy 285.242 51.816)
+			(xy 262.89 52.07) (xy 266.7 55.88) (xy 266.7 55.88) (xy 266.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "616947f7-b52d-44d2-981c-7270285e7a85")
+	)
+	(bezier
+		(pts
+			(xy 262.89 52.07) (xy 278.13 58.42) (xy 285.242 51.816) (xy 285.242 51.816)
 		)
 		(stroke
 			(width 0)
@@ -6373,9 +6373,9 @@
 		)
 		(uuid "829ec2e5-4a4f-4a28-8f75-63e4f9a040aa")
 	)
-	(text "Redundancies reuced 3 -> 1"
+	(text "Redundancies reduced 3 -> 1"
 		(exclude_from_sim no)
-		(at 275.844 59.436 0)
+		(at 273.304 57.912 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6418,6 +6418,16 @@
 			(justify left bottom)
 		)
 		(uuid "f59bb247-7be6-4444-8e63-22584d7379ab")
+	)
+	(text "Bye bye 1.8V!"
+		(exclude_from_sim no)
+		(at 275.59 70.866 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f9415c7a-de22-452b-9465-d9fecc16329b")
 	)
 	(text "-> 5V (TPS62903)"
 		(exclude_from_sim no)
