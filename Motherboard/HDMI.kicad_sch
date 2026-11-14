@@ -22247,6 +22247,30 @@
 	)
 	(global_label "PGND_B"
 		(shape input)
+		(at 756.92 123.19 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c7a9947-5fee-4a0b-8946-bd806c8dce77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 756.92 133.2509 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PGND_B"
+		(shape input)
 		(at 722.63 101.6 90)
 		(fields_autoplaced yes)
 		(effects
@@ -22266,30 +22290,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "PGND_B"
-		(shape input)
-		(at 326.39 107.95 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "841f9a48-996d-4b3f-81e8-2537fd359e3e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.39 118.0109 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -22391,7 +22391,7 @@
 	)
 	(global_label "PGND_T"
 		(shape input)
-		(at 756.92 123.19 270)
+		(at 308.61 125.73 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22399,9 +22399,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b37e48dc-7fb3-4d2c-8f8b-3f89232d8a72")
+		(uuid "c533d6e2-9b68-4714-9ff8-a19371b807f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 756.92 133.2509 90)
+			(at 308.61 135.7909 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22415,7 +22415,7 @@
 	)
 	(global_label "PGND_T"
 		(shape input)
-		(at 308.61 125.73 270)
+		(at 326.39 107.95 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22423,9 +22423,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c533d6e2-9b68-4714-9ff8-a19371b807f0")
+		(uuid "d17b759c-2fc2-4f8b-8583-d10e4be8c6fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.61 135.7909 90)
+			(at 326.39 118.0109 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

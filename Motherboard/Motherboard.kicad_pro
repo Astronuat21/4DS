@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
-          "min_island_area": 0.0013161349,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_clearance": 0.25,
+          "min_island_area": 10.0,
+          "min_thickness": 0.1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -74,6 +74,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.1016,
+          "via_gap": 0.0,
+          "width": 0.1704
         }
       ],
       "drc_exclusions": [],
@@ -160,7 +165,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
@@ -213,7 +218,14 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.1704,
+        0.2055,
+        0.25,
+        0.4,
+        1.0,
+        2.0,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -245,6 +257,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -618,6 +634,7 @@
       "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -670,7 +687,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "100Ω",
-        "pcb_color": "rgb(192, 41, 255)",
+        "pcb_color": "rgb(255, 0, 219)",
         "priority": 1,
         "schematic_color": "rgb(105, 87, 255)",
         "track_width": 0.1161,
@@ -729,7 +746,9 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "GND": "rgb(159, 94, 102)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -1156,6 +1175,36 @@
           "label": "KLC_S4.2_VIN",
           "name": "KLC_S4.2_VIN",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1223,7 +1272,7 @@
         "uuid": "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
       }
     ],
-    "used_designators": "L78-93,D4-6,D17,D24,D31-34,D78,#PWR26,#PWR39,#PWR47,#PWR86-87,#PWR95-96,#PWR120-121,#PWR125-129,#PWR131-132,#PWR135-136,#PWR139,#PWR141,#PWR145,#PWR163,#PWR177-179,#PWR185,#PWR192-197,#PWR199,#PWR202-206,#PWR242-247,#PWR249-255,#PWR257-273,#PWR277-283,#PWR285-304,#PWR311-330,#PWR336-340,#PWR903,U78,U80-81,U83,U85,U100,C95,C101-102,C104,C106-108,C128,C131,C134,C139,C143,C149,C155-158,C164-220,IC80-85,#FLG903-904,#FLG906,R18-25,R53,R83-84,R98,R119-147,R194-195,R200,R204,J81-82,J94,TP5-7,TP13,E2",
+    "used_designators": "R18-25,R53,R76-77,R83-84,R96-98,R109-156,R194-195,R200,R204,#FLG903-904,#FLG906,IC79-85,J81-82,J94,#PWR26,#PWR39,#PWR47,#PWR78,#PWR83,#PWR86-87,#PWR93-98,#PWR103,#PWR105,#PWR120-121,#PWR123,#PWR125-129,#PWR131-132,#PWR135-136,#PWR139,#PWR141,#PWR145,#PWR163,#PWR177-179,#PWR185,#PWR192-197,#PWR199,#PWR202-206,#PWR233-236,#PWR238-247,#PWR249-255,#PWR257-273,#PWR277-330,#PWR336-340,#PWR342-343,#PWR903-904,D4-6,D17,D24-25,D31-34,D78,L78-94,C87,C92,C94-102,C104-108,C128,C131,C133-135,C139,C143,C149,C152-153,C155-158,C164-222,E2,TP5-7,TP13,U78-81,U83-85,U100,TH78-79",
     "variants": []
   },
   "sheets": [

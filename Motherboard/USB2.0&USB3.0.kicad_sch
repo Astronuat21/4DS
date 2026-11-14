@@ -3034,7 +3034,7 @@
 		(uuid "32c7a2a9-85a0-43d0-93f4-10eeeae69037")
 	)
 	(label "CON_USB4_SSTX_P"
-		(at 248.92 236.22 0)
+		(at 294.64 236.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3164,7 +3164,7 @@
 		(uuid "9f7ce2fc-631b-4ce6-8453-baa6092327c4")
 	)
 	(label "CON_USB3_SSTX_P"
-		(at 294.64 236.22 0)
+		(at 248.92 236.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3174,7 +3174,7 @@
 		(uuid "a34c9c1b-edcf-45f5-96e7-8f1d21c88045")
 	)
 	(label "CON_USB3_SSTX_N"
-		(at 294.64 226.06 0)
+		(at 248.92 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3274,7 +3274,7 @@
 		(uuid "f6807179-5ddd-487e-a50a-c982b883c8ba")
 	)
 	(label "CON_USB4_SSTX_N"
-		(at 248.92 226.06 0)
+		(at 294.64 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
