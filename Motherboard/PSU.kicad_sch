@@ -12929,7 +12929,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "any/open"
 			(at 344.17 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -16101,8 +16101,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 232.41 198.12 0)
-		(mirror y)
+		(at 232.41 241.3 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16110,10 +16109,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "20730a83-2488-4e72-bc02-99bbdd9e0619")
 		(property "Reference" "J85"
-			(at 233.045 193.04 0)
+			(at 233.045 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16123,7 +16121,7 @@
 			)
 		)
 		(property "Value" "JST_XHP2_Battery1"
-			(at 233.045 195.58 0)
+			(at 233.045 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16133,7 +16131,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 232.41 198.12 0)
+			(at 232.41 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16144,7 +16142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 198.12 0)
+			(at 232.41 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16155,7 +16153,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 232.41 198.12 0)
+			(at 232.41 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16166,7 +16164,7 @@
 			)
 		)
 		(property "MPN" "B2B-XH-A"
-			(at 232.41 198.12 0)
+			(at 232.41 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16177,7 +16175,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 232.41 198.12 0)
+			(at 232.41 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16188,7 +16186,7 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" "N/A"
-			(at 232.41 198.12 0)
+			(at 232.41 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16199,7 +16197,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 232.41 198.12 0)
+			(at 232.41 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16210,7 +16208,7 @@
 			)
 		)
 		(property "KLC_S4.2_VIN" ""
-			(at 232.41 198.12 0)
+			(at 232.41 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16221,7 +16219,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 232.41 198.12 0)
+			(at 232.41 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25584,7 +25582,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "any/open"
 			(at 184.15 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -25870,8 +25868,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 232.41 228.6 0)
-		(mirror y)
+		(at 232.41 210.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25882,7 +25879,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bff0191-f47a-4b3a-bd50-fca9935c41d4")
 		(property "Reference" "J88"
-			(at 233.045 223.52 0)
+			(at 233.045 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25892,7 +25889,7 @@
 			)
 		)
 		(property "Value" "JST_XHP2_Battery4"
-			(at 233.045 226.06 0)
+			(at 233.045 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25902,7 +25899,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 232.41 228.6 0)
+			(at 232.41 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25913,7 +25910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 228.6 0)
+			(at 232.41 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25924,7 +25921,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 232.41 228.6 0)
+			(at 232.41 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25935,7 +25932,7 @@
 			)
 		)
 		(property "MPN" "B2B-XH-A"
-			(at 232.41 228.6 0)
+			(at 232.41 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25946,7 +25943,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 232.41 228.6 0)
+			(at 232.41 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25957,7 +25954,7 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" "N/A"
-			(at 232.41 228.6 0)
+			(at 232.41 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25968,7 +25965,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 232.41 228.6 0)
+			(at 232.41 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25979,7 +25976,7 @@
 			)
 		)
 		(property "KLC_S4.2_VIN" ""
-			(at 232.41 228.6 0)
+			(at 232.41 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25990,7 +25987,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 232.41 228.6 0)
+			(at 232.41 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27957,8 +27954,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 232.41 218.44 0)
-		(mirror y)
+		(at 232.41 220.98 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27969,7 +27965,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e7bf4e8-2dac-4c32-97ac-3b66d3514034")
 		(property "Reference" "J87"
-			(at 233.045 213.36 0)
+			(at 233.045 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27979,7 +27975,7 @@
 			)
 		)
 		(property "Value" "JST_XHP2_Battery3"
-			(at 233.045 215.9 0)
+			(at 233.045 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27989,7 +27985,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 232.41 218.44 0)
+			(at 232.41 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28000,7 +27996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 218.44 0)
+			(at 232.41 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28011,7 +28007,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 232.41 218.44 0)
+			(at 232.41 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28022,7 +28018,7 @@
 			)
 		)
 		(property "MPN" "B2B-XH-A"
-			(at 232.41 218.44 0)
+			(at 232.41 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28033,7 +28029,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 232.41 218.44 0)
+			(at 232.41 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28044,7 +28040,7 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" "N/A"
-			(at 232.41 218.44 0)
+			(at 232.41 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28055,7 +28051,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 232.41 218.44 0)
+			(at 232.41 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28066,7 +28062,7 @@
 			)
 		)
 		(property "KLC_S4.2_VIN" ""
-			(at 232.41 218.44 0)
+			(at 232.41 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28077,7 +28073,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 232.41 218.44 0)
+			(at 232.41 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30180,7 +30176,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "any/open"
 			(at 208.28 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -32142,6 +32138,28 @@
 				(justify left top)
 			)
 		)
+		(property "MPN" "SRN5030HA-1R0Y"
+			(at 218.44 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 218.44 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f956cc61-599e-4306-ba5b-76388377fd07")
 		)
@@ -32526,8 +32544,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 232.41 208.28 0)
-		(mirror y)
+		(at 232.41 231.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32538,7 +32555,7 @@
 		(fields_autoplaced yes)
 		(uuid "c93ec654-ff7f-4aac-8fb2-950e51e96b3f")
 		(property "Reference" "J86"
-			(at 233.045 203.2 0)
+			(at 233.045 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32548,7 +32565,7 @@
 			)
 		)
 		(property "Value" "JST_XHP2_Battery2"
-			(at 233.045 205.74 0)
+			(at 233.045 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32558,7 +32575,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 232.41 208.28 0)
+			(at 232.41 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32569,7 +32586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 208.28 0)
+			(at 232.41 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32580,7 +32597,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 232.41 208.28 0)
+			(at 232.41 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32591,7 +32608,7 @@
 			)
 		)
 		(property "MPN" "B2B-XH-A"
-			(at 232.41 208.28 0)
+			(at 232.41 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32602,7 +32619,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 232.41 208.28 0)
+			(at 232.41 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32613,7 +32630,7 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" "N/A"
-			(at 232.41 208.28 0)
+			(at 232.41 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32624,7 +32641,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 232.41 208.28 0)
+			(at 232.41 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32635,7 +32652,7 @@
 			)
 		)
 		(property "KLC_S4.2_VIN" ""
-			(at 232.41 208.28 0)
+			(at 232.41 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32646,7 +32663,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 232.41 208.28 0)
+			(at 232.41 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33690,6 +33707,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "MPN" "BQ25606RGER"
+			(at 187.96 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "21"
@@ -38602,8 +38630,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 232.41 238.76 0)
-		(mirror y)
+		(at 232.41 200.66 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38614,7 +38641,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5bfb302-57aa-4687-9806-acf319a8248a")
 		(property "Reference" "J89"
-			(at 233.045 233.68 0)
+			(at 233.045 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38624,7 +38651,7 @@
 			)
 		)
 		(property "Value" "JST_XHP2_Battery5"
-			(at 233.045 236.22 0)
+			(at 233.045 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38634,7 +38661,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 232.41 238.76 0)
+			(at 232.41 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38645,7 +38672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 238.76 0)
+			(at 232.41 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38656,7 +38683,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 232.41 238.76 0)
+			(at 232.41 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38667,7 +38694,7 @@
 			)
 		)
 		(property "MPN" "B2B-XH-A"
-			(at 232.41 238.76 0)
+			(at 232.41 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38678,7 +38705,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 232.41 238.76 0)
+			(at 232.41 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38689,7 +38716,7 @@
 			)
 		)
 		(property "Specifications (For Resistors/Capacitors)" "N/A"
-			(at 232.41 238.76 0)
+			(at 232.41 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38700,7 +38727,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 232.41 238.76 0)
+			(at 232.41 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38711,7 +38738,7 @@
 			)
 		)
 		(property "KLC_S4.2_VIN" ""
-			(at 232.41 238.76 0)
+			(at 232.41 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38722,7 +38749,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 232.41 238.76 0)
+			(at 232.41 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

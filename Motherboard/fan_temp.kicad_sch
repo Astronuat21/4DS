@@ -5206,7 +5206,7 @@
 				)
 			)
 		)
-		(property "Specifications (For Resistors/Capacitors)" ""
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 391.16 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -5240,6 +5240,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 391.16 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "  B4B-PH-K"
 			(at 391.16 165.1 0)
 			(hide yes)
 			(show_name no)

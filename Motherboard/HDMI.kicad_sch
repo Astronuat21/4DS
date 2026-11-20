@@ -24000,6 +24000,17 @@
 				)
 			)
 		)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 651.51 237.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c596b37d-f351-49a4-9139-06145215c9b4")
 		)
@@ -28058,6 +28069,17 @@
 				)
 			)
 		)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 651.51 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "81131c4b-46a4-4fc0-bb62-750573468728")
 		)
@@ -31745,6 +31767,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 143.51 261.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 143.51 261.62 90)
 			(hide yes)
 			(show_name no)
@@ -35504,6 +35537,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 600.71 240.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 600.71 240.03 90)
 			(hide yes)
 			(show_name no)
@@ -39633,6 +39677,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 143.51 264.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 143.51 264.16 90)
 			(hide yes)
 			(show_name no)
@@ -43895,6 +43950,17 @@
 				)
 			)
 		)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
+			(at 194.31 266.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "563911f3-e88e-4b46-86ab-7cdbe1bc57cd")
 		)
@@ -44232,6 +44298,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 600.71 242.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 600.71 242.57 90)
 			(hide yes)
 			(show_name no)
@@ -46200,6 +46277,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 194.31 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications (For Resistors/Capacitors)" "N/A"
 			(at 194.31 259.08 90)
 			(hide yes)
 			(show_name no)

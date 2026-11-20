@@ -6719,7 +6719,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 264.16 175.26 0)
 			(hide yes)
 			(show_name no)
